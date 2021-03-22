@@ -1,0 +1,16 @@
+{
+  "name": "components",
+  "version": "0.0.0",
+  "description": "Libreria de componentes web",
+  "main": "index.js",
+  // "repository": "https://github.com/thotluna",
+  "author": "Eladio Feijoo",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "eslint": "^7.22.0",
+    "prettier": "^2.2.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
