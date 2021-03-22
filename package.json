@@ -35,6 +35,6 @@
     "pre-commit": "npx lint-staged"
   },
   "lint-staged": {
-    "*.js": "eslint --fix"
+    "*.js": "eslint --cache --fix"
   }
 }
