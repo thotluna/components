@@ -1,3 +1,4 @@
+const cssModules = require('../config/cssModules')
 module.exports = {
   "stories": [
     "../stories/**/*.stories.mdx",
@@ -6,5 +7,6 @@ module.exports = {
   "addons": [
     "@storybook/addon-links",
     "@storybook/addon-essentials"
-  ]
+  ],
+  webpackFinal: cssModules(),
 }
