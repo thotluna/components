@@ -25,17 +25,22 @@ function transformTokens(parentKey, object) {
   }, '')
 }
 
-function buildTokens() {
+function buildTokens(fileUrl) {
+  console.log('<<<<<<>>>>>>>', fileUrl)
   const transformedChoices = transformTokens(null, choices)
   const transformedDecisions = transformTokens(null, decisions)
   const customProperties = `${transformedChoices}${transformedDecisions}`
 
   const data = `:root {\n  ${cleanLines(customProperties)}\n}\n`
 
-  fs.writeFile('./styles/tokens.css', data, 'utf8', (error) => {
+  const URL = fileUrl ? fileUrl : './styles/tokens.css'
+
+  fs.writeFile(URL, data, 'utf8', (error) => {
     if (error) throw error
     console.log('🎨 Custom properties created!')
   })
 }
 
 buildTokens()
+
+module.exports = buildTokens
