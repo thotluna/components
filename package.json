@@ -39,6 +39,7 @@
     "build-storybook": "build-storybook",
     "build:tokens": "node ./scripts/build-token",
     "watch:tokens": "node ./scripts/watch-token",
+    "cc": "node ./scripts/create-component",
     "eslint": "eslint .",
     "test": "jest"
   },
