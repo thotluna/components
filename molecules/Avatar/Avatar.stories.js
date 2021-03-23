@@ -2,8 +2,10 @@ import React from 'react'
 import Avatar from '../../molecules/Avatar'
 
 export default {
+  // TODO: revise why not change Component
   title: 'molecules/Component',
   component: Avatar,
+  // TODO: remove argType o change by more appropriate
   argTypes: {
     backgroundColor: { control: 'color' },
   },
@@ -16,6 +18,8 @@ Primary.args = {
   primary: true,
   label: 'Component',
 }
+
+// TODO: delete other stories below
 
 export const Secondary = Template.bind({})
 Secondary.args = {
