@@ -22,7 +22,10 @@ const replaceComponent = (templateComponent, nameComponent) => {
     nameComponent === 'molecules' ||
     nameComponent === 'layout'
   ) {
-    return templateComponent.replaceAll(/atomic/g, nameComponent)
+    return templateComponent.replaceAll(
+      /atomic/g,
+      nameComponent.replace(/^./, nameComponent[0].toUpperCase())
+    )
   } else {
     return templateComponent.replaceAll(/Componet/g, nameComponent)
   }
@@ -50,7 +53,6 @@ const createComponent = (type, nameComponent) => {
   checkParams(type, nameComponent, mappedType)
 
   const task = ['component', 'css', 'story', 'index']
-
   const urlsTemplates = {
     component: { url: './template/component/Component.js', ext: 'js' },
     css: {

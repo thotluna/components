@@ -3,8 +3,7 @@ import PropTypes from 'prop-types'
 import styles from './Avatar.module.css'
 
 function Avatar({ children }) {
-  // TODO: styles.component change by container
-  return <div className={styles.componet}>{children}</div>
+  return <div className={styles.container}>{children}</div>
 }
 
 Avatar.propTypes = {
