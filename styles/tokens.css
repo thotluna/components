@@ -131,8 +131,8 @@
   --media-query-max-width-md: 991.98px;
   --media-query-max-width-lg: 1199px;
 
-  --font-family-sans: Quicksand, Arial, sans-serif;
-  --font-family-mono: 'Roboto Mono', 'Courier New', monospace;
+  --font-family-sans: 'Montserrat', Arial, sans-serif;
+  --font-family-title: 'Architects Daughter', 'Roboto', monospace;
 
   --font-size-base: 10px;
   --font-size-xs: 1.1rem;
@@ -224,6 +224,4 @@
   --input-fontSize: 1.3rem;
 
   --picture-border: 1px solid #cbd5e0;
-
-  --card-border: 1px solid #cbd5e0;
 }

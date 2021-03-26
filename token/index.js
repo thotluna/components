@@ -157,8 +157,8 @@ const choices = {
     },
   },
   fontFamily: {
-    sans: ['Quicksand', 'Arial', 'sans-serif'],
-    mono: ["'Roboto Mono'", "'Courier New'", 'monospace'],
+    sans: ["'Montserrat'", 'Arial', 'sans-serif'],
+    title: ["'Architects Daughter'", 'Roboto', 'monospace'],
   },
   fontSize: {
     base: '10px',

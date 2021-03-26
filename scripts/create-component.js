@@ -39,18 +39,39 @@ const writeFile = (fileUrl, newComponent) => {
   return fs.writeFile(fileUrl, newComponent, 'utf8')
 }
 
-const [, , type, nameComponent] = process.argv
 const fs = require('fs/promises')
+const enquirer = require('enquirer')
 
 const ATOMIC_DESING_TYPE = {
   atom: 'atoms',
   molecule: 'molecules',
   layout: 'layout',
 }
-const mappedType = ATOMIC_DESING_TYPE[type]
 
-const createComponent = (type, nameComponent) => {
-  checkParams(type, nameComponent, mappedType)
+async function createComponent() {
+  let { type } = await enquirer.prompt({
+    type: 'select',
+    name: 'type',
+    message: 'What kind of component would you like to create?',
+    choices: ['atom', 'molecule', 'layout'],
+    initial: 'atom',
+  })
+
+  let { componentName } = await enquirer.prompt({
+    type: 'input',
+    name: 'componentName',
+    message: 'What is the name of the new component?',
+    validate(input) {
+      if (!this.skipped && input.trim().length === 0 && input.trim() !== ',') {
+        return 'Please, tell us what is the name of the new component. Try again!'
+      }
+      return true
+    },
+  })
+
+  const mappedType = ATOMIC_DESING_TYPE[type]
+
+  checkParams(type, componentName, mappedType)
 
   const task = ['component', 'css', 'story', 'index']
   const urlsTemplates = {
@@ -70,23 +91,23 @@ const createComponent = (type, nameComponent) => {
     const { url, ext } = urlsTemplates[item]
 
     readTemplateComponent(url)
-      .then((template) => replaceComponent(template, nameComponent))
+      .then((template) => replaceComponent(template, componentName))
       .then((templateModefy) => replaceComponent(templateModefy, mappedType))
       .then((newComponent) => {
-        const dir = `./${mappedType}/${nameComponent}`
+        const dir = `./${mappedType}/${componentName}`
         createFolder(dir).then(() => {
           if (item === 'index') {
             writeFile(`${dir}/index.js`, newComponent)
           } else {
-            writeFile(`${dir}/${nameComponent}.${ext}`, newComponent)
+            writeFile(`${dir}/${componentName}.${ext}`, newComponent)
           }
         })
       })
       .then(() =>
-        console.log(`created file ${mappedType} - ${nameComponent}.${ext}`)
+        console.log(`created file ${mappedType} - ${componentName}.${ext}`)
       )
       .catch((error) => console.error(error))
   }
 }
 
-createComponent(type, nameComponent)
+createComponent()
