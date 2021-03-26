@@ -36,7 +36,7 @@
     "simple-git-hooks": ">=2.0.3"
   },
   "scripts": {
-    "storybook": "start-storybook -p 6006",
+    "sb": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "build:tokens": "node ./scripts/build-token",
     "watch:tokens": "node ./scripts/watch-token",

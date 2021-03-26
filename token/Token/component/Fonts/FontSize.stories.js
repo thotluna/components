@@ -4,12 +4,12 @@ import { choices } from '../../..'
 import { getTemplate, getListTemplate } from '../../../../helpers/storybook'
 import { getTokenItems } from '../../helpers'
 
-const Template = getTemplate(Token.FontFamily)
-const ListTemplate = getListTemplate(Token.FontFamily)
+const Template = getTemplate(Token.FontSize)
+const ListTemplate = getListTemplate(Token.FontSize)
 
 export default {
-  title: 'Tokens/Fonts/FontFamily',
-  component: Token.FontFamily,
+  title: 'Tokens/Fonts/FontSize',
+  component: Token.FontSize,
   args: {
     children:
       "Depend noticed bones Edge disturbing flesh heard cream. Morninged facial judgment Hobbit fortress. Camp flatten buy dagger Sit. Leagues sweeter 1400 mean friend unlost Déagol trade stuffing? Smithy's jiffy merely treacherous cozy interesting ask seat Thror's.",
@@ -19,14 +19,13 @@ export default {
     label: { control: null },
   },
 }
-
-const getItems = getTokenItems(choices.fontFamily, 'fontFamily')
+const getItems = getTokenItems(choices.fontSize, 'fontSize')
 
 export const Default = Template.bind({})
 Default.args = {
-  label: 'var(--font-family-sans)',
-  value: choices.fontFamily.sans,
+  label: 'var(--font-size-base)',
+  value: choices.fontSize.base,
 }
 
-export const Types = ListTemplate.bind({})
-Types.args = { items: getItems() }
+export const Sizes = ListTemplate.bind({})
+Sizes.args = { items: getItems() }
