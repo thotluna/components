@@ -19,4 +19,8 @@ BorderRadius.propTypes = {
   value: PropTypes.string.isRequired,
 }
 
+BorderRadius.defaultProps = {
+  value: '0',
+}
+
 export default BorderRadius

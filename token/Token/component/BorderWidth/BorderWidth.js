@@ -19,4 +19,8 @@ BorderWidth.propTypes = {
   value: PropTypes.string.isRequired,
 }
 
+BorderWidth.defaultProps = {
+  value: 'none',
+}
+
 export default BorderWidth

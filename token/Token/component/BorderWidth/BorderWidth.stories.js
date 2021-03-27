@@ -42,7 +42,7 @@ const Template = getTemplate(Token.BorderWidth)
 
 export const Default = Template.bind({})
 Default.args = {
-  label: 'var(--border-width-none)',
+  label: '--border-width-none',
   value: '0',
 }
 

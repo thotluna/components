@@ -44,7 +44,7 @@ const getItems = getTokenItems(choices.lineHeight, 'lineHeight')
 
 export const Default = Template.bind({})
 Default.args = {
-  label: 'var(--line-height-base)',
+  label: '--line-height-base',
   value: choices.lineHeight.base,
 }
 

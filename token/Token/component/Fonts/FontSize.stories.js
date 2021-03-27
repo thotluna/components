@@ -44,7 +44,7 @@ const getItems = getTokenItems(choices.fontSize, 'fontSize')
 
 export const Default = Template.bind({})
 Default.args = {
-  label: 'var(--font-size-base)',
+  label: '--font-size-base',
   value: choices.fontSize.base,
 }
 

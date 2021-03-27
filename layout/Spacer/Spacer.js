@@ -22,8 +22,14 @@ export function Spacer({ getStyles, size, isPlayground }) {
 }
 
 Spacer.propTypes = {
+  /**
+   Parting length
+  */
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   getStyles: PropTypes.func.isRequired,
+  /**
+   True, show border in colors
+  */
   isPlayground: PropTypes.bool,
 }
 

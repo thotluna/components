@@ -44,7 +44,7 @@ const getItems = getTokenItems(choices.letterSpacing, 'letterSpacing')
 
 export const Default = Template.bind({})
 Default.args = {
-  label: 'var(--letter-spacing-normal)',
+  label: '--letter-spacing-normal',
   value: choices.letterSpacing.normal,
 }
 

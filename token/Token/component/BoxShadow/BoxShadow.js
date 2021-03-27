@@ -18,4 +18,8 @@ BoxShadow.propTypes = {
   value: PropTypes.string.isRequired,
 }
 
+BoxShadow.defaultProps = {
+  value: 'none',
+}
+
 export default BoxShadow
