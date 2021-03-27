@@ -10,6 +10,7 @@ import {
   LetterSpacing,
   BoxShadow,
   BorderRadius,
+  BorderWidth,
 } from './component'
 
 const Token = () => <></>
@@ -23,5 +24,6 @@ Token.LineHeight = LineHeight
 Token.LetterSpacing = LetterSpacing
 Token.BoxShadow = BoxShadow
 Token.BorderRadius = BorderRadius
+Token.BorderWidth = BorderWidth
 
 export default Token
