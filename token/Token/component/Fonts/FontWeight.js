@@ -5,11 +5,15 @@ import { choices } from '../../..'
 import Helper from '../../Helper'
 
 function FontWeight({ label, value, children }) {
-  const styleWeight = choices.fontWeight[value]
-  console.log('>>> value', value)
   return (
     <Helper label={label} value={value}>
-      <div style={{ fontFamily: 'Open sans', fontWeight: `${styleWeight}` }}>
+      <div
+        style={{
+          fontFamily: 'Open sans',
+          fontSize: '1.5rem',
+          fontWeight: value,
+        }}
+      >
         {children}
       </div>
     </Helper>
@@ -18,7 +22,9 @@ function FontWeight({ label, value, children }) {
 
 FontWeight.propTypes = {
   label: PropTypes.string.isRequired,
-  value: PropTypes.oneOf(['normal', 'bold']),
+  value: PropTypes.oneOf(
+    Object.keys(choices.fontWeight).map((key) => choices.fontWeight[key])
+  ),
   children: PropTypes.string.isRequired,
 }
 

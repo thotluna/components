@@ -170,7 +170,7 @@ const choices = {
     '2xl': '6rem',
   },
   fontWeight: {
-    // hairline: 100,
+    hairline: 100,
     // thin: 200,
     // light: 300,
     normal: 400,
