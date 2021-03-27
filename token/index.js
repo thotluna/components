@@ -157,8 +157,8 @@ const choices = {
     },
   },
   fontFamily: {
-    sans: ["'Montserrat'", 'Arial', 'sans-serif'],
-    title: ["'Architects Daughter'", 'Roboto', 'monospace'],
+    sans: "'Open Sans'",
+    title: "'Architects Daughter'",
   },
   fontSize: {
     base: '10px',

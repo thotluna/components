@@ -10,8 +10,6 @@ export const getTemplate = (Component, styles) => (args) => {
 export const getListTemplate = (Component, styles) => ({ items, ...args }) =>
   items.map((item, index) => {
     const allProps = { ...Component.defaultProps, ...args, ...item }
-
-    console.log('>>> ags', args)
     return (
       <Component
         key={index}

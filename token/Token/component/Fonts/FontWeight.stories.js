@@ -8,8 +8,8 @@ import {
 } from '../../../../helpers/storybook'
 import { getTokenItems } from '../../helpers'
 
-const Template = getTemplate(Token.FontWeight)
-const ListTemplate = getListTemplate(Token.FontWeight)
+const Template = getTemplate(Token.FontWeight, 'fontWeight')
+const ListTemplate = getListTemplate(Token.FontWeight, 'fontWeight')
 
 const optionsWeight = Object.keys(choices.fontWeight)
 
@@ -23,7 +23,7 @@ export default {
   argTypes: {
     value: getOptionsArgTypes(optionsWeight),
   },
-  parameters: { __sb: { fd: 'row' } },
+  // parameters: { __sb: { fd: 'row' } },
 }
 const getItems = getTokenItems(choices.fontWeight, 'fontWeight')
 

@@ -4,9 +4,6 @@ import { choices } from '../../..'
 import { getTemplate, getListTemplate } from '../../../../helpers/storybook'
 import { getTokenItems } from '../../helpers'
 
-const Template = getTemplate(Token.FontFamily)
-const ListTemplate = getListTemplate(Token.FontFamily)
-
 export default {
   title: 'Tokens/Fonts/FontFamily',
   component: Token.FontFamily,
@@ -15,18 +12,48 @@ export default {
       "Depend noticed bones Edge disturbing flesh heard cream. Morninged facial judgment Hobbit fortress. Camp flatten buy dagger Sit. Leagues sweeter 1400 mean friend unlost Déagol trade stuffing? Smithy's jiffy merely treacherous cozy interesting ask seat Thror's.",
   },
   argTypes: {
-    value: { control: null },
-    label: { control: null },
+    value: {
+      control: {
+        type: 'inline-radio',
+        options: Object.keys(choices.fontFamily).map(
+          (key) => choices.fontFamily[key]
+        ),
+      },
+    },
+    isPlayground: {
+      table: {
+        disable: true,
+      },
+    },
+    label: {
+      table: {
+        disable: true,
+      },
+    },
+    children: {
+      table: {
+        disable: true,
+      },
+    },
   },
 }
 
-const getItems = getTokenItems(choices.fontFamily, 'fontFamily')
+const Template = getTemplate(Token.FontFamily, {
+  fontFamily: 'Open Sans',
+  fontSize: '1.6rem',
+})
 
 export const Default = Template.bind({})
 Default.args = {
   label: 'var(--font-family-sans)',
-  value: choices.fontFamily.sans,
+  value: 'Open Sans',
 }
 
-export const Types = ListTemplate.bind({})
-Types.args = { items: getItems() }
+const getItems = getTokenItems(choices.fontFamily, 'fontFamily')
+console.log(getItems())
+const ListTemplate = getListTemplate(Token.FontFamily)
+
+export const Familys = ListTemplate.bind({})
+Familys.args = {
+  items: getItems(),
+}

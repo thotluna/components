@@ -1,16 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import styles from '../../Token.module.css'
 
-import Heper from '../../Helper'
+import Helper from '../../Helper'
 
 function FontFamily({ label, value, children }) {
   return (
-    <Heper label={label} value={value}>
-      <div className={styles['font-family']} style={{ fontFamily: value }}>
-        {children}
-      </div>
-    </Heper>
+    <Helper label={label} value={value}>
+      <div style={{ fontFamily: value, fontSize: '1.6rem' }}>{children}</div>
+    </Helper>
   )
 }
 
@@ -18,6 +15,10 @@ FontFamily.propTypes = {
   label: PropTypes.string.isRequired,
   value: PropTypes.string.isRequired,
   children: PropTypes.string,
+}
+
+FontFamily.defaultProps = {
+  value: 'sans',
 }
 
 export default FontFamily

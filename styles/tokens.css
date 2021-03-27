@@ -131,8 +131,8 @@
   --media-query-max-width-md: 991.98px;
   --media-query-max-width-lg: 1199px;
 
-  --font-family-sans: 'Montserrat', Arial, sans-serif;
-  --font-family-title: 'Architects Daughter', 'Roboto', monospace;
+  --font-family-sans: 'Open Sans';
+  --font-family-title: 'Architects Daughter';
 
   --font-size-base: 10px;
   --font-size-xs: 1.1rem;
@@ -142,15 +142,8 @@
   --font-size-xl: 2.1rem;
   --font-size-2xl: 6rem;
 
-  --font-weight-hairline: 100;
-  --font-weight-thin: 200;
-  --font-weight-light: 300;
   --font-weight-normal: 400;
-  --font-weight-medium: 500;
-  --font-weight-semibold: 600;
   --font-weight-bold: 700;
-  --font-weight-extrabold: 800;
-  --font-weight-black: 900;
 
   --line-height-none: 1;
   --line-height-tight: 1.25;

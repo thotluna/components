@@ -16,10 +16,6 @@ function FontWeight({ label, value, children }) {
   )
 }
 
-const listValue = Object.keys(choices.fontWeight)
-
-console.log(listValue)
-
 FontWeight.propTypes = {
   label: PropTypes.string.isRequired,
   value: PropTypes.oneOf(['normal', 'bold']),
