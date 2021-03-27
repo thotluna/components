@@ -7,6 +7,7 @@ import {
   FontSize,
   FontWeight,
   LineHeight,
+  LetterSpacing,
 } from './component'
 
 const Token = () => <></>
@@ -17,5 +18,6 @@ Token.FontFamily = FontFamily
 Token.FontSize = FontSize
 Token.FontWeight = FontWeight
 Token.LineHeight = LineHeight
+Token.LetterSpacing = LetterSpacing
 
 export default Token

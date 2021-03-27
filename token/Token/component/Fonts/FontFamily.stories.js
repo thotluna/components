@@ -50,7 +50,6 @@ Default.args = {
 }
 
 const getItems = getTokenItems(choices.fontFamily, 'fontFamily')
-console.log(getItems())
 const ListTemplate = getListTemplate(Token.FontFamily)
 
 export const Familys = ListTemplate.bind({})
