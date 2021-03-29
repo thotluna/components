@@ -45,7 +45,7 @@
     "test": "jest"
   },
   "simple-git-hooks": {
-    "pre-commit": "npx build:tokens && text && npx lint-staged"
+    "pre-commit": "npx build:tokens && npm text && npx lint-staged"
   },
   "lint-staged": {
     "*.js": "eslint --cache --fix"
