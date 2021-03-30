@@ -2,15 +2,8 @@ import '../styles/minireset.min.css'
 import '../styles/global.css'
 import '../styles/tokens.css'
 
-// export const parameters = {
-//   actions: { argTypesRegex: "^on[A-Z].*" },
-// }
-
 import React from 'react'
 
-// import 'minireset.css'
-// import '../styles/globals.css'
-// import '../styles/tokens.css'
 
 const getStyles = ({ __sb } = {}) => ({
   display: 'flex',
@@ -32,10 +25,12 @@ export const decorators = [
 ]
 
 export const parameters = {
+  
   argTypes: {
-    styles: { table: { disable: true } },
-    getStyles: { table: { disable: true } },
+    styles: { table: { disable: true }},
+    getStyles: { table: { disable: true }},
   },
-  args: { isPlayground: true },
-  actions: { argTypesRegex: '^on[A-Z].*' },
+  args: { isPlayground: true  },
+  actions: { argTypesRegex: '^on[A-Z].*'},
+  
 }

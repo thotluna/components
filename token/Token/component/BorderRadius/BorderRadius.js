@@ -6,7 +6,6 @@ import Helper from '../../Helper'
 import styles from '../../Token.module.css'
 
 const BorderRadius = ({ label, value }) => {
-  console.log('>>>rdius', value)
   return (
     <Helper label={label} value={value}>
       <div className={styles.box} style={{ borderRadius: value }}></div>
