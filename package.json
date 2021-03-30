@@ -21,6 +21,7 @@
     "@storybook/react": "^6.1.21",
     "babel-jest": "^26.6.3",
     "babel-loader": "^8.2.2",
+    "chromatic": "^5.7.0",
     "commitizen": "^4.2.3",
     "concurrently": "^6.0.0",
     "cz-conventional-changelog": "3.3.0",
@@ -49,7 +50,7 @@
     "react-dom": "^17.0.0"
   },
   "scripts": {
-    "build:storybook": "build-storybook --no-dll",
+    "build:storybook": "build-storybook",
     "build:tokens": "node ./scripts/build-tokens",
     "build": "run-s build:*",
     "build:docs": "yarn build:tokens && yarn build:storybook --docs",
@@ -60,6 +61,7 @@
     "deploy:vercel:prod": "vercel --prod",
     "deploy:vercel:stag": "vercel",
     "dev:storybook": "start-storybook -p 6006",
+    "dev:chromatic": "npx chromatic --project-token=CHROMATIC_PROJECT_TOKEN",
     "dev:tokens": "watch 'yarn build:tokens' ./tokens",
     "dev": "concurrently 'npm:dev:*'",
     "lint:css:fix": "yarn lint:css:prettier:fix && yarn lint:css:stylelint:fix",
@@ -76,7 +78,8 @@
     "lint": "run-p lint:js lint:json lint:css",
     "test:coverage": "yarn test --coverage",
     "test:watch": "CONSOLE_LEVEL=debug yarn test --watch",
-    "test": "jest"
+    "test": "jest",
+    "chromatic": "npx chromatic storybook-static --project-token 6e65d2ce0df3"
   },
   "config": {
     "commitizen": {
