@@ -157,8 +157,8 @@ const choices = {
     },
   },
   fontFamily: {
-    sans: ['Quicksand', 'Arial', 'sans-serif'],
-    mono: ["'Roboto Mono'", "'Courier New'", 'monospace'],
+    sans: "'Open Sans'",
+    title: "'Architects Daughter'",
   },
   fontSize: {
     base: '10px',
@@ -171,14 +171,14 @@ const choices = {
   },
   fontWeight: {
     hairline: 100,
-    thin: 200,
-    light: 300,
+    // thin: 200,
+    // light: 300,
     normal: 400,
-    medium: 500,
-    semibold: 600,
+    // medium: 500,
+    // semibold: 600,
     bold: 700,
-    extrabold: 800,
-    black: 900,
+    // extrabold: 800,
+    // black: 900,
   },
   lineHeight: {
     none: 1,

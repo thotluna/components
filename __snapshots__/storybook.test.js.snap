@@ -1,5 +1,1421 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Choices/Colors Base 1`] = `
+<div
+  style={
+    Object {
+      "display": "grid",
+      "gap": ".6em",
+      "gridTemplateColumns": "repeat(9, 1fr)",
+      "textShadow": "#fff 1px 1px 1px",
+    }
+  }
+>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#000",
+      }
+    }
+  >
+    <h2>
+      var(--color-base-black)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#fff",
+      }
+    }
+  >
+    <h2>
+      var(--color-base-white)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "transparent",
+      }
+    }
+  >
+    <h2>
+      var(--color-base-transparent)
+    </h2>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Choices/Colors Blue 1`] = `
+<div
+  style={
+    Object {
+      "display": "grid",
+      "gap": ".6em",
+      "gridTemplateColumns": "repeat(9, 1fr)",
+      "textShadow": "#fff 1px 1px 1px",
+    }
+  }
+>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#ebf8ff",
+      }
+    }
+  >
+    <h2>
+      var(--color-blue-100)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#bee3f8",
+      }
+    }
+  >
+    <h2>
+      var(--color-blue-200)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#90cdf4",
+      }
+    }
+  >
+    <h2>
+      var(--color-blue-300)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#63b3ed",
+      }
+    }
+  >
+    <h2>
+      var(--color-blue-400)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#4299e1",
+      }
+    }
+  >
+    <h2>
+      var(--color-blue-500)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#3182ce",
+      }
+    }
+  >
+    <h2>
+      var(--color-blue-600)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#2b6cb0",
+      }
+    }
+  >
+    <h2>
+      var(--color-blue-700)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#2c5282",
+      }
+    }
+  >
+    <h2>
+      var(--color-blue-800)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#2a4365",
+      }
+    }
+  >
+    <h2>
+      var(--color-blue-900)
+    </h2>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Choices/Colors Brand 1`] = `
+<div
+  style={
+    Object {
+      "display": "grid",
+      "gap": ".6em",
+      "gridTemplateColumns": "repeat(9, 1fr)",
+      "textShadow": "#fff 1px 1px 1px",
+    }
+  }
+>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#7559d1",
+      }
+    }
+  >
+    <h2>
+      var(--color-brand-slateBlue)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#9879e9",
+      }
+    }
+  >
+    <h2>
+      var(--color-brand-mediumPurple)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#eff1fd",
+      }
+    }
+  >
+    <h2>
+      var(--color-brand-blueMoon)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#eb2d52",
+      }
+    }
+  >
+    <h2>
+      var(--color-brand-amaranth)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#eb4e58",
+      }
+    }
+  >
+    <h2>
+      var(--color-brand-mandy)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#455970",
+      }
+    }
+  >
+    <h2>
+      var(--color-brand-eastBay)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#7e858c",
+      }
+    }
+  >
+    <h2>
+      var(--color-brand-regentGray)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#b7b7b7",
+      }
+    }
+  >
+    <h2>
+      var(--color-brand-loblolly)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#e8e8e8",
+      }
+    }
+  >
+    <h2>
+      var(--color-brand-whiteLilac)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#f9f9f9",
+      }
+    }
+  >
+    <h2>
+      var(--color-brand-hintOfRed)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#fcfdfd",
+      }
+    }
+  >
+    <h2>
+      var(--color-brand-romance)
+    </h2>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Choices/Colors Gray 1`] = `
+<div
+  style={
+    Object {
+      "display": "grid",
+      "gap": ".6em",
+      "gridTemplateColumns": "repeat(9, 1fr)",
+      "textShadow": "#fff 1px 1px 1px",
+    }
+  }
+>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#f7fafc",
+      }
+    }
+  >
+    <h2>
+      var(--color-gray-100)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#edf2f7",
+      }
+    }
+  >
+    <h2>
+      var(--color-gray-200)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#e2e8f0",
+      }
+    }
+  >
+    <h2>
+      var(--color-gray-300)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#cbd5e0",
+      }
+    }
+  >
+    <h2>
+      var(--color-gray-400)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#a0aec0",
+      }
+    }
+  >
+    <h2>
+      var(--color-gray-500)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#718096",
+      }
+    }
+  >
+    <h2>
+      var(--color-gray-600)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#4a5568",
+      }
+    }
+  >
+    <h2>
+      var(--color-gray-700)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#2d3748",
+      }
+    }
+  >
+    <h2>
+      var(--color-gray-800)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#1a202c",
+      }
+    }
+  >
+    <h2>
+      var(--color-gray-900)
+    </h2>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Choices/Colors Green 1`] = `
+<div
+  style={
+    Object {
+      "display": "grid",
+      "gap": ".6em",
+      "gridTemplateColumns": "repeat(9, 1fr)",
+      "textShadow": "#fff 1px 1px 1px",
+    }
+  }
+>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#f0fff4",
+      }
+    }
+  >
+    <h2>
+      var(--color-green-100)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#c6f6d5",
+      }
+    }
+  >
+    <h2>
+      var(--color-green-200)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#9ae6b4",
+      }
+    }
+  >
+    <h2>
+      var(--color-green-300)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#68d391",
+      }
+    }
+  >
+    <h2>
+      var(--color-green-400)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#48bb78",
+      }
+    }
+  >
+    <h2>
+      var(--color-green-500)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#38a169",
+      }
+    }
+  >
+    <h2>
+      var(--color-green-600)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#2f855a",
+      }
+    }
+  >
+    <h2>
+      var(--color-green-700)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#276749",
+      }
+    }
+  >
+    <h2>
+      var(--color-green-800)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#22543d",
+      }
+    }
+  >
+    <h2>
+      var(--color-green-900)
+    </h2>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Choices/Colors Indigo 1`] = `
+<div
+  style={
+    Object {
+      "display": "grid",
+      "gap": ".6em",
+      "gridTemplateColumns": "repeat(9, 1fr)",
+      "textShadow": "#fff 1px 1px 1px",
+    }
+  }
+>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#ebf4ff",
+      }
+    }
+  >
+    <h2>
+      var(--color-indigo-100)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#c3dafe",
+      }
+    }
+  >
+    <h2>
+      var(--color-indigo-200)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#a3bffa",
+      }
+    }
+  >
+    <h2>
+      var(--color-indigo-300)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#7f9cf5",
+      }
+    }
+  >
+    <h2>
+      var(--color-indigo-400)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#667eea",
+      }
+    }
+  >
+    <h2>
+      var(--color-indigo-500)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#5a67d8",
+      }
+    }
+  >
+    <h2>
+      var(--color-indigo-600)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#4c51bf",
+      }
+    }
+  >
+    <h2>
+      var(--color-indigo-700)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#434190",
+      }
+    }
+  >
+    <h2>
+      var(--color-indigo-800)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#3c366b",
+      }
+    }
+  >
+    <h2>
+      var(--color-indigo-900)
+    </h2>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Choices/Colors Orange 1`] = `
+<div
+  style={
+    Object {
+      "display": "grid",
+      "gap": ".6em",
+      "gridTemplateColumns": "repeat(9, 1fr)",
+      "textShadow": "#fff 1px 1px 1px",
+    }
+  }
+>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#fffaf0",
+      }
+    }
+  >
+    <h2>
+      var(--color-orange-100)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#feebc8",
+      }
+    }
+  >
+    <h2>
+      var(--color-orange-200)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#fbd38d",
+      }
+    }
+  >
+    <h2>
+      var(--color-orange-300)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#f6ad55",
+      }
+    }
+  >
+    <h2>
+      var(--color-orange-400)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#ed8936",
+      }
+    }
+  >
+    <h2>
+      var(--color-orange-500)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#dd6b20",
+      }
+    }
+  >
+    <h2>
+      var(--color-orange-600)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#c05621",
+      }
+    }
+  >
+    <h2>
+      var(--color-orange-700)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#9c4221",
+      }
+    }
+  >
+    <h2>
+      var(--color-orange-800)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#7b341e",
+      }
+    }
+  >
+    <h2>
+      var(--color-orange-900)
+    </h2>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Choices/Colors Pink 1`] = `
+<div
+  style={
+    Object {
+      "display": "grid",
+      "gap": ".6em",
+      "gridTemplateColumns": "repeat(9, 1fr)",
+      "textShadow": "#fff 1px 1px 1px",
+    }
+  }
+>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#fff5f7",
+      }
+    }
+  >
+    <h2>
+      var(--color-pink-100)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#fed7e2",
+      }
+    }
+  >
+    <h2>
+      var(--color-pink-200)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#fbb6ce",
+      }
+    }
+  >
+    <h2>
+      var(--color-pink-300)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#f687b3",
+      }
+    }
+  >
+    <h2>
+      var(--color-pink-400)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#ed64a6",
+      }
+    }
+  >
+    <h2>
+      var(--color-pink-500)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#d53f8c",
+      }
+    }
+  >
+    <h2>
+      var(--color-pink-600)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#b83280",
+      }
+    }
+  >
+    <h2>
+      var(--color-pink-700)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#97266d",
+      }
+    }
+  >
+    <h2>
+      var(--color-pink-800)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#702459",
+      }
+    }
+  >
+    <h2>
+      var(--color-pink-900)
+    </h2>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Choices/Colors Purple 1`] = `
+<div
+  style={
+    Object {
+      "display": "grid",
+      "gap": ".6em",
+      "gridTemplateColumns": "repeat(9, 1fr)",
+      "textShadow": "#fff 1px 1px 1px",
+    }
+  }
+>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#faf5ff",
+      }
+    }
+  >
+    <h2>
+      var(--color-purple-100)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#e9d8fd",
+      }
+    }
+  >
+    <h2>
+      var(--color-purple-200)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#d6bcfa",
+      }
+    }
+  >
+    <h2>
+      var(--color-purple-300)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#b794f4",
+      }
+    }
+  >
+    <h2>
+      var(--color-purple-400)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#9f7aea",
+      }
+    }
+  >
+    <h2>
+      var(--color-purple-500)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#805ad5",
+      }
+    }
+  >
+    <h2>
+      var(--color-purple-600)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#6b46c1",
+      }
+    }
+  >
+    <h2>
+      var(--color-purple-700)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#553c9a",
+      }
+    }
+  >
+    <h2>
+      var(--color-purple-800)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#44337a",
+      }
+    }
+  >
+    <h2>
+      var(--color-purple-900)
+    </h2>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Choices/Colors Red 1`] = `
+<div
+  style={
+    Object {
+      "display": "grid",
+      "gap": ".6em",
+      "gridTemplateColumns": "repeat(9, 1fr)",
+      "textShadow": "#fff 1px 1px 1px",
+    }
+  }
+>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#fff5f5",
+      }
+    }
+  >
+    <h2>
+      var(--color-red-100)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#fed7d7",
+      }
+    }
+  >
+    <h2>
+      var(--color-red-200)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#feb2b2",
+      }
+    }
+  >
+    <h2>
+      var(--color-red-300)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#fc8181",
+      }
+    }
+  >
+    <h2>
+      var(--color-red-400)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#f56565",
+      }
+    }
+  >
+    <h2>
+      var(--color-red-500)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#e53e3e",
+      }
+    }
+  >
+    <h2>
+      var(--color-red-600)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#c53030",
+      }
+    }
+  >
+    <h2>
+      var(--color-red-700)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#9b2c2c",
+      }
+    }
+  >
+    <h2>
+      var(--color-red-800)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#742a2a",
+      }
+    }
+  >
+    <h2>
+      var(--color-red-900)
+    </h2>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Choices/Colors Teal 1`] = `
+<div
+  style={
+    Object {
+      "display": "grid",
+      "gap": ".6em",
+      "gridTemplateColumns": "repeat(9, 1fr)",
+      "textShadow": "#fff 1px 1px 1px",
+    }
+  }
+>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#e6fffa",
+      }
+    }
+  >
+    <h2>
+      var(--color-teal-100)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#b2f5ea",
+      }
+    }
+  >
+    <h2>
+      var(--color-teal-200)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#81e6d9",
+      }
+    }
+  >
+    <h2>
+      var(--color-teal-300)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#4fd1c5",
+      }
+    }
+  >
+    <h2>
+      var(--color-teal-400)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#38b2ac",
+      }
+    }
+  >
+    <h2>
+      var(--color-teal-500)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#319795",
+      }
+    }
+  >
+    <h2>
+      var(--color-teal-600)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#2c7a7b",
+      }
+    }
+  >
+    <h2>
+      var(--color-teal-700)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#285e61",
+      }
+    }
+  >
+    <h2>
+      var(--color-teal-800)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#234e52",
+      }
+    }
+  >
+    <h2>
+      var(--color-teal-900)
+    </h2>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Choices/Colors Yellow 1`] = `
+<div
+  style={
+    Object {
+      "display": "grid",
+      "gap": ".6em",
+      "gridTemplateColumns": "repeat(9, 1fr)",
+      "textShadow": "#fff 1px 1px 1px",
+    }
+  }
+>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#fffff0",
+      }
+    }
+  >
+    <h2>
+      var(--color-yellow-100)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#fefcbf",
+      }
+    }
+  >
+    <h2>
+      var(--color-yellow-200)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#faf089",
+      }
+    }
+  >
+    <h2>
+      var(--color-yellow-300)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#f6e05e",
+      }
+    }
+  >
+    <h2>
+      var(--color-yellow-400)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#ecc94b",
+      }
+    }
+  >
+    <h2>
+      var(--color-yellow-500)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#d69e2e",
+      }
+    }
+  >
+    <h2>
+      var(--color-yellow-600)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#b7791f",
+      }
+    }
+  >
+    <h2>
+      var(--color-yellow-700)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#975a16",
+      }
+    }
+  >
+    <h2>
+      var(--color-yellow-800)
+    </h2>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "backgroundColor": "#744210",
+      }
+    }
+  >
+    <h2>
+      var(--color-yellow-900)
+    </h2>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Example/Button Large 1`] = `
 <button
   className="storybook-button storybook-button--large storybook-button--secondary"
@@ -40,370 +1456,34 @@ exports[`Storyshots Example/Button Small 1`] = `
 </button>
 `;
 
-exports[`Storyshots Example/Header Logged In 1`] = `
-<header>
-  <div
-    className="wrapper"
-  >
-    <div>
-      <svg
-        height="32"
-        viewBox="0 0 32 32"
-        width="32"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <g
-          fill="none"
-          fillRule="evenodd"
-        >
-          <path
-            d="M10 0h12a10 10 0 0110 10v12a10 10 0 01-10 10H10A10 10 0 010 22V10A10 10 0 0110 0z"
-            fill="#FFF"
-          />
-          <path
-            d="M5.3 10.6l10.4 6v11.1l-10.4-6v-11zm11.4-6.2l9.7 5.5-9.7 5.6V4.4z"
-            fill="#555AB9"
-          />
-          <path
-            d="M27.2 10.6v11.2l-10.5 6V16.5l10.5-6zM15.7 4.4v11L6 10l9.7-5.5z"
-            fill="#91BAF8"
-          />
-        </g>
-      </svg>
-      <h1>
-        Acme
-      </h1>
-    </div>
-    <div>
-      <button
-        className="storybook-button storybook-button--small storybook-button--secondary"
-        style={null}
-        type="button"
-      >
-        Log out
-      </button>
-    </div>
-  </div>
-</header>
+exports[`Storyshots molecules/Component Large 1`] = `
+<div
+  className="componet"
+>
+  Hello Component
+</div>
 `;
 
-exports[`Storyshots Example/Header Logged Out 1`] = `
-<header>
-  <div
-    className="wrapper"
-  >
-    <div>
-      <svg
-        height="32"
-        viewBox="0 0 32 32"
-        width="32"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <g
-          fill="none"
-          fillRule="evenodd"
-        >
-          <path
-            d="M10 0h12a10 10 0 0110 10v12a10 10 0 01-10 10H10A10 10 0 010 22V10A10 10 0 0110 0z"
-            fill="#FFF"
-          />
-          <path
-            d="M5.3 10.6l10.4 6v11.1l-10.4-6v-11zm11.4-6.2l9.7 5.5-9.7 5.6V4.4z"
-            fill="#555AB9"
-          />
-          <path
-            d="M27.2 10.6v11.2l-10.5 6V16.5l10.5-6zM15.7 4.4v11L6 10l9.7-5.5z"
-            fill="#91BAF8"
-          />
-        </g>
-      </svg>
-      <h1>
-        Acme
-      </h1>
-    </div>
-    <div>
-      <button
-        className="storybook-button storybook-button--small storybook-button--secondary"
-        style={null}
-        type="button"
-      >
-        Log in
-      </button>
-      <button
-        className="storybook-button storybook-button--small storybook-button--primary"
-        style={null}
-        type="button"
-      >
-        Sign up
-      </button>
-    </div>
-  </div>
-</header>
+exports[`Storyshots molecules/Component Primary 1`] = `
+<div
+  className="componet"
+>
+  Hello Component
+</div>
 `;
 
-exports[`Storyshots Example/Page Logged In 1`] = `
-<article>
-  <header>
-    <div
-      className="wrapper"
-    >
-      <div>
-        <svg
-          height="32"
-          viewBox="0 0 32 32"
-          width="32"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g
-            fill="none"
-            fillRule="evenodd"
-          >
-            <path
-              d="M10 0h12a10 10 0 0110 10v12a10 10 0 01-10 10H10A10 10 0 010 22V10A10 10 0 0110 0z"
-              fill="#FFF"
-            />
-            <path
-              d="M5.3 10.6l10.4 6v11.1l-10.4-6v-11zm11.4-6.2l9.7 5.5-9.7 5.6V4.4z"
-              fill="#555AB9"
-            />
-            <path
-              d="M27.2 10.6v11.2l-10.5 6V16.5l10.5-6zM15.7 4.4v11L6 10l9.7-5.5z"
-              fill="#91BAF8"
-            />
-          </g>
-        </svg>
-        <h1>
-          Acme
-        </h1>
-      </div>
-      <div>
-        <button
-          className="storybook-button storybook-button--small storybook-button--secondary"
-          style={null}
-          type="button"
-        >
-          Log out
-        </button>
-      </div>
-    </div>
-  </header>
-  <section>
-    <h2>
-      Pages in Storybook
-    </h2>
-    <p>
-      We recommend building UIs with a
-       
-      <a
-        href="https://componentdriven.org"
-        rel="noopener noreferrer"
-        target="_blank"
-      >
-        <strong>
-          component-driven
-        </strong>
-      </a>
-       
-      process starting with atomic components and ending with pages.
-    </p>
-    <p>
-      Render pages with mock data. This makes it easy to build and review page states without needing to navigate to them in your app. Here are some handy patterns for managing page data in Storybook:
-    </p>
-    <ul>
-      <li>
-        Use a higher-level connected component. Storybook helps you compose such data from the "args" of child component stories
-      </li>
-      <li>
-        Assemble data in the page component from your services. You can mock these services out using Storybook.
-      </li>
-    </ul>
-    <p>
-      Get a guided tutorial on component-driven development at
-       
-      <a
-        href="https://www.learnstorybook.com"
-        rel="noopener noreferrer"
-        target="_blank"
-      >
-        Learn Storybook
-      </a>
-      . Read more in the
-       
-      <a
-        href="https://storybook.js.org/docs"
-        rel="noopener noreferrer"
-        target="_blank"
-      >
-        docs
-      </a>
-      .
-    </p>
-    <div
-      className="tip-wrapper"
-    >
-      <span
-        className="tip"
-      >
-        Tip
-      </span>
-       Adjust the width of the canvas with the
-       
-      <svg
-        height="10"
-        viewBox="0 0 12 12"
-        width="10"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <g
-          fill="none"
-          fillRule="evenodd"
-        >
-          <path
-            d="M1.5 5.2h4.8c.3 0 .5.2.5.4v5.1c-.1.2-.3.3-.4.3H1.4a.5.5 0 01-.5-.4V5.7c0-.3.2-.5.5-.5zm0-2.1h6.9c.3 0 .5.2.5.4v7a.5.5 0 01-1 0V4H1.5a.5.5 0 010-1zm0-2.1h9c.3 0 .5.2.5.4v9.1a.5.5 0 01-1 0V2H1.5a.5.5 0 010-1zm4.3 5.2H2V10h3.8V6.2z"
-            fill="#999"
-            id="a"
-          />
-        </g>
-      </svg>
-      Viewports addon in the toolbar
-    </div>
-  </section>
-</article>
+exports[`Storyshots molecules/Component Secondary 1`] = `
+<div
+  className="componet"
+>
+  Hello Component
+</div>
 `;
 
-exports[`Storyshots Example/Page Logged Out 1`] = `
-<article>
-  <header>
-    <div
-      className="wrapper"
-    >
-      <div>
-        <svg
-          height="32"
-          viewBox="0 0 32 32"
-          width="32"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g
-            fill="none"
-            fillRule="evenodd"
-          >
-            <path
-              d="M10 0h12a10 10 0 0110 10v12a10 10 0 01-10 10H10A10 10 0 010 22V10A10 10 0 0110 0z"
-              fill="#FFF"
-            />
-            <path
-              d="M5.3 10.6l10.4 6v11.1l-10.4-6v-11zm11.4-6.2l9.7 5.5-9.7 5.6V4.4z"
-              fill="#555AB9"
-            />
-            <path
-              d="M27.2 10.6v11.2l-10.5 6V16.5l10.5-6zM15.7 4.4v11L6 10l9.7-5.5z"
-              fill="#91BAF8"
-            />
-          </g>
-        </svg>
-        <h1>
-          Acme
-        </h1>
-      </div>
-      <div>
-        <button
-          className="storybook-button storybook-button--small storybook-button--secondary"
-          style={null}
-          type="button"
-        >
-          Log in
-        </button>
-        <button
-          className="storybook-button storybook-button--small storybook-button--primary"
-          style={null}
-          type="button"
-        >
-          Sign up
-        </button>
-      </div>
-    </div>
-  </header>
-  <section>
-    <h2>
-      Pages in Storybook
-    </h2>
-    <p>
-      We recommend building UIs with a
-       
-      <a
-        href="https://componentdriven.org"
-        rel="noopener noreferrer"
-        target="_blank"
-      >
-        <strong>
-          component-driven
-        </strong>
-      </a>
-       
-      process starting with atomic components and ending with pages.
-    </p>
-    <p>
-      Render pages with mock data. This makes it easy to build and review page states without needing to navigate to them in your app. Here are some handy patterns for managing page data in Storybook:
-    </p>
-    <ul>
-      <li>
-        Use a higher-level connected component. Storybook helps you compose such data from the "args" of child component stories
-      </li>
-      <li>
-        Assemble data in the page component from your services. You can mock these services out using Storybook.
-      </li>
-    </ul>
-    <p>
-      Get a guided tutorial on component-driven development at
-       
-      <a
-        href="https://www.learnstorybook.com"
-        rel="noopener noreferrer"
-        target="_blank"
-      >
-        Learn Storybook
-      </a>
-      . Read more in the
-       
-      <a
-        href="https://storybook.js.org/docs"
-        rel="noopener noreferrer"
-        target="_blank"
-      >
-        docs
-      </a>
-      .
-    </p>
-    <div
-      className="tip-wrapper"
-    >
-      <span
-        className="tip"
-      >
-        Tip
-      </span>
-       Adjust the width of the canvas with the
-       
-      <svg
-        height="10"
-        viewBox="0 0 12 12"
-        width="10"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <g
-          fill="none"
-          fillRule="evenodd"
-        >
-          <path
-            d="M1.5 5.2h4.8c.3 0 .5.2.5.4v5.1c-.1.2-.3.3-.4.3H1.4a.5.5 0 01-.5-.4V5.7c0-.3.2-.5.5-.5zm0-2.1h6.9c.3 0 .5.2.5.4v7a.5.5 0 01-1 0V4H1.5a.5.5 0 010-1zm0-2.1h9c.3 0 .5.2.5.4v9.1a.5.5 0 01-1 0V2H1.5a.5.5 0 010-1zm4.3 5.2H2V10h3.8V6.2z"
-            fill="#999"
-            id="a"
-          />
-        </g>
-      </svg>
-      Viewports addon in the toolbar
-    </div>
-  </section>
-</article>
+exports[`Storyshots molecules/Component Small 1`] = `
+<div
+  className="componet"
+>
+  Hello Component
+</div>
 `;
