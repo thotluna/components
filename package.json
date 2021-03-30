@@ -29,6 +29,7 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^26.6.3",
     "lint-staged": ">=10",
+    "node-watch": "^0.7.1",
     "prettier": "^2.2.1",
     "react-test-renderer": "^17.0.1",
     "simple-git-hooks": ">=2.0.3"
@@ -36,11 +37,13 @@
   "scripts": {
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
+    "build:tokens": "node ./scripts/build-token",
+    "watch:tokens": "node ./scripts/watch-token",
     "eslint": "eslint .",
     "test": "jest"
   },
   "simple-git-hooks": {
-    "pre-commit": "npx lint-staged"
+    "pre-commit": "npx build:tokens && npx lint-staged"
   },
   "lint-staged": {
     "*.js": "eslint --cache --fix"
