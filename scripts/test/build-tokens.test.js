@@ -92,7 +92,7 @@ describe('convertTokens', () => {
 
 describe('buildTokens', () => {
   describe('give path, choices, decisions ', () => {
-    it.only('should be create file.css', () => {
+    it('should be create file.css', () => {
       const path = './scripts/test/styles.mock.css'
       builderTokens(path, choices, decisions).then(() => {
         expect(fs.existsSync(path)).toBeTruthy()
@@ -113,15 +113,6 @@ describe('buildTokens', () => {
           fs.unlinkSync(path)
         })
       })
-    })
-  })
-  describe('give null params ', () => {
-    it.only('should be error in console', async () => {
-      const path = 'null'
-
-      await expect(builderTokens(path, null, null)).rejects(
-        'Error inrto params'
-      )
     })
   })
 })
