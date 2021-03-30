@@ -45,7 +45,7 @@ const Template = getTemplate(Token.FontFamily, {
 
 export const Default = Template.bind({})
 Default.args = {
-  label: 'var(--font-family-sans)',
+  label: '--font-family-sans',
   value: 'Open Sans',
 }
 

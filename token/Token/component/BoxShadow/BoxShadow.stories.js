@@ -45,11 +45,11 @@ const Template = getTemplate(Token.BoxShadow, {
 
 export const Default = Template.bind({})
 Default.args = {
-  label: 'var(--font-family-sans)',
-  value: 'Open Sans',
+  label: '--box-shadow-none',
+  value: '0',
 }
 
-const getItems = getTokenItems(choices.boxShadow, 'fontFamily')
+const getItems = getTokenItems(choices.boxShadow, 'boxShadow')
 const ListTemplate = getListTemplate(Token.BoxShadow)
 
 export const Familys = ListTemplate.bind({})

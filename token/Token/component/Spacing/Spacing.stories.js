@@ -21,7 +21,7 @@ const getItems = getTokenItems(choices.spacing, 'spacing')
 
 export const Default = Template.bind({})
 Default.args = {
-  label: 'var(--spacing-none)',
+  label: '--spacing-none',
   value: choices.spacing.none,
 }
 

@@ -44,7 +44,7 @@ const getItems = getTokenItems(choices.fontWeight, 'fontWeight')
 
 export const Default = Template.bind({})
 Default.args = {
-  label: 'var(--font-weight-medium)',
+  label: '--font-weight-medium',
   value: choices.fontWeight.normal,
 }
 

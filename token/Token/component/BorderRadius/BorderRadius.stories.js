@@ -42,7 +42,7 @@ const Template = getTemplate(Token.BorderRadius)
 
 export const Default = Template.bind({})
 Default.args = {
-  label: 'var(--border-radius-none)',
+  label: '--border-radius-none',
   value: '0',
 }
 
