@@ -7,10 +7,7 @@
   "author": "Eladio Feijoo",
   "license": "MIT",
   "private": false,
-  "dependencies": {
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.13.10",
     "@babel/preset-env": "^7.13.12",
@@ -22,6 +19,7 @@
     "@storybook/react": "^6.1.21",
     "babel-jest": "^26.6.3",
     "babel-loader": "^8.2.2",
+    "concurrently": "^6.0.0",
     "enquirer": "^2.3.6",
     "eslint": "^7.22.0",
     "eslint-config-prettier": "^8.1.0",
@@ -31,25 +29,57 @@
     "jest": "^26.6.3",
     "lint-staged": ">=10",
     "node-watch": "^0.7.1",
+    "npm-run-all": "^4.1.5",
     "prettier": "^2.2.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "react-test-renderer": "^17.0.1",
     "simple-git-hooks": ">=2.0.3",
     "stylelint": "^13.12.0",
-    "stylelint-config-standard": "^21.0.0"
+    "stylelint-config-idiomatic-order": "^8.1.0",
+    "stylelint-config-standard": "^21.0.0",
+    "watch": "^1.0.2"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
   },
   "scripts": {
-    "sb": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
-    "build:tokens": "node ./scripts/build-token",
-    "watch:tokens": "node ./scripts/watch-token",
+    "build:storybook": "build-storybook --no-dll",
+    "build:tokens": "node ./scripts/build-tokens",
+    "build": "run-s build:*",
+    "build:docs": "yarn build:tokens && yarn build:storybook --docs",
     "cc": "node ./scripts/create-component",
-    "eslint": "eslint .",
+    "commit": "cz",
+    "deploy:prod": "run-s build deploy:vercel:prod",
+    "deploy:stag": "run-s build deploy:vercel:stag",
+    "deploy:vercel:prod": "vercel --prod",
+    "deploy:vercel:stag": "vercel",
+    "dev:storybook": "start-storybook -p 6006",
+    "dev:tokens": "watch 'yarn build:tokens' ./tokens",
+    "dev": "concurrently 'npm:dev:*'",
+    "lint:css:fix": "yarn lint:css:prettier:fix && yarn lint:css:stylelint:fix",
+    "lint:css:prettier:fix": "yarn lint:css:prettier --write",
+    "lint:css:prettier": "prettier '**/*.css' --list-different --ignore-path .gitignore",
+    "lint:css:stylelint:fix": "yarn lint:css:stylelint --fix",
+    "lint:css:stylelint": "stylelint '**/*.css' --ignore-path .gitignore",
+    "lint:css": "run-s lint:css:stylelint lint:css:prettier",
+    "lint:fix": "run-p lint:js:fix lint:json:fix lint:css:fix",
+    "lint:js:fix": "yarn lint:js --fix",
+    "lint:js": "eslint --cache --ignore-path .gitignore '**/*.js'",
+    "lint:json:fix": "yarn lint:json --write",
+    "lint:json": "prettier '**/*.json' --list-different --ignore-path .gitignore",
+    "lint": "run-p lint:js lint:json lint:css",
+    "test:coverage": "yarn test --coverage",
+    "test:watch": "CONSOLE_LEVEL=debug yarn test --watch",
     "test": "jest"
   },
   "simple-git-hooks": {
-    "pre-commit": "npx build:tokens && npm text && npx lint-staged"
+    "pre-commit": "lint-staged"
   },
   "lint-staged": {
-    "*.js": "eslint --cache --fix"
+    "*.js": "yarn lint:js:fix",
+    "*.json": "yarn lint:json:fix",
+    "*.css": "yarn lint:css:fix"
   }
 }
