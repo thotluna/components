@@ -1,4 +1,5 @@
-const { convertTokens, buildTokens } = require('./build-tokens')
+const { convertTokens, builderTokens } = require('../builder-tokens')
+const { choices, decisions } = require('./tokens.mock')
 const fs = require('fs')
 
 describe('convertTokens', () => {
@@ -90,26 +91,27 @@ describe('convertTokens', () => {
 })
 
 describe('buildTokens', () => {
-  describe('give file.js ', () => {
+  describe('give path, choices, decisions ', () => {
     it('should be create file.css', () => {
-      const file = './scripts/styles.mock.css'
+      const path = './scripts/test/styles.mock.css'
+      builderTokens(path, choices, decisions).then(() => {
+        expect(fs.existsSync(path)).toBeTruthy()
 
-      buildTokens(file, true)
+        const result =
+          ':root {\n' +
+          '  --color-white: #ffffff;\n' +
+          '--height-full: 100%;\n' +
+          ' \n' +
+          '--color-primary: #ffffff;\n' +
+          '--height-primary: 100%;\n' +
+          '\n' +
+          '}\n'
 
-      expect(fs.existsSync(file)).toBeTruthy()
+        fs.readFile(path, { encoding: 'utf8' }, (error, data) => {
+          expect(data).toStrictEqual(result)
 
-      const result =
-        ':root {\n' +
-        '  --color-white: #ffffff;\n' +
-        '--height-full: 100%;\n' +
-        ' \n' +
-        '--color-primary: #ffffff;\n' +
-        '--height-primary: 100%;\n' +
-        '\n' +
-        '}\n'
-
-      fs.readFile(file, { encoding: 'utf8' }, (error, data) => {
-        expect(data).toStrictEqual(result)
+          fs.unlinkSync(path)
+        })
       })
     })
   })
