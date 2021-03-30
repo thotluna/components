@@ -4,6 +4,7 @@ import PropTypes from 'prop-types'
 import Helper from '../../Helper'
 
 function FontFamily({ label, value, children }) {
+  console.log('>>>>value', value)
   return (
     <Helper label={label} value={value}>
       <div style={{ fontFamily: value, fontSize: '1.6rem' }}>{children}</div>
@@ -13,12 +14,12 @@ function FontFamily({ label, value, children }) {
 
 FontFamily.propTypes = {
   label: PropTypes.string.isRequired,
-  value: PropTypes.string.isRequired,
+  value: PropTypes.oneOfType([PropTypes.string, PropTypes.array]).isRequired,
   children: PropTypes.string,
 }
 
 FontFamily.defaultProps = {
-  value: 'sans',
+  value: ["'Open Sans'", 'Arial', 'Helvetica', 'sans-serif'],
 }
 
 export default FontFamily

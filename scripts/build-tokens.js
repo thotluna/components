@@ -1,37 +1,45 @@
 const { choices, decisions } = require('../token')
-const toKebalCase = require('../utils/toKebalCase')
 const fs = require('fs')
+const toKebabCase = require('../utils/toKebalCase')
 
-const cleanLines = (string = '') => string.trim().replace(/^\n\n/gm, '\n')
-
-function transformTokens(parentKey, object) {
+function convertTokens(parenKey, object) {
   const objectKeys = Object.keys(object)
 
-  return objectKeys.reduce((transformedTokens, objectKey) => {
-    const value = object[objectKey]
+  return objectKeys.reduce((acc, curr) => {
+    const value = object[curr]
 
-    const customProperty = parentKey
-      ? toKebalCase(`${parentKey}-${objectKey}`)
-      : toKebalCase(`${objectKey}`)
-
+    let customProperty = parenKey
+      ? `${toKebabCase(parenKey)}-${toKebabCase(curr)}`
+      : `--${curr}`
     if (Array.isArray(value)) {
-      return `${transformedTokens}\n  --${customProperty}: ${value.join(', ')};`
+      return `${acc}${customProperty}: ${value.join(', ')};\n`
     } else if (typeof value === 'object') {
-      return `${transformedTokens}\n${transformTokens(customProperty, value)}`
+      return `${acc}${convertTokens(customProperty, value)}`
     } else {
-      const label = `--${parentKey}-${objectKey}`
-      return `${transformedTokens}\n  ${label}: ${value};`
+      return `${acc}${customProperty}: ${value};\n`
     }
   }, '')
 }
 
-function buildTokens(fileUrl) {
+function buildTokens(fileUrl, newTokens = false) {
   console.log('<<<<<<>>>>>>>', fileUrl)
-  const transformedChoices = transformTokens(null, choices)
-  const transformedDecisions = transformTokens(null, decisions)
-  const customProperties = `${transformedChoices}${transformedDecisions}`
+  let choice
+  let decision
+  if (newTokens) {
+    const test = require('./tokens.mock')
+    choice = test.choices
+    decision = test.decisions
+  } else {
+    choice = choices
+    decision = decisions
+  }
 
-  const data = `:root {\n  ${cleanLines(customProperties)}\n}\n`
+  const transformedChoices = convertTokens(null, choice)
+  const transformedDecisions = convertTokens(null, decision)
+
+  const customProperties = `${transformedChoices} \n${transformedDecisions}`
+
+  const data = `:root {\n  ${customProperties}\n}\n`
 
   const URL = fileUrl ? fileUrl : './styles/tokens.css'
 
@@ -43,4 +51,4 @@ function buildTokens(fileUrl) {
 
 buildTokens()
 
-module.exports = buildTokens
+module.exports = { buildTokens, convertTokens }
