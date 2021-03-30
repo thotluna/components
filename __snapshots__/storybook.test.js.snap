@@ -4153,7 +4153,12 @@ exports[`Storyshots Tokens/Fonts/FontFamily Familys 1`] = `
     <div
       style={
         Object {
-          "fontFamily": "'Open Sans'",
+          "fontFamily": Array [
+            "'Open Sans'",
+            "Arial",
+            "Helvetica",
+            "sans-serif",
+          ],
           "fontSize": "1.6rem",
         }
       }
@@ -4171,7 +4176,7 @@ exports[`Storyshots Tokens/Fonts/FontFamily Familys 1`] = `
       <span
         className="label"
       >
-        'Open Sans'
+        'Open Sans', Arial, Helvetica, sans-serif
       </span>
     </div>
   </div>
@@ -4181,7 +4186,12 @@ exports[`Storyshots Tokens/Fonts/FontFamily Familys 1`] = `
     <div
       style={
         Object {
-          "fontFamily": "'Architects Daughter'",
+          "fontFamily": Array [
+            "'Architects Daughter'",
+            "Arial",
+            "Helvetica",
+            "sans-serif",
+          ],
           "fontSize": "1.6rem",
         }
       }
@@ -4199,7 +4209,7 @@ exports[`Storyshots Tokens/Fonts/FontFamily Familys 1`] = `
       <span
         className="label"
       >
-        'Architects Daughter'
+        'Architects Daughter', Arial, Helvetica, sans-serif
       </span>
     </div>
   </div>
