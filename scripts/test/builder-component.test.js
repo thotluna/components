@@ -15,7 +15,7 @@ const {
 describe('Builder Component', () => {
   describe('give path exist', () => {
     it.only('should be return error', async () => {
-      const path = './atoms'
+      const path = './scripts'
       await expect(createFolder(path)).rejects.toBe(
         'Error: The directory exists'
       )
