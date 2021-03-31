@@ -14,7 +14,7 @@ const {
 
 describe('Builder Component', () => {
   describe('give path exist', () => {
-    it.only('should be return error', async () => {
+    it('should be return error', async () => {
       const path = './scripts'
       await expect(createFolder(path)).rejects.toBe(
         'Error: The directory exists'
@@ -22,7 +22,7 @@ describe('Builder Component', () => {
     })
   })
   describe('give readTemplateComponent', () => {
-    it.only('should be return one file', async () => {
+    it('should be return one file', async () => {
       for (const item of task) {
         const { url } = urlsTemplates[item]
         const files = await fs.readFile(url, { encoding: 'utf8' })
@@ -32,7 +32,7 @@ describe('Builder Component', () => {
     })
   })
   describe('given a phrase with Component replaceComponent', () => {
-    it.only('should be return a phrase with Button ', async () => {
+    it('should be return a phrase with Button ', async () => {
       const phrase =
         'The Componet is Blue, and new componet will be red, and shoud be atomic/Componet'
       const expected =
@@ -41,7 +41,7 @@ describe('Builder Component', () => {
       const result = await replaceComponent(phrase, 'Button')
       expect(expected).toStrictEqual(result)
     })
-    it.only('should be return a phrase with atom ', async () => {
+    it('should be return a phrase with atom ', async () => {
       const phrase =
         'The Componet is Blue, and new componet will be red, and shoud be atomic/Componet'
       const expected =
@@ -51,7 +51,7 @@ describe('Builder Component', () => {
     })
   })
   describe('give one urlFile and data ', () => {
-    it.only('should be create file component', async () => {
+    it('should be create file component', async () => {
       const path = './scripts/test/component.js'
       const component = `testing:{test:'green'}`
       await writeFile(path, component)
@@ -61,7 +61,7 @@ describe('Builder Component', () => {
   })
 
   describe('give one nameComponent and one Type component', () => {
-    it.only('should be create Component, Story, Styles and index in one folder component', async () => {
+    it('should be create Component, Story, Styles and index in one folder component', async () => {
       const nameComponent = 'NewButtom'
       const path = `./atoms/${nameComponent}`
       if (fileExists(path)) await fs.rmdir(path, { recursive: true })
