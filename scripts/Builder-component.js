@@ -1,22 +1,7 @@
-const checkParams = (type, nameComponent, mappedType) => {
-  if (!type || !nameComponent) {
-    console.error(`Error: Place make sure you pass a type and a component name`)
-    process.exit(1)
-  }
+const readTemplateComponent = async (urlTemplate) =>
+  fs.readFile(urlTemplate, 'utf8')
 
-  if (!mappedType) {
-    console.error(
-      `Error: the param type "${type}" is not valid. Use atom, molecule or layout `
-    )
-    process.exit(1)
-  }
-}
-
-const readTemplateComponent = (urlTemplate) => {
-  return fs.readFile(urlTemplate, 'utf8')
-}
-
-const replaceComponent = (templateComponent, nameComponent) => {
+const replaceComponent = async (templateComponent, nameComponent) => {
   if (
     nameComponent === 'atoms' ||
     nameComponent === 'molecules' ||
@@ -31,13 +16,15 @@ const replaceComponent = (templateComponent, nameComponent) => {
   }
 }
 
-const createFolder = (dir) => {
-  return fs.mkdir(dir, { recursive: true })
-}
+const fileExists = async (path) => !!(await fs.stat(path).catch(() => false))
 
-const writeFile = (fileUrl, newComponent) => {
-  return fs.writeFile(fileUrl, newComponent, 'utf8')
+const createFolder = async (dir) => {
+  if (await fileExists(dir)) throw 'Error: The directory exists'
+  fs.mkdir(dir, { recursive: true })
 }
+const writeFile = async (fileUrl, newComponent) =>
+  fs.writeFile(fileUrl, newComponent, 'utf8')
+
 const task = ['component', 'css', 'story', 'index']
 const urlsTemplates = {
   component: { url: './template/component/Component.js', ext: 'js' },
@@ -61,7 +48,7 @@ const ATOMIC_DESING_TYPE = {
   layout: 'layout',
 }
 
-async function constructComponent() {
+const constructComponent = async () => {
   let { type } = await enquirer.prompt({
     type: 'select',
     name: 'type',
@@ -85,38 +72,32 @@ async function constructComponent() {
   createComponent(type, componentName)
 }
 
-async function createComponent(type, componentName) {
+const createComponent = async (type, componentName) => {
   const mappedType = ATOMIC_DESING_TYPE[type]
 
-  checkParams(type, componentName, mappedType)
-
-  for (const item of task) {
-    const { url, ext } = urlsTemplates[item]
-
-    readTemplateComponent(url)
-      .then((template) => replaceComponent(template, componentName))
-      .then((templateModefy) => replaceComponent(templateModefy, mappedType))
-      .then((newComponent) => {
-        const dir = `./${mappedType}/${componentName}`
-        createFolder(dir).then(() => {
-          if (item === 'index') {
-            writeFile(`${dir}/index.js`, newComponent)
-          } else {
-            writeFile(`${dir}/${componentName}.${ext}`, newComponent)
-          }
-        })
-      })
-      .then(() =>
-        console.log(`created file ${mappedType} - ${componentName}.${ext}`)
-      )
-      .catch((error) => console.error(error))
+  const path = `./${mappedType}/${componentName}`
+  await createFolder(path)
+  try {
+    for (const item of task) {
+      const { url, ext } = urlsTemplates[item]
+      const template = await readTemplateComponent(url)
+      const templateModify = await replaceComponent(template, componentName)
+      const newComponent = await replaceComponent(templateModify, mappedType)
+      if (item === 'index') {
+        await writeFile(`${path}/index.js`, newComponent)
+      } else {
+        await writeFile(`${path}/${componentName}.${ext}`, newComponent)
+      }
+    }
+  } catch (error) {
+    console.error(error)
   }
 }
 
 module.exports = {
-  checkParams,
   readTemplateComponent,
   replaceComponent,
+  fileExists,
   createFolder,
   writeFile,
   ATOMIC_DESING_TYPE,
