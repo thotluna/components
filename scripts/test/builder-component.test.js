@@ -1,4 +1,4 @@
-const fs = require('fs')
+const fs = require('fs/promises')
 const {
   readTemplateComponent,
   replaceComponent,
@@ -25,7 +25,7 @@ describe('Builder Component', () => {
     it.only('should be return one file', async () => {
       for (const item of task) {
         const { url } = urlsTemplates[item]
-        const files = await fs.promises.readFile(url, { encoding: 'utf8' })
+        const files = await fs.readFile(url, { encoding: 'utf8' })
         const readTemplate = await readTemplateComponent(url)
         expect(readTemplate).toEqual(files)
       }
@@ -55,12 +55,8 @@ describe('Builder Component', () => {
       const path = './scripts/test/component.js'
       const component = `testing:{test:'green'}`
       await writeFile(path, component)
-      expect(await fs.promises.stat(path)).toBeTruthy()
-      await fs.promises.rm(path, { force: true })
-      writeFile(path, component).then(() => {
-        expect(fs.existsSync(path)).toBeTruthy()
-        fs.unlinkSync(path)
-      })
+      expect(await fs.stat(path)).toBeTruthy()
+      await fs.rm(path, { force: true })
     })
   })
 
@@ -68,10 +64,10 @@ describe('Builder Component', () => {
     it.only('should be create Component, Story, Styles and index in one folder component', async () => {
       const nameComponent = 'NewButtom'
       const path = `./atoms/${nameComponent}`
-      if (fileExists(path)) await fs.promises.rmdir(path, { recursive: true })
+      if (fileExists(path)) await fs.rmdir(path, { recursive: true })
       await createComponent('atom', nameComponent)
       expect(fileExists(path)).resolves.toBeTruthy()
-      await fs.promises.rmdir(path, { recursive: true })
+      await fs.rmdir(path, { recursive: true })
     })
   })
 })
