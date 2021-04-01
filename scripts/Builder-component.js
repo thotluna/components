@@ -25,7 +25,7 @@ const createFolder = async (dir) => {
 const writeFile = async (fileUrl, newComponent) =>
   fs.writeFile(fileUrl, newComponent, 'utf8')
 
-const task = ['component', 'css', 'story', 'index']
+const task = ['component', 'css', 'story', 'index', 'constants']
 const urlsTemplates = {
   component: { url: './template/component/Component.js', ext: 'js' },
   css: {
@@ -37,6 +37,7 @@ const urlsTemplates = {
     ext: 'stories.js',
   },
   index: { url: './template/component/index.js', ext: 'js' },
+  constants: { url: './template/component/constants.js', ext: 'js' },
 }
 
 const fs = require('fs/promises')
