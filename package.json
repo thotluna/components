@@ -1,12 +1,26 @@
 {
-  "name": "components",
+  "name": "@thot/components",
   "version": "0.0.0-development",
   "description": "Libreria de componentes web",
   "main": "index.js",
-  "repository": "https://github.com/thotluna/components",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thotluna/components"
+  },
   "author": "Eladio Feijoo",
   "license": "MIT",
   "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=15.0.0",
+    "yarn": ">=1.22.10"
+  },
+  "keywords": [
+    "react",
+    "components"
+  ],
   "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.13.10",
