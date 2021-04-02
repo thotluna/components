@@ -142,6 +142,7 @@ storybook-static/
 !.vscode/extensions.json
 *.code-workspace
 
+
 ### Windows ###
 # Windows thumbnail cache files
 Thumbs.db

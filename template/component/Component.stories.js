@@ -1,4 +1,4 @@
-import { Componet, options, styles } from './index'
+import { Componet, options, styles } from '.'
 import {
   getListTemplate,
   getTemplate,

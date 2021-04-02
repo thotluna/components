@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.color-base svg{
+  stroke: var(--color-font-muted);
+}
+.color-primary svg{
+  stroke: var(--color-primary);
+}
+.color-secondary svg{
+  stroke: var(--color-secondary);
+}
+
+.container.size-sm > svg{
+  width: 18px;
+  height: 18px;
+}
+.container.size-md > svg{
+  width: 24px;
+  height: 24px;
+}
+.container.size-lg > svg{
+  width: 48px;
+  height: 48px;
+}
+
+.container.has-borde-primary{
+  padding: .5em;
+  border-radius: var(--border-radius-full);
+  border: var(--border-width-thick) solid var(--color-primary);
+}
+.container.has-borde-secondary{
+  padding: .5em;
+  border-radius: var(--border-radius-full);
+  border: var(--border-width-thick) solid var(--color-secondary);
+}
+.container.has-borde-base{
+  padding: .5em;
+  border-radius: var(--border-radius-full);
+  border: var(--border-width-thick) solid var(--color-font-muted);
+}

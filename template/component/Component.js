@@ -1,10 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import styles from './Componet.module.css'
+import { styles } from '.'
 import withStyles from '../../hocs/withStyles'
 
 export const Componet = ({ children, getStyles }) => {
-  return <div className={getStyles('headings')}>{children}</div>
+  return <div className={getStyles('container')}>{children}</div>
 }
 
 Componet.propTypes = {
