@@ -5,7 +5,6 @@ import withStyles from '../../hocs/withStyles'
 import { getIcon, options } from './constants'
 
 export const Icon = ({ type, color, hasBorder, getStyles }) => {
-  console.log(type, hasBorder)
   return (
     <div
       className={getStyles('container', ['color', 'size'], {
