@@ -1,15 +1,17 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import styles from './Componet.module.css'
+import { styles } from '.'
+import withStyles from '../../hocs/withStyles'
 
-function Componet({ children }) {
-  return <div className={styles.container}>{children}</div>
+export const Componet = ({ children, getStyles }) => {
+  return <div className={getStyles('container')}>{children}</div>
 }
 
 Componet.propTypes = {
   children: PropTypes.node,
+  getStyles: PropTypes.func.isRequired,
 }
 
 Componet.defaultProps = {}
 
-export default Componet
+export default withStyles(styles)(Componet)

@@ -25,9 +25,12 @@ const createFolder = async (dir) => {
 const writeFile = async (fileUrl, newComponent) =>
   fs.writeFile(fileUrl, newComponent, 'utf8')
 
-const task = ['component', 'css', 'story', 'index']
+const task = ['component', 'css', 'story', 'index', 'constants']
 const urlsTemplates = {
-  component: { url: './template/component/Component.js', ext: 'js' },
+  component: {
+    url: './template/component/Component.js',
+    ext: 'js',
+  },
   css: {
     url: './template/component/Component.module.css',
     ext: 'module.css',
@@ -36,7 +39,14 @@ const urlsTemplates = {
     url: './template/component/Component.stories.js',
     ext: 'stories.js',
   },
-  index: { url: './template/component/index.js', ext: 'js' },
+  index: {
+    url: './template/component/index.js',
+    ext: 'js',
+  },
+  constants: {
+    url: './template/component/constants.js',
+    ext: 'js',
+  },
 }
 
 const fs = require('fs/promises')
@@ -85,6 +95,8 @@ const createComponent = async (type, componentName) => {
       const newComponent = await replaceComponent(templateModify, mappedType)
       if (item === 'index') {
         await writeFile(`${path}/index.js`, newComponent)
+      } else if (item === 'constants') {
+        await writeFile(`${path}/constants.js`, newComponent)
       } else {
         await writeFile(`${path}/${componentName}.${ext}`, newComponent)
       }

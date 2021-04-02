@@ -10,6 +10,8 @@
   --color-brand-white-lilac: #e8e8e8;
   --color-brand-hint-of-red: #f9f9f9;
   --color-brand-romance: #fcfdfd;
+  --color-brand-purple-heart: #6b17ad;
+  --color-brand-mauve: #e8cffc;
   --color-base-black: #000;
   --color-base-white: #fff;
   --color-base-transparent: transparent;
@@ -163,13 +165,13 @@
   --z-index-40: 40;
   --z-index-50: 50;
   --z-index-auto: auto;
-  --color-primary: #9879e9;
+  --color-primary: #6b17ad;
   --color-primary-muted: #7559d1;
   --color-primary-highlight: #eff1fd;
   --color-primary-inverted: #fff;
   --color-font-base: #455970;
   --color-font-muted: #7e858c;
-  --color-font-highlight: #b7b7b7;
+  --color-font-highlight: #e8cffc;
   --color-font-inverted: #fff;
   --color-secondary: #eb2d52;
   --color-secondary-muted: #eb4e58;

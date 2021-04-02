@@ -67,6 +67,14 @@ describe('Builder Component', () => {
       if (fileExists(path)) await fs.rmdir(path, { recursive: true })
       await createComponent('atom', nameComponent)
       expect(fileExists(path)).resolves.toBeTruthy()
+      expect(fileExists(`${path}/${nameComponent}.js`)).resolves.toBeTruthy()
+      expect(
+        fileExists(`${path}/${nameComponent}.stories.js`)
+      ).resolves.toBeTruthy()
+      expect(
+        fileExists(`${path}/${nameComponent}.module.css`)
+      ).resolves.toBeTruthy()
+      expect(fileExists(`${path}/constants.js`)).resolves.toBeTruthy()
       await fs.rmdir(path, { recursive: true })
     })
   })

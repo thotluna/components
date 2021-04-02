@@ -4,7 +4,6 @@ import PropTypes from 'prop-types'
 import Helper from '../../Helper'
 
 function FontFamily({ label, value, children }) {
-  console.log('>>>>value', value)
   return (
     <Helper label={label} value={value}>
       <div style={{ fontFamily: value, fontSize: '1.6rem' }}>{children}</div>

@@ -14,6 +14,8 @@ const choices = {
       whiteLilac: '#e8e8e8',
       hintOfRed: '#f9f9f9',
       romance: '#fcfdfd',
+      purpleHeart: '#6B17AD',
+      mauve: '#E8CFFC',
     },
 
     base: {
@@ -233,13 +235,13 @@ const choices = {
 
 const decisions = {
   color: {
-    primary: choices.color.brand.mediumPurple,
+    primary: choices.color.brand.purpleHeart,
     primaryMuted: choices.color.brand.slateBlue,
     primaryHighlight: choices.color.brand.blueMoon,
     primaryInverted: choices.color.base.white,
     fontBase: choices.color.brand.eastBay,
     fontMuted: choices.color.brand.regentGray,
-    fontHighlight: choices.color.brand.loblolly,
+    fontHighlight: choices.color.brand.mauve,
     fontInverted: choices.color.base.white,
     secondary: choices.color.brand.amaranth,
     secondaryMuted: choices.color.brand.mandy,

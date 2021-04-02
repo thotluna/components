@@ -1,5 +1,269 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Atoms/Headings Colors 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <header
+    className="headings color-base size-md weight-bold"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+  <header
+    className="headings color-primary size-md weight-bold"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+  <header
+    className="headings color-tertiary size-md weight-bold"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+  <header
+    className="headings color-inverted size-md weight-bold"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+</div>
+`;
+
+exports[`Storyshots Atoms/Headings Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <header
+    className="headings color-base size-md weight-bold"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+</div>
+`;
+
+exports[`Storyshots Atoms/Headings Sizes 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <header
+    className="headings color-base size-xs weight-bold"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+  <header
+    className="headings color-base size-sm weight-bold"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+  <header
+    className="headings color-base size-md weight-bold"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+  <header
+    className="headings color-base size-lg weight-bold"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+  <header
+    className="headings color-base size-xl weight-bold"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+  <header
+    className="headings color-base size-2xl weight-bold"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+</div>
+`;
+
+exports[`Storyshots Atoms/Headings Weights 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <header
+    className="headings color-base size-md weight-normal"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+  <header
+    className="headings color-base size-md weight-bold"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+</div>
+`;
+
+exports[`Storyshots Atoms/SubHeadings Colors 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="container color-base size-md weight-bold"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </div>
+  <div
+    className="container color-primary size-md weight-bold"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </div>
+  <div
+    className="container color-inverted size-md weight-bold"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/SubHeadings Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="container color-base size-md weight-bold"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/SubHeadings Sizes 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="container color-base size-xs weight-bold"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </div>
+  <div
+    className="container color-base size-sm weight-bold"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </div>
+  <div
+    className="container color-base size-md weight-bold"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </div>
+  <div
+    className="container color-base size-lg weight-bold"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </div>
+  <div
+    className="container color-base size-xl weight-bold"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/SubHeadings Weights 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="container color-base size-md weight-normal"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </div>
+  <div
+    className="container color-base size-md weight-bold"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </div>
+</div>
+`;
+
 exports[`Storyshots Layout/Spacer/Default Default 1`] = `
 <div
   style={
@@ -1467,6 +1731,58 @@ exports[`Storyshots Tokens/Color Brand 1`] = `
       </span>
     </div>
   </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#6B17AD",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --color-brand-purple-heart
+      </span>
+      <span
+        className="label"
+      >
+        #6B17AD
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#E8CFFC",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --color-brand-mauve
+      </span>
+      <span
+        className="label"
+      >
+        #E8CFFC
+      </span>
+    </div>
+  </div>
 </div>
 `;
 
@@ -1492,7 +1808,7 @@ exports[`Storyshots Tokens/Color Decisions 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#9879e9",
+          "backgroundColor": "#6B17AD",
         }
       }
     />
@@ -1507,7 +1823,7 @@ exports[`Storyshots Tokens/Color Decisions 1`] = `
       <span
         className="label"
       >
-        #9879e9
+        #6B17AD
       </span>
     </div>
   </div>
@@ -1648,7 +1964,7 @@ exports[`Storyshots Tokens/Color Decisions 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#b7b7b7",
+          "backgroundColor": "#E8CFFC",
         }
       }
     />
@@ -1663,7 +1979,7 @@ exports[`Storyshots Tokens/Color Decisions 1`] = `
       <span
         className="label"
       >
-        #b7b7b7
+        #E8CFFC
       </span>
     </div>
   </div>
@@ -1796,7 +2112,7 @@ exports[`Storyshots Tokens/Color Default 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#9879e9",
+          "backgroundColor": "#6B17AD",
         }
       }
     />
@@ -1811,7 +2127,7 @@ exports[`Storyshots Tokens/Color Default 1`] = `
       <span
         className="label"
       >
-        #9879e9
+        #6B17AD
       </span>
     </div>
   </div>
