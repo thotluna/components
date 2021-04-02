@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Atoms/Headings Colors 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <header
+    className="headings color-base size-md weight-bold"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+  <header
+    className="headings color-primary size-md weight-bold"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+  <header
+    className="headings color-tertiary size-md weight-bold"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+  <header
+    className="headings color-inverted size-md weight-bold"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+</div>
+`;
+
+exports[`Storyshots Atoms/Headings Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <header
+    className="headings color-base size-md weight-bold"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+</div>
+`;
+
+exports[`Storyshots Atoms/Headings Sizes 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <header
+    className="headings color-base size-xs weight-bold"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+  <header
+    className="headings color-base size-sm weight-bold"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+  <header
+    className="headings color-base size-md weight-bold"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+  <header
+    className="headings color-base size-lg weight-bold"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+  <header
+    className="headings color-base size-xl weight-bold"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+  <header
+    className="headings color-base size-2xl weight-bold"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+</div>
+`;
+
+exports[`Storyshots Atoms/Headings Weights 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <header
+    className="headings color-base size-md weight-normal"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+  <header
+    className="headings color-base size-md weight-bold"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </header>
+</div>
+`;

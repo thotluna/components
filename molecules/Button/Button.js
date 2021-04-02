@@ -4,7 +4,7 @@ import { styles } from '.'
 import { options } from './constants'
 import withStyles from '../../hocs/withStyles'
 import Headings from '../../atoms/Headings'
-import Icon from '../../atoms/Icon'
+import Icon from '../../atoms/Icons'
 import { Vertical } from '../../layout/Spacer/components/Vertical/Vertical'
 
 export const Button = ({

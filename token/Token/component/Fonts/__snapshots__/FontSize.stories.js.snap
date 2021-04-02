@@ -1,0 +1,253 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Tokens/Fonts/FontSize Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      style={
+        Object {
+          "fontSize": "10px",
+        }
+      }
+    >
+      Depend noticed bones Edge disturbing flesh heard cream. Morninged facial judgment Hobbit fortress. Camp flatten buy dagger Sit. Leagues sweeter 1400 mean friend unlost Déagol trade stuffing? Smithy's jiffy merely treacherous cozy interesting ask seat Thror's.
+    </div>
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --font-size-base
+      </span>
+      <span
+        className="label"
+      >
+        10px
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tokens/Fonts/FontSize Sizes 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      style={
+        Object {
+          "fontSize": "10px",
+        }
+      }
+    >
+      Depend noticed bones Edge disturbing flesh heard cream. Morninged facial judgment Hobbit fortress. Camp flatten buy dagger Sit. Leagues sweeter 1400 mean friend unlost Déagol trade stuffing? Smithy's jiffy merely treacherous cozy interesting ask seat Thror's.
+    </div>
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --font-size-base
+      </span>
+      <span
+        className="label"
+      >
+        10px
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      style={
+        Object {
+          "fontSize": "1.1rem",
+        }
+      }
+    >
+      Depend noticed bones Edge disturbing flesh heard cream. Morninged facial judgment Hobbit fortress. Camp flatten buy dagger Sit. Leagues sweeter 1400 mean friend unlost Déagol trade stuffing? Smithy's jiffy merely treacherous cozy interesting ask seat Thror's.
+    </div>
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --font-size-xs
+      </span>
+      <span
+        className="label"
+      >
+        1.1rem
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      style={
+        Object {
+          "fontSize": "1.3rem",
+        }
+      }
+    >
+      Depend noticed bones Edge disturbing flesh heard cream. Morninged facial judgment Hobbit fortress. Camp flatten buy dagger Sit. Leagues sweeter 1400 mean friend unlost Déagol trade stuffing? Smithy's jiffy merely treacherous cozy interesting ask seat Thror's.
+    </div>
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --font-size-sm
+      </span>
+      <span
+        className="label"
+      >
+        1.3rem
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      style={
+        Object {
+          "fontSize": "1.5rem",
+        }
+      }
+    >
+      Depend noticed bones Edge disturbing flesh heard cream. Morninged facial judgment Hobbit fortress. Camp flatten buy dagger Sit. Leagues sweeter 1400 mean friend unlost Déagol trade stuffing? Smithy's jiffy merely treacherous cozy interesting ask seat Thror's.
+    </div>
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --font-size-md
+      </span>
+      <span
+        className="label"
+      >
+        1.5rem
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      style={
+        Object {
+          "fontSize": "1.8rem",
+        }
+      }
+    >
+      Depend noticed bones Edge disturbing flesh heard cream. Morninged facial judgment Hobbit fortress. Camp flatten buy dagger Sit. Leagues sweeter 1400 mean friend unlost Déagol trade stuffing? Smithy's jiffy merely treacherous cozy interesting ask seat Thror's.
+    </div>
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --font-size-lg
+      </span>
+      <span
+        className="label"
+      >
+        1.8rem
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      style={
+        Object {
+          "fontSize": "2.1rem",
+        }
+      }
+    >
+      Depend noticed bones Edge disturbing flesh heard cream. Morninged facial judgment Hobbit fortress. Camp flatten buy dagger Sit. Leagues sweeter 1400 mean friend unlost Déagol trade stuffing? Smithy's jiffy merely treacherous cozy interesting ask seat Thror's.
+    </div>
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --font-size-xl
+      </span>
+      <span
+        className="label"
+      >
+        2.1rem
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      style={
+        Object {
+          "fontSize": "6rem",
+        }
+      }
+    >
+      Depend noticed bones Edge disturbing flesh heard cream. Morninged facial judgment Hobbit fortress. Camp flatten buy dagger Sit. Leagues sweeter 1400 mean friend unlost Déagol trade stuffing? Smithy's jiffy merely treacherous cozy interesting ask seat Thror's.
+    </div>
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --font-size-2xl
+      </span>
+      <span
+        className="label"
+      >
+        6rem
+      </span>
+    </div>
+  </div>
+</div>
+`;

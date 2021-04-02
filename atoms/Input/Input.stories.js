@@ -1,4 +1,5 @@
-import { Input, options, styles } from '.'
+import { Input, options, styles } from './index'
+
 import {
   getListTemplate,
   getTemplate,

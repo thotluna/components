@@ -1,4 +1,4 @@
-import { Icon, options, styles } from '.'
+import { Icon, options, styles } from './index'
 import {
   getListTemplate,
   getTemplate,

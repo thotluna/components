@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Tokens/Fonts/FontWeight Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      style={
+        Object {
+          "fontFamily": "Open sans",
+          "fontSize": "1.5rem",
+          "fontWeight": 400,
+        }
+      }
+    >
+      Depend noticed bones Edge disturbing flesh heard cream. Morninged facial judgment Hobbit fortress. Camp flatten buy dagger Sit. Leagues sweeter 1400 mean friend unlost Déagol trade stuffing? Smithy's jiffy merely treacherous cozy interesting ask seat Thror's.
+    </div>
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --font-weight-medium
+      </span>
+      <span
+        className="label"
+      >
+        400
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tokens/Fonts/FontWeight Weight 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      style={
+        Object {
+          "fontFamily": "Open sans",
+          "fontSize": "1.5rem",
+          "fontWeight": 100,
+        }
+      }
+    >
+      Depend noticed bones Edge disturbing flesh heard cream. Morninged facial judgment Hobbit fortress. Camp flatten buy dagger Sit. Leagues sweeter 1400 mean friend unlost Déagol trade stuffing? Smithy's jiffy merely treacherous cozy interesting ask seat Thror's.
+    </div>
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --font-weight-hairline
+      </span>
+      <span
+        className="label"
+      >
+        100
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      style={
+        Object {
+          "fontFamily": "Open sans",
+          "fontSize": "1.5rem",
+          "fontWeight": 400,
+        }
+      }
+    >
+      Depend noticed bones Edge disturbing flesh heard cream. Morninged facial judgment Hobbit fortress. Camp flatten buy dagger Sit. Leagues sweeter 1400 mean friend unlost Déagol trade stuffing? Smithy's jiffy merely treacherous cozy interesting ask seat Thror's.
+    </div>
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --font-weight-normal
+      </span>
+      <span
+        className="label"
+      >
+        400
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      style={
+        Object {
+          "fontFamily": "Open sans",
+          "fontSize": "1.5rem",
+          "fontWeight": 700,
+        }
+      }
+    >
+      Depend noticed bones Edge disturbing flesh heard cream. Morninged facial judgment Hobbit fortress. Camp flatten buy dagger Sit. Leagues sweeter 1400 mean friend unlost Déagol trade stuffing? Smithy's jiffy merely treacherous cozy interesting ask seat Thror's.
+    </div>
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --font-weight-bold
+      </span>
+      <span
+        className="label"
+      >
+        700
+      </span>
+    </div>
+  </div>
+</div>
+`;

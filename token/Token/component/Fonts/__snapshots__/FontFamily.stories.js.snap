@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Tokens/Fonts/FontFamily Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      style={
+        Object {
+          "fontFamily": "Open Sans",
+          "fontSize": "1.6rem",
+        }
+      }
+    >
+      Depend noticed bones Edge disturbing flesh heard cream. Morninged facial judgment Hobbit fortress. Camp flatten buy dagger Sit. Leagues sweeter 1400 mean friend unlost Déagol trade stuffing? Smithy's jiffy merely treacherous cozy interesting ask seat Thror's.
+    </div>
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --font-family-sans
+      </span>
+      <span
+        className="label"
+      >
+        Open Sans
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tokens/Fonts/FontFamily Familys 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      style={
+        Object {
+          "fontFamily": Array [
+            "'Open Sans'",
+            "Arial",
+            "Helvetica",
+            "sans-serif",
+          ],
+          "fontSize": "1.6rem",
+        }
+      }
+    >
+      Depend noticed bones Edge disturbing flesh heard cream. Morninged facial judgment Hobbit fortress. Camp flatten buy dagger Sit. Leagues sweeter 1400 mean friend unlost Déagol trade stuffing? Smithy's jiffy merely treacherous cozy interesting ask seat Thror's.
+    </div>
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --font-family-sans
+      </span>
+      <span
+        className="label"
+      >
+        'Open Sans', Arial, Helvetica, sans-serif
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      style={
+        Object {
+          "fontFamily": Array [
+            "'Architects Daughter'",
+            "Arial",
+            "Helvetica",
+            "sans-serif",
+          ],
+          "fontSize": "1.6rem",
+        }
+      }
+    >
+      Depend noticed bones Edge disturbing flesh heard cream. Morninged facial judgment Hobbit fortress. Camp flatten buy dagger Sit. Leagues sweeter 1400 mean friend unlost Déagol trade stuffing? Smithy's jiffy merely treacherous cozy interesting ask seat Thror's.
+    </div>
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --font-family-title
+      </span>
+      <span
+        className="label"
+      >
+        'Architects Daughter', Arial, Helvetica, sans-serif
+      </span>
+    </div>
+  </div>
+</div>
+`;
