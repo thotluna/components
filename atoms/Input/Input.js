@@ -4,9 +4,6 @@ import { styles } from '.'
 import { options } from './constants'
 import withStyles from '../../hocs/withStyles'
 
-import Headings from '../Headings'
-import { Horizontal } from '../../layout/Spacer/components/Horizontal'
-
 export const Input = ({
   type,
   value,
