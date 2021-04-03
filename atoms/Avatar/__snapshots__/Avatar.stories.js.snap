@@ -16,6 +16,7 @@ exports[`Storyshots Atoms/Avatar Default 1`] = `
   }
 >
   <img
+    alt="Avatar"
     className="container size-md"
     src="https://picsum.photos/id/1027/200/200"
   />
@@ -38,14 +39,17 @@ exports[`Storyshots Atoms/Avatar Size 1`] = `
   }
 >
   <img
+    alt="Avatar"
     className="container size-sm"
     src="https://picsum.photos/id/1027/200/200"
   />
   <img
+    alt="Avatar"
     className="container size-md"
     src="https://picsum.photos/id/1027/200/200"
   />
   <img
+    alt="Avatar"
     className="container size-lg"
     src="https://picsum.photos/id/1027/200/200"
   />

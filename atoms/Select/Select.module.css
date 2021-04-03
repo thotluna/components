@@ -43,3 +43,20 @@
 .container option {
   font-weight: normal;
 }
+
+
+.label {
+  width: 100%;
+}
+
+.span {
+  display: block;
+  width: 100%;
+  padding-left: 1em;
+  color: var(--color-primary);
+  font-size: var(--font-size-md);
+}
+
+.is-hide {
+  display: none;
+}

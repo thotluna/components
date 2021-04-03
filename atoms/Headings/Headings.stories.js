@@ -24,12 +24,24 @@ export default {
 }
 
 export const Default = Template.bind({})
+Default.args = {
+  children: 'testing',
+}
 
 export const Colors = ListTemplate.bind({})
-Colors.args = { items: options.colors.map((color) => ({ color })) }
+Colors.args = {
+  items: options.colors.map((color) => ({ color })),
+  children: 'testing',
+}
 
 export const Sizes = ListTemplate.bind({})
-Sizes.args = { items: options.sizes.map((size) => ({ size })) }
+Sizes.args = {
+  items: options.sizes.map((size) => ({ size })),
+  children: 'testing',
+}
 
 export const Weights = ListTemplate.bind({})
-Weights.args = { items: options.weights.map((weight) => ({ weight })) }
+Weights.args = {
+  items: options.weights.map((weight) => ({ weight })),
+  children: 'testing',
+}

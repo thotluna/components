@@ -22,23 +22,22 @@
   outline: none;
 }
 
-.label{
+.label {
   width: 100%;
 }
 
-.span{
+.span {
   display: block;
   width: 100%;
-  font-size: var(--font-size-md);
   padding-left: 1em;
   color: var(--color-primary);
+  font-size: var(--font-size-md);
 }
 
-.is-hide{
- display: none;
+.is-hide {
+  display: none;
 }
 
 .is-inline {
   max-width: max-content;
 }
-
