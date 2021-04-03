@@ -1,39 +1,43 @@
-.paragraph{
+.paragraph {
   width: 100%;
 }
 
-.color-base{
-  color: var(--font-base)
+.color-base {
+  color: var(--font-base);
 }
 
-.color-primary{
-  color: var(--color-primary)
+.color-primary {
+  color: var(--color-primary);
 }
 
-.color-muted{
-  color: var(--color-font-highlight)
+.color-muted {
+  color: var(--color-font-highlight);
 }
 
-.color-inverted{
-  color: var(--color-font-inverted)
+.color-inverted {
+  color: var(--color-font-inverted);
 }
 
-.size-xs{
+.size-xs {
   font-size: var(--font-size-xs);
 }
-.size-sm{
+
+.size-sm {
   font-size: var(--font-size-sm);
 }
-.size-md{
+
+.size-md {
   font-size: var(--font-size-md);
 }
-.size-lg{
+
+.size-lg {
   font-size: var(--font-size-lg);
 }
-.size-xl{
+
+.size-xl {
   font-size: var(--font-size-xl);
 }
 
-.is-inline{
+.is-inline {
   width: auto;
 }

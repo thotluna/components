@@ -1,0 +1,295 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Molecules/Button Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <button
+    className="container type-primary"
+  >
+    <div
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <header
+        className="headings color-inverted size-md weight-bold"
+      >
+        Button
+      </header>
+    </div>
+  </button>
+</div>
+`;
+
+exports[`Storyshots Molecules/Button Icon Only Left 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <button
+    className="container type-primary is-inline"
+  >
+    <div
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <div>
+        <svg
+          fill="none"
+          height="24px"
+          stroke="#000000"
+          viewBox="0 0 24 24"
+          width="24px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15 19l-7-7 7-7"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+          />
+        </svg>
+      </div>
+      <div
+        style={
+          Object {
+            "height": "100%",
+            "maxHeight": "auto",
+            "width": 5,
+          }
+        }
+      />
+      <header
+        className="headings color-inverted size-md weight-bold"
+      >
+        Button
+      </header>
+    </div>
+  </button>
+</div>
+`;
+
+exports[`Storyshots Molecules/Button Icon Only Right 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <button
+    className="container type-primary is-inline"
+  >
+    <div
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <header
+        className="headings color-inverted size-md weight-bold"
+      >
+        Button
+      </header>
+      <div
+        style={
+          Object {
+            "height": "100%",
+            "maxHeight": "auto",
+            "width": 5,
+          }
+        }
+      />
+      <div>
+        <svg
+          fill="none"
+          height="24px"
+          stroke="#000000"
+          viewBox="0 0 24 24"
+          width="24px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15 19l-7-7 7-7"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+          />
+        </svg>
+      </div>
+    </div>
+  </button>
+</div>
+`;
+
+exports[`Storyshots Molecules/Button Inline 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <button
+    className="container type-primary is-inline"
+  >
+    <div
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <header
+        className="headings color-inverted size-md weight-bold"
+      >
+        Button
+      </header>
+    </div>
+  </button>
+</div>
+`;
+
+exports[`Storyshots Molecules/Button Types 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <button
+    className="container type-primary"
+  >
+    <div
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <header
+        className="headings color-inverted size-md weight-bold"
+      >
+        Button
+      </header>
+    </div>
+  </button>
+  <button
+    className="container type-secondary"
+  >
+    <div
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <header
+        className="headings color-primary size-md weight-bold"
+      >
+        Button
+      </header>
+    </div>
+  </button>
+  <button
+    className="container type-accent"
+  >
+    <div
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <header
+        className="headings color-inverted size-md weight-bold"
+      >
+        Button
+      </header>
+    </div>
+  </button>
+  <button
+    className="container type-tertiary is-inline"
+  >
+    <div
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <header
+        className="headings color-primary size-md weight-bold"
+      >
+        Button
+      </header>
+    </div>
+  </button>
+</div>
+`;

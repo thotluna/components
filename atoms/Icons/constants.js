@@ -1,6 +1,6 @@
 import React from 'react'
 export const options = {
-  colors: ['base', 'primary', 'secondary'],
+  colors: ['base', 'primary', 'secondary', 'inverted'],
   size: ['sm', 'md', 'lg'],
   type: ['chevron-left', 'chevron-down', 'check', 'trash'],
 }
@@ -79,8 +79,5 @@ export const getIcon = (icon) => {
           />
         </svg>
       )
-
-    default:
-      break
   }
 }
