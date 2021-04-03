@@ -12,36 +12,53 @@ export const Input = ({
   refInput,
   placeholder,
   getStyles,
+  label,
+  isHideLabel,
+  id,
 }) => {
   return (
-    <input
-      className={getStyles('input', {
-        'is-inline': isInline,
-      })}
-      type={type}
-      value={value}
-      placeholder={placeholder}
-      onChange={onChange}
-      ref={refInput}
-    />
+    <label className={getStyles('label')}>
+      <span
+        className={getStyles('span', {
+          'is-hide': isHideLabel,
+        })}
+      >
+        {label}
+      </span>
+      <input
+        className={getStyles('input', {
+          'is-inline': isInline,
+        })}
+        id={id}
+        aria-label={label}
+        type={type}
+        value={value}
+        placeholder={placeholder}
+        onChange={onChange}
+        ref={refInput}
+      />
+    </label>
   )
 }
 
 Input.propTypes = {
   onChange: PropTypes.func.isRequired,
   getStyles: PropTypes.func.isRequired,
-  type: PropTypes.oneOf(options.types),
+  label: PropTypes.string.isRequired,
+  type: PropTypes.oneOf(options.types).isRequired,
+  id: PropTypes.string.isRequired,
+  placeholder: PropTypes.string,
   value: PropTypes.string,
   refInput: PropTypes.any,
-  placeholder: PropTypes.string,
   isInline: PropTypes.bool,
+  isHideLabel: PropTypes.bool,
 }
 
 Input.defaultProps = {
-  type: 'text',
-  value: '',
   placeholder: '',
+  value: '',
   isInline: false,
+  isHideLabel: true,
   onChange: () => {},
   getStyles: () => {},
 }
