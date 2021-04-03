@@ -25,12 +25,24 @@ export default {
 }
 
 export const Default = Template.bind({})
+Default.args = {
+  children: 'Consent doubt Tuckborough challenge destroying.',
+}
 
 export const Colors = ListTemplate.bind({})
-Colors.args = { items: options.colors.map((color) => ({ color })) }
+Colors.args = {
+  items: options.colors.map((color) => ({ color })),
+  children: 'Consent doubt Tuckborough challenge destroying.',
+}
 
 export const Sizes = ListTemplate.bind({})
-Sizes.args = { items: options.sizes.map((size) => ({ size })) }
+Sizes.args = {
+  items: options.sizes.map((size) => ({ size })),
+  children: 'Consent doubt Tuckborough challenge destroying.',
+}
 
 export const Weights = ListTemplate.bind({})
-Weights.args = { items: options.weights.map((weight) => ({ weight })) }
+Weights.args = {
+  items: options.weights.map((weight) => ({ weight })),
+  children: 'Consent doubt Tuckborough challenge destroying.',
+}

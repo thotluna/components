@@ -15,30 +15,41 @@ exports[`Storyshots Atoms/Select Default 1`] = `
     }
   }
 >
-  <select
-    className="container"
-    onChange={[Function]}
-    value={2}
+  <label
+    className="label"
   >
-    <option
-      value={null}
-    />
-    <option
-      value={1}
+    <span
+      className="span is-hide"
     >
-      First
-    </option>
-    <option
+      Select test
+    </span>
+    <select
+      aria-label="Select test"
+      className="container"
+      id="#1"
+      onChange={[Function]}
       value={2}
     >
-      Second
-    </option>
-    <option
-      value={3}
-    >
-      Third
-    </option>
-  </select>
+      <option
+        value={null}
+      />
+      <option
+        value={1}
+      >
+        First
+      </option>
+      <option
+        value={2}
+      >
+        Second
+      </option>
+      <option
+        value={3}
+      >
+        Third
+      </option>
+    </select>
+  </label>
 </div>
 `;
 
@@ -57,30 +68,94 @@ exports[`Storyshots Atoms/Select Inline 1`] = `
     }
   }
 >
-  <select
-    className="container is-inline"
-    onChange={[Function]}
-    value={2}
+  <label
+    className="label"
   >
-    <option
-      value={null}
-    />
-    <option
-      value={1}
+    <span
+      className="span is-hide"
     >
-      First
-    </option>
-    <option
+      Select test
+    </span>
+    <select
+      aria-label="Select test"
+      className="container is-inline"
+      id="#3"
+      onChange={[Function]}
       value={2}
     >
-      Second
-    </option>
-    <option
-      value={3}
+      <option
+        value={null}
+      />
+      <option
+        value={1}
+      >
+        First
+      </option>
+      <option
+        value={2}
+      >
+        Second
+      </option>
+      <option
+        value={3}
+      >
+        Third
+      </option>
+    </select>
+  </label>
+</div>
+`;
+
+exports[`Storyshots Atoms/Select Label Show 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <label
+    className="label"
+  >
+    <span
+      className="span"
     >
-      Third
-    </option>
-  </select>
+      Select test
+    </span>
+    <select
+      aria-label="Select test"
+      className="container"
+      id="#4"
+      onChange={[Function]}
+      value={2}
+    >
+      <option
+        value={null}
+      />
+      <option
+        value={1}
+      >
+        First
+      </option>
+      <option
+        value={2}
+      >
+        Second
+      </option>
+      <option
+        value={3}
+      >
+        Third
+      </option>
+    </select>
+  </label>
 </div>
 `;
 
@@ -99,29 +174,40 @@ exports[`Storyshots Atoms/Select Value 1`] = `
     }
   }
 >
-  <select
-    className="container"
-    onChange={[Function]}
-    value={2}
+  <label
+    className="label"
   >
-    <option
-      value={null}
-    />
-    <option
-      value={1}
+    <span
+      className="span is-hide"
     >
-      First
-    </option>
-    <option
+      Select test
+    </span>
+    <select
+      aria-label="Select test"
+      className="container"
+      id="#2"
+      onChange={[Function]}
       value={2}
     >
-      Second
-    </option>
-    <option
-      value={3}
-    >
-      Third
-    </option>
-  </select>
+      <option
+        value={null}
+      />
+      <option
+        value={1}
+      >
+        First
+      </option>
+      <option
+        value={2}
+      >
+        Second
+      </option>
+      <option
+        value={3}
+      >
+        Third
+      </option>
+    </select>
+  </label>
 </div>
 `;

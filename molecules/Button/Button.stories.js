@@ -24,22 +24,29 @@ export default {
   },
 }
 
+const args = {
+  children: 'Button',
+}
+
 export const Default = Template.bind({})
+Default.args = { ...args }
 
 export const Types = ListTemplate.bind({})
 Types.args = {
-  items: options.type.map((type) => ({ type })),
+  items: options.type.map((type) => ({ ...args, type })),
 }
 
 export const Inline = Template.bind({})
-Inline.args = { isInline: true }
+Inline.args = { ...args, isInline: true }
 
 export const IconOnlyLeft = Template.bind({})
 IconOnlyLeft.args = {
+  ...args,
   iconLeft: 'check',
 }
 
 export const IconOnlyRight = Template.bind({})
 IconOnlyRight.args = {
+  ...args,
   iconRight: 'trash',
 }

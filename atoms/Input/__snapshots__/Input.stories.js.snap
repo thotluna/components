@@ -15,13 +15,24 @@ exports[`Storyshots Atoms/Input Default 1`] = `
     }
   }
 >
-  <input
-    className="input"
-    onChange={[Function]}
-    placeholder="Kingdom slowed"
-    type="text"
-    value=""
-  />
+  <label
+    className="label"
+  >
+    <span
+      className="span is-hide"
+    >
+      Input
+    </span>
+    <input
+      aria-label="Input"
+      className="input"
+      id="#1"
+      onChange={[Function]}
+      placeholder="testing"
+      type="text"
+      value="testing"
+    />
+  </label>
 </div>
 `;
 
@@ -40,13 +51,60 @@ exports[`Storyshots Atoms/Input Inline 1`] = `
     }
   }
 >
-  <input
-    className="input is-inline"
-    onChange={[Function]}
-    placeholder="Kingdom slowed"
-    type="text"
-    value=""
-  />
+  <label
+    className="label"
+  >
+    <span
+      className="span is-hide"
+    >
+      Input
+    </span>
+    <input
+      aria-label="Input"
+      className="input is-inline"
+      id="#4"
+      onChange={[Function]}
+      placeholder="testing"
+      type="text"
+      value="testing"
+    />
+  </label>
+</div>
+`;
+
+exports[`Storyshots Atoms/Input Is Not Hide Label 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <label
+    className="label"
+  >
+    <span
+      className="span"
+    >
+      Input
+    </span>
+    <input
+      aria-label="Input"
+      className="input"
+      id="#5"
+      onChange={[Function]}
+      placeholder="testing"
+      type="text"
+      value="testing"
+    />
+  </label>
 </div>
 `;
 
@@ -65,13 +123,24 @@ exports[`Storyshots Atoms/Input Types 1`] = `
     }
   }
 >
-  <input
-    className="input"
-    onChange={[Function]}
-    placeholder="Kingdom slowed"
-    type="text"
-    value=""
-  />
+  <label
+    className="label"
+  >
+    <span
+      className="span is-hide"
+    >
+      Input
+    </span>
+    <input
+      aria-label="Input"
+      className="input"
+      id="#3"
+      onChange={[Function]}
+      placeholder="testing"
+      type="text"
+      value="testing"
+    />
+  </label>
 </div>
 `;
 
@@ -90,12 +159,23 @@ exports[`Storyshots Atoms/Input Value 1`] = `
     }
   }
 >
-  <input
-    className="input"
-    onChange={[Function]}
-    placeholder="Kingdom slowed"
-    type="text"
-    value="Others mainly cakehole Thorin moldy facial."
-  />
+  <label
+    className="label"
+  >
+    <span
+      className="span is-hide"
+    >
+      Input
+    </span>
+    <input
+      aria-label="Input"
+      className="input"
+      id="#2"
+      onChange={[Function]}
+      placeholder="testing"
+      type="text"
+      value="testing"
+    />
+  </label>
 </div>
 `;

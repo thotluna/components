@@ -5,7 +5,9 @@ import { options } from './constants'
 import withStyles from '../../hocs/withStyles'
 
 export const Avatar = ({ src, getStyles }) => {
-  return <img src={src} className={getStyles('container', ['size'])} />
+  return (
+    <img src={src} alt="Avatar" className={getStyles('container', ['size'])} />
+  )
 }
 
 Avatar.propTypes = {
