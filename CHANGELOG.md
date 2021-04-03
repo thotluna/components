@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/thotluna/components/compare/v1.2.0...v1.3.0) (2021-04-03)
+
+
+### Features
+
+* **card:** create component Card ([3704d27](https://github.com/thotluna/components/commit/3704d279d1fb1117b8394748fb916337b6f55bd1)), closes [#25](https://github.com/thotluna/components/issues/25)
+
 # [1.2.0](https://github.com/thotluna/components/compare/v1.1.0...v1.2.0) (2021-04-03)
 
 
