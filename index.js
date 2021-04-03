@@ -1,17 +1,14 @@
-//layout
-export { default as Spacer } from './layout/Spacer'
-
-//atoms
 export { default as Avatar } from './atoms/Avatar'
-export { default as Headings } from './atoms/Headings'
-export { default as SubHeadings } from './atoms/SubHeadings'
+export { default as Card } from './atoms/Card'
+export { default as Heading } from './atoms/HEading'
 export { default as Icon } from './atoms/Icons'
 export { default as Input } from './atoms/Input'
 export { default as Paragraph } from './atoms/Paragraph'
-export { default as Select } from './atoms/Select'
+export { default as Select } from './atoms/Avatar'
 export { default as SubHeading } from './atoms/SubHeadings'
-
-//molelules
-export { default as Button } from './molecules/Button'
+export { default as Spacer } from './layout/Spacer'
+export { default as Vertical } from './layout/Spacer/components/Vertical'
+export { default as Horizontal } from './layout/Spacer/components/Horizontal'
 export { default as AvatarHeader } from './molecules/AvatarHeader'
+export { default as Button } from './molecules/Button'
 export { default as Toolbar } from './molecules/Toolbar'
