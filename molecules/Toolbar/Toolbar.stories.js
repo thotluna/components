@@ -23,3 +23,9 @@ export default {
 }
 
 export const Default = Template.bind({})
+
+export const OnlyIcon = Template.bind({})
+OnlyIcon.args = { icon: 'chevron-left', title: null }
+
+export const OnlyTitle = Template.bind({})
+OnlyTitle.args = { icon: null, title: 'Home' }
