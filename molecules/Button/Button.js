@@ -44,6 +44,7 @@ export const Button = ({
         )}
         {iconLeft && children && <Vertical size="xs" />}
         <Headings
+          label={children}
           color={
             type === 'primary' || type === 'accent' ? 'inverted' : 'primary'
           }

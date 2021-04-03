@@ -19,6 +19,7 @@ exports[`Storyshots Molecules/Toolbar Default 1`] = `
     className="container"
   >
     <button
+      aria-label="back"
       onClick={[Function]}
       style={
         Object {
@@ -86,6 +87,7 @@ exports[`Storyshots Molecules/Toolbar Only Icon 1`] = `
     className="container"
   >
     <button
+      aria-label="back"
       onClick={[Function]}
       style={
         Object {
@@ -148,6 +150,7 @@ exports[`Storyshots Molecules/Toolbar Only Title 1`] = `
     className="container"
   >
     <button
+      aria-label="back"
       onClick={[Function]}
       style={
         Object {

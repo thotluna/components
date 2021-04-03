@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { styles, options } from './.'
+import styles from './SubHeadings.module.css'
+import { options } from './constants'
 import withStyles from '../../hocs/withStyles'
 
 export const SubHeadings = ({ children, getStyles }) => {

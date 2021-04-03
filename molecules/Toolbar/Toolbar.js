@@ -7,18 +7,26 @@ import Icon, { options as iconOptions } from '../../atoms/Icons'
 import Heading from '../../atoms/Headings'
 import { Vertical } from '../../layout/Spacer/components'
 
-export const Toolbar = ({ icon, iconOnclick, title, getStyles }) => {
+export const Toolbar = ({ icon, label, iconOnclick, title, getStyles }) => {
   return (
     <div className={getStyles('container')}>
       <button
+        aria-label={label}
         style={{ padding: 0, border: 0, backgroundColor: 'transparent' }}
         onClick={iconOnclick}
       >
-        {icon && <Icon type={icon} color="inverted" size="md" />}
+        {icon && (
+          <Icon
+            arial-hiden={icon ? false : true}
+            type={icon}
+            color="inverted"
+            size="md"
+          />
+        )}
       </button>
       <Vertical size="sm" />
       {title && (
-        <Heading color="inverted" size="lg">
+        <Heading arial-hiden={title ? false : true} color="inverted" size="lg">
           {title}
         </Heading>
       )}
@@ -28,6 +36,7 @@ export const Toolbar = ({ icon, iconOnclick, title, getStyles }) => {
 
 Toolbar.propTypes = {
   getStyles: PropTypes.func.isRequired,
+  label: PropTypes.string.isRequired,
   iconOnclick: PropTypes.func,
   icon: PropTypes.oneOf(iconOptions.type),
   title: PropTypes.string,

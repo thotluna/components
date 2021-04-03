@@ -22,10 +22,17 @@ export default {
   },
 }
 
+const args = {
+  title: 'Login',
+  icon: 'chevron-left',
+  label: 'back',
+}
+
 export const Default = Template.bind({})
+Default.args = { ...args, label: 'back' }
 
 export const OnlyIcon = Template.bind({})
-OnlyIcon.args = { icon: 'chevron-left', title: null }
+OnlyIcon.args = { ...args, icon: 'chevron-left', title: null }
 
 export const OnlyTitle = Template.bind({})
-OnlyTitle.args = { icon: null, title: 'Home' }
+OnlyTitle.args = { ...args, icon: null, title: 'Home' }
