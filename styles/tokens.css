@@ -145,6 +145,7 @@
   --box-shadow-none: none;
   --box-shadow-xs: 0 3px 6px rgba(0, 0, 0, 0.05);
   --box-shadow-sm: 0 4px 5px rgba(0, 0, 0, 0.07);
+  --box-shadow-focus: 0 0 0 1px var(--color-primary), 0 0 10px 0 var(--color-primary);
   --border-radius-none: 0;
   --border-radius-sm: 10px;
   --border-radius-md: 20px;

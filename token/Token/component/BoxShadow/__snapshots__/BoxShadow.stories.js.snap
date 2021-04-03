@@ -137,5 +137,31 @@ exports[`Storyshots Tokens/Box-Shadow Familys 1`] = `
       </span>
     </div>
   </div>
+  <div
+    className="container"
+  >
+    <div
+      className="box"
+      style={
+        Object {
+          "boxShadow": " 0 0 0 1px var(--color-primary), 0 0 10px 0 var(--color-primary)",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --box-shadow-focus
+      </span>
+      <span
+        className="label"
+      >
+         0 0 0 1px var(--color-primary), 0 0 10px 0 var(--color-primary)
+      </span>
+    </div>
+  </div>
 </div>
 `;
