@@ -1,4 +1,5 @@
 import { Button, options, styles } from '.'
+import { options as iconOptions } from '../../atoms/Icons'
 import {
   getListTemplate,
   getTemplate,
@@ -18,6 +19,8 @@ export default {
     children: { control: 'text' },
     type: getOptionsArgTypes(options.type),
     onClick: { defaultValue: null },
+    iconLeft: getOptionsArgTypes(iconOptions.type),
+    iconRight: getOptionsArgTypes(iconOptions.type),
   },
 }
 

@@ -1,6 +1,6 @@
 import React from 'react'
 export const options = {
-  colors: ['base', 'primary', 'secondary'],
+  colors: ['base', 'primary', 'secondary', 'inverted'],
   size: ['sm', 'md', 'lg'],
   type: ['chevron-left', 'chevron-down', 'check', 'trash'],
 }
@@ -13,7 +13,7 @@ export const getIcon = (icon) => {
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
-          stroke="#000000"
+          stroke="currentColor"
           width="24px"
           height="24px"
         >
@@ -79,8 +79,5 @@ export const getIcon = (icon) => {
           />
         </svg>
       )
-
-    default:
-      break
   }
 }

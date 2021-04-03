@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { styles } from '.'
+import styles from './Input.module.css'
 import { options } from './constants'
 import withStyles from '../../hocs/withStyles'
 

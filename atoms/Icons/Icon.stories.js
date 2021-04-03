@@ -1,4 +1,6 @@
-import { Icon, options, styles } from '.'
+import Icon from './Icon'
+import { options } from './constants'
+import styles from './Icon.module.css'
 import {
   getListTemplate,
   getTemplate,
@@ -11,6 +13,12 @@ const ListTemplate = getListTemplate(Icon, styles)
 export default {
   title: 'Atoms/Icon',
   component: Icon,
+  args: {
+    color: 'primary',
+    type: 'chevron-left',
+    size: 'sm',
+    hasBorder: false,
+  },
   argTypes: {
     color: getOptionsArgTypes(options.colors),
     size: getOptionsArgTypes(options.size),
@@ -29,3 +37,9 @@ Size.args = { items: options.size.map((size) => ({ size })) }
 
 export const Type = ListTemplate.bind({})
 Type.args = { items: options.type.map((type) => ({ type })) }
+
+export const HasBorder = ListTemplate.bind({})
+HasBorder.args = {
+  hasBorder: true,
+  items: options.colors.map((color) => ({ color })),
+}

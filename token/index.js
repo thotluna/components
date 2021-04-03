@@ -202,6 +202,8 @@ const choices = {
     none: 'none',
     xs: '0px 3px 6px rgba(0, 0, 0, 0.05)',
     sm: '0px 4px 5px rgba(0, 0, 0, 0.07)',
+    focusIn: '0 0 0 1px var(--color-primary)',
+    focusOut: '0 0 10px 0 var(--color-primary)',
   },
   borderRadius: {
     none: '0',

@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Atoms/Select Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <select
+    className="container"
+    onChange={[Function]}
+    value={2}
+  >
+    <option
+      value={null}
+    />
+    <option
+      value={1}
+    >
+      First
+    </option>
+    <option
+      value={2}
+    >
+      Second
+    </option>
+    <option
+      value={3}
+    >
+      Third
+    </option>
+  </select>
+</div>
+`;
+
+exports[`Storyshots Atoms/Select Inline 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <select
+    className="container is-inline"
+    onChange={[Function]}
+    value={2}
+  >
+    <option
+      value={null}
+    />
+    <option
+      value={1}
+    >
+      First
+    </option>
+    <option
+      value={2}
+    >
+      Second
+    </option>
+    <option
+      value={3}
+    >
+      Third
+    </option>
+  </select>
+</div>
+`;
+
+exports[`Storyshots Atoms/Select Value 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <select
+    className="container"
+    onChange={[Function]}
+    value={2}
+  >
+    <option
+      value={null}
+    />
+    <option
+      value={1}
+    >
+      First
+    </option>
+    <option
+      value={2}
+    >
+      Second
+    </option>
+    <option
+      value={3}
+    >
+      Third
+    </option>
+  </select>
+</div>
+`;

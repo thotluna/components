@@ -1,10 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { styles } from '.'
+import { styles } from './Button.module.css'
 import { options } from './constants'
 import withStyles from '../../hocs/withStyles'
 import Headings from '../../atoms/Headings'
-import Icon from '../../atoms/Icon'
+import Icon from '../../atoms/Icons'
 import { Vertical } from '../../layout/Spacer/components/Vertical/Vertical'
 
 export const Button = ({
@@ -32,7 +32,16 @@ export const Button = ({
           justifyContent: 'center',
         }}
       >
-        {iconLeft && <Icon type={iconLeft} size="lg" color="base" />}
+        {iconLeft && (
+          <Icon
+            color={
+              type === 'primary' || type === 'accent' ? 'inverted' : 'primary'
+            }
+            getStyles={() => {}}
+            size="sm"
+            type={iconLeft}
+          />
+        )}
         {iconLeft && children && <Vertical size="xs" />}
         <Headings
           color={
@@ -42,7 +51,16 @@ export const Button = ({
           {children}
         </Headings>
         {iconRight && children && <Vertical size="xs" />}
-        {iconRight && <Icon type={iconRight} size="lg" color="base" />}
+        {iconRight && (
+          <Icon
+            color={
+              type === 'primary' || type === 'accent' ? 'inverted' : 'primary'
+            }
+            getStyles={() => {}}
+            size="sm"
+            type={iconRight}
+          />
+        )}
       </div>
       {addons && addons.append}
     </button>
@@ -56,7 +74,7 @@ Button.propTypes = {
   isInline: PropTypes.bool,
   iconLeft: PropTypes.string,
   iconRight: PropTypes.string,
-  onCLick: PropTypes.func.isRequired,
+  onCLick: PropTypes.func,
   addons: PropTypes.shape({
     prepend: PropTypes.node,
     append: PropTypes.node,
