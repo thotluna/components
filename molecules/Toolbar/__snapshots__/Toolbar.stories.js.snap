@@ -125,9 +125,6 @@ exports[`Storyshots Molecules/Toolbar Only Icon 1`] = `
         }
       }
     />
-    <header
-      className="headings color-inverted size-lg weight-bold"
-    />
   </div>
 </div>
 `;
@@ -159,11 +156,7 @@ exports[`Storyshots Molecules/Toolbar Only Title 1`] = `
           "padding": 0,
         }
       }
-    >
-      <div
-        className="container color-inverted size-md"
-      />
-    </button>
+    />
     <div
       className="spacer vertical"
       style={

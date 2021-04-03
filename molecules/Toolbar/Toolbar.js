@@ -14,12 +14,14 @@ export const Toolbar = ({ icon, iconOnclick, title, getStyles }) => {
         style={{ padding: 0, border: 0, backgroundColor: 'transparent' }}
         onClick={iconOnclick}
       >
-        <Icon type={icon} color="inverted" size="md" />
+        {icon && <Icon type={icon} color="inverted" size="md" />}
       </button>
       <Vertical size="sm" />
-      <Heading color="inverted" size="lg">
-        {title}
-      </Heading>
+      {title && (
+        <Heading color="inverted" size="lg">
+          {title}
+        </Heading>
+      )}
     </div>
   )
 }
