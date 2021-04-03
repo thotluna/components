@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Molecules/AvatarHeader Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <img
+      className="container size-md"
+      src="https://picsum.photos/id/1027/200/200"
+    />
+    <div
+      style={
+        Object {
+          "alignItems": "flex-start",
+          "display": "flex",
+          "flexDirection": "column",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <header
+        className="headings color-base size-md weight-bold"
+      >
+        ThotLuna
+      </header>
+      <div
+        className="container color-base size-md weight-bold"
+      >
+        thotluna@gmail.com
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/AvatarHeader Size 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <img
+      className="container size-sm"
+      src="https://picsum.photos/id/1027/200/200"
+    />
+    <div
+      style={
+        Object {
+          "alignItems": "flex-start",
+          "display": "flex",
+          "flexDirection": "column",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <header
+        className="headings color-base size-sm weight-bold"
+      >
+        ThotLuna
+      </header>
+      <div
+        className="container color-base size-sm weight-bold"
+      >
+        thotluna@gmail.com
+      </div>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <img
+      className="container size-md"
+      src="https://picsum.photos/id/1027/200/200"
+    />
+    <div
+      style={
+        Object {
+          "alignItems": "flex-start",
+          "display": "flex",
+          "flexDirection": "column",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <header
+        className="headings color-base size-md weight-bold"
+      >
+        ThotLuna
+      </header>
+      <div
+        className="container color-base size-md weight-bold"
+      >
+        thotluna@gmail.com
+      </div>
+    </div>
+  </div>
+</div>
+`;
