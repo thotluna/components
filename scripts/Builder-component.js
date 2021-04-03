@@ -25,7 +25,20 @@ const createFolder = async (dir) => {
 const writeFile = async (fileUrl, newComponent) =>
   fs.writeFile(fileUrl, newComponent, 'utf8')
 
-const task = ['component', 'css', 'story', 'index', 'constants']
+const addComponentToIndex = async (path, name) => {
+  const indexMessage = await fs.readFile('./index.js', { encoding: 'utf8' })
+  const index = await fs.open('./index.js', 'w')
+  const controller = new AbortController()
+  const { signal } = controller
+  const message = indexMessage.concat(
+    `export { default as ${name} } from '${path}'\n`
+  )
+  const data = new Uint8Array(Buffer.from(message))
+  await writeFile(index, data, { signal })
+  controller.abort()
+}
+
+const task = ['component', 'css', 'story', 'index', 'constants', 'test']
 const urlsTemplates = {
   component: {
     url: './template/component/Component.js',
@@ -46,6 +59,10 @@ const urlsTemplates = {
   constants: {
     url: './template/component/constants.js',
     ext: 'js',
+  },
+  test: {
+    url: './template/component/Component.accessibility.js',
+    ext: 'accessibility.test.js',
   },
 }
 
@@ -79,10 +96,12 @@ const constructComponent = async () => {
     },
   })
 
-  createComponent(type, componentName)
+  const name = componentName.replace(/^./, componentName[0].toUpperCase())
+
+  createComponent(type, name)
 }
 
-const createComponent = async (type, componentName) => {
+const createComponent = async (type, componentName, isTest = false) => {
   const mappedType = ATOMIC_DESING_TYPE[type]
 
   const path = `./${mappedType}/${componentName}`
@@ -101,6 +120,7 @@ const createComponent = async (type, componentName) => {
         await writeFile(`${path}/${componentName}.${ext}`, newComponent)
       }
     }
+    !isTest && addComponentToIndex(path, componentName)
   } catch (error) {
     console.error(error)
   }
@@ -115,6 +135,7 @@ module.exports = {
   ATOMIC_DESING_TYPE,
   createComponent,
   constructComponent,
+  addComponentToIndex,
   task,
   urlsTemplates,
 }

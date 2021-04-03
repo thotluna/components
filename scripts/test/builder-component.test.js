@@ -65,7 +65,7 @@ describe('Builder Component', () => {
       const nameComponent = 'NewButtom'
       const path = `./atoms/${nameComponent}`
       if (fileExists(path)) await fs.rmdir(path, { recursive: true })
-      await createComponent('atom', nameComponent)
+      await createComponent('atom', nameComponent, true)
       expect(fileExists(path)).resolves.toBeTruthy()
       expect(fileExists(`${path}/${nameComponent}.js`)).resolves.toBeTruthy()
       expect(

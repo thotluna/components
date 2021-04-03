@@ -264,6 +264,9 @@ const decisions = {
       md: choices.borderRadius.md,
     },
   },
+  card: {
+    borderRadius: choices.borderRadius.sm,
+  },
   input: {
     height: '38px',
     maxWidth: '400px',
