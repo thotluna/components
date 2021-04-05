@@ -1,0 +1,72 @@
+.buttons {
+  display: flex;
+  max-width: var(--button-max-width);
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--border-radius-md);
+  gap: 1em;
+}
+
+.color-primary {
+  height: var(--input-height);
+  padding: 0.5em 2em;
+  border: var(--border-width-thin) solid var(--color-primary-inverted);
+  background-color: var(--color-primary);
+  color: var(--color-font-inverted);
+}
+
+.color-primary:focus {
+  box-shadow: 0 0 0 1px var(--color-primary), 0 0 10px 0 var(--color-primary);
+}
+
+.color-secondary {
+  height: var(--input-height);
+  padding: 0.5em 2em;
+  border: var(--border-width-thin) solid var(--color-primary-inverted);
+  background-color: var(--color-secondary);
+  color: var(--color-font-inverted);
+}
+
+.color-secondary:focus {
+  box-shadow: var(--box-shadow-focus-in), var(--box-shadow-focus-out);
+}
+
+.color-inverter {
+  height: var(--input-height);
+  padding: 0.5em 2em;
+  border: var(--border-width-thin) solid var(--color-primary);
+  background-color: var(--color-primary-inverted);
+  color: var(--color-primary);
+}
+
+.color-inverter:focus {
+  box-shadow: var(--box-shadow-focus-in), var(--box-shadow-focus-out);
+}
+
+.color-primary:active,
+.color-secondary:active,
+.color-inverter:active {
+  box-shadow: none;
+}
+
+.size-full {
+  width: 100%;
+}
+
+.size-short {
+  width: max-content;
+}
+
+.size-mini {
+  width: 30px;
+  height: 30px;
+}
+
+.buttons.is-only-icon {
+  padding: 0;
+  border: var(--border-width-thin) solid var(--color-primary);
+  background-color: var(--color-primary-inverted);
+  border-radius: var(--border-radius-md);
+  color: var(--color-primary);
+  gap: 0;
+}

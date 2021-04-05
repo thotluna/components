@@ -43,3 +43,9 @@ HasBorder.args = {
   hasBorder: true,
   items: options.colors.map((color) => ({ color })),
 }
+
+export const HasBorderSize = ListTemplate.bind({})
+HasBorderSize.args = {
+  hasBorder: true,
+  items: options.size.map((size) => ({ size })),
+}

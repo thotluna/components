@@ -34,17 +34,17 @@ exports[`Storyshots Molecules/Toolbar Default 1`] = `
       >
         <svg
           fill="none"
-          height="24px"
+          height="100%"
           stroke="currentColor"
           viewBox="0 0 24 24"
-          width="24px"
+          width="100%"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
             d="M15 19l-7-7 7-7"
             strokeLinecap="round"
             strokeLinejoin="round"
-            strokeWidth={2}
+            strokeWidth={1}
           />
         </svg>
       </div>
@@ -102,17 +102,17 @@ exports[`Storyshots Molecules/Toolbar Only Icon 1`] = `
       >
         <svg
           fill="none"
-          height="24px"
+          height="100%"
           stroke="currentColor"
           viewBox="0 0 24 24"
-          width="24px"
+          width="100%"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
             d="M15 19l-7-7 7-7"
             strokeLinecap="round"
             strokeLinejoin="round"
-            strokeWidth={2}
+            strokeWidth={1}
           />
         </svg>
       </div>

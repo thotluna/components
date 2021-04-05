@@ -20,35 +20,35 @@
   stroke: var(--color-font-inverted);
 }
 
-.container.size-sm > svg {
-  width: 18px;
-  height: 18px;
+.size-sm {
+  width: 20px;
+  height: 20px;
 }
 
-.container.size-md > svg {
-  width: 24px;
-  height: 24px;
+.size-md {
+  width: 32px;
+  height: 32px;
 }
 
-.container.size-lg > svg {
-  width: 48px;
-  height: 48px;
+.size-lg {
+  width: 40px;
+  height: 40px;
 }
 
-.container.has-borde-primary {
-  padding: 0.5em;
-  border: var(--border-width-thick) solid var(--color-primary);
+.has-borde-primary {
+  padding: 0.1em;
+  border: var(--border-width-thin) solid var(--color-primary);
   border-radius: var(--border-radius-full);
 }
 
 .container.has-borde-secondary {
-  padding: 0.5em;
-  border: var(--border-width-thick) solid var(--color-secondary);
+  padding: 0.1em;
+  border: var(--border-width-thin) solid var(--color-secondary);
   border-radius: var(--border-radius-full);
 }
 
 .container.has-borde-base {
-  padding: 0.5em;
-  border: var(--border-width-thick) solid var(--color-font-muted);
+  padding: 0.1em;
+  border: var(--border-width-thin) solid var(--color-font-muted);
   border-radius: var(--border-radius-full);
 }

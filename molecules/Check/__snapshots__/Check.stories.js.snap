@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Molecules/Check Active 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <button
+    aria-label="check"
+    className="buttons size-mini color-inverter is-only-icon"
+  >
+    <div
+      className="container color-primary size-sm"
+    >
+      <svg
+        fill="none"
+        height="100%"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        width="100%"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M5 13l4 4L19 7"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={1}
+        />
+      </svg>
+    </div>
+  </button>
+</div>
+`;
+
+exports[`Storyshots Molecules/Check Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <button
+    aria-label="check"
+    className="buttons size-mini color-inverter is-only-icon"
+  />
+</div>
+`;
