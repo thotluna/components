@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Atoms/Toggle Active 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <input
+    aria-label="toggle"
+    aria-pressed={false}
+    checked={false}
+    className="toggle"
+    onChange={[Function]}
+    role="button"
+    type="checkbox"
+  />
+</div>
+`;
+
+exports[`Storyshots Atoms/Toggle Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <input
+    aria-label="toggle"
+    aria-pressed={false}
+    checked={false}
+    className="toggle"
+    onChange={[Function]}
+    role="button"
+    type="checkbox"
+  />
+</div>
+`;
+
+exports[`Storyshots Atoms/Toggle Inactive 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <input
+    aria-label="toggle"
+    aria-pressed={false}
+    checked={false}
+    className="toggle"
+    onChange={[Function]}
+    role="button"
+    type="checkbox"
+  />
+</div>
+`;

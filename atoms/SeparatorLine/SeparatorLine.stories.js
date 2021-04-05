@@ -25,12 +25,17 @@ export default {
 }
 
 export const Default = Template.bind({})
+Default.args = { title: 'separator' }
 
 export const Colors = ListTemplate.bind({})
-Colors.args = { items: options.colors.map((color) => ({ color })) }
+Colors.args = {
+  items: options.colors.map((color) => ({ title: 'separator', color })),
+}
 
 export const Size = ListTemplate.bind({})
-Size.args = { items: options.sizes.map((size) => ({ size })) }
+Size.args = {
+  items: options.sizes.map((size) => ({ title: 'separator', size })),
+}
 
 export const TitelColors = ListTemplate.bind({})
 TitelColors.args = {
