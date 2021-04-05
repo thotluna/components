@@ -26,6 +26,11 @@ exports[`Storyshots Atoms/Headings Colors 1`] = `
     testing
   </header>
   <header
+    className="headings color-secondary size-md weight-bold"
+  >
+    testing
+  </header>
+  <header
     className="headings color-tertiary size-md weight-bold"
   >
     testing
