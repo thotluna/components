@@ -20,7 +20,7 @@ exports[`Storyshots Atoms/SeparatorLine Colors 1`] = `
   >
     <hr
       className="separator-line color-base size-sm"
-      title={null}
+      title="separator"
     />
   </div>
   <div
@@ -28,7 +28,7 @@ exports[`Storyshots Atoms/SeparatorLine Colors 1`] = `
   >
     <hr
       className="separator-line color-primary size-sm"
-      title={null}
+      title="separator"
     />
   </div>
   <div
@@ -36,7 +36,7 @@ exports[`Storyshots Atoms/SeparatorLine Colors 1`] = `
   >
     <hr
       className="separator-line color-secondary size-sm"
-      title={null}
+      title="separator"
     />
   </div>
   <div
@@ -44,7 +44,7 @@ exports[`Storyshots Atoms/SeparatorLine Colors 1`] = `
   >
     <hr
       className="separator-line color-tertiary size-sm"
-      title={null}
+      title="separator"
     />
   </div>
   <div
@@ -52,7 +52,7 @@ exports[`Storyshots Atoms/SeparatorLine Colors 1`] = `
   >
     <hr
       className="separator-line color-inverted size-sm"
-      title={null}
+      title="separator"
     />
   </div>
 </div>
@@ -78,7 +78,7 @@ exports[`Storyshots Atoms/SeparatorLine Default 1`] = `
   >
     <hr
       className="separator-line color-primary size-sm"
-      title={null}
+      title="separator"
     />
   </div>
 </div>
@@ -104,7 +104,7 @@ exports[`Storyshots Atoms/SeparatorLine Size 1`] = `
   >
     <hr
       className="separator-line color-primary size-xs"
-      title={null}
+      title="separator"
     />
   </div>
   <div
@@ -112,7 +112,7 @@ exports[`Storyshots Atoms/SeparatorLine Size 1`] = `
   >
     <hr
       className="separator-line color-primary size-sm"
-      title={null}
+      title="separator"
     />
   </div>
   <div
@@ -120,7 +120,7 @@ exports[`Storyshots Atoms/SeparatorLine Size 1`] = `
   >
     <hr
       className="separator-line color-primary size-md"
-      title={null}
+      title="separator"
     />
   </div>
   <div
@@ -128,7 +128,7 @@ exports[`Storyshots Atoms/SeparatorLine Size 1`] = `
   >
     <hr
       className="separator-line color-primary size-lg"
-      title={null}
+      title="separator"
     />
   </div>
 </div>

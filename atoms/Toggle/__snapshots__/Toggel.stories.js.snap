@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Atoms/Toggel Active 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <input
+    aria-label="Toggel"
+    aria-pressed={false}
+    checked={false}
+    className="Toggel"
+    onChange={[Function]}
+    role="button"
+    type="checkbox"
+  />
+</div>
+`;
+
+exports[`Storyshots Atoms/Toggel Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <input
+    aria-label="Toggel"
+    aria-pressed={false}
+    checked={false}
+    className="Toggel"
+    onChange={[Function]}
+    role="button"
+    type="checkbox"
+  />
+</div>
+`;
+
+exports[`Storyshots Atoms/Toggel Inactive 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <input
+    aria-label="Toggel"
+    aria-pressed={false}
+    checked={false}
+    className="Toggel"
+    onChange={[Function]}
+    role="button"
+    type="checkbox"
+  />
+</div>
+`;

@@ -248,6 +248,7 @@ const decisions = {
     secondary: choices.color.brand.amaranth,
     secondaryMuted: choices.color.brand.mandy,
     secondaryInverted: choices.color.base.white,
+    sun: '#FFBC13',
   },
   backgroundColor: {
     primary: choices.color.brand.hintOfRed,

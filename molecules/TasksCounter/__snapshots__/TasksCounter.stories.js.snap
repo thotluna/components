@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Molecules/TasksCounter Colors 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="container-counter"
+  >
+    <div
+      className="messages"
+    >
+      <header
+        className="headings color-base size-md weight-bold"
+      >
+        Task resolved
+      </header>
+      <header
+        className="headings color-base size-md weight-bold"
+      >
+        5/10
+      </header>
+    </div>
+    <div
+      className="container-separator color-base"
+    >
+      <hr
+        className="separator-line color-base size-sm"
+        title="Task Counter"
+      />
+    </div>
+  </div>
+  <div
+    className="container-counter"
+  >
+    <div
+      className="messages"
+    >
+      <header
+        className="headings color-primary size-md weight-bold"
+      >
+        Task resolved
+      </header>
+      <header
+        className="headings color-primary size-md weight-bold"
+      >
+        5/10
+      </header>
+    </div>
+    <div
+      className="container-separator color-primary"
+    >
+      <hr
+        className="separator-line color-primary size-sm"
+        title="Task Counter"
+      />
+    </div>
+  </div>
+  <div
+    className="container-counter"
+  >
+    <div
+      className="messages"
+    >
+      <header
+        className="headings color-secondary size-md weight-bold"
+      >
+        Task resolved
+      </header>
+      <header
+        className="headings color-secondary size-md weight-bold"
+      >
+        5/10
+      </header>
+    </div>
+    <div
+      className="container-separator color-secondary"
+    >
+      <hr
+        className="separator-line color-secondary size-sm"
+        title="Task Counter"
+      />
+    </div>
+  </div>
+  <div
+    className="container-counter"
+  >
+    <div
+      className="messages"
+    >
+      <header
+        className="headings color-tertiary size-md weight-bold"
+      >
+        Task resolved
+      </header>
+      <header
+        className="headings color-tertiary size-md weight-bold"
+      >
+        5/10
+      </header>
+    </div>
+    <div
+      className="container-separator color-tertiary"
+    >
+      <hr
+        className="separator-line color-tertiary size-sm"
+        title="Task Counter"
+      />
+    </div>
+  </div>
+  <div
+    className="container-counter"
+  >
+    <div
+      className="messages"
+    >
+      <header
+        className="headings color-inverted size-md weight-bold"
+      >
+        Task resolved
+      </header>
+      <header
+        className="headings color-inverted size-md weight-bold"
+      >
+        5/10
+      </header>
+    </div>
+    <div
+      className="container-separator color-inverted"
+    >
+      <hr
+        className="separator-line color-inverted size-sm"
+        title="Task Counter"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/TasksCounter Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="container-counter"
+  >
+    <div
+      className="messages"
+    >
+      <header
+        className="headings color-primary size-md weight-bold"
+      >
+        Task resolved
+      </header>
+      <header
+        className="headings color-primary size-md weight-bold"
+      >
+        5/10
+      </header>
+    </div>
+    <div
+      className="container-separator color-primary"
+    >
+      <hr
+        className="separator-line color-primary size-sm"
+        title="Task Counter"
+      />
+    </div>
+  </div>
+</div>
+`;

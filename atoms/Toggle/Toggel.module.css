@@ -1,0 +1,32 @@
+.Toggel {
+  position: relative;
+  width: 70px;
+  height: 35px;
+  appearance: none;
+  background: var(--color-primary-highlight);
+  border-radius: 20px;
+  box-shadow: inset 0 0 5px var(--color-font-highlight);
+  transition: 0.8s;
+}
+
+.Toggel:checked {
+  background-color: var(--color-primary);
+}
+
+.Toggel::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 35px;
+  height: 35px;
+  background-color: var(--color-primary-inverted);
+  border-radius: 20px;
+  box-shadow: 0 2px 5px var(--color-font-highlight);
+  content: '';
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+
+.Toggel:checked::before {
+  left: 35px;
+}
