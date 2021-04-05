@@ -4,9 +4,9 @@ import { getClasses } from '../helpers/styles'
 const withStyles = (styles) => (WrappedComponent) => {
   const WithStylesComponent = (props) => {
     const allProps = { ...WrappedComponent.defaultProps, ...props }
-    return (
-      <WrappedComponent getStyles={getClasses(styles)(allProps)} {...props} />
-    )
+    const style = getClasses(styles)(allProps)
+    // console.log({ WrappedComponent, style, allProps })
+    return <WrappedComponent getStyles={style} {...props} />
   }
 
   WithStylesComponent.displayName = WrappedComponent.displayName

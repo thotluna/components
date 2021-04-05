@@ -2,13 +2,7 @@ import React from 'react'
 import { render } from '@testing-library/react'
 import { axe, toHaveNoViolations } from 'jest-axe'
 
-import {
-  Default,
-  Types,
-  Inline,
-  IconOnlyLeft,
-  IconOnlyRight,
-} from './Button.stories'
+import { Default, Size, Color, LeftIcon, OnlyIcon } from './Buttons.stories'
 expect.extend(toHaveNoViolations)
 
 const rules = {
@@ -18,31 +12,28 @@ const rules = {
   },
 }
 
-it('renders avatar default', async () => {
+it('renders Button default', async () => {
   const { container } = render(<Default {...Default.args} />)
-  expect(await axe(container)).toHaveNoViolations()
-})
-
-it('renders avatar Type', async () => {
-  const { container } = render(<Types {...Types.args} />)
   const results = await axe(container, rules)
   expect(results).toHaveNoViolations()
 })
-
-it('renders avatar Inline', async () => {
-  const { container } = render(<Inline {...Inline.args} />)
+it('renders Button Size', async () => {
+  const { container } = render(<Size {...Size.args} />)
   const results = await axe(container, rules)
   expect(results).toHaveNoViolations()
 })
-
-it('renders avatar IconOnlyLeft', async () => {
-  const { container } = render(<IconOnlyLeft {...IconOnlyLeft.args} />)
+it('renders Button Color', async () => {
+  const { container } = render(<Color {...Color.args} />)
   const results = await axe(container, rules)
   expect(results).toHaveNoViolations()
 })
-
-it('renders avatar IconOnlyRight', async () => {
-  const { container } = render(<IconOnlyRight {...IconOnlyRight.args} />)
+it('renders Button OnlyIcon', async () => {
+  const { container } = render(<OnlyIcon {...OnlyIcon.args} />)
+  const results = await axe(container, rules)
+  expect(results).toHaveNoViolations()
+})
+it('renders Button LeftIcon', async () => {
+  const { container } = render(<LeftIcon {...LeftIcon.args} />)
   const results = await axe(container, rules)
   expect(results).toHaveNoViolations()
 })
