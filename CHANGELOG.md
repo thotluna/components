@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/thotluna/components/compare/v1.3.0...v1.4.0) (2021-04-05)
+
+
+### Features
+
+* **task:** create Task component ([da6092e](https://github.com/thotluna/components/commit/da6092eea6aeaf96cc8670f89820dab5a16c574d)), closes [#25](https://github.com/thotluna/components/issues/25)
+
 # [1.3.0](https://github.com/thotluna/components/compare/v1.2.0...v1.3.0) (2021-04-03)
 
 
