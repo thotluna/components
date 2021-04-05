@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/thotluna/components/compare/v1.4.0...v1.5.0) (2021-04-05)
+
+
+### Features
+
+* **separatorline:** create SeparatorLine component ([3d79c53](https://github.com/thotluna/components/commit/3d79c5324c1d8e38422ca66786dd209b3009b4ba)), closes [#25](https://github.com/thotluna/components/issues/25)
+
 # [1.4.0](https://github.com/thotluna/components/compare/v1.3.0...v1.4.0) (2021-04-05)
 
 
