@@ -6,14 +6,14 @@ import withStyles from '../../hocs/withStyles'
 
 import Heading from '../Headings'
 
-export const SeparatorLine = ({ title, color, getStyles }) => {
+export const SeparatorLine = ({ title, isShowTitle, color, getStyles }) => {
   return (
     <div className={getStyles('container-separator', ['color'])}>
       <hr
         title={title}
         className={getStyles('separator-line', ['color', 'size'])}
       />
-      {title && (
+      {isShowTitle && (
         <div className={getStyles('title')}>
           <Heading color={color}>{title}</Heading>
         </div>
@@ -24,15 +24,16 @@ export const SeparatorLine = ({ title, color, getStyles }) => {
 
 SeparatorLine.propTypes = {
   getStyles: PropTypes.func.isRequired,
-  title: PropTypes.string,
+  title: PropTypes.string.isRequired,
+  isShowTitle: PropTypes.bool,
   color: PropTypes.oneOf(options.colors),
   size: PropTypes.oneOf(options.sizes),
 }
 
 SeparatorLine.defaultProps = {
-  title: 'separator',
   size: 'sm',
   color: 'primary',
+  isShowTitle: false,
 }
 
 export default withStyles(styles)(SeparatorLine)

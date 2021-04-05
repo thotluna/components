@@ -15,7 +15,7 @@ export default {
   title: 'Atoms/SeparatorLine',
   component: SeparatorLine,
   args: {
-    title: null,
+    title: 'separator',
     size: 'sm',
   },
   argTypes: {
@@ -34,10 +34,18 @@ Size.args = { items: options.sizes.map((size) => ({ size })) }
 
 export const TitelColors = ListTemplate.bind({})
 TitelColors.args = {
-  items: options.colors.map((color) => ({ title: 'separator', color })),
+  items: options.colors.map((color) => ({
+    title: 'separator',
+    isShowTitle: true,
+    color,
+  })),
 }
 
 export const TitelSizes = ListTemplate.bind({})
 TitelSizes.args = {
-  items: options.sizes.map((size) => ({ title: 'separator', size })),
+  items: options.sizes.map((size) => ({
+    title: 'separator',
+    isShowTitle: true,
+    size,
+  })),
 }
