@@ -1075,6 +1075,32 @@ exports[`Storyshots Tokens/Color Decisions 1`] = `
       </span>
     </div>
   </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#FFBC13",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --color-sun
+      </span>
+      <span
+        className="label"
+      >
+        #FFBC13
+      </span>
+    </div>
+  </div>
 </div>
 `;
 

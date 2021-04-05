@@ -20,6 +20,10 @@
   stroke: var(--color-font-inverted);
 }
 
+.color-sun svg {
+  stroke: var(--color-sun);
+}
+
 .size-sm {
   width: 20px;
   height: 20px;

@@ -1,13 +1,13 @@
-import { Toggle, styles } from '.'
+import { Toggel, styles } from '.'
 import { getTemplate } from '../../helpers/storybook'
 
-const Template = getTemplate(Toggle, styles)
+const Template = getTemplate(Toggel, styles)
 
 export default {
-  title: 'Atoms/Toggle',
-  component: Toggle,
+  title: 'Atoms/Toggel',
+  component: Toggel,
   args: {
-    name: 'toggle',
+    name: 'Toggel',
     checked: false,
     onChange: () => {},
   },
@@ -15,7 +15,7 @@ export default {
 }
 
 const args = {
-  name: 'toggle',
+  name: 'Toggel',
   checked: false,
   onChange: () => {},
 }

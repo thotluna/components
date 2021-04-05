@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Atoms/Toggle Active 1`] = `
+exports[`Storyshots Atoms/Toggel Active 1`] = `
 <div
   style={
     Object {
@@ -16,10 +16,10 @@ exports[`Storyshots Atoms/Toggle Active 1`] = `
   }
 >
   <input
-    aria-label="toggle"
+    aria-label="Toggel"
     aria-pressed={false}
     checked={false}
-    className="toggle"
+    className="Toggel"
     onChange={[Function]}
     role="button"
     type="checkbox"
@@ -27,7 +27,7 @@ exports[`Storyshots Atoms/Toggle Active 1`] = `
 </div>
 `;
 
-exports[`Storyshots Atoms/Toggle Default 1`] = `
+exports[`Storyshots Atoms/Toggel Default 1`] = `
 <div
   style={
     Object {
@@ -43,10 +43,10 @@ exports[`Storyshots Atoms/Toggle Default 1`] = `
   }
 >
   <input
-    aria-label="toggle"
+    aria-label="Toggel"
     aria-pressed={false}
     checked={false}
-    className="toggle"
+    className="Toggel"
     onChange={[Function]}
     role="button"
     type="checkbox"
@@ -54,7 +54,7 @@ exports[`Storyshots Atoms/Toggle Default 1`] = `
 </div>
 `;
 
-exports[`Storyshots Atoms/Toggle Inactive 1`] = `
+exports[`Storyshots Atoms/Toggel Inactive 1`] = `
 <div
   style={
     Object {
@@ -70,10 +70,10 @@ exports[`Storyshots Atoms/Toggle Inactive 1`] = `
   }
 >
   <input
-    aria-label="toggle"
+    aria-label="Toggel"
     aria-pressed={false}
     checked={false}
-    className="toggle"
+    className="Toggel"
     onChange={[Function]}
     role="button"
     type="checkbox"

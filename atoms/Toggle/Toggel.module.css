@@ -1,4 +1,4 @@
-.toggle {
+.Toggel {
   position: relative;
   width: 70px;
   height: 35px;
@@ -9,11 +9,11 @@
   transition: 0.8s;
 }
 
-.toggle:checked {
+.Toggel:checked {
   background-color: var(--color-primary);
 }
 
-.toggle::before {
+.Toggel::before {
   position: absolute;
   top: 0;
   left: 0;
@@ -27,6 +27,6 @@
   transition: 0.4s;
 }
 
-.toggle:checked::before {
+.Toggel:checked::before {
   left: 35px;
 }
