@@ -1,3 +1,17 @@
+# [1.6.0](https://github.com/thotluna/components/compare/v1.5.0...v1.6.0) (2021-04-05)
+
+
+### Bug Fixes
+
+* **separatorline:** add isShowTitle ([ac1a4c9](https://github.com/thotluna/components/commit/ac1a4c93f9a86dbec2b94813e350ab611a841f09)), closes [#35](https://github.com/thotluna/components/issues/35)
+
+
+### Features
+
+* **taskcounter:** add TaskCounter component ([01a6b67](https://github.com/thotluna/components/commit/01a6b677e1606476c1a38c2d72c0623e26f668f9)), closes [#35](https://github.com/thotluna/components/issues/35)
+* **toggeldark:** add ToggelDark component ([169a3f2](https://github.com/thotluna/components/commit/169a3f26c4bd546655b7094c382afd0122b622b4)), closes [#35](https://github.com/thotluna/components/issues/35)
+* **toogle:** add Toogle component ([7b515d3](https://github.com/thotluna/components/commit/7b515d374a02ca97539660c1f577ed48400ea116)), closes [#35](https://github.com/thotluna/components/issues/35)
+
 # [1.5.0](https://github.com/thotluna/components/compare/v1.4.0...v1.5.0) (2021-04-05)
 
 
