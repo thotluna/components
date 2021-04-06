@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/thotluna/components/compare/v1.6.0...v1.6.1) (2021-04-06)
+
+
+### Bug Fixes
+
+* **check:** remplace buttom for input check ([79c1316](https://github.com/thotluna/components/commit/79c13161b30ccfeedb4463468ac565146fa26d29))
+
 # [1.6.0](https://github.com/thotluna/components/compare/v1.5.0...v1.6.0) (2021-04-05)
 
 
