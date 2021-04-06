@@ -20,18 +20,21 @@ const handleCheck = ({ isChecked, setIsChecked, isPending, onCheck }) => () => {
 }
 
 export const Task = ({
+  id,
   children,
   defaultIsChecked,
   onCheck,
   onDelete,
   getStyles,
   isPending,
+  tabIndex,
 }) => {
   const [isChecked, setIsChecked] = useState(defaultIsChecked && !isPending)
 
   return (
     <div className={getStyles('container')}>
       <Card
+        id={`card-${id}`}
         onClick={handleCheck({ isChecked, setIsChecked, isPending, onCheck })}
         isClickable={!isPending}
         isDraggable={isPending}
@@ -45,7 +48,13 @@ export const Task = ({
             {isPending ? (
               <Icon type="drag" hasBorder={true} size="md" />
             ) : (
-              <Check isChecked={isChecked} />
+              <Check
+                id={`card-${id}`}
+                name={`check: ${children}`}
+                color="primary"
+                isChecked={isChecked}
+                tabIndex={tabIndex}
+              />
             )}
             <Spacer.Vertical size="xs" />
             <Paragraph
@@ -59,12 +68,14 @@ export const Task = ({
           <Spacer.Vertical size="sm" />
           <div onClick={(event) => event.stopPropagation()}>
             <Buttons
+              id={`button-${id}`}
               ariaLabel="delete-task"
               isOnlyIcon
               color="inverter"
               size="mini"
               icon="trash"
               onCLick={onDelete}
+              tabIndex={tabIndex}
             />
           </div>
         </div>
@@ -74,6 +85,7 @@ export const Task = ({
 }
 
 Task.propTypes = {
+  id: PropTypes.string.isRequired,
   children: PropTypes.node.isRequired,
   getStyles: PropTypes.func.isRequired,
   onCheck: PropTypes.func.isRequired,
@@ -81,6 +93,7 @@ Task.propTypes = {
   type: PropTypes.oneOf(options.types),
   defaultIsChecked: PropTypes.bool,
   isPending: PropTypes.bool,
+  tabIndex: PropTypes.number,
 }
 
 Task.defaultProps = {
@@ -88,6 +101,7 @@ Task.defaultProps = {
   onCheck: () => {},
   onDelete: () => {},
   defaultIsChecked: false,
+  tabIndex: 0,
 }
 
 export default withStyles(styles)(Task)

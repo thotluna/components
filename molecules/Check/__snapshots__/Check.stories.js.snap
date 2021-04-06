@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Molecules/Check Active 1`] = `
+exports[`Storyshots Molecules/Check Active Color 1`] = `
 <div
   style={
     Object {
@@ -15,30 +15,80 @@ exports[`Storyshots Molecules/Check Active 1`] = `
     }
   }
 >
-  <button
-    aria-label="check"
-    className="buttons size-mini color-inverter is-only-icon"
+  <div
+    className="container-check size-sm"
   >
+    <input
+      aria-label="check"
+      checked={true}
+      className="input-check color-primary size-sm"
+      id="true:primary"
+      onChange={[Function]}
+      onKeyPress={[Function]}
+      tabIndex={0}
+      type="checkbox"
+    />
     <div
-      className="container color-primary size-sm"
+      className="icon-check"
     >
-      <svg
-        fill="none"
-        height="100%"
-        stroke="currentColor"
-        viewBox="0 0 24 24"
-        width="100%"
-        xmlns="http://www.w3.org/2000/svg"
+      <div
+        className="container color-primary size-sm"
       >
-        <path
-          d="M5 13l4 4L19 7"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth={1}
-        />
-      </svg>
+        <svg
+          fill="none"
+          height="100%"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          width="100%"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M5 13l4 4L19 7"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={1}
+          />
+        </svg>
+      </div>
     </div>
-  </button>
+  </div>
+  <div
+    className="container-check size-sm"
+  >
+    <input
+      aria-label="check"
+      checked={true}
+      className="input-check color-secondary size-sm"
+      id="true:secondary"
+      onChange={[Function]}
+      onKeyPress={[Function]}
+      tabIndex={0}
+      type="checkbox"
+    />
+    <div
+      className="icon-check"
+    >
+      <div
+        className="container color-secondary size-sm"
+      >
+        <svg
+          fill="none"
+          height="100%"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          width="100%"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M5 13l4 4L19 7"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={1}
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
 </div>
 `;
 
@@ -57,9 +107,65 @@ exports[`Storyshots Molecules/Check Default 1`] = `
     }
   }
 >
-  <button
-    aria-label="check"
-    className="buttons size-mini color-inverter is-only-icon"
-  />
+  <div
+    className="container-check size-sm"
+  >
+    <input
+      aria-label="check"
+      checked={false}
+      className="input-check color-primary size-sm"
+      id="check:false"
+      onChange={[Function]}
+      onKeyPress={[Function]}
+      tabIndex={0}
+      type="checkbox"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/Check Inactive Color 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="container-check size-sm"
+  >
+    <input
+      aria-label="check"
+      checked={false}
+      className="input-check color-primary size-sm"
+      id="false:primary"
+      onChange={[Function]}
+      onKeyPress={[Function]}
+      tabIndex={0}
+      type="checkbox"
+    />
+  </div>
+  <div
+    className="container-check size-sm"
+  >
+    <input
+      aria-label="check"
+      checked={false}
+      className="input-check color-secondary size-sm"
+      id="false:secondary"
+      onChange={[Function]}
+      onKeyPress={[Function]}
+      tabIndex={0}
+      type="checkbox"
+    />
+  </div>
 </div>
 `;
