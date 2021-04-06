@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="350"
+   height="150"
+   viewBox="0 0 92.604165 39.687501"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="dibujo.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="127.22148"
+     inkscape:cy="98.744743"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:19.0464px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';fill:#dfcbcb;fill-opacity:0.274869;stroke-width:1.1904"
+       x="0.92186677"
+       y="25.450613"
+       id="text1404"><tspan
+         sodipodi:role="line"
+         id="tspan1402"
+         x="0.92186677"
+         y="25.450613"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Snap ITC';-inkscape-font-specification:'Snap ITC';fill:#dfcbcb;fill-opacity:0.274869;stroke-width:1.1904">T - Comp</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:19.0464px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';fill:#800000;stroke-width:1.1904"
+       x="0.26615167"
+       y="24.255285"
+       id="text1404-3"><tspan
+         sodipodi:role="line"
+         id="tspan1402-2"
+         x="0.26615167"
+         y="24.255285"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Snap ITC';-inkscape-font-specification:'Snap ITC';fill:#800000;stroke-width:1.1904">T - Comp</tspan><tspan
+         sodipodi:role="line"
+         x="0.26615167"
+         y="48.087715"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Snap ITC';-inkscape-font-specification:'Snap ITC';fill:#800000;stroke-width:1.1904"
+         id="tspan1518" /></text>
+  </g>
+</svg>

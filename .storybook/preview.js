@@ -3,6 +3,7 @@ import '../styles/global.css'
 import '../styles/tokens.css'
 
 import React from 'react'
+import { themes } from '@storybook/theming';
 
 
 const getStyles = ({ __sb } = {}) => ({
@@ -25,12 +26,15 @@ export const decorators = [
 ]
 
 export const parameters = {
-  
+
   argTypes: {
     styles: { table: { disable: true }},
     getStyles: { table: { disable: true }},
   },
   args: { isPlayground: true  },
   actions: { argTypesRegex: '^on[A-Z].*'},
-  
+  docs: {
+    theme: themes.dark,
+  },
+
 }
