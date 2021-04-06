@@ -10,36 +10,36 @@ import {
 const Template = getTemplate(Check, styles)
 const ListTemplate = getListTemplate(Check, styles)
 
-export default {
-  title: 'Molecules/Check',
-  component: Check,
-  args: {
-    id: 'check#',
-    name: 'check',
-    isChecked: false,
-  },
-  argTypes: {
-    children: { control: 'text' },
-    color: getOptionsArgTypes(options.colors),
-    size: getOptionsArgTypes(options.sizes),
-  },
-}
-
 const args = {
   id: 'check#',
   name: 'check',
-  isChecked: false,
+  defaultChecked: false,
+}
+
+export default {
+  title: 'Atoms/Check',
+  component: Check,
+  args,
+  argTypes: {
+    color: getOptionsArgTypes(options.colors),
+    size: getOptionsArgTypes(options.sizes),
+    isChecked: {
+      control: {
+        type: 'boolean',
+      },
+    },
+  },
 }
 
 export const Default = Template.bind({})
-Default.args = { ...args, id: 'check:false', isChecked: false }
+Default.args = { ...args, id: 'check:false' }
 
 export const ActiveColor = ListTemplate.bind({})
 ActiveColor.args = {
   items: options.colors.map((color) => ({
     ...args,
     id: `true:${color}`,
-    isChecked: true,
+    defaultChecked: true,
     color,
   })),
 }
@@ -49,7 +49,6 @@ InactiveColor.args = {
   items: options.colors.map((color) => ({
     ...args,
     id: `false:${color}`,
-    isChecked: false,
     color,
   })),
 }

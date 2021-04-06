@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Molecules/Check Active Color 1`] = `
+exports[`Storyshots Atoms/Check Active Color 1`] = `
 <div
   style={
     Object {
@@ -20,79 +20,27 @@ exports[`Storyshots Molecules/Check Active Color 1`] = `
   >
     <input
       aria-label="check"
-      checked={true}
       className="input-check color-primary size-sm"
       id="true:primary"
-      onChange={[Function]}
-      onKeyPress={[Function]}
       tabIndex={0}
       type="checkbox"
     />
-    <div
-      className="icon-check"
-    >
-      <div
-        className="container color-primary size-sm"
-      >
-        <svg
-          fill="none"
-          height="100%"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          width="100%"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M5 13l4 4L19 7"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={1}
-          />
-        </svg>
-      </div>
-    </div>
   </div>
   <div
     className="container-check size-sm"
   >
     <input
       aria-label="check"
-      checked={true}
       className="input-check color-secondary size-sm"
       id="true:secondary"
-      onChange={[Function]}
-      onKeyPress={[Function]}
       tabIndex={0}
       type="checkbox"
     />
-    <div
-      className="icon-check"
-    >
-      <div
-        className="container color-secondary size-sm"
-      >
-        <svg
-          fill="none"
-          height="100%"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          width="100%"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M5 13l4 4L19 7"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={1}
-          />
-        </svg>
-      </div>
-    </div>
   </div>
 </div>
 `;
 
-exports[`Storyshots Molecules/Check Default 1`] = `
+exports[`Storyshots Atoms/Check Default 1`] = `
 <div
   style={
     Object {
@@ -112,11 +60,8 @@ exports[`Storyshots Molecules/Check Default 1`] = `
   >
     <input
       aria-label="check"
-      checked={false}
       className="input-check color-primary size-sm"
       id="check:false"
-      onChange={[Function]}
-      onKeyPress={[Function]}
       tabIndex={0}
       type="checkbox"
     />
@@ -124,7 +69,7 @@ exports[`Storyshots Molecules/Check Default 1`] = `
 </div>
 `;
 
-exports[`Storyshots Molecules/Check Inactive Color 1`] = `
+exports[`Storyshots Atoms/Check Inactive Color 1`] = `
 <div
   style={
     Object {
@@ -144,11 +89,8 @@ exports[`Storyshots Molecules/Check Inactive Color 1`] = `
   >
     <input
       aria-label="check"
-      checked={false}
       className="input-check color-primary size-sm"
       id="false:primary"
-      onChange={[Function]}
-      onKeyPress={[Function]}
       tabIndex={0}
       type="checkbox"
     />
@@ -158,11 +100,8 @@ exports[`Storyshots Molecules/Check Inactive Color 1`] = `
   >
     <input
       aria-label="check"
-      checked={false}
       className="input-check color-secondary size-sm"
       id="false:secondary"
-      onChange={[Function]}
-      onKeyPress={[Function]}
       tabIndex={0}
       type="checkbox"
     />

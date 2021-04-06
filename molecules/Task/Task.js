@@ -10,7 +10,7 @@ import styles from './Task.module.css'
 import { options } from './constants'
 import withStyles from '../../hocs/withStyles'
 import Buttons from '../Buttons'
-import Check from '../Check'
+import Check from '../../atoms/Check'
 
 const handleCheck = ({ isChecked, setIsChecked, isPending, onCheck }) => () => {
   if (!isPending) {
@@ -54,6 +54,7 @@ export const Task = ({
                 color="primary"
                 isChecked={isChecked}
                 tabIndex={tabIndex}
+                // onChenge={onCheck}
               />
             )}
             <Spacer.Vertical size="xs" />
@@ -97,10 +98,7 @@ Task.propTypes = {
 }
 
 Task.defaultProps = {
-  getStyles: () => {},
-  onCheck: () => {},
-  onDelete: () => {},
-  defaultIsChecked: false,
+  defaultChecked: false,
   tabIndex: 0,
 }
 

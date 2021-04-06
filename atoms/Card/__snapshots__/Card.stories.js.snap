@@ -17,6 +17,7 @@ exports[`Storyshots Atoms/Card Clickable 1`] = `
 >
   <div
     className="card color-base size-sm is-clickable"
+    tabIndex={0}
   >
     Lacerations coaster sort comings windlance happily EIf-witch handful unbefitting? Decide rising startled Aragorn invitations midnight deserves fortunes innards. You cannot hide. I see you. There is no life in the void. Only death. Mirror Emyn dreamed!
   </div>
@@ -40,16 +41,19 @@ exports[`Storyshots Atoms/Card Colors 1`] = `
 >
   <div
     className="card color-base size-sm"
+    tabIndex={-1}
   >
     Lacerations coaster sort comings windlance happily EIf-witch handful unbefitting? Decide rising startled Aragorn invitations midnight deserves fortunes innards. You cannot hide. I see you. There is no life in the void. Only death. Mirror Emyn dreamed!
   </div>
   <div
     className="card color-primary size-sm"
+    tabIndex={-1}
   >
     Lacerations coaster sort comings windlance happily EIf-witch handful unbefitting? Decide rising startled Aragorn invitations midnight deserves fortunes innards. You cannot hide. I see you. There is no life in the void. Only death. Mirror Emyn dreamed!
   </div>
   <div
     className="card color-secondary size-sm"
+    tabIndex={-1}
   >
     Lacerations coaster sort comings windlance happily EIf-witch handful unbefitting? Decide rising startled Aragorn invitations midnight deserves fortunes innards. You cannot hide. I see you. There is no life in the void. Only death. Mirror Emyn dreamed!
   </div>
@@ -73,6 +77,7 @@ exports[`Storyshots Atoms/Card Default 1`] = `
 >
   <div
     className="card color-base size-sm"
+    tabIndex={-1}
   >
     Lacerations coaster sort comings windlance happily EIf-witch handful unbefitting? Decide rising startled Aragorn invitations midnight deserves fortunes innards. You cannot hide. I see you. There is no life in the void. Only death. Mirror Emyn dreamed!
   </div>
@@ -96,6 +101,7 @@ exports[`Storyshots Atoms/Card Dragabble 1`] = `
 >
   <div
     className="card color-base size-sm is-draggable"
+    tabIndex={-1}
   >
     Lacerations coaster sort comings windlance happily EIf-witch handful unbefitting? Decide rising startled Aragorn invitations midnight deserves fortunes innards. You cannot hide. I see you. There is no life in the void. Only death. Mirror Emyn dreamed!
   </div>
@@ -119,16 +125,19 @@ exports[`Storyshots Atoms/Card Sizes 1`] = `
 >
   <div
     className="card color-base size-sm"
+    tabIndex={-1}
   >
     Lacerations coaster sort comings windlance happily EIf-witch handful unbefitting? Decide rising startled Aragorn invitations midnight deserves fortunes innards. You cannot hide. I see you. There is no life in the void. Only death. Mirror Emyn dreamed!
   </div>
   <div
     className="card color-base size-md"
+    tabIndex={-1}
   >
     Lacerations coaster sort comings windlance happily EIf-witch handful unbefitting? Decide rising startled Aragorn invitations midnight deserves fortunes innards. You cannot hide. I see you. There is no life in the void. Only death. Mirror Emyn dreamed!
   </div>
   <div
     className="card color-base size-lg"
+    tabIndex={-1}
   >
     Lacerations coaster sort comings windlance happily EIf-witch handful unbefitting? Decide rising startled Aragorn invitations midnight deserves fortunes innards. You cannot hide. I see you. There is no life in the void. Only death. Mirror Emyn dreamed!
   </div>

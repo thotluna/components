@@ -8,7 +8,7 @@ import Icon from '../../atoms/Icons'
 export const Check = ({
   id,
   isChecked,
-  handelOnChange,
+  onChange,
   name,
   color,
   size,
@@ -23,8 +23,8 @@ export const Check = ({
         checked={isChecked}
         aria-label={name}
         tabIndex={0}
-        onChange={handelOnChange}
-        onKeyPress={handelOnChange}
+        onChange={onChange}
+        onKeyPress={onChange}
       />
 
       {isChecked && (
@@ -41,14 +41,13 @@ Check.propTypes = {
   name: PropTypes.string.isRequired,
   getStyles: PropTypes.func.isRequired,
   isChecked: PropTypes.bool,
-  handelOnChange: PropTypes.func,
+  onChange: PropTypes.func,
   color: PropTypes.oneOf(options.colors),
   size: PropTypes.oneOf(options.sizes),
 }
 
 Check.defaultProps = {
-  isChecked: false,
-  handelOnChange: () => {},
+  defaultChecked: false,
   color: 'primary',
   size: 'sm',
 }
