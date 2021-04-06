@@ -9,27 +9,21 @@ import {
 const Template = getTemplate(Input, styles)
 const ListTemplate = getListTemplate(Input, styles)
 
-export default {
-  title: 'Atoms/Input',
-  component: Input,
-  args: {
-    value: 'testing',
-    placeholder: 'testing',
-    label: 'Input',
-    id: 'input',
-    type: 'text',
-  },
-  argTypes: {
-    type: getOptionsArgTypes(options.types),
-  },
-}
-
 const args = {
-  value: 'testing',
+  defaultValue: 'testing',
   placeholder: 'testing',
   label: 'Input',
   id: 'input',
   type: 'text',
+}
+
+export default {
+  title: 'Atoms/Input',
+  component: Input,
+  args,
+  argTypes: {
+    type: getOptionsArgTypes(options.types),
+  },
 }
 
 export const Default = Template.bind({})
@@ -49,7 +43,7 @@ Types.args = {
   items: options.types.map((type) => ({
     ...args,
     type,
-    id: '#3',
+    id: `type-${type}`,
   })),
 }
 

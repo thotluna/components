@@ -27,10 +27,8 @@ exports[`Storyshots Atoms/Input Default 1`] = `
       aria-label="Input"
       className="input"
       id="#1"
-      onChange={[Function]}
       placeholder="testing"
       type="text"
-      value="testing"
     />
   </label>
 </div>
@@ -63,10 +61,8 @@ exports[`Storyshots Atoms/Input Inline 1`] = `
       aria-label="Input"
       className="input is-inline"
       id="#4"
-      onChange={[Function]}
       placeholder="testing"
       type="text"
-      value="testing"
     />
   </label>
 </div>
@@ -99,10 +95,8 @@ exports[`Storyshots Atoms/Input Is Not Hide Label 1`] = `
       aria-label="Input"
       className="input"
       id="#5"
-      onChange={[Function]}
       placeholder="testing"
       type="text"
-      value="testing"
     />
   </label>
 </div>
@@ -134,11 +128,9 @@ exports[`Storyshots Atoms/Input Types 1`] = `
     <input
       aria-label="Input"
       className="input"
-      id="#3"
-      onChange={[Function]}
+      id="type-text"
       placeholder="testing"
       type="text"
-      value="testing"
     />
   </label>
 </div>
@@ -171,10 +163,8 @@ exports[`Storyshots Atoms/Input Value 1`] = `
       aria-label="Input"
       className="input"
       id="#2"
-      onChange={[Function]}
       placeholder="testing"
       type="text"
-      value="testing"
     />
   </label>
 </div>
