@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Molecules/Task Checked 1`] = `
+exports[`Storyshots Molecules/Task Checked Tasks 1`] = `
 <div
   style={
     Object {
@@ -21,37 +21,25 @@ exports[`Storyshots Molecules/Task Checked 1`] = `
     <div
       className="card color-base size-sm is-clickable"
       onClick={[Function]}
+      tabIndex={0}
     >
       <div
-        className="task is-checked"
+        className="task"
       >
         <div
           className="content"
         >
-          <button
-            aria-label="check"
-            className="buttons size-mini color-inverter is-only-icon"
+          <div
+            className="container-check size-sm"
           >
-            <div
-              className="container color-primary size-sm"
-            >
-              <svg
-                fill="none"
-                height="100%"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M5 13l4 4L19 7"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={1}
-                />
-              </svg>
-            </div>
-          </button>
+            <input
+              aria-label="check: Sir Goblin-town feels characters ruined precautions."
+              className="input-check color-primary size-sm"
+              id="card-checked-true"
+              tabIndex={0}
+              type="checkbox"
+            />
+          </div>
           <div
             className="spacer vertical"
             style={
@@ -134,6 +122,7 @@ exports[`Storyshots Molecules/Task Default 1`] = `
     <div
       className="card color-base size-sm is-clickable"
       onClick={[Function]}
+      tabIndex={0}
     >
       <div
         className="task"
@@ -141,10 +130,17 @@ exports[`Storyshots Molecules/Task Default 1`] = `
         <div
           className="content"
         >
-          <button
-            aria-label="check"
-            className="buttons size-mini color-inverter is-only-icon"
-          />
+          <div
+            className="container-check size-sm"
+          >
+            <input
+              aria-label="check: Sir Goblin-town feels characters ruined precautions."
+              className="input-check color-primary size-sm"
+              id="card-default"
+              tabIndex={0}
+              type="checkbox"
+            />
+          </div>
           <div
             className="spacer vertical"
             style={
@@ -227,6 +223,7 @@ exports[`Storyshots Molecules/Task Long 1`] = `
     <div
       className="card color-base size-sm is-clickable"
       onClick={[Function]}
+      tabIndex={0}
     >
       <div
         className="task"
@@ -234,10 +231,17 @@ exports[`Storyshots Molecules/Task Long 1`] = `
         <div
           className="content"
         >
-          <button
-            aria-label="check"
-            className="buttons size-mini color-inverter is-only-icon"
-          />
+          <div
+            className="container-check size-sm"
+          >
+            <input
+              aria-label="check: Swords are no more use here. Moments shiny rings Cirith nowhere garrison ax pointy endless mention trousers. Retribution Frodo's wrong? Them leaf question require spared houses sapphire Balin. Kind pouring Lothlórien ragged retribution covers lair less goings recognizes unleash. Whence Precious token hidden hire bandy make farming. Shards farmer unfriendly handle Bain gongs. Mend recall sorry oncoming roll unmade cries visitors Lobelia Sackville-Baggins was bidden. Dank rather between short doomed Mellon tomb consequence girl crescent attacking."
+              className="input-check color-primary size-sm"
+              id="card-long"
+              tabIndex={0}
+              type="checkbox"
+            />
+          </div>
           <div
             className="spacer vertical"
             style={
@@ -320,6 +324,7 @@ exports[`Storyshots Molecules/Task Pending 1`] = `
     <div
       className="card color-base size-sm is-draggable"
       onClick={[Function]}
+      tabIndex={-1}
     >
       <div
         className="task"
@@ -428,6 +433,7 @@ exports[`Storyshots Molecules/Task Pending Types 1`] = `
     <div
       className="card color-base size-sm is-draggable"
       onClick={[Function]}
+      tabIndex={-1}
     >
       <div
         className="task type-active"
@@ -518,6 +524,7 @@ exports[`Storyshots Molecules/Task Pending Types 1`] = `
     <div
       className="card color-base size-sm is-draggable"
       onClick={[Function]}
+      tabIndex={-1}
     >
       <div
         className="task type-standby"
@@ -626,6 +633,7 @@ exports[`Storyshots Molecules/Task Types 1`] = `
     <div
       className="card color-base size-sm is-clickable"
       onClick={[Function]}
+      tabIndex={0}
     >
       <div
         className="task type-active"
@@ -633,10 +641,17 @@ exports[`Storyshots Molecules/Task Types 1`] = `
         <div
           className="content"
         >
-          <button
-            aria-label="check"
-            className="buttons size-mini color-inverter is-only-icon"
-          />
+          <div
+            className="container-check size-sm"
+          >
+            <input
+              aria-label="check: Sir Goblin-town feels characters ruined precautions."
+              className="input-check color-primary size-sm"
+              id="card-type-active"
+              tabIndex={0}
+              type="checkbox"
+            />
+          </div>
           <div
             className="spacer vertical"
             style={
@@ -701,6 +716,7 @@ exports[`Storyshots Molecules/Task Types 1`] = `
     <div
       className="card color-base size-sm is-clickable"
       onClick={[Function]}
+      tabIndex={0}
     >
       <div
         className="task type-standby"
@@ -708,10 +724,17 @@ exports[`Storyshots Molecules/Task Types 1`] = `
         <div
           className="content"
         >
-          <button
-            aria-label="check"
-            className="buttons size-mini color-inverter is-only-icon"
-          />
+          <div
+            className="container-check size-sm"
+          >
+            <input
+              aria-label="check: Sir Goblin-town feels characters ruined precautions."
+              className="input-check color-primary size-sm"
+              id="card-type-standby"
+              tabIndex={0}
+              type="checkbox"
+            />
+          </div>
           <div
             className="spacer vertical"
             style={

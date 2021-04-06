@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Atoms/Check Active Color 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="container-check size-sm"
+  >
+    <input
+      aria-label="check"
+      className="input-check color-primary size-sm"
+      id="true:primary"
+      tabIndex={0}
+      type="checkbox"
+    />
+  </div>
+  <div
+    className="container-check size-sm"
+  >
+    <input
+      aria-label="check"
+      className="input-check color-secondary size-sm"
+      id="true:secondary"
+      tabIndex={0}
+      type="checkbox"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Check Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="container-check size-sm"
+  >
+    <input
+      aria-label="check"
+      className="input-check color-primary size-sm"
+      id="check:false"
+      tabIndex={0}
+      type="checkbox"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Check Inactive Color 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="container-check size-sm"
+  >
+    <input
+      aria-label="check"
+      className="input-check color-primary size-sm"
+      id="false:primary"
+      tabIndex={0}
+      type="checkbox"
+    />
+  </div>
+  <div
+    className="container-check size-sm"
+  >
+    <input
+      aria-label="check"
+      className="input-check color-secondary size-sm"
+      id="false:secondary"
+      tabIndex={0}
+      type="checkbox"
+    />
+  </div>
+</div>
+`;

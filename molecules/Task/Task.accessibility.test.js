@@ -5,7 +5,7 @@ import { axe, toHaveNoViolations } from 'jest-axe'
 import {
   Default,
   Long,
-  Checked,
+  CheckedTasks,
   Pending,
   Types,
   PendingTypes,
@@ -21,7 +21,7 @@ it('renders Task Long', async () => {
   expect(await axe(container)).toHaveNoViolations()
 })
 it('renders Task Checked', async () => {
-  const { container } = render(<Checked {...Checked.args} />)
+  const { container } = render(<CheckedTasks {...CheckedTasks.args} />)
   expect(await axe(container)).toHaveNoViolations()
 })
 it('renders Task Pending', async () => {

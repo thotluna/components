@@ -19,6 +19,7 @@ export const Card = ({
         'is-clickable': isClickable,
         'is-draggable': isDraggable,
       })}
+      tabIndex={isClickable ? 0 : -1}
     >
       {children}
     </div>
@@ -38,7 +39,6 @@ Card.propTypes = {
 Card.defaultProps = {
   color: 'base',
   size: 'sm',
-  getStyles: () => {},
 }
 
 export default withStyles(styles)(Card)

@@ -42,11 +42,11 @@ export const Input = ({
 }
 
 Input.propTypes = {
-  onChange: PropTypes.func.isRequired,
   getStyles: PropTypes.func.isRequired,
   label: PropTypes.string.isRequired,
   type: PropTypes.oneOf(options.types).isRequired,
   id: PropTypes.string.isRequired,
+  onChange: PropTypes.func,
   placeholder: PropTypes.string,
   value: PropTypes.string,
   refInput: PropTypes.any,
@@ -56,11 +56,9 @@ Input.propTypes = {
 
 Input.defaultProps = {
   placeholder: '',
-  value: '',
+  defaultValue: '',
   isInline: false,
   isHideLabel: true,
-  onChange: () => {},
-  getStyles: () => {},
 }
 
 export default withStyles(styles)(Input)
