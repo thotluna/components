@@ -1,3 +1,11 @@
+# [1.7.0](https://github.com/thotluna/components/compare/v1.6.1...v1.7.0) (2021-04-07)
+
+
+### Features
+
+* **loading:** add Loading component ([40de1bc](https://github.com/thotluna/components/commit/40de1bca6a3123ec064a96cbea9455e5038a6703)), closes [#43](https://github.com/thotluna/components/issues/43)
+* **picture:** add Pitcture component ([89bbf77](https://github.com/thotluna/components/commit/89bbf7738d3417c28a4391c2611fa267bf8dc296)), closes [#43](https://github.com/thotluna/components/issues/43)
+
 ## [1.6.1](https://github.com/thotluna/components/compare/v1.6.0...v1.6.1) (2021-04-06)
 
 
