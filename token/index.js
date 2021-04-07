@@ -273,7 +273,7 @@ const decisions = {
     fontSize: choices.fontSize.sm,
   },
   picture: {
-    border: `${choices.borderWidth.thin} solid ${choices.color.brand.regentGray}`,
+    border: `${choices.borderWidth.thin} solid ${choices.color.brand.purpleHeart}`,
   },
   card: {
     borderRadius: choices.borderRadius.sm,
