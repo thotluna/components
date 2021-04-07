@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Molecules/Modal Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="modal"
+  >
+    <div
+      className="modal-title"
+    >
+      <div />
+      <button
+        aria-label="button"
+        className="buttons size-short color-inverter without-border"
+      >
+        <div
+          className="container color-primary size-sm"
+        >
+          <svg
+            height={21}
+            viewBox="0 0 21 21"
+            width={21}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              fill="none"
+              fillRule="evenodd"
+              height="100%"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              width="100%"
+            >
+              <path
+                d="M15.5 15.5l-10-10zM15.5 5.5l-10 10"
+              />
+            </g>
+          </svg>
+        </div>
+      </button>
+    </div>
+    <div
+      className="spacer horizontal"
+      style={
+        Object {
+          "height": 5,
+        }
+      }
+    />
+    <div
+      className="container-separator color-primary"
+    >
+      <hr
+        className="separator-line color-primary size-xs"
+        title="Head finish"
+      />
+    </div>
+    <div
+      className="modal-body"
+    >
+      Consent doubt Tuckborough challenge destroying.
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/Modal With Title And Footer 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="modal"
+  >
+    <div
+      className="modal-title"
+    >
+      <div>
+        <header
+          className="headings color-primary size-xl weight-bold"
+        >
+          Hey men!
+        </header>
+      </div>
+      <button
+        aria-label="button"
+        className="buttons size-short color-inverter without-border"
+      >
+        <div
+          className="container color-primary size-sm"
+        >
+          <svg
+            height={21}
+            viewBox="0 0 21 21"
+            width={21}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              fill="none"
+              fillRule="evenodd"
+              height="100%"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              width="100%"
+            >
+              <path
+                d="M15.5 15.5l-10-10zM15.5 5.5l-10 10"
+              />
+            </g>
+          </svg>
+        </div>
+      </button>
+    </div>
+    <div
+      className="spacer horizontal"
+      style={
+        Object {
+          "height": 5,
+        }
+      }
+    />
+    <div
+      className="container-separator color-primary"
+    >
+      <hr
+        className="separator-line color-primary size-xs"
+        title="Head finish"
+      />
+    </div>
+    <div
+      className="modal-body"
+    >
+      Consent doubt Tuckborough challenge destroying.
+    </div>
+    <div
+      className="container-separator color-primary"
+    >
+      <hr
+        className="separator-line color-primary size-xs"
+        title="footer"
+      />
+    </div>
+    <div
+      className="spacer horizontal"
+      style={
+        Object {
+          "height": undefined,
+        }
+      }
+    />
+    <div
+      className="modal-footer"
+    >
+      <button
+        aria-label="button"
+        className="buttons size-short color-inverter"
+      >
+        <header
+          className="headings color-primary size-md weight-bold"
+        >
+          Cancel
+        </header>
+      </button>
+      <button
+        aria-label="button"
+        className="buttons size-short color-primary"
+      >
+        <header
+          className="headings color-inverted size-md weight-bold"
+        >
+          Aceptar
+        </header>
+      </button>
+    </div>
+  </div>
+</div>
+`;

@@ -561,5 +561,29 @@ exports[`Storyshots Atoms/Icon Type 1`] = `
       />
     </svg>
   </div>
+  <div
+    className="container color-primary size-sm"
+  >
+    <svg
+      height={21}
+      viewBox="0 0 21 21"
+      width={21}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g
+        fill="none"
+        fillRule="evenodd"
+        height="100%"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        width="100%"
+      >
+        <path
+          d="M15.5 15.5l-10-10zM15.5 5.5l-10 10"
+        />
+      </g>
+    </svg>
+  </div>
 </div>
 `;

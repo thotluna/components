@@ -1,0 +1,26 @@
+.modal {
+  width: 100%;
+  padding: 2em;
+  background-color: var(--background-color-primary);
+}
+
+.is-playground {
+  max-width: max-content;
+}
+
+.modal-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modal-body {
+  padding: 2em 0;
+}
+
+.modal-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5em;
+}
