@@ -14,20 +14,22 @@ export const Picture = ({
   getStyles,
 }) => {
   return (
-    <picture
-      className={getStyles('picture')}
-      style={{ maxWidth: width, height: isRounded ? width : height }}
-    >
+    <picture className={getStyles('picture')}>
       {sources &&
         sources.map((source) => (
           // eslint-disable-next-line react/jsx-key
-          <source srcSet={source.src} media={source.media}></source>
+          <source
+            key={source.src}
+            srcSet={source.src}
+            media={source.media}
+          ></source>
         ))}
       <img
         className={getStyles('image', {
           'is-rounded': isRounded,
           'with-border': withBorder,
         })}
+        style={{ maxWidth: width, height: isRounded ? width : height }}
         src={src}
         alt={alt}
         role={!alt || alt === '' ? 'presentation' : ''}
@@ -54,7 +56,7 @@ Picture.propTypes = {
 
 Picture.defaultProps = {
   alt: '',
-  width: 150,
+  width: 200,
   height: 'auto',
   isRounded: false,
   withBorder: false,

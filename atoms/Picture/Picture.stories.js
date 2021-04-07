@@ -5,10 +5,9 @@ import { getTemplate } from '../../helpers/storybook'
 const Template = getTemplate(Picture, styles)
 
 const args = {
-  src: 'https://picsum.photos/200/200',
+  src: 'https://loremflickr.com/300/200?lock=1',
   alt: 'It one image',
-  width: 150,
-  height: 'auto',
+  width: '200px',
   isRounded: false,
   withBorder: false,
 }
@@ -20,7 +19,7 @@ export default {
   argTypes: {
     src: { control: 'text' },
     alt: { control: 'text' },
-    source: { control: 'object' },
+    sources: { control: 'object' },
     width: { control: 'number' },
     height: { control: 'number' },
   },
@@ -34,6 +33,25 @@ export const ImageDecorative = Template.bind({})
 ImageDecorative.args = {
   ...args,
   alt: '',
+}
+
+export const Source = Template.bind({})
+Source.args = {
+  ...args,
+  sources: [
+    {
+      src: 'https://loremflickr.com/150/100?lock=4',
+      media: '( max-width: 375px )',
+    },
+    {
+      src: 'https://loremflickr.com/300/200?lock=2',
+      media: '( max-width: 800px )',
+    },
+    {
+      src: 'https://loremflickr.com/600/400?lock=3',
+      media: '( max-width: 10240px )',
+    },
+  ],
 }
 
 export const ImageRounded = Template.bind({})

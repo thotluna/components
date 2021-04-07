@@ -17,18 +17,18 @@ exports[`Storyshots Atoms/Picture Default 1`] = `
 >
   <picture
     className="picture"
-    style={
-      Object {
-        "height": "auto",
-        "maxWidth": 150,
-      }
-    }
   >
     <img
       alt="It one image"
       className="image"
       role=""
-      src="https://picsum.photos/200/200"
+      src="https://loremflickr.com/300/200?lock=1"
+      style={
+        Object {
+          "height": "auto",
+          "maxWidth": "200px",
+        }
+      }
     />
   </picture>
 </div>
@@ -51,18 +51,18 @@ exports[`Storyshots Atoms/Picture Image Decorative 1`] = `
 >
   <picture
     className="picture"
-    style={
-      Object {
-        "height": "auto",
-        "maxWidth": 150,
-      }
-    }
   >
     <img
       alt=""
       className="image"
       role="presentation"
-      src="https://picsum.photos/200/200"
+      src="https://loremflickr.com/300/200?lock=1"
+      style={
+        Object {
+          "height": "auto",
+          "maxWidth": "200px",
+        }
+      }
     />
   </picture>
 </div>
@@ -85,18 +85,18 @@ exports[`Storyshots Atoms/Picture Image Rounded 1`] = `
 >
   <picture
     className="picture"
-    style={
-      Object {
-        "height": 200,
-        "maxWidth": 200,
-      }
-    }
   >
     <img
       alt="It one image"
       className="image is-rounded"
       role=""
-      src="https://picsum.photos/200/200"
+      src="https://loremflickr.com/300/200?lock=1"
+      style={
+        Object {
+          "height": 200,
+          "maxWidth": 200,
+        }
+      }
     />
   </picture>
 </div>
@@ -119,18 +119,18 @@ exports[`Storyshots Atoms/Picture Image Rounder With Border 1`] = `
 >
   <picture
     className="picture"
-    style={
-      Object {
-        "height": 200,
-        "maxWidth": 200,
-      }
-    }
   >
     <img
       alt="It one image"
       className="image is-rounded with-border"
       role=""
-      src="https://picsum.photos/200/200"
+      src="https://loremflickr.com/300/200?lock=1"
+      style={
+        Object {
+          "height": 200,
+          "maxWidth": 200,
+        }
+      }
     />
   </picture>
 </div>
@@ -153,18 +153,64 @@ exports[`Storyshots Atoms/Picture Image With Border 1`] = `
 >
   <picture
     className="picture"
-    style={
-      Object {
-        "height": "auto",
-        "maxWidth": 150,
-      }
-    }
   >
     <img
       alt="It one image"
       className="image with-border"
       role=""
-      src="https://picsum.photos/200/200"
+      src="https://loremflickr.com/300/200?lock=1"
+      style={
+        Object {
+          "height": "auto",
+          "maxWidth": "200px",
+        }
+      }
+    />
+  </picture>
+</div>
+`;
+
+exports[`Storyshots Atoms/Picture Source 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": 300,
+    }
+  }
+>
+  <picture
+    className="picture"
+  >
+    <source
+      media="( max-width: 375px )"
+      srcSet="https://loremflickr.com/150/100?lock=4"
+    />
+    <source
+      media="( max-width: 800px )"
+      srcSet="https://loremflickr.com/300/200?lock=2"
+    />
+    <source
+      media="( max-width: 10240px )"
+      srcSet="https://loremflickr.com/600/400?lock=3"
+    />
+    <img
+      alt="It one image"
+      className="image"
+      role=""
+      src="https://loremflickr.com/300/200?lock=1"
+      style={
+        Object {
+          "height": "auto",
+          "maxWidth": "200px",
+        }
+      }
     />
   </picture>
 </div>
