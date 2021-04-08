@@ -5,7 +5,7 @@ import { options } from './constants'
 import { getColorSeting } from './constants'
 
 import Buttons from '../Buttons'
-import Heading from '../../atoms/Headings'
+import Title from '../../atoms/Title'
 import Icon from '../../atoms/Icons'
 import { getClasses } from '../../helpers/styles'
 
@@ -19,9 +19,9 @@ export const Snackbar = ({ children, type, onClose }) => {
       <div className={classStyles('snackbar-body')}>
         <div className={classStyles('snackbar-left')}>
           <Icon type="trash" size="lg" color={getStyle.colorIcon} />
-          <Heading size="md" color={getStyle.colorText}>
+          <Title size="md" color={getStyle.colorText}>
             {children}
-          </Heading>
+          </Title>
         </div>
         <Buttons
           ariaLabel="button"

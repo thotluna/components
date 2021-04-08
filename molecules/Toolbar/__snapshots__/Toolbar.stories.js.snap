@@ -59,11 +59,11 @@ exports[`Storyshots Molecules/Toolbar Default 1`] = `
         }
       }
     />
-    <header
-      className="headings color-inverted size-lg weight-bold"
+    <h2
+      className="container color-inverted"
     >
       Login
-    </header>
+    </h2>
   </div>
 </div>
 `;
@@ -170,11 +170,11 @@ exports[`Storyshots Molecules/Toolbar Only Title 1`] = `
         }
       }
     />
-    <header
-      className="headings color-inverted size-lg weight-bold"
+    <h2
+      className="container color-inverted"
     >
       Home
-    </header>
+    </h2>
   </div>
 </div>
 `;

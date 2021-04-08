@@ -21,16 +21,16 @@ exports[`Storyshots Molecules/TasksCounter Colors 1`] = `
     <div
       className="messages"
     >
-      <header
-        className="headings color-base size-md weight-bold"
+      <h3
+        className="container color-base"
       >
         Task resolved
-      </header>
-      <header
-        className="headings color-base size-md weight-bold"
+      </h3>
+      <h3
+        className="container color-base"
       >
         5/10
-      </header>
+      </h3>
     </div>
     <div
       className="container-separator color-base"
@@ -47,16 +47,16 @@ exports[`Storyshots Molecules/TasksCounter Colors 1`] = `
     <div
       className="messages"
     >
-      <header
-        className="headings color-primary size-md weight-bold"
+      <h3
+        className="container color-primary"
       >
         Task resolved
-      </header>
-      <header
-        className="headings color-primary size-md weight-bold"
+      </h3>
+      <h3
+        className="container color-primary"
       >
         5/10
-      </header>
+      </h3>
     </div>
     <div
       className="container-separator color-primary"
@@ -73,16 +73,16 @@ exports[`Storyshots Molecules/TasksCounter Colors 1`] = `
     <div
       className="messages"
     >
-      <header
-        className="headings color-secondary size-md weight-bold"
+      <h3
+        className="container color-secondary"
       >
         Task resolved
-      </header>
-      <header
-        className="headings color-secondary size-md weight-bold"
+      </h3>
+      <h3
+        className="container color-secondary"
       >
         5/10
-      </header>
+      </h3>
     </div>
     <div
       className="container-separator color-secondary"
@@ -99,16 +99,16 @@ exports[`Storyshots Molecules/TasksCounter Colors 1`] = `
     <div
       className="messages"
     >
-      <header
-        className="headings color-tertiary size-md weight-bold"
+      <h3
+        className="container color-tertiary"
       >
         Task resolved
-      </header>
-      <header
-        className="headings color-tertiary size-md weight-bold"
+      </h3>
+      <h3
+        className="container color-tertiary"
       >
         5/10
-      </header>
+      </h3>
     </div>
     <div
       className="container-separator color-tertiary"
@@ -125,16 +125,16 @@ exports[`Storyshots Molecules/TasksCounter Colors 1`] = `
     <div
       className="messages"
     >
-      <header
-        className="headings color-inverted size-md weight-bold"
+      <h3
+        className="container color-inverted"
       >
         Task resolved
-      </header>
-      <header
-        className="headings color-inverted size-md weight-bold"
+      </h3>
+      <h3
+        className="container color-inverted"
       >
         5/10
-      </header>
+      </h3>
     </div>
     <div
       className="container-separator color-inverted"
@@ -169,16 +169,16 @@ exports[`Storyshots Molecules/TasksCounter Default 1`] = `
     <div
       className="messages"
     >
-      <header
-        className="headings color-primary size-md weight-bold"
+      <h3
+        className="container color-primary"
       >
         Task resolved
-      </header>
-      <header
-        className="headings color-primary size-md weight-bold"
+      </h3>
+      <h3
+        className="container color-primary"
       >
         5/10
-      </header>
+      </h3>
     </div>
     <div
       className="container-separator color-primary"

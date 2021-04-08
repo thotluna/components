@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { styles } from '.'
 import withStyles from '../../hocs/withStyles'
-import Heading from '../../atoms/Headings'
+import Title from '../../atoms/Title'
 import Buttons from '../Buttons'
 import Separator from '../../atoms/SeparatorLine'
 import Spacer from '../../layout/Spacer'
@@ -27,9 +27,9 @@ export const Modal = ({
         <div className={getStyles('modal-title')}>
           <div>
             {title && (
-              <Heading color="primary" size="xl">
+              <Title color="primary" size="lg">
                 {title}
-              </Heading>
+              </Title>
             )}
           </div>
           <Buttons
