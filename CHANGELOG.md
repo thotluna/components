@@ -1,3 +1,12 @@
+# [1.8.0](https://github.com/thotluna/components/compare/v1.7.0...v1.8.0) (2021-04-08)
+
+
+### Features
+
+* **container:** container ([bd68a57](https://github.com/thotluna/components/commit/bd68a57babedb14211bb16a7c37089e8580ac61f)), closes [#43](https://github.com/thotluna/components/issues/43)
+* **modal:** add Modal component ([4c921ad](https://github.com/thotluna/components/commit/4c921ad5323b2163af9afe0b30ec5e0918bd7f81)), closes [#43](https://github.com/thotluna/components/issues/43)
+* **snackbar:** add Sanckbar component ([a3e3741](https://github.com/thotluna/components/commit/a3e374162a53345a87abe5f75e1b2abd2bac22e5)), closes [issue#43](https://github.com/issue/issues/43)
+
 # [1.7.0](https://github.com/thotluna/components/compare/v1.6.1...v1.7.0) (2021-04-07)
 
 
