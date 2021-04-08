@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Atoms/Title Colors 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <h3
+    className="container color-base"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </h3>
+  <h3
+    className="container color-primary"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </h3>
+  <h3
+    className="container color-secondary"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </h3>
+  <h3
+    className="container color-terneary"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </h3>
+  <h3
+    className="container color-inverted"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </h3>
+</div>
+`;
+
+exports[`Storyshots Atoms/Title Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <h3
+    className="container color-primary"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </h3>
+</div>
+`;
+
+exports[`Storyshots Atoms/Title Sizes 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <h4
+    className="container color-primary"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </h4>
+  <h3
+    className="container color-primary"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </h3>
+  <h2
+    className="container color-primary"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </h2>
+</div>
+`;

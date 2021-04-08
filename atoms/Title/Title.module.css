@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+}
+
+.color-base {
+  color: var(--color-font-base);
+}
+
+.color-inverted {
+  color: var(--color-font-inverted);
+}
+
+.color-primary {
+  color: var(--color-primary);
+}
+
+.color-secondary {
+  color: var(--color-secondary);
+}
+
+.color-tertiary {
+  color: var(--color-font-highlight);
+}
