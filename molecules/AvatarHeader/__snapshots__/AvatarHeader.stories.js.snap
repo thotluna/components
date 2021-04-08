@@ -33,16 +33,16 @@ exports[`Storyshots Molecules/AvatarHeader Default 1`] = `
         }
       }
     >
-      <header
-        className="headings color-base size-md weight-bold"
+      <h3
+        className="container color-primary"
       >
         ThotLuna
-      </header>
-      <div
-        className="container color-base size-md weight-bold"
+      </h3>
+      <h4
+        className="container color-base"
       >
         thotluna@gmail.com
-      </div>
+      </h4>
     </div>
   </div>
 </div>
@@ -81,16 +81,16 @@ exports[`Storyshots Molecules/AvatarHeader Size 1`] = `
         }
       }
     >
-      <header
-        className="headings color-base size-sm weight-bold"
+      <h4
+        className="container color-primary"
       >
         ThotLuna
-      </header>
-      <div
-        className="container color-base size-sm weight-bold"
+      </h4>
+      <h5
+        className="container color-base"
       >
         thotluna@gmail.com
-      </div>
+      </h5>
     </div>
   </div>
   <div
@@ -111,16 +111,16 @@ exports[`Storyshots Molecules/AvatarHeader Size 1`] = `
         }
       }
     >
-      <header
-        className="headings color-base size-md weight-bold"
+      <h3
+        className="container color-primary"
       >
         ThotLuna
-      </header>
-      <div
-        className="container color-base size-md weight-bold"
+      </h3>
+      <h4
+        className="container color-base"
       >
         thotluna@gmail.com
-      </div>
+      </h4>
     </div>
   </div>
 </div>
