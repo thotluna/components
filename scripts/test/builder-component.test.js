@@ -34,18 +34,18 @@ describe('Builder Component', () => {
   describe('given a phrase with Component replaceComponent', () => {
     it('should be return a phrase with Button ', async () => {
       const phrase =
-        'The Componet is Blue, and new componet will be red, and shoud be atomic/Componet'
+        'The Component is Blue, and new Component will be red, and shoud be atomic/Component'
       const expected =
-        'The Button is Blue, and new componet will be red, and shoud be atomic/Button'
+        'The Button is Blue, and new Button will be red, and shoud be atomic/Button'
 
       const result = await replaceComponent(phrase, 'Button')
       expect(expected).toStrictEqual(result)
     })
     it('should be return a phrase with atom ', async () => {
       const phrase =
-        'The Componet is Blue, and new componet will be red, and shoud be atomic/Componet'
+        'The component is Blue, and new component will be red, and shoud be atomic/component'
       const expected =
-        'The Componet is Blue, and new componet will be red, and shoud be Atoms/Componet'
+        'The component is Blue, and new component will be red, and shoud be Atoms/component'
       const result = await replaceComponent(phrase, ATOMIC_DESING_TYPE.atom)
       expect(expected).toStrictEqual(result)
     })
