@@ -1,0 +1,17 @@
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container.type-full {
+  padding: 2rem;
+}
+
+.container.type-withoutup {
+  padding: 0 2rem 2rem;
+}
+
+.container.is-playground {
+  border: var(--border-width-thick) dashed var(--color-primary);
+}
