@@ -1,0 +1,235 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Molecules/Snackbar Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="snackbar color-secondary"
+  >
+    <div
+      className="snackbar-body"
+    >
+      <div
+        className="snackbar-left"
+      >
+        <div
+          className="container color-inverted size-lg"
+        >
+          <svg
+            fill="none"
+            height="100%"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            width="100%"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={1}
+            />
+          </svg>
+        </div>
+        <header
+          className="headings color-inverted size-md weight-bold"
+        >
+          Consent doubt Tuckborough challenge destroying.
+        </header>
+      </div>
+      <button
+        aria-label="button"
+        className="buttons size-short color-secondary without-border"
+      >
+        <div
+          className="container color-inverted size-sm"
+        >
+          <svg
+            height="100%"
+            stroke="currentColor"
+            viewBox="0 0 21 21"
+            width="100%"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              fill="none"
+              fillRule="evenodd"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path
+                d="M15.5 15.5l-10-10zM15.5 5.5l-10 10"
+              />
+            </g>
+          </svg>
+        </div>
+      </button>
+    </div>
+    <div
+      className="snackbar-body"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/Snackbar Types 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="snackbar color-secondary"
+  >
+    <div
+      className="snackbar-body"
+    >
+      <div
+        className="snackbar-left"
+      >
+        <div
+          className="container color-inverted size-lg"
+        >
+          <svg
+            fill="none"
+            height="100%"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            width="100%"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={1}
+            />
+          </svg>
+        </div>
+        <header
+          className="headings color-inverted size-md weight-bold"
+        >
+          Consent doubt Tuckborough challenge destroying.
+        </header>
+      </div>
+      <button
+        aria-label="button"
+        className="buttons size-short color-secondary without-border"
+      >
+        <div
+          className="container color-inverted size-sm"
+        >
+          <svg
+            height="100%"
+            stroke="currentColor"
+            viewBox="0 0 21 21"
+            width="100%"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              fill="none"
+              fillRule="evenodd"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path
+                d="M15.5 15.5l-10-10zM15.5 5.5l-10 10"
+              />
+            </g>
+          </svg>
+        </div>
+      </button>
+    </div>
+    <div
+      className="snackbar-body"
+    />
+  </div>
+  <div
+    className="snackbar color-primary"
+  >
+    <div
+      className="snackbar-body"
+    >
+      <div
+        className="snackbar-left"
+      >
+        <div
+          className="container color-inverted size-lg"
+        >
+          <svg
+            fill="none"
+            height="100%"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            width="100%"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={1}
+            />
+          </svg>
+        </div>
+        <header
+          className="headings color-inverted size-md weight-bold"
+        >
+          Consent doubt Tuckborough challenge destroying.
+        </header>
+      </div>
+      <button
+        aria-label="button"
+        className="buttons size-short color-primary without-border"
+      >
+        <div
+          className="container color-inverted size-sm"
+        >
+          <svg
+            height="100%"
+            stroke="currentColor"
+            viewBox="0 0 21 21"
+            width="100%"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              fill="none"
+              fillRule="evenodd"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path
+                d="M15.5 15.5l-10-10zM15.5 5.5l-10 10"
+              />
+            </g>
+          </svg>
+        </div>
+      </button>
+    </div>
+    <div
+      className="snackbar-body"
+    />
+  </div>
+</div>
+`;

@@ -27,3 +27,8 @@ export const getOptionsArgTypes = (options) => ({
   },
   control: { type: 'select', options },
 })
+
+export const getVariusTemplate = (Component) => ({ items, ...args }) =>
+  items.map((item, index) => {
+    return <Component key={index} {...args} {...item} />
+  })

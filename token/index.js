@@ -16,6 +16,7 @@ const choices = {
       romance: '#fcfdfd',
       purpleHeart: '#6B17AD',
       mauve: '#E8CFFC',
+      maroon: '#A20B29',
     },
 
     base: {
@@ -245,7 +246,7 @@ const decisions = {
     fontMuted: choices.color.brand.regentGray,
     fontHighlight: choices.color.brand.mauve,
     fontInverted: choices.color.base.white,
-    secondary: choices.color.brand.amaranth,
+    secondary: choices.color.brand.maroon,
     secondaryMuted: choices.color.brand.mandy,
     secondaryInverted: choices.color.base.white,
     sun: '#FFBC13',

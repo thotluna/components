@@ -53,5 +53,6 @@ OnlyIcon.args = {
   isOnlyIcon: true,
   size: 'mini',
   children: null,
+  color: 'primary',
   items: iconOptions.type.map((icon) => ({ icon })),
 }

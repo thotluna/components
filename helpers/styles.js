@@ -23,15 +23,25 @@ export const getObjectClasses = (cssModule, object) => {
 }
 
 export const getClasses = (cssModule = {}) => (props) => (...args) => {
-  return classNames(
-    args.map((arg) => {
-      if (Array.isArray(arg)) {
-        return getDynamicClasses(cssModule, props, arg)
-      } else if (typeof arg === 'string') {
-        return getModuleClasses(cssModule, arg)
-      } else if (typeof arg === 'object') {
-        return getObjectClasses(cssModule, arg)
-      }
-    })
-  )
+  const allClass = args.map((arg) => {
+    if (Array.isArray(arg)) {
+      const dinamicClasses = getDynamicClasses(cssModule, props, arg)
+      // console.log('>>>dinamic', dinamicClasses)
+      return dinamicClasses
+    } else if (typeof arg === 'string') {
+      const moduleClass = getModuleClasses(cssModule, arg)
+      // console.log('>>>module', moduleClass)
+      return moduleClass
+    } else if (typeof arg === 'object') {
+      const objectClass = getObjectClasses(cssModule, arg)
+      // console.log('>>>object', objectClass)
+      return objectClass
+    }
+  })
+  // console.log(allClass)
+
+  const result = classNames(allClass)
+
+  // console.log(result)
+  return result
 }

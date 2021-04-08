@@ -12,6 +12,7 @@
   --color-brand-romance: #fcfdfd;
   --color-brand-purple-heart: #6b17ad;
   --color-brand-mauve: #e8cffc;
+  --color-brand-maroon: #a20b29;
   --color-base-black: #000;
   --color-base-white: #fff;
   --color-base-transparent: transparent;
@@ -175,7 +176,7 @@
   --color-font-muted: #7e858c;
   --color-font-highlight: #e8cffc;
   --color-font-inverted: #fff;
-  --color-secondary: #eb2d52;
+  --color-secondary: #a20b29;
   --color-secondary-muted: #eb4e58;
   --color-secondary-inverted: #fff;
   --color-sun: #ffbc13;

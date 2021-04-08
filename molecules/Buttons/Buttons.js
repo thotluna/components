@@ -16,6 +16,7 @@ export const Buttons = ({
   getStyles,
   onCLick,
   ariaLabel,
+  withoutBorder,
 }) => {
   const childrenColor =
     color === 'primary' || color === 'secondary' ? 'inverted' : 'primary'
@@ -23,6 +24,7 @@ export const Buttons = ({
     <button
       className={getStyles('buttons', ['size', 'color'], {
         'is-only-icon': isOnlyIcon,
+        'without-border': withoutBorder,
       })}
       onClick={onCLick}
       aria-label={ariaLabel}
@@ -44,12 +46,14 @@ Buttons.propTypes = {
   children: PropTypes.node,
   onCLick: PropTypes.func,
   ariaLabel: PropTypes.string.isRequired,
+  withoutBorder: PropTypes.bool,
 }
 
 Buttons.defaultProps = {
   size: 'full',
   color: 'primary',
   isOnlyIcon: false,
+  withoutBorder: false,
 }
 
 export default withStyles(styles)(Buttons)

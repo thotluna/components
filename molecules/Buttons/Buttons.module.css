@@ -39,6 +39,11 @@
   color: var(--color-primary);
 }
 
+.without-border {
+  border: none;
+  background-color: transparent;
+}
+
 .color-inverter:focus {
   box-shadow: var(--box-shadow-focus-in), var(--box-shadow-focus-out);
 }
