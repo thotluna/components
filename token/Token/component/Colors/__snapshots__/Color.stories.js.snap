@@ -771,6 +771,32 @@ exports[`Storyshots Tokens/Color Brand 1`] = `
       </span>
     </div>
   </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#A20B29",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --color-brand-maroon
+      </span>
+      <span
+        className="label"
+      >
+        #A20B29
+      </span>
+    </div>
+  </div>
 </div>
 `;
 
@@ -1004,7 +1030,7 @@ exports[`Storyshots Tokens/Color Decisions 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#eb2d52",
+          "backgroundColor": "#A20B29",
         }
       }
     />
@@ -1019,7 +1045,7 @@ exports[`Storyshots Tokens/Color Decisions 1`] = `
       <span
         className="label"
       >
-        #eb2d52
+        #A20B29
       </span>
     </div>
   </div>

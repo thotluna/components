@@ -1,22 +1,19 @@
+import React from 'react'
 import Icon from './Icon'
 import { options } from './constants'
-import styles from './Icon.module.css'
-import {
-  getListTemplate,
-  getTemplate,
-  getOptionsArgTypes,
-} from '../../helpers/storybook'
+import { getOptionsArgTypes, getVariusTemplate } from '../../helpers/storybook'
 
-const Template = getTemplate(Icon, styles)
-const ListTemplate = getListTemplate(Icon, styles)
+const Template = (args) => <Icon {...args} />
+
+const VariusTemplage = getVariusTemplate(Icon)
 
 export default {
   title: 'Atoms/Icon',
   component: Icon,
   args: {
-    color: 'primary',
+    color: 'sun',
     type: 'chevron-left',
-    size: 'sm',
+    size: 'md',
     hasBorder: false,
   },
   argTypes: {
@@ -29,22 +26,22 @@ export default {
 
 export const Default = Template.bind({})
 
-export const Colors = ListTemplate.bind({})
+export const Colors = VariusTemplage.bind({})
 Colors.args = { items: options.colors.map((color) => ({ color })) }
 
-export const Size = ListTemplate.bind({})
+export const Size = VariusTemplage.bind({})
 Size.args = { items: options.size.map((size) => ({ size })) }
 
-export const Type = ListTemplate.bind({})
+export const Type = VariusTemplage.bind({})
 Type.args = { items: options.type.map((type) => ({ type })) }
 
-export const HasBorder = ListTemplate.bind({})
+export const HasBorder = VariusTemplage.bind({})
 HasBorder.args = {
   hasBorder: true,
   items: options.colors.map((color) => ({ color })),
 }
 
-export const HasBorderSize = ListTemplate.bind({})
+export const HasBorderSize = VariusTemplage.bind({})
 HasBorderSize.args = {
   hasBorder: true,
   items: options.size.map((size) => ({ size })),

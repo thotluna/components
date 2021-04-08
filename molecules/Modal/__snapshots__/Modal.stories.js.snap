@@ -30,19 +30,17 @@ exports[`Storyshots Molecules/Modal Default 1`] = `
           className="container color-primary size-sm"
         >
           <svg
-            height={21}
+            height="100%"
+            stroke="currentColor"
             viewBox="0 0 21 21"
-            width={21}
+            width="100%"
             xmlns="http://www.w3.org/2000/svg"
           >
             <g
               fill="none"
               fillRule="evenodd"
-              height="100%"
-              stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
-              width="100%"
             >
               <path
                 d="M15.5 15.5l-10-10zM15.5 5.5l-10 10"
@@ -113,19 +111,17 @@ exports[`Storyshots Molecules/Modal With Title And Footer 1`] = `
           className="container color-primary size-sm"
         >
           <svg
-            height={21}
+            height="100%"
+            stroke="currentColor"
             viewBox="0 0 21 21"
-            width={21}
+            width="100%"
             xmlns="http://www.w3.org/2000/svg"
           >
             <g
               fill="none"
               fillRule="evenodd"
-              height="100%"
-              stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
-              width="100%"
             >
               <path
                 d="M15.5 15.5l-10-10zM15.5 5.5l-10 10"

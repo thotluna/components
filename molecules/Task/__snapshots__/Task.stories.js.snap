@@ -333,7 +333,7 @@ exports[`Storyshots Molecules/Task Pending 1`] = `
           className="content"
         >
           <div
-            className="container color-primary size-md has-borde-primary"
+            className="container color-sun size-md"
           >
             <svg
               fill="none"
@@ -442,7 +442,7 @@ exports[`Storyshots Molecules/Task Pending Types 1`] = `
           className="content"
         >
           <div
-            className="container color-primary size-md has-borde-primary"
+            className="container color-sun size-md"
           >
             <svg
               fill="none"
@@ -533,7 +533,7 @@ exports[`Storyshots Molecules/Task Pending Types 1`] = `
           className="content"
         >
           <div
-            className="container color-primary size-md has-borde-primary"
+            className="container color-sun size-md"
           >
             <svg
               fill="none"
