@@ -1,16 +1,13 @@
-import { Componet, options, styles } from '.'
-import {
-  getListTemplate,
-  getTemplate,
-  getOptionsArgTypes,
-} from '../../helpers/storybook'
+import React from 'react'
+import Component, { options } from '.'
+import { getVariusTemplate, getOptionsArgTypes } from '../../helpers/storybook'
 
-const Template = getTemplate(Componet, styles)
-const ListTemplate = getListTemplate(Componet, styles)
+const Template = (args) => <Component {...args} />
+const ListTemplate = getVariusTemplate(Component)
 
 export default {
-  title: 'atomic/Componet',
-  component: Componet,
+  title: 'atomic/Component',
+  component: Component,
   args: {
     children: 'Consent doubt Tuckborough challenge destroying.',
   },

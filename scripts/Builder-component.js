@@ -12,7 +12,13 @@ const replaceComponent = async (templateComponent, nameComponent) => {
       nameComponent.replace(/^./, nameComponent[0].toUpperCase())
     )
   } else {
-    return templateComponent.replaceAll(/Componet/g, nameComponent)
+    const first = templateComponent.replaceAll(/Component/g, nameComponent)
+    const lowerCase = nameComponent.replace(
+      /^./,
+      nameComponent[0].toLowerCase()
+    )
+    const two = first.replaceAll(/component/g, lowerCase)
+    return two
   }
 }
 
@@ -38,7 +44,7 @@ const addComponentToIndex = async (path, name) => {
   controller.abort()
 }
 
-const task = ['component', 'css', 'story', 'index', 'constants', 'test']
+const task = ['component', 'css', 'story', 'index', 'constants']
 const urlsTemplates = {
   component: {
     url: './template/component/Component.js',
@@ -59,10 +65,6 @@ const urlsTemplates = {
   constants: {
     url: './template/component/constants.js',
     ext: 'js',
-  },
-  test: {
-    url: './template/component/Component.accessibility.js',
-    ext: 'accessibility.test.js',
   },
 }
 
