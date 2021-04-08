@@ -159,11 +159,11 @@ exports[`Storyshots Atoms/SeparatorLine Titel Colors 1`] = `
     <div
       className="title"
     >
-      <header
-        className="headings color-base size-md weight-bold"
+      <h4
+        className="container color-base"
       >
         separator
-      </header>
+      </h4>
     </div>
   </div>
   <div
@@ -176,11 +176,11 @@ exports[`Storyshots Atoms/SeparatorLine Titel Colors 1`] = `
     <div
       className="title"
     >
-      <header
-        className="headings color-primary size-md weight-bold"
+      <h4
+        className="container color-primary"
       >
         separator
-      </header>
+      </h4>
     </div>
   </div>
   <div
@@ -193,11 +193,11 @@ exports[`Storyshots Atoms/SeparatorLine Titel Colors 1`] = `
     <div
       className="title"
     >
-      <header
-        className="headings color-secondary size-md weight-bold"
+      <h4
+        className="container color-secondary"
       >
         separator
-      </header>
+      </h4>
     </div>
   </div>
   <div
@@ -210,11 +210,11 @@ exports[`Storyshots Atoms/SeparatorLine Titel Colors 1`] = `
     <div
       className="title"
     >
-      <header
-        className="headings color-tertiary size-md weight-bold"
+      <h4
+        className="container color-tertiary"
       >
         separator
-      </header>
+      </h4>
     </div>
   </div>
   <div
@@ -227,11 +227,11 @@ exports[`Storyshots Atoms/SeparatorLine Titel Colors 1`] = `
     <div
       className="title"
     >
-      <header
-        className="headings color-inverted size-md weight-bold"
+      <h4
+        className="container color-inverted"
       >
         separator
-      </header>
+      </h4>
     </div>
   </div>
 </div>
@@ -262,11 +262,11 @@ exports[`Storyshots Atoms/SeparatorLine Titel Sizes 1`] = `
     <div
       className="title"
     >
-      <header
-        className="headings color-primary size-md weight-bold"
+      <h4
+        className="container color-primary"
       >
         separator
-      </header>
+      </h4>
     </div>
   </div>
   <div
@@ -279,11 +279,11 @@ exports[`Storyshots Atoms/SeparatorLine Titel Sizes 1`] = `
     <div
       className="title"
     >
-      <header
-        className="headings color-primary size-md weight-bold"
+      <h4
+        className="container color-primary"
       >
         separator
-      </header>
+      </h4>
     </div>
   </div>
   <div
@@ -296,11 +296,11 @@ exports[`Storyshots Atoms/SeparatorLine Titel Sizes 1`] = `
     <div
       className="title"
     >
-      <header
-        className="headings color-primary size-md weight-bold"
+      <h4
+        className="container color-primary"
       >
         separator
-      </header>
+      </h4>
     </div>
   </div>
   <div
@@ -313,11 +313,11 @@ exports[`Storyshots Atoms/SeparatorLine Titel Sizes 1`] = `
     <div
       className="title"
     >
-      <header
-        className="headings color-primary size-md weight-bold"
+      <h4
+        className="container color-primary"
       >
         separator
-      </header>
+      </h4>
     </div>
   </div>
 </div>
