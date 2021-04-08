@@ -175,21 +175,21 @@ exports[`Storyshots Molecules/Modal With Title And Footer 1`] = `
         aria-label="button"
         className="buttons size-short color-inverter"
       >
-        <header
-          className="headings color-primary size-md weight-bold"
+        <h3
+          className="container color-primary"
         >
           Cancel
-        </header>
+        </h3>
       </button>
       <button
         aria-label="button"
         className="buttons size-short color-primary"
       >
-        <header
-          className="headings color-inverted size-md weight-bold"
+        <h3
+          className="container color-inverted"
         >
           Aceptar
-        </header>
+        </h3>
       </button>
     </div>
   </div>
