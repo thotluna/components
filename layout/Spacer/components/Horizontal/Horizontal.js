@@ -3,9 +3,10 @@ import PropTypes from 'prop-types'
 import { mapSize } from '../../helper'
 
 import styles from '../../Spacer.module.css'
-import withStyles from '../../../../hocs/withStyles'
+import { getClasses } from '../../../../helpers/styles'
 
-export function Horizontal({ getStyles, size, isPlayground }) {
+export function Horizontal({ size, isPlayground }) {
+  const getStyles = getClasses(styles)({ size })
   return (
     <div
       className={getStyles('spacer', 'horizontal', {
@@ -19,13 +20,11 @@ export function Horizontal({ getStyles, size, isPlayground }) {
 Horizontal.propTypes = {
   size: PropTypes.string.isRequired,
   isPlayground: PropTypes.bool,
-  getStyles: PropTypes.func.isRequired,
 }
 
 Horizontal.defaultProps = {
   isPlayground: false,
   size: 'none',
-  getStyles: () => {},
 }
 
-export default withStyles(styles)(Horizontal)
+export default Horizontal

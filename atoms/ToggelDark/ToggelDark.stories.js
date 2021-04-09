@@ -1,7 +1,7 @@
-import { ToggelDark, styles } from '.'
-import { getTemplate } from '../../helpers/storybook'
+import React from 'react'
+import ToggelDark from '.'
 
-const Template = getTemplate(ToggelDark, styles)
+const Template = (args) => <ToggelDark {...args} />
 
 export default {
   title: 'Atoms/ToggelDark',
@@ -9,18 +9,19 @@ export default {
   args: {
     name: 'Dark mode',
   },
-}
-
-const args = {
-  name: 'Dark mode',
-  onChange: () => {},
+  argTypes: {
+    onChange: {
+      table: {
+        disable: true,
+      },
+    },
+  },
 }
 
 export const Default = Template.bind({})
-Default.args = { ...args }
 
 export const Active = Template.bind({})
-Active.args = { ...args, isChecked: true }
+Active.args = { isChecked: true }
 
 export const Inactivo = Template.bind({})
-Inactivo.args = { ...args, isChecked: false }
+Inactivo.args = { isChecked: false }

@@ -1,9 +1,9 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import styles from './Loading.module.css'
-import withStyles from '../../hocs/withStyles'
+import { getClasses } from '../../helpers/styles'
 
-export const Loading = ({ getStyles }) => {
+export const Loading = () => {
+  const getStyles = getClasses(styles)({})
   return (
     <div className={getStyles('loading')}>
       <div className={getStyles('loading-object')}></div>
@@ -18,10 +18,8 @@ export const Loading = ({ getStyles }) => {
   )
 }
 
-Loading.propTypes = {
-  getStyles: PropTypes.func.isRequired,
-}
+Loading.propTypes = {}
 
 Loading.defaultProps = {}
 
-export default withStyles(styles)(Loading)
+export default Loading

@@ -2,18 +2,11 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styles from './Check.module.css'
 import { options } from './constants'
-import withStyles from '../../hocs/withStyles'
 import Icon from '../../atoms/Icons'
+import { getClasses } from '../../helpers/styles'
 
-export const Check = ({
-  id,
-  isChecked,
-  onChange,
-  name,
-  color,
-  size,
-  getStyles,
-}) => {
+export const Check = ({ id, isChecked, onChange, name, color, size }) => {
+  const getStyles = getClasses(styles)({ size, color })
   return (
     <div className={getStyles('container-check', ['size'])}>
       <input
@@ -39,7 +32,6 @@ export const Check = ({
 Check.propTypes = {
   id: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
-  getStyles: PropTypes.func.isRequired,
   isChecked: PropTypes.bool,
   onChange: PropTypes.func,
   color: PropTypes.oneOf(options.colors),
@@ -52,4 +44,4 @@ Check.defaultProps = {
   size: 'sm',
 }
 
-export default withStyles(styles)(Check)
+export default Check

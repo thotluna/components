@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { styles } from '.'
-import withStyles from '../../hocs/withStyles'
+import { getClasses } from '../../helpers/styles'
 
 export const Picture = ({
   src,
@@ -11,18 +11,14 @@ export const Picture = ({
   height,
   isRounded,
   withBorder,
-  getStyles,
 }) => {
+  const getStyles = getClasses(styles)({})
   return (
     <picture className={getStyles('picture')}>
       {sources &&
-        sources.map((source) => (
+        sources.map((source, index) => (
           // eslint-disable-next-line react/jsx-key
-          <source
-            key={source.src}
-            srcSet={source.src}
-            media={source.media}
-          ></source>
+          <source key={index} srcSet={source.src} media={source.media}></source>
         ))}
       <img
         className={getStyles('image', {
@@ -40,7 +36,6 @@ export const Picture = ({
 
 Picture.propTypes = {
   src: PropTypes.string.isRequired,
-  getStyles: PropTypes.func.isRequired,
   alt: PropTypes.string,
   sources: PropTypes.arrayOf(
     PropTypes.shape({
@@ -62,4 +57,4 @@ Picture.defaultProps = {
   withBorder: false,
 }
 
-export default withStyles(styles)(Picture)
+export default Picture

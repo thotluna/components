@@ -1,13 +1,9 @@
-import { Toolbar, styles } from './index'
+import React from 'react'
+import Toolbar from './index'
 import { options as iconOptions } from '../../atoms/Icons'
-import {
-  // getListTemplate,
-  getTemplate,
-  getOptionsArgTypes,
-} from '../../helpers/storybook'
+import { getOptionsArgTypes } from '../../helpers/storybook'
 
-const Template = getTemplate(Toolbar, styles)
-// const ListTemplate = getListTemplate(Toolbar, styles)
+const Template = (args) => <Toolbar {...args} />
 
 export default {
   title: 'Molecules/Toolbar',
@@ -15,6 +11,7 @@ export default {
   args: {
     title: 'Login',
     icon: 'chevron-left',
+    label: 'back',
   },
   argTypes: {
     title: { control: 'text' },
@@ -22,17 +19,10 @@ export default {
   },
 }
 
-const args = {
-  title: 'Login',
-  icon: 'chevron-left',
-  label: 'back',
-}
-
 export const Default = Template.bind({})
-Default.args = { ...args, label: 'back' }
 
 export const OnlyIcon = Template.bind({})
-OnlyIcon.args = { ...args, icon: 'chevron-left', title: null }
+OnlyIcon.args = { icon: 'chevron-left', title: null }
 
 export const OnlyTitle = Template.bind({})
-OnlyTitle.args = { ...args, icon: null, title: 'Home' }
+OnlyTitle.args = { icon: null, title: 'Home' }

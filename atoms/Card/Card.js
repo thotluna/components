@@ -3,15 +3,18 @@ import PropTypes from 'prop-types'
 
 import styles from './Card.module.css'
 import { options } from './constants'
-import withStyles from '../../hocs/withStyles'
+
+import { getClasses } from '../../helpers/styles'
 
 export const Card = ({
-  getStyles,
+  color,
+  size,
   onClick,
   isClickable,
   isDraggable,
   children,
 }) => {
+  const getStyles = getClasses(styles)({ color, size })
   return (
     <div
       onClick={onClick}
@@ -28,7 +31,6 @@ export const Card = ({
 
 Card.propTypes = {
   children: PropTypes.node.isRequired,
-  getStyles: PropTypes.func.isRequired,
   onClick: PropTypes.func,
   color: PropTypes.oneOf(options.colors),
   size: PropTypes.oneOf(options.sizes),
@@ -41,4 +43,4 @@ Card.defaultProps = {
   size: 'sm',
 }
 
-export default withStyles(styles)(Card)
+export default Card

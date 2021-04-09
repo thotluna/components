@@ -1,25 +1,18 @@
-import { Check } from './Check'
-import styles from './Check.module.css'
-import { options } from './constants'
-import {
-  getListTemplate,
-  getOptionsArgTypes,
-  getTemplate,
-} from '../../helpers/storybook'
+import React from 'react'
+import Check, { options } from '.'
+import { getVariusTemplate, getOptionsArgTypes } from '../../helpers/storybook'
 
-const Template = getTemplate(Check, styles)
-const ListTemplate = getListTemplate(Check, styles)
-
-const args = {
-  id: 'check#',
-  name: 'check',
-  defaultChecked: false,
-}
+const Template = (args) => <Check {...args} />
+const ListTemplate = getVariusTemplate(Check)
 
 export default {
   title: 'Atoms/Check',
   component: Check,
-  args,
+  args: {
+    id: 'check#',
+    name: 'check',
+    defaultChecked: false,
+  },
   argTypes: {
     color: getOptionsArgTypes(options.colors),
     size: getOptionsArgTypes(options.sizes),
@@ -32,14 +25,12 @@ export default {
 }
 
 export const Default = Template.bind({})
-Default.args = { ...args, id: 'check:false' }
 
 export const ActiveColor = ListTemplate.bind({})
 ActiveColor.args = {
   items: options.colors.map((color) => ({
-    ...args,
     id: `true:${color}`,
-    defaultChecked: true,
+    isChecked: true,
     color,
   })),
 }
@@ -47,8 +38,8 @@ ActiveColor.args = {
 export const InactiveColor = ListTemplate.bind({})
 InactiveColor.args = {
   items: options.colors.map((color) => ({
-    ...args,
     id: `false:${color}`,
+    isChecked: false,
     color,
   })),
 }

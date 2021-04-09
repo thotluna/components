@@ -1,3 +1,3 @@
-export { default, Modal } from './Modal'
+export { default } from './Modal'
 export { options } from './constants'
 export { default as styles } from './Modal.module.css'

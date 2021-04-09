@@ -2,11 +2,11 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styles from './SeparatorLine.module.css'
 import { options } from './constants'
-import withStyles from '../../hocs/withStyles'
-
+import { getClasses } from '../../helpers/styles'
 import Title from '../Title'
 
-export const SeparatorLine = ({ title, isShowTitle, color, getStyles }) => {
+export const SeparatorLine = ({ title, isShowTitle, color, size }) => {
+  const getStyles = getClasses(styles)({ color, size })
   return (
     <div className={getStyles('container-separator', ['color'])}>
       <hr
@@ -25,7 +25,6 @@ export const SeparatorLine = ({ title, isShowTitle, color, getStyles }) => {
 }
 
 SeparatorLine.propTypes = {
-  getStyles: PropTypes.func.isRequired,
   title: PropTypes.string.isRequired,
   isShowTitle: PropTypes.bool,
   color: PropTypes.oneOf(options.colors),
@@ -38,4 +37,4 @@ SeparatorLine.defaultProps = {
   isShowTitle: false,
 }
 
-export default withStyles(styles)(SeparatorLine)
+export default SeparatorLine

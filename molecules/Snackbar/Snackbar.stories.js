@@ -1,12 +1,9 @@
-import { Snackbar, options, styles } from '.'
-import {
-  getListTemplate,
-  getTemplate,
-  getOptionsArgTypes,
-} from '../../helpers/storybook'
+import React from 'react'
+import Snackbar, { options } from '.'
+import { getVariusTemplate, getOptionsArgTypes } from '../../helpers/storybook'
 
-const Template = getTemplate(Snackbar, styles)
-const ListTemplate = getListTemplate(Snackbar, styles)
+const Template = (args) => <Snackbar {...args} />
+const ListTemplate = getVariusTemplate(Snackbar)
 
 export default {
   title: 'Molecules/Snackbar',

@@ -30,6 +30,5 @@ export const getOptionsArgTypes = (options) => ({
 
 export const getVariusTemplate = (Component) => ({ items, ...args }) =>
   items.map((item, index) => {
-    console.log('>>>item', item)
     return <Component key={index} {...args} {...item} />
   })

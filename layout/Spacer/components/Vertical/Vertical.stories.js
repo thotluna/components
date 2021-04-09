@@ -1,14 +1,14 @@
-import { Vertical } from '.'
-import { options, styles } from '../..'
+import React from 'react'
+import Vertical from '.'
+import { options } from '../..'
 
 import {
-  getTemplate,
-  getListTemplate,
+  getVariusTemplate,
   getOptionsArgTypes,
 } from '../../../../helpers/storybook'
 
-const Template = getTemplate(Vertical, styles)
-const ListTemplate = getListTemplate(Vertical, styles)
+const Template = (args) => <Vertical {...args} />
+const ListTemplate = getVariusTemplate(Vertical)
 
 export default {
   title: 'Layout/Spacer/Vertical',
@@ -22,6 +22,7 @@ export default {
     size: getOptionsArgTypes(options.sizes),
     height: { control: 'number' },
     maxHeight: { control: 'number' },
+    isPlayground: { control: 'boolean' },
   },
   parameters: { __sb: { fd: 'row' } },
 }

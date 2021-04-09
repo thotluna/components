@@ -1,5 +1,5 @@
 import React from 'react'
-import { Title, options } from '.'
+import Title, { options } from '.'
 import { getVariusTemplate, getOptionsArgTypes } from '../../helpers/storybook'
 
 const Template = (args) => <Title {...args} />

@@ -1,13 +1,10 @@
-import { TasksCounter, styles } from '.'
+import React from 'react'
+import TasksCounter from '.'
 import { options } from '../../atoms/Title'
-import {
-  getListTemplate,
-  getTemplate,
-  getOptionsArgTypes,
-} from '../../helpers/storybook'
+import { getVariusTemplate, getOptionsArgTypes } from '../../helpers/storybook'
 
-const Template = getTemplate(TasksCounter, styles)
-const ListTemplate = getListTemplate(TasksCounter, styles)
+const Template = (args) => <TasksCounter {...args} />
+const ListTemplate = getVariusTemplate(TasksCounter)
 
 export default {
   title: 'Molecules/TasksCounter',

@@ -21,10 +21,10 @@ exports[`Storyshots Atoms/Select Default 1`] = `
     <span
       className="span is-hide"
     >
-      Select test
+      Select
     </span>
     <select
-      aria-label="Select test"
+      aria-label="Select"
       className="container"
       id="#1"
       onChange={[Function]}
@@ -74,10 +74,10 @@ exports[`Storyshots Atoms/Select Inline 1`] = `
     <span
       className="span is-hide"
     >
-      Select test
+      Select
     </span>
     <select
-      aria-label="Select test"
+      aria-label="Select"
       className="container is-inline"
       id="#3"
       onChange={[Function]}
@@ -127,10 +127,10 @@ exports[`Storyshots Atoms/Select Label Show 1`] = `
     <span
       className="span"
     >
-      Select test
+      Select
     </span>
     <select
-      aria-label="Select test"
+      aria-label="Select"
       className="container"
       id="#4"
       onChange={[Function]}
@@ -180,10 +180,10 @@ exports[`Storyshots Atoms/Select Value 1`] = `
     <span
       className="span is-hide"
     >
-      Select test
+      Select
     </span>
     <select
-      aria-label="Select test"
+      aria-label="Select"
       className="container"
       id="#2"
       onChange={[Function]}
