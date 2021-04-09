@@ -1,3 +1,10 @@
+## [1.9.1](https://github.com/thotluna/components/compare/v1.9.0...v1.9.1) (2021-04-09)
+
+
+### Bug Fixes
+
+* **button:** repair icons button ([a10e91a](https://github.com/thotluna/components/commit/a10e91ab895cb359802258d92b9cd035877be17c)), closes [#46](https://github.com/thotluna/components/issues/46)
+
 # [1.9.0](https://github.com/thotluna/components/compare/v1.8.0...v1.9.0) (2021-04-09)
 
 
