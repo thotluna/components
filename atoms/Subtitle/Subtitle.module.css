@@ -1,0 +1,11 @@
+.color-base {
+  color: var(--color-font-base);
+}
+
+.color-inverted {
+  color: var(--color-font-muted);
+}
+
+.color-tertiary {
+  color: var(--color-font-highlight);
+}

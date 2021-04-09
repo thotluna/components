@@ -1,5 +1,5 @@
 import { TasksCounter, styles } from '.'
-import { options } from '../../atoms/Headings'
+import { options } from '../../atoms/Title'
 import {
   getListTemplate,
   getTemplate,

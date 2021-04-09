@@ -19,31 +19,31 @@ exports[`Storyshots Molecules/Buttons Color 1`] = `
     aria-label="button"
     className="buttons size-full color-primary"
   >
-    <header
-      className="headings color-inverted size-md weight-bold"
+    <h3
+      className="container color-inverted"
     >
       button
-    </header>
+    </h3>
   </button>
   <button
     aria-label="button"
     className="buttons size-full color-secondary"
   >
-    <header
-      className="headings color-inverted size-md weight-bold"
+    <h3
+      className="container color-inverted"
     >
       button
-    </header>
+    </h3>
   </button>
   <button
     aria-label="button"
     className="buttons size-full color-inverter"
   >
-    <header
-      className="headings color-primary size-md weight-bold"
+    <h3
+      className="container color-primary"
     >
       button
-    </header>
+    </h3>
   </button>
 </div>
 `;
@@ -67,11 +67,11 @@ exports[`Storyshots Molecules/Buttons Default 1`] = `
     aria-label="button"
     className="buttons size-full color-primary"
   >
-    <header
-      className="headings color-inverted size-md weight-bold"
+    <h3
+      className="container color-inverted"
     >
       button
-    </header>
+    </h3>
   </button>
 </div>
 `;
@@ -114,11 +114,11 @@ exports[`Storyshots Molecules/Buttons Left Icon 1`] = `
         />
       </svg>
     </div>
-    <header
-      className="headings color-inverted size-md weight-bold"
+    <h3
+      className="container color-inverted"
     >
       button
-    </header>
+    </h3>
   </button>
   <button
     aria-label="button"
@@ -143,11 +143,11 @@ exports[`Storyshots Molecules/Buttons Left Icon 1`] = `
         />
       </svg>
     </div>
-    <header
-      className="headings color-inverted size-md weight-bold"
+    <h3
+      className="container color-inverted"
     >
       button
-    </header>
+    </h3>
   </button>
   <button
     aria-label="button"
@@ -172,11 +172,11 @@ exports[`Storyshots Molecules/Buttons Left Icon 1`] = `
         />
       </svg>
     </div>
-    <header
-      className="headings color-primary size-md weight-bold"
+    <h3
+      className="container color-primary"
     >
       button
-    </header>
+    </h3>
   </button>
 </div>
 `;
@@ -413,31 +413,31 @@ exports[`Storyshots Molecules/Buttons Size 1`] = `
     aria-label="button"
     className="buttons size-full color-primary"
   >
-    <header
-      className="headings color-inverted size-md weight-bold"
+    <h3
+      className="container color-inverted"
     >
       button
-    </header>
+    </h3>
   </button>
   <button
     aria-label="button"
     className="buttons size-short color-primary"
   >
-    <header
-      className="headings color-inverted size-md weight-bold"
+    <h3
+      className="container color-inverted"
     >
       button
-    </header>
+    </h3>
   </button>
   <button
     aria-label="button"
     className="buttons size-mini color-primary"
   >
-    <header
-      className="headings color-inverted size-md weight-bold"
+    <h3
+      className="container color-inverted"
     >
       button
-    </header>
+    </h3>
   </button>
 </div>
 `;

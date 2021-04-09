@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Atoms/Subtitle Colors 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <h4
+    className="container color-base"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </h4>
+  <h4
+    className="container color-terneary"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </h4>
+  <h4
+    className="container color-inverted"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </h4>
+</div>
+`;
+
+exports[`Storyshots Atoms/Subtitle Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <h4
+    className="container color-base"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </h4>
+</div>
+`;
+
+exports[`Storyshots Atoms/Subtitle Sizes 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <h5
+    className="container color-base"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </h5>
+  <h4
+    className="container color-base"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </h4>
+  <h3
+    className="container color-base"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </h3>
+</div>
+`;

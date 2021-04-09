@@ -4,7 +4,7 @@ import styles from './SeparatorLine.module.css'
 import { options } from './constants'
 import withStyles from '../../hocs/withStyles'
 
-import Heading from '../Headings'
+import Title from '../Title'
 
 export const SeparatorLine = ({ title, isShowTitle, color, getStyles }) => {
   return (
@@ -15,7 +15,9 @@ export const SeparatorLine = ({ title, isShowTitle, color, getStyles }) => {
       />
       {isShowTitle && (
         <div className={getStyles('title')}>
-          <Heading color={color}>{title}</Heading>
+          <Title size="sm" color={color}>
+            {title}
+          </Title>
         </div>
       )}
     </div>

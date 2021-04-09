@@ -5,7 +5,7 @@ import withStyles from '../../hocs/withStyles'
 import { options } from './constants'
 
 import Icon, { options as iconOptions } from '../../atoms/Icons'
-import Heading from '../../atoms/Headings'
+import Title from '../../atoms/Title'
 
 export const Buttons = ({
   isOnlyIcon,
@@ -30,7 +30,7 @@ export const Buttons = ({
       aria-label={ariaLabel}
     >
       {icon && <Icon type={icon} color={childrenColor} size="sm" />}
-      {children && <Heading color={childrenColor}>{children}</Heading>}
+      {children && <Title color={childrenColor}>{children}</Title>}
       {iconRight && <Icon type={iconRight} color={childrenColor} size="sm" />}
     </button>
   )

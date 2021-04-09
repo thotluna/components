@@ -43,11 +43,11 @@ exports[`Storyshots Molecules/Snackbar Default 1`] = `
             />
           </svg>
         </div>
-        <header
-          className="headings color-inverted size-md weight-bold"
+        <h3
+          className="container color-inverted"
         >
           Consent doubt Tuckborough challenge destroying.
-        </header>
+        </h3>
       </div>
       <button
         aria-label="button"
@@ -127,11 +127,11 @@ exports[`Storyshots Molecules/Snackbar Types 1`] = `
             />
           </svg>
         </div>
-        <header
-          className="headings color-inverted size-md weight-bold"
+        <h3
+          className="container color-inverted"
         >
           Consent doubt Tuckborough challenge destroying.
-        </header>
+        </h3>
       </div>
       <button
         aria-label="button"
@@ -193,11 +193,11 @@ exports[`Storyshots Molecules/Snackbar Types 1`] = `
             />
           </svg>
         </div>
-        <header
-          className="headings color-inverted size-md weight-bold"
+        <h3
+          className="container color-inverted"
         >
           Consent doubt Tuckborough challenge destroying.
-        </header>
+        </h3>
       </div>
       <button
         aria-label="button"

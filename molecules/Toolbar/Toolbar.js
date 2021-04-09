@@ -4,7 +4,7 @@ import styles from './Toolbar.module.css'
 import withStyles from '../../hocs/withStyles'
 
 import Icon, { options as iconOptions } from '../../atoms/Icons'
-import Heading from '../../atoms/Headings'
+import Title from '../../atoms/Title'
 import { Vertical } from '../../layout/Spacer/components'
 
 export const Toolbar = ({ icon, label, iconOnclick, title, getStyles }) => {
@@ -26,9 +26,9 @@ export const Toolbar = ({ icon, label, iconOnclick, title, getStyles }) => {
       </button>
       <Vertical size="sm" />
       {title && (
-        <Heading arial-hiden={title ? false : true} color="inverted" size="lg">
+        <Title arial-hiden={title ? false : true} color="inverted" size="lg">
           {title}
-        </Heading>
+        </Title>
       )}
     </div>
   )

@@ -4,15 +4,15 @@ import styles from './TasksCounter.module.css'
 import withStyles from '../../hocs/withStyles'
 
 import SeparatorLine from '../../atoms/SeparatorLine'
-import Heading, { options } from '../../atoms/Headings'
+import Title, { options } from '../../atoms/Title'
 
 export const TasksCounter = ({ message, color, current, total, getStyles }) => {
   const counter = `${current}/${total}`
   return (
     <div className={getStyles('container-counter')}>
       <div className={getStyles('messages')}>
-        <Heading color={color}>{message}</Heading>
-        <Heading color={color}>{counter}</Heading>
+        <Title color={color}>{message}</Title>
+        <Title color={color}>{counter}</Title>
       </div>
       <SeparatorLine title="Task Counter" color={color} />
     </div>

@@ -5,8 +5,8 @@ import { options } from './constants'
 import withStyles from '../../hocs/withStyles'
 
 import Avatar from '../../atoms/Avatar'
-import Heading from '../../atoms/Headings'
-import SubHeading from '../../atoms/SubHeadings'
+import Title from '../../atoms/Title'
+import Subtitle from '../../atoms/Subtitle'
 
 export const AvatarHeader = ({ title, subtitle, src, size, getStyles }) => {
   return (
@@ -20,8 +20,8 @@ export const AvatarHeader = ({ title, subtitle, src, size, getStyles }) => {
           justifyContent: 'space-between',
         }}
       >
-        <Heading size={size}>{title}</Heading>
-        <SubHeading size={size}>{subtitle}</SubHeading>
+        <Title size={size}>{title}</Title>
+        <Subtitle size={size}>{subtitle}</Subtitle>
       </div>
     </div>
   )
