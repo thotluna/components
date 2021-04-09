@@ -31,7 +31,7 @@
   box-shadow: var(--box-shadow-focus-in), var(--box-shadow-focus-out);
 }
 
-.color-inverter {
+.color-inverted {
   height: var(--input-height);
   padding: 0.5em 2em;
   border: var(--border-width-thin) solid var(--color-primary);
@@ -44,13 +44,13 @@
   background-color: transparent;
 }
 
-.color-inverter:focus {
+.color-inverted:focus {
   box-shadow: var(--box-shadow-focus-in), var(--box-shadow-focus-out);
 }
 
 .color-primary:active,
 .color-secondary:active,
-.color-inverter:active {
+.color-inverted:active {
   box-shadow: none;
 }
 

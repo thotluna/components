@@ -71,7 +71,7 @@ exports[`Storyshots Molecules/Task Checked Tasks 1`] = `
         >
           <button
             aria-label="delete-task"
-            className="buttons size-mini color-inverter is-only-icon"
+            className="buttons size-mini color-inverted is-only-icon"
             onClick={[Function]}
           >
             <div
@@ -172,7 +172,7 @@ exports[`Storyshots Molecules/Task Default 1`] = `
         >
           <button
             aria-label="delete-task"
-            className="buttons size-mini color-inverter is-only-icon"
+            className="buttons size-mini color-inverted is-only-icon"
             onClick={[Function]}
           >
             <div
@@ -273,7 +273,7 @@ exports[`Storyshots Molecules/Task Long 1`] = `
         >
           <button
             aria-label="delete-task"
-            className="buttons size-mini color-inverter is-only-icon"
+            className="buttons size-mini color-inverted is-only-icon"
             onClick={[Function]}
           >
             <div
@@ -382,7 +382,7 @@ exports[`Storyshots Molecules/Task Pending 1`] = `
         >
           <button
             aria-label="delete-task"
-            className="buttons size-mini color-inverter is-only-icon"
+            className="buttons size-mini color-inverted is-only-icon"
             onClick={[Function]}
           >
             <div
@@ -491,7 +491,7 @@ exports[`Storyshots Molecules/Task Pending Types 1`] = `
         >
           <button
             aria-label="delete-task"
-            className="buttons size-mini color-inverter is-only-icon"
+            className="buttons size-mini color-inverted is-only-icon"
             onClick={[Function]}
           >
             <div
@@ -582,7 +582,7 @@ exports[`Storyshots Molecules/Task Pending Types 1`] = `
         >
           <button
             aria-label="delete-task"
-            className="buttons size-mini color-inverter is-only-icon"
+            className="buttons size-mini color-inverted is-only-icon"
             onClick={[Function]}
           >
             <div
@@ -683,7 +683,7 @@ exports[`Storyshots Molecules/Task Types 1`] = `
         >
           <button
             aria-label="delete-task"
-            className="buttons size-mini color-inverter is-only-icon"
+            className="buttons size-mini color-inverted is-only-icon"
             onClick={[Function]}
           >
             <div
@@ -766,7 +766,7 @@ exports[`Storyshots Molecules/Task Types 1`] = `
         >
           <button
             aria-label="delete-task"
-            className="buttons size-mini color-inverter is-only-icon"
+            className="buttons size-mini color-inverted is-only-icon"
             onClick={[Function]}
           >
             <div

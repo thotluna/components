@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styles from './Buttons.module.css'
-import withStyles from '../../hocs/withStyles'
+import { getClasses } from '../../helpers/styles'
 import { options } from './constants'
 
 import Icon, { options as iconOptions } from '../../atoms/Icons'
@@ -12,12 +12,13 @@ export const Buttons = ({
   icon,
   iconRight,
   color,
+  size,
   children,
-  getStyles,
   onCLick,
   ariaLabel,
   withoutBorder,
 }) => {
+  const getStyles = getClasses(styles)({ size, color })
   const childrenColor =
     color === 'primary' || color === 'secondary' ? 'inverted' : 'primary'
   return (
@@ -37,7 +38,6 @@ export const Buttons = ({
 }
 
 Buttons.propTypes = {
-  getStyles: PropTypes.func.isRequired,
   size: PropTypes.oneOf(options.size),
   color: PropTypes.oneOf(options.color),
   isOnlyIcon: PropTypes.bool,
@@ -56,4 +56,4 @@ Buttons.defaultProps = {
   withoutBorder: false,
 }
 
-export default withStyles(styles)(Buttons)
+export default Buttons

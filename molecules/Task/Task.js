@@ -72,7 +72,7 @@ export const Task = ({
               id={`button-${id}`}
               ariaLabel="delete-task"
               isOnlyIcon
-              color="inverter"
+              color="inverted"
               size="mini"
               icon="trash"
               onCLick={onDelete}

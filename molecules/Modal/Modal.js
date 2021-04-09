@@ -34,7 +34,7 @@ export const Modal = ({
           </div>
           <Buttons
             ariaLabel="button"
-            color="inverter"
+            color="inverted"
             icon="close"
             onCLick={onClose}
             size="short"
@@ -53,7 +53,7 @@ export const Modal = ({
           <div className={getStyles('modal-footer')}>
             <Buttons
               ariaLabel="button"
-              color="inverter"
+              color="inverted"
               onClick={onCancel}
               size="short"
             >
