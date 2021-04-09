@@ -1,21 +1,18 @@
-import { Picture } from './Picture'
-import styles from './Picture.module.css'
-import { getTemplate } from '../../helpers/storybook'
+import React from 'react'
+import Picture from './Picture'
 
-const Template = getTemplate(Picture, styles)
-
-const args = {
-  src: 'https://loremflickr.com/300/200?lock=1',
-  alt: 'It one image',
-  width: '200px',
-  isRounded: false,
-  withBorder: false,
-}
+const Template = (args) => <Picture {...args} />
 
 export default {
   title: 'Atoms/Picture',
   component: Picture,
-  args,
+  args: {
+    src: 'https://loremflickr.com/300/200?lock=1',
+    alt: 'It one image',
+    width: '200px',
+    isRounded: false,
+    withBorder: false,
+  },
   argTypes: {
     src: { control: 'text' },
     alt: { control: 'text' },
@@ -27,17 +24,14 @@ export default {
 }
 
 export const Default = Template.bind({})
-Default.args = { ...args }
 
 export const ImageDecorative = Template.bind({})
 ImageDecorative.args = {
-  ...args,
   alt: '',
 }
 
 export const Source = Template.bind({})
 Source.args = {
-  ...args,
   sources: [
     {
       src: 'https://loremflickr.com/150/100?lock=4',
@@ -56,7 +50,6 @@ Source.args = {
 
 export const ImageRounded = Template.bind({})
 ImageRounded.args = {
-  ...args,
   isRounded: true,
   width: 200,
   height: 200,
@@ -64,13 +57,11 @@ ImageRounded.args = {
 
 export const ImageWithBorder = Template.bind({})
 ImageWithBorder.args = {
-  ...args,
   withBorder: true,
 }
 
 export const ImageRounderWithBorder = Template.bind({})
 ImageRounderWithBorder.args = {
-  ...args,
   withBorder: true,
   isRounded: true,
   width: 200,

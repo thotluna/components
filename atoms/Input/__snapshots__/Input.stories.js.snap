@@ -135,37 +135,3 @@ exports[`Storyshots Atoms/Input Types 1`] = `
   </label>
 </div>
 `;
-
-exports[`Storyshots Atoms/Input Value 1`] = `
-<div
-  style={
-    Object {
-      "alignContent": "flex-start",
-      "display": "flex",
-      "flexDirection": "column",
-      "flexWrap": "wrap",
-      "gap": "10px 30px",
-      "height": "100%",
-      "justifyContent": "flex-start",
-      "maxHeight": "auto",
-    }
-  }
->
-  <label
-    className="label"
-  >
-    <span
-      className="span is-hide"
-    >
-      Input
-    </span>
-    <input
-      aria-label="Input"
-      className="input"
-      id="#2"
-      placeholder="testing"
-      type="text"
-    />
-  </label>
-</div>
-`;

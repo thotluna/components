@@ -8,7 +8,7 @@ import Icon from '../../atoms/Icons'
 
 import styles from './Task.module.css'
 import { options } from './constants'
-import withStyles from '../../hocs/withStyles'
+import { getClasses } from '../../helpers/styles'
 import Buttons from '../Buttons'
 import Check from '../../atoms/Check'
 
@@ -25,12 +25,12 @@ export const Task = ({
   defaultIsChecked,
   onCheck,
   onDelete,
-  getStyles,
   isPending,
   tabIndex,
+  type,
 }) => {
   const [isChecked, setIsChecked] = useState(defaultIsChecked && !isPending)
-
+  const getStyles = getClasses(styles)({ type })
   return (
     <div className={getStyles('container')}>
       <Card
@@ -88,7 +88,6 @@ export const Task = ({
 Task.propTypes = {
   id: PropTypes.string.isRequired,
   children: PropTypes.node.isRequired,
-  getStyles: PropTypes.func.isRequired,
   onCheck: PropTypes.func.isRequired,
   onDelete: PropTypes.func.isRequired,
   type: PropTypes.oneOf(options.types),
@@ -102,4 +101,4 @@ Task.defaultProps = {
   tabIndex: 0,
 }
 
-export default withStyles(styles)(Task)
+export default Task

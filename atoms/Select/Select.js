@@ -1,19 +1,19 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styles from './Select.module.css'
-import withStyles from '../../hocs/withStyles'
+import { getClasses } from '../../helpers/styles'
 
 export const Select = ({
   id,
-  label,
-  isHideLabel,
-  ref,
-  options,
-  value,
   isInline,
+  isHideLabel,
+  label,
   onChange,
-  getStyles,
+  options,
+  ref,
+  value,
 }) => {
+  const getStyles = getClasses(styles)({})
   return (
     <label className={getStyles('label')}>
       <span
@@ -45,24 +45,23 @@ export const Select = ({
 }
 
 Select.propTypes = {
-  getStyles: PropTypes.func.isRequired,
+  id: PropTypes.string.isRequired,
+  label: PropTypes.string.isRequired,
   options: PropTypes.arrayOf(
     PropTypes.shape({
       text: PropTypes.string,
       value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
     })
   ).isRequired,
-  id: PropTypes.string.isRequired,
-  label: PropTypes.string.isRequired,
-  value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   isInline: PropTypes.bool,
-  onChange: PropTypes.func,
   isHideLabel: PropTypes.bool,
+  value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   ref: PropTypes.any,
+  onChange: PropTypes.func,
 }
 
 Select.defaultProps = {
   isHideLabel: true,
 }
 
-export default withStyles(styles)(Select)
+export default Select

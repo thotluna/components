@@ -2,13 +2,14 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styles from './AvatarHeader.module.css'
 import { options } from './constants'
-import withStyles from '../../hocs/withStyles'
+import { getClasses } from '../../helpers/styles'
 
 import Avatar from '../../atoms/Avatar'
 import Title from '../../atoms/Title'
 import Subtitle from '../../atoms/Subtitle'
 
-export const AvatarHeader = ({ title, subtitle, src, size, getStyles }) => {
+export const AvatarHeader = ({ title, subtitle, src, size }) => {
+  const getStyles = getClasses(styles)({})
   return (
     <div className={getStyles('container')}>
       <Avatar src={src} size={size} />
@@ -28,7 +29,6 @@ export const AvatarHeader = ({ title, subtitle, src, size, getStyles }) => {
 }
 
 AvatarHeader.propTypes = {
-  getStyles: PropTypes.func.isRequired,
   title: PropTypes.string,
   subtitle: PropTypes.string,
   src: PropTypes.string.isRequired,
@@ -39,4 +39,4 @@ AvatarHeader.defaultProps = {
   size: 'md',
 }
 
-export default withStyles(styles)(AvatarHeader)
+export default AvatarHeader

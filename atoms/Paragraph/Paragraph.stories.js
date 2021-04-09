@@ -1,12 +1,9 @@
-import { Paragraph, options, styles } from './index'
-import {
-  getListTemplate,
-  getTemplate,
-  getOptionsArgTypes,
-} from '../../helpers/storybook'
+import React from 'react'
+import Paragraph, { options } from '.'
+import { getVariusTemplate, getOptionsArgTypes } from '../../helpers/storybook'
 
-const Template = getTemplate(Paragraph, styles)
-const ListTemplate = getListTemplate(Paragraph, styles)
+const Template = (args) => <Paragraph {...args} />
+const ListTemplate = getVariusTemplate(Paragraph)
 
 export default {
   title: 'Atoms/Paragraph',

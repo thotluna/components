@@ -2,11 +2,13 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styles from './Spacer.module.css'
 import { mapSize } from './helper'
-import withStyles from '../../hocs/withStyles'
 import Vertical from './components/Vertical/Vertical'
 import Horizontal from './components/Horizontal/'
 
-export function Spacer({ getStyles, size, isPlayground }) {
+import { getClasses } from '../../helpers/styles'
+
+export function Spacer({ size, isPlayground }) {
+  const getStyles = getClasses(styles)({})
   return (
     <div
       className={getStyles('spacer', {
@@ -26,7 +28,7 @@ Spacer.propTypes = {
    Parting length
   */
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-  getStyles: PropTypes.func.isRequired,
+
   /**
    True, show border in colors
   */
@@ -39,9 +41,7 @@ Spacer.defaultProps = {
   getStyles: () => {},
 }
 
-const SpacerWithStyles = withStyles(styles)(Spacer)
+Spacer.Horizontal = Horizontal
+Spacer.Vertical = Vertical
 
-SpacerWithStyles.Horizontal = Horizontal
-SpacerWithStyles.Vertical = Vertical
-
-export default SpacerWithStyles
+export default Spacer

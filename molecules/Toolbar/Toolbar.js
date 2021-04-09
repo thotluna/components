@@ -1,13 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styles from './Toolbar.module.css'
-import withStyles from '../../hocs/withStyles'
 
 import Icon, { options as iconOptions } from '../../atoms/Icons'
 import Title from '../../atoms/Title'
 import { Vertical } from '../../layout/Spacer/components'
+import { getClasses } from '../../helpers/styles'
 
-export const Toolbar = ({ icon, label, iconOnclick, title, getStyles }) => {
+export const Toolbar = ({ icon, label, iconOnclick, title }) => {
+  const getStyles = getClasses(styles)({})
   return (
     <div className={getStyles('container')}>
       <button
@@ -35,15 +36,12 @@ export const Toolbar = ({ icon, label, iconOnclick, title, getStyles }) => {
 }
 
 Toolbar.propTypes = {
-  getStyles: PropTypes.func.isRequired,
   label: PropTypes.string.isRequired,
   iconOnclick: PropTypes.func,
   icon: PropTypes.oneOf(iconOptions.type),
   title: PropTypes.string,
 }
 
-Toolbar.defaultProps = {
-  iconOnclick: () => {},
-}
+Toolbar.defaultProps = {}
 
-export default withStyles(styles)(Toolbar)
+export default Toolbar

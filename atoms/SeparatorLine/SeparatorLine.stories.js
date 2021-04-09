@@ -1,15 +1,11 @@
-import { SeparatorLine } from './SeparatorLine'
-import styles from './SeparatorLine.module.css'
+import React from 'react'
+import SeparatorLine from './SeparatorLine'
 import { options } from './constants'
 
-import {
-  getTemplate,
-  getListTemplate,
-  getOptionsArgTypes,
-} from '../../helpers/storybook'
+import { getVariusTemplate, getOptionsArgTypes } from '../../helpers/storybook'
 
-const Template = getTemplate(SeparatorLine, styles)
-const ListTemplate = getListTemplate(SeparatorLine, styles)
+const Template = (args) => <SeparatorLine {...args} />
+const ListTemplate = getVariusTemplate(SeparatorLine)
 
 export default {
   title: 'Atoms/SeparatorLine',

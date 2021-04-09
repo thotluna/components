@@ -1,13 +1,10 @@
-import { Spacer, options, styles } from '.'
+import React from 'react'
+import Spacer, { options } from '.'
 
-import {
-  getTemplate,
-  getListTemplate,
-  getOptionsArgTypes,
-} from '../../helpers/storybook'
+import { getVariusTemplate, getOptionsArgTypes } from '../../helpers/storybook'
 
-const Template = getTemplate(Spacer, styles)
-const ListTemplate = getListTemplate(Spacer, styles)
+const Template = (args) => <Spacer {...args} />
+const ListTemplate = getVariusTemplate(Spacer)
 
 export default {
   title: 'Layout/Spacer/Default',

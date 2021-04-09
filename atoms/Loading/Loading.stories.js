@@ -1,4 +1,4 @@
-import { Loading, styles } from '.'
+import Loading, { styles } from '.'
 import { getTemplate } from '../../helpers/storybook'
 
 const Template = getTemplate(Loading, styles)

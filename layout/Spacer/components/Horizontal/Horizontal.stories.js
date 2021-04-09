@@ -1,14 +1,14 @@
-import { Horizontal } from '.'
-import { options, styles } from '../..'
+import React from 'react'
+import Horizontal from '.'
+import { options } from '../..'
 
 import {
-  getTemplate,
-  getListTemplate,
+  getVariusTemplate,
   getOptionsArgTypes,
 } from '../../../../helpers/storybook'
 
-const Template = getTemplate(Horizontal, styles)
-const ListTemplate = getListTemplate(Horizontal, styles)
+const Template = (args) => <Horizontal {...args} />
+const ListTemplate = getVariusTemplate(Horizontal)
 
 export default {
   title: 'Layout/Spacer/Horizontal',
@@ -16,6 +16,7 @@ export default {
   args: { isPlayground: true },
   argTypes: {
     size: getOptionsArgTypes(options.sizes),
+    isPlayground: { control: 'boolean' },
   },
 }
 

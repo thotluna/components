@@ -24,6 +24,7 @@ export default {
   },
   argTypes: {
     children: { control: 'text' },
+    isPlayground: { control: 'boolean' },
     type: getOptionsArgTypes(options.types),
   },
 }

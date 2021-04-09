@@ -1,30 +1,27 @@
-import { Toggel, styles } from '.'
-import { getTemplate } from '../../helpers/storybook'
+import React from 'react'
+import Toggel from '.'
 
-const Template = getTemplate(Toggel, styles)
+const Template = (args) => <Toggel {...args} />
 
 export default {
   title: 'Atoms/Toggel',
   component: Toggel,
   args: {
     name: 'Toggel',
-    checked: false,
-    onChange: () => {},
   },
-  argTypes: {},
-}
-
-const args = {
-  name: 'Toggel',
-  checked: false,
-  onChange: () => {},
+  argTypes: {
+    onChange: {
+      table: {
+        disable: true,
+      },
+    },
+  },
 }
 
 export const Default = Template.bind({})
-Default.args = { ...args }
 
 export const Active = Template.bind({})
-Active.args = { ...args, isChecked: true }
+Active.args = { isChecked: true }
 
 export const Inactive = Template.bind({})
-Inactive.args = { ...args, isChecked: false }
+Inactive.args = { isChecked: false }

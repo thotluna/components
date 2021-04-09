@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styles from './Input.module.css'
 import { options } from './constants'
-import withStyles from '../../hocs/withStyles'
+import { getClasses } from '../../helpers/styles'
 
 export const Input = ({
   type,
@@ -11,11 +11,11 @@ export const Input = ({
   onChange,
   refInput,
   placeholder,
-  getStyles,
   label,
   isHideLabel,
   id,
 }) => {
+  const getStyles = getClasses(styles)({})
   return (
     <label className={getStyles('label')}>
       <span
@@ -42,7 +42,6 @@ export const Input = ({
 }
 
 Input.propTypes = {
-  getStyles: PropTypes.func.isRequired,
   label: PropTypes.string.isRequired,
   type: PropTypes.oneOf(options.types).isRequired,
   id: PropTypes.string.isRequired,
@@ -61,4 +60,4 @@ Input.defaultProps = {
   isHideLabel: true,
 }
 
-export default withStyles(styles)(Input)
+export default Input

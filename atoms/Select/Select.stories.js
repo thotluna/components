@@ -1,7 +1,7 @@
-import { Select, styles } from './index'
-import { getTemplate } from '../../helpers/storybook'
+import React from 'react'
+import Select from './index'
 
-const Template = getTemplate(Select, styles)
+const Template = (args) => <Select {...args} />
 
 export default {
   title: 'Atoms/Select',
@@ -24,28 +24,31 @@ export default {
         },
       },
     },
-    onChange: { defaultValue: null },
+    onChange: { table: { disable: true } },
+    ref: { table: { disable: true } },
   },
 }
 
 const args = {
+  isInline: false,
+  isHideLabel: true,
+  label: 'Select',
   options: [
     { text: 'First', value: 1 },
     { text: 'Second', value: 2 },
     { text: 'Third', value: 3 },
   ],
   value: 2,
-  label: 'Select test',
 }
 
 export const Default = Template.bind({})
-Default.args = { ...args, id: '#1' }
+Default.args = { id: '#1', ...args }
 
 export const Value = Template.bind({})
-Value.args = { ...args, value: 2, id: '#2' }
+Value.args = { id: '#2', ...args, value: 2 }
 
 export const Inline = Template.bind({})
-Inline.args = { ...args, isInline: true, id: '#3' }
+Inline.args = { id: '#3', ...args, isInline: true }
 
 export const LabelShow = Template.bind({})
-LabelShow.args = { ...args, id: '#4', isHideLabel: false }
+LabelShow.args = { id: '#4', ...args, isHideLabel: false }

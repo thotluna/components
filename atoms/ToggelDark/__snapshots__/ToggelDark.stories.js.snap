@@ -23,7 +23,6 @@ exports[`Storyshots Atoms/ToggelDark Active 1`] = `
       aria-pressed={true}
       checked={true}
       className="Toggel"
-      onChange={[Function]}
       role="button"
       type="checkbox"
     />
@@ -100,7 +99,6 @@ exports[`Storyshots Atoms/ToggelDark Default 1`] = `
       aria-pressed={false}
       checked={false}
       className="Toggel"
-      onChange={[Function]}
       role="button"
       type="checkbox"
     />
@@ -177,7 +175,6 @@ exports[`Storyshots Atoms/ToggelDark Inactivo 1`] = `
       aria-pressed={false}
       checked={false}
       className="Toggel"
-      onChange={[Function]}
       role="button"
       type="checkbox"
     />

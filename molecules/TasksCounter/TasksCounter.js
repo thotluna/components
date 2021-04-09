@@ -1,13 +1,15 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styles from './TasksCounter.module.css'
-import withStyles from '../../hocs/withStyles'
 
 import SeparatorLine from '../../atoms/SeparatorLine'
 import Title, { options } from '../../atoms/Title'
 
-export const TasksCounter = ({ message, color, current, total, getStyles }) => {
+import { getClasses } from '../../helpers/styles'
+
+export const TasksCounter = ({ message, color, current, total }) => {
   const counter = `${current}/${total}`
+  const getStyles = getClasses(styles)({})
   return (
     <div className={getStyles('container-counter')}>
       <div className={getStyles('messages')}>
@@ -20,7 +22,6 @@ export const TasksCounter = ({ message, color, current, total, getStyles }) => {
 }
 
 TasksCounter.propTypes = {
-  getStyles: PropTypes.func.isRequired,
   message: PropTypes.string.isRequired,
   color: PropTypes.oneOf(options.colors),
   current: PropTypes.number.isRequired,
@@ -33,4 +34,4 @@ TasksCounter.defaultProps = {
   total: 10,
 }
 
-export default withStyles(styles)(TasksCounter)
+export default TasksCounter

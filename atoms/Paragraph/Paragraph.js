@@ -1,10 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { styles } from './Paragraph.module.css'
+import styles from './Paragraph.module.css'
 import { options } from './constants'
-import withStyles from '../../hocs/withStyles'
+import { getClasses } from '../../helpers/styles'
 
-export const Paragraph = ({ children, isInline, getStyles }) => {
+export const Paragraph = ({ children, isInline, color, size }) => {
+  const getStyles = getClasses(styles)({ color, size })
   return (
     <p
       className={getStyles('container', ['color', 'size'], {
@@ -18,7 +19,6 @@ export const Paragraph = ({ children, isInline, getStyles }) => {
 
 Paragraph.propTypes = {
   children: PropTypes.node,
-  getStyles: PropTypes.func.isRequired,
   isInline: PropTypes.bool,
   color: PropTypes.oneOf(options.colors),
   size: PropTypes.oneOf(options.size),
@@ -30,4 +30,4 @@ Paragraph.defaultProps = {
   size: 'md',
 }
 
-export default withStyles(styles)(Paragraph)
+export default Paragraph

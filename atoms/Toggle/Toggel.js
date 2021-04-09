@@ -1,9 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styles from './Toggel.module.css'
-import withStyles from '../../hocs/withStyles'
+import { getClasses } from '../../helpers/styles'
 
-export const Toggel = ({ name, checked, onChange, getStyles }) => {
+export const Toggel = ({ name, checked, onChange }) => {
+  const getStyles = getClasses(styles)({})
   return (
     <input
       className={getStyles('Toggel')}
@@ -19,8 +20,7 @@ export const Toggel = ({ name, checked, onChange, getStyles }) => {
 
 Toggel.propTypes = {
   name: PropTypes.string.isRequired,
-  getStyles: PropTypes.func.isRequired,
-  onChange: PropTypes.func.isRequired,
+  onChange: PropTypes.func,
   checked: PropTypes.bool,
 }
 
@@ -28,4 +28,4 @@ Toggel.defaultProps = {
   checked: false,
 }
 
-export default withStyles(styles)(Toggel)
+export default Toggel

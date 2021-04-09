@@ -3,9 +3,10 @@ import PropTypes from 'prop-types'
 import { mapSize } from '../../helper'
 
 import styles from '../../Spacer.module.css'
-import withStyles from '../../../../hocs/withStyles'
+import { getClasses } from '../../../../helpers/styles'
 
-export function Vertical({ getStyles, size, height, maxHeight, isPlayground }) {
+export function Vertical({ size, height, maxHeight, isPlayground }) {
+  const getStyles = getClasses(styles)({ size })
   return (
     <div
       className={getStyles('spacer', 'vertical', {
@@ -17,7 +18,6 @@ export function Vertical({ getStyles, size, height, maxHeight, isPlayground }) {
 }
 
 Vertical.propTypes = {
-  getStyles: PropTypes.func.isRequired,
   size: PropTypes.string,
   height: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
   maxHeight: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
@@ -32,4 +32,4 @@ Vertical.defaultProps = {
   getStyles: () => {},
 }
 
-export default withStyles(styles)(Vertical)
+export default Vertical

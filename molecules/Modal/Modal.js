@@ -1,11 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { styles } from '.'
-import withStyles from '../../hocs/withStyles'
 import Title from '../../atoms/Title'
 import Buttons from '../Buttons'
 import Separator from '../../atoms/SeparatorLine'
 import Spacer from '../../layout/Spacer'
+import { getClasses } from '../../helpers/styles'
 
 export const Modal = ({
   children,
@@ -14,9 +14,9 @@ export const Modal = ({
   withFooter,
   onCancel,
   onAccept,
-  getStyles,
   isPlayground,
 }) => {
+  const getStyles = getClasses(styles)({})
   return (
     <div
       className={getStyles('modal', {
@@ -71,7 +71,6 @@ export const Modal = ({
 
 Modal.propTypes = {
   children: PropTypes.node.isRequired,
-  getStyles: PropTypes.func.isRequired,
   onClose: PropTypes.func,
   withFooter: PropTypes.bool,
   onCancel: PropTypes.func,
@@ -85,4 +84,4 @@ Modal.defaultProps = {
   isPlayground: false,
 }
 
-export default withStyles(styles)(Modal)
+export default Modal

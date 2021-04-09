@@ -20,7 +20,6 @@ exports[`Storyshots Molecules/Toolbar Default 1`] = `
   >
     <button
       aria-label="back"
-      onClick={[Function]}
       style={
         Object {
           "backgroundColor": "transparent",
@@ -88,7 +87,6 @@ exports[`Storyshots Molecules/Toolbar Only Icon 1`] = `
   >
     <button
       aria-label="back"
-      onClick={[Function]}
       style={
         Object {
           "backgroundColor": "transparent",
@@ -151,7 +149,6 @@ exports[`Storyshots Molecules/Toolbar Only Title 1`] = `
   >
     <button
       aria-label="back"
-      onClick={[Function]}
       style={
         Object {
           "backgroundColor": "transparent",

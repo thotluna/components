@@ -1,11 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styles from './ToggelDark.module.css'
-import withStyles from '../../hocs/withStyles'
-
+import { getClasses } from '../../helpers/styles'
 import Icon from '../Icons'
 
-export const ToggelDark = ({ name, isChecked, onChange, getStyles }) => {
+export const ToggelDark = ({ name, isChecked, onChange }) => {
+  const getStyles = getClasses(styles)({})
   return (
     <div className={getStyles('container-mode')}>
       <input
@@ -30,8 +30,7 @@ export const ToggelDark = ({ name, isChecked, onChange, getStyles }) => {
 
 ToggelDark.propTypes = {
   name: PropTypes.string.isRequired,
-  getStyles: PropTypes.func.isRequired,
-  onChange: PropTypes.func.isRequired,
+  onChange: PropTypes.func,
   isChecked: PropTypes.bool,
 }
 
@@ -39,4 +38,4 @@ ToggelDark.defaultProps = {
   isChecked: false,
 }
 
-export default withStyles(styles)(ToggelDark)
+export default ToggelDark

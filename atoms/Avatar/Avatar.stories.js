@@ -1,12 +1,9 @@
-import { Avatar, options, styles } from './index'
-import {
-  getListTemplate,
-  getTemplate,
-  getOptionsArgTypes,
-} from '../../helpers/storybook'
+import React from 'react'
+import Avatar, { options } from '.'
+import { getVariusTemplate, getOptionsArgTypes } from '../../helpers/storybook'
 
-const Template = getTemplate(Avatar, styles)
-const ListTemplate = getListTemplate(Avatar, styles)
+const Template = (args) => <Avatar {...args} />
+const ListTemplate = getVariusTemplate(Avatar)
 
 export default {
   title: 'Atoms/Avatar',
