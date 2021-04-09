@@ -24,7 +24,7 @@ exports[`Storyshots Molecules/Modal Default 1`] = `
       <div />
       <button
         aria-label="button"
-        className="buttons size-short color-inverter without-border"
+        className="buttons size-short color-inverted without-border"
       >
         <div
           className="container color-primary size-sm"
@@ -105,7 +105,7 @@ exports[`Storyshots Molecules/Modal With Title And Footer 1`] = `
       </div>
       <button
         aria-label="button"
-        className="buttons size-short color-inverter without-border"
+        className="buttons size-short color-inverted without-border"
       >
         <div
           className="container color-primary size-sm"
@@ -173,7 +173,7 @@ exports[`Storyshots Molecules/Modal With Title And Footer 1`] = `
     >
       <button
         aria-label="button"
-        className="buttons size-short color-inverter"
+        className="buttons size-short color-inverted"
       >
         <h3
           className="container color-primary"

@@ -1,4 +1,4 @@
 export const options = {
   size: ['full', 'short', 'mini'],
-  color: ['primary', 'secondary', 'inverter'],
+  color: ['primary', 'secondary', 'inverted'],
 }

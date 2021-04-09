@@ -1,18 +1,15 @@
-import { Buttons, options, styles } from '.'
-import {
-  getListTemplate,
-  getTemplate,
-  getOptionsArgTypes,
-} from '../../helpers/storybook'
+import React from 'react'
+import Button, { options } from '.'
+import { getVariusTemplate, getOptionsArgTypes } from '../../helpers/storybook'
 
 import { options as iconOptions } from '../../atoms/Icons'
 
-const Template = getTemplate(Buttons, styles)
-const ListTemplate = getListTemplate(Buttons, styles)
+const Template = (args) => <Button {...args} />
+const ListTemplate = getVariusTemplate(Button)
 
 export default {
-  title: 'Molecules/Buttons',
-  component: Buttons,
+  title: 'Molecules/Button',
+  component: Button,
   args: {
     children: 'button',
     ariaLabel: 'button',
@@ -24,6 +21,7 @@ export default {
     icon: getOptionsArgTypes(iconOptions.type),
     iconRight: getOptionsArgTypes(iconOptions.type),
   },
+  parameters: { __sb: { mh: 250 } },
 }
 
 const args = {
@@ -47,12 +45,22 @@ LeftIcon.args = {
   items: options.color.map((color) => ({ color })),
 }
 
+export const RightIcon = ListTemplate.bind({})
+RightIcon.args = {
+  ...args,
+  iconRight: 'check',
+  items: options.color.map((color) => ({ color })),
+}
+
 export const OnlyIcon = ListTemplate.bind({})
 OnlyIcon.args = {
   ...args,
   isOnlyIcon: true,
   size: 'mini',
   children: null,
-  color: 'primary',
+  color: 'inverted',
   items: iconOptions.type.map((icon) => ({ icon })),
+}
+OnlyIcon.parameters = {
+  __sb: { fd: 'row' },
 }
