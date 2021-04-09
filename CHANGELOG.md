@@ -1,3 +1,20 @@
+# [1.9.0](https://github.com/thotluna/components/compare/v1.8.0...v1.9.0) (2021-04-09)
+
+
+### Bug Fixes
+
+* remove heading and subheading ([7cd1a95](https://github.com/thotluna/components/commit/7cd1a95d8ffed19f6eb296b2e98db41466bd6255)), closes [#45](https://github.com/thotluna/components/issues/45)
+* remplace header form title ([634ef46](https://github.com/thotluna/components/commit/634ef46fb1d166351d30179857c11a37015b74cc)), closes [#45](https://github.com/thotluna/components/issues/45)
+* **avatarheader:** remplace header from title and subtitle in AvatarHeader ([b606474](https://github.com/thotluna/components/commit/b60647444f64d11b616d8892d08f408cb1ce9ae6)), closes [#45](https://github.com/thotluna/components/issues/45)
+* **button:** remplace header form title ([ec46a52](https://github.com/thotluna/components/commit/ec46a5297af5bd931066f940d2514b25fa10d091)), closes [#45](https://github.com/thotluna/components/issues/45)
+* **separatorline:** remplace header form title ([90e7d52](https://github.com/thotluna/components/commit/90e7d525a8b7dca82d7ae49c0d026c448cb13745)), closes [#45](https://github.com/thotluna/components/issues/45)
+
+
+### Features
+
+* **subtitle:** add Subtite component ([25317a8](https://github.com/thotluna/components/commit/25317a8757d5279ed5e659801cbd88247e30f703)), closes [#45](https://github.com/thotluna/components/issues/45)
+* **title:** add title component ([e306fcb](https://github.com/thotluna/components/commit/e306fcb8f71856b616a6dd151daa212969ced296)), closes [#45](https://github.com/thotluna/components/issues/45)
+
 # [1.8.0](https://github.com/thotluna/components/compare/v1.7.0...v1.8.0) (2021-04-08)
 
 
