@@ -5,6 +5,7 @@ exports[`Storyshots Atoms/Paragraph Colors 1`] = `
   style={
     Object {
       "alignContent": "flex-start",
+      "background": "",
       "display": "flex",
       "flexDirection": "column",
       "flexWrap": "wrap",
@@ -12,6 +13,7 @@ exports[`Storyshots Atoms/Paragraph Colors 1`] = `
       "height": "100%",
       "justifyContent": "flex-start",
       "maxHeight": "auto",
+      "padding": "2em",
     }
   }
 >
@@ -43,6 +45,7 @@ exports[`Storyshots Atoms/Paragraph Default 1`] = `
   style={
     Object {
       "alignContent": "flex-start",
+      "background": "",
       "display": "flex",
       "flexDirection": "column",
       "flexWrap": "wrap",
@@ -50,6 +53,7 @@ exports[`Storyshots Atoms/Paragraph Default 1`] = `
       "height": "100%",
       "justifyContent": "flex-start",
       "maxHeight": "auto",
+      "padding": "2em",
     }
   }
 >
@@ -66,6 +70,7 @@ exports[`Storyshots Atoms/Paragraph Is Inline 1`] = `
   style={
     Object {
       "alignContent": "flex-start",
+      "background": "",
       "display": "flex",
       "flexDirection": "column",
       "flexWrap": "wrap",
@@ -73,6 +78,7 @@ exports[`Storyshots Atoms/Paragraph Is Inline 1`] = `
       "height": "100%",
       "justifyContent": "flex-start",
       "maxHeight": "auto",
+      "padding": "2em",
     }
   }
 >
@@ -89,6 +95,7 @@ exports[`Storyshots Atoms/Paragraph Size 1`] = `
   style={
     Object {
       "alignContent": "flex-start",
+      "background": "",
       "display": "flex",
       "flexDirection": "column",
       "flexWrap": "wrap",
@@ -96,6 +103,7 @@ exports[`Storyshots Atoms/Paragraph Size 1`] = `
       "height": "100%",
       "justifyContent": "flex-start",
       "maxHeight": "auto",
+      "padding": "2em",
     }
   }
 >

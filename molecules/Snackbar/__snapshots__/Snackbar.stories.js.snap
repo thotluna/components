@@ -5,6 +5,7 @@ exports[`Storyshots Molecules/Snackbar Default 1`] = `
   style={
     Object {
       "alignContent": "flex-start",
+      "background": "",
       "display": "flex",
       "flexDirection": "column",
       "flexWrap": "wrap",
@@ -12,6 +13,7 @@ exports[`Storyshots Molecules/Snackbar Default 1`] = `
       "height": "100%",
       "justifyContent": "flex-start",
       "maxHeight": "auto",
+      "padding": "2em",
     }
   }
 >
@@ -44,7 +46,7 @@ exports[`Storyshots Molecules/Snackbar Default 1`] = `
           </svg>
         </div>
         <h3
-          className="container color-inverted"
+          className="container color-button"
         >
           Consent doubt Tuckborough challenge destroying.
         </h3>
@@ -89,6 +91,7 @@ exports[`Storyshots Molecules/Snackbar Types 1`] = `
   style={
     Object {
       "alignContent": "flex-start",
+      "background": "",
       "display": "flex",
       "flexDirection": "column",
       "flexWrap": "wrap",
@@ -96,6 +99,7 @@ exports[`Storyshots Molecules/Snackbar Types 1`] = `
       "height": "100%",
       "justifyContent": "flex-start",
       "maxHeight": "auto",
+      "padding": "2em",
     }
   }
 >
@@ -128,7 +132,7 @@ exports[`Storyshots Molecules/Snackbar Types 1`] = `
           </svg>
         </div>
         <h3
-          className="container color-inverted"
+          className="container color-button"
         >
           Consent doubt Tuckborough challenge destroying.
         </h3>
@@ -194,7 +198,7 @@ exports[`Storyshots Molecules/Snackbar Types 1`] = `
           </svg>
         </div>
         <h3
-          className="container color-inverted"
+          className="container color-button"
         >
           Consent doubt Tuckborough challenge destroying.
         </h3>

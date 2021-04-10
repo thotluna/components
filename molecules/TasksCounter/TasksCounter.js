@@ -1,9 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styles from './TasksCounter.module.css'
+import { options } from './constants'
 
 import SeparatorLine from '../../atoms/SeparatorLine'
-import Title, { options } from '../../atoms/Title'
+import Title from '../../atoms/Title'
 
 import { getClasses } from '../../helpers/styles'
 

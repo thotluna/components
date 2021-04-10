@@ -5,6 +5,7 @@ exports[`Storyshots Layout/Spacer/Vertical Default 1`] = `
   style={
     Object {
       "alignContent": "flex-start",
+      "background": "",
       "display": "flex",
       "flexDirection": "row",
       "flexWrap": "wrap",
@@ -12,6 +13,7 @@ exports[`Storyshots Layout/Spacer/Vertical Default 1`] = `
       "height": "100%",
       "justifyContent": "flex-start",
       "maxHeight": "auto",
+      "padding": "2em",
     }
   }
 >
@@ -33,6 +35,7 @@ exports[`Storyshots Layout/Spacer/Vertical Sizes 1`] = `
   style={
     Object {
       "alignContent": "flex-start",
+      "background": "",
       "display": "flex",
       "flexDirection": "row",
       "flexWrap": "wrap",
@@ -40,6 +43,7 @@ exports[`Storyshots Layout/Spacer/Vertical Sizes 1`] = `
       "height": "100%",
       "justifyContent": "flex-start",
       "maxHeight": "auto",
+      "padding": "2em",
     }
   }
 >

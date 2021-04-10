@@ -5,6 +5,7 @@ exports[`Storyshots Tokens/Fonts/FontWeight Default 1`] = `
   style={
     Object {
       "alignContent": "flex-start",
+      "background": "",
       "display": "flex",
       "flexDirection": "column",
       "flexWrap": "wrap",
@@ -12,6 +13,7 @@ exports[`Storyshots Tokens/Fonts/FontWeight Default 1`] = `
       "height": "100%",
       "justifyContent": "flex-start",
       "maxHeight": "auto",
+      "padding": "2em",
     }
   }
 >
@@ -52,6 +54,7 @@ exports[`Storyshots Tokens/Fonts/FontWeight Weight 1`] = `
   style={
     Object {
       "alignContent": "flex-start",
+      "background": "",
       "display": "flex",
       "flexDirection": "column",
       "flexWrap": "wrap",
@@ -59,6 +62,7 @@ exports[`Storyshots Tokens/Fonts/FontWeight Weight 1`] = `
       "height": "100%",
       "justifyContent": "flex-start",
       "maxHeight": "auto",
+      "padding": "2em",
     }
   }
 >

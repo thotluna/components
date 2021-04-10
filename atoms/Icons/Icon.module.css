@@ -9,11 +9,11 @@
 }
 
 .color-primary svg {
-  stroke: var(--color-primary);
+  stroke: var(--color-light-primary);
 }
 
 .color-secondary svg {
-  stroke: var(--color-secondary);
+  stroke: var(--color-light-secondary);
 }
 
 .color-inverted svg {

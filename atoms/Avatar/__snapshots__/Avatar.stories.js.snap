@@ -5,6 +5,7 @@ exports[`Storyshots Atoms/Avatar Default 1`] = `
   style={
     Object {
       "alignContent": "flex-start",
+      "background": "",
       "display": "flex",
       "flexDirection": "row",
       "flexWrap": "wrap",
@@ -12,6 +13,7 @@ exports[`Storyshots Atoms/Avatar Default 1`] = `
       "height": "100%",
       "justifyContent": "flex-start",
       "maxHeight": 250,
+      "padding": "2em",
     }
   }
 >
@@ -28,6 +30,7 @@ exports[`Storyshots Atoms/Avatar Size 1`] = `
   style={
     Object {
       "alignContent": "flex-start",
+      "background": "",
       "display": "flex",
       "flexDirection": "row",
       "flexWrap": "wrap",
@@ -35,6 +38,7 @@ exports[`Storyshots Atoms/Avatar Size 1`] = `
       "height": "100%",
       "justifyContent": "flex-start",
       "maxHeight": 250,
+      "padding": "2em",
     }
   }
 >

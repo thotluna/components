@@ -5,6 +5,7 @@ exports[`Storyshots Atoms/Icon Colors 1`] = `
   style={
     Object {
       "alignContent": "flex-start",
+      "background": "",
       "display": "flex",
       "flexDirection": "row",
       "flexWrap": "wrap",
@@ -12,6 +13,7 @@ exports[`Storyshots Atoms/Icon Colors 1`] = `
       "height": "100%",
       "justifyContent": "flex-start",
       "maxHeight": 250,
+      "padding": "2em",
     }
   }
 >
@@ -118,6 +120,7 @@ exports[`Storyshots Atoms/Icon Default 1`] = `
   style={
     Object {
       "alignContent": "flex-start",
+      "background": "",
       "display": "flex",
       "flexDirection": "row",
       "flexWrap": "wrap",
@@ -125,6 +128,7 @@ exports[`Storyshots Atoms/Icon Default 1`] = `
       "height": "100%",
       "justifyContent": "flex-start",
       "maxHeight": 250,
+      "padding": "2em",
     }
   }
 >
@@ -155,6 +159,7 @@ exports[`Storyshots Atoms/Icon Has Border 1`] = `
   style={
     Object {
       "alignContent": "flex-start",
+      "background": "",
       "display": "flex",
       "flexDirection": "row",
       "flexWrap": "wrap",
@@ -162,6 +167,7 @@ exports[`Storyshots Atoms/Icon Has Border 1`] = `
       "height": "100%",
       "justifyContent": "flex-start",
       "maxHeight": 250,
+      "padding": "2em",
     }
   }
 >
@@ -268,6 +274,7 @@ exports[`Storyshots Atoms/Icon Has Border Size 1`] = `
   style={
     Object {
       "alignContent": "flex-start",
+      "background": "",
       "display": "flex",
       "flexDirection": "row",
       "flexWrap": "wrap",
@@ -275,6 +282,7 @@ exports[`Storyshots Atoms/Icon Has Border Size 1`] = `
       "height": "100%",
       "justifyContent": "flex-start",
       "maxHeight": 250,
+      "padding": "2em",
     }
   }
 >
@@ -343,6 +351,7 @@ exports[`Storyshots Atoms/Icon Size 1`] = `
   style={
     Object {
       "alignContent": "flex-start",
+      "background": "",
       "display": "flex",
       "flexDirection": "row",
       "flexWrap": "wrap",
@@ -350,6 +359,7 @@ exports[`Storyshots Atoms/Icon Size 1`] = `
       "height": "100%",
       "justifyContent": "flex-start",
       "maxHeight": 250,
+      "padding": "2em",
     }
   }
 >
@@ -418,6 +428,7 @@ exports[`Storyshots Atoms/Icon Type 1`] = `
   style={
     Object {
       "alignContent": "flex-start",
+      "background": "",
       "display": "flex",
       "flexDirection": "row",
       "flexWrap": "wrap",
@@ -425,6 +436,7 @@ exports[`Storyshots Atoms/Icon Type 1`] = `
       "height": "100%",
       "justifyContent": "flex-start",
       "maxHeight": 250,
+      "padding": "2em",
     }
   }
 >

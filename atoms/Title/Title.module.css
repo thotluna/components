@@ -2,22 +2,22 @@
   font-family: var(--font-family-title);
 }
 
+.color-primary {
+  color: var(--color-font-primary);
+}
+
+.color-secondary {
+  color: var(--color-font-secondary);
+}
+
 .color-base {
   color: var(--color-font-base);
 }
 
-.color-inverted {
-  color: var(--color-font-inverted);
+.color-muted {
+  color: var(--color-font-muted);
 }
 
-.color-primary {
-  color: var(--color-primary);
-}
-
-.color-secondary {
-  color: var(--color-secondary);
-}
-
-.color-tertiary {
-  color: var(--color-font-highlight);
+.color-button {
+  color: var(--color-font-button);
 }

@@ -1,10 +1,11 @@
 import '../styles/minireset.min.css'
 import '../styles/global.css'
 import '../styles/tokens.css'
+import '../styles/variables.css';
 
-import React from 'react'
 import { themes } from '@storybook/theming';
 
+import React from 'react'
 
 const getStyles = ({ __sb } = {}) => ({
   display: 'flex',
@@ -14,7 +15,9 @@ const getStyles = ({ __sb } = {}) => ({
   alignContent: 'flex-start',
   flexWrap: 'wrap',
   height: '100%',
+  padding: '2em',
   gap: '10px 30px',
+  background: __sb?.bc || ''
 })
 
 export const decorators = [
@@ -31,10 +34,29 @@ export const parameters = {
     styles: { table: { disable: true }},
     getStyles: { table: { disable: true }},
   },
-  //args: { isPlayground: true  },
   actions: { argTypesRegex: '^on[A-Z].*'},
-  docs: {
-    theme: themes.dark,
+  backgrounds: {
+    default: 'dark',
+    values: [
+      {
+        name: 'dark',
+        value: '#272631',
+      },
+      {
+        name: 'light',
+        value: '#fff',
+      },
+    ],
+  },
+  darkMode: {
+    // Override the default dark theme
+    dark: { ...themes.dark, appBg: '#282C34' },
+    // Override the default light theme
+    light: { ...themes.normal, appBg: '#fff' }
   },
 
+  doc: { ...themes.dark, appBg: '#282C34' },
+
 }
+
+

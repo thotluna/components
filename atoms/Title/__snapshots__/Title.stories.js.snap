@@ -5,6 +5,7 @@ exports[`Storyshots Atoms/Title Colors 1`] = `
   style={
     Object {
       "alignContent": "flex-start",
+      "background": "",
       "display": "flex",
       "flexDirection": "column",
       "flexWrap": "wrap",
@@ -12,6 +13,7 @@ exports[`Storyshots Atoms/Title Colors 1`] = `
       "height": "100%",
       "justifyContent": "flex-start",
       "maxHeight": "auto",
+      "padding": "2em",
     }
   }
 >
@@ -31,12 +33,12 @@ exports[`Storyshots Atoms/Title Colors 1`] = `
     Consent doubt Tuckborough challenge destroying.
   </h3>
   <h3
-    className="container color-tertiary"
+    className="container color-muted"
   >
     Consent doubt Tuckborough challenge destroying.
   </h3>
   <h3
-    className="container color-inverted"
+    className="container color-button"
   >
     Consent doubt Tuckborough challenge destroying.
   </h3>
@@ -48,6 +50,7 @@ exports[`Storyshots Atoms/Title Default 1`] = `
   style={
     Object {
       "alignContent": "flex-start",
+      "background": "",
       "display": "flex",
       "flexDirection": "column",
       "flexWrap": "wrap",
@@ -55,6 +58,7 @@ exports[`Storyshots Atoms/Title Default 1`] = `
       "height": "100%",
       "justifyContent": "flex-start",
       "maxHeight": "auto",
+      "padding": "2em",
     }
   }
 >
@@ -71,6 +75,7 @@ exports[`Storyshots Atoms/Title Sizes 1`] = `
   style={
     Object {
       "alignContent": "flex-start",
+      "background": "",
       "display": "flex",
       "flexDirection": "column",
       "flexWrap": "wrap",
@@ -78,6 +83,7 @@ exports[`Storyshots Atoms/Title Sizes 1`] = `
       "height": "100%",
       "justifyContent": "flex-start",
       "maxHeight": "auto",
+      "padding": "2em",
     }
   }
 >

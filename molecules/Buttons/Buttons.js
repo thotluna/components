@@ -20,7 +20,7 @@ export const Buttons = ({
 }) => {
   const getStyles = getClasses(styles)({ size, color })
   const childrenColor =
-    color === 'primary' || color === 'secondary' ? 'inverted' : 'primary'
+    color === 'primary' || color === 'secondary' ? 'button' : 'primary'
   return (
     <button
       className={getStyles('buttons', ['size', 'color'], {
@@ -30,9 +30,21 @@ export const Buttons = ({
       onClick={onCLick}
       aria-label={ariaLabel}
     >
-      {icon && <Icon type={icon} color={childrenColor} size="sm" />}
+      {icon && (
+        <Icon
+          type={icon}
+          color={childrenColor === 'button' ? 'inverted' : childrenColor}
+          size="sm"
+        />
+      )}
       {children && <Title color={childrenColor}>{children}</Title>}
-      {iconRight && <Icon type={iconRight} color={childrenColor} size="sm" />}
+      {iconRight && (
+        <Icon
+          type={iconRight}
+          color={childrenColor === 'button' ? 'inverted' : childrenColor}
+          size="sm"
+        />
+      )}
     </button>
   )
 }

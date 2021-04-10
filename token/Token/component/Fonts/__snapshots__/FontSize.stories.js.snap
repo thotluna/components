@@ -5,6 +5,7 @@ exports[`Storyshots Tokens/Fonts/FontSize Default 1`] = `
   style={
     Object {
       "alignContent": "flex-start",
+      "background": "",
       "display": "flex",
       "flexDirection": "column",
       "flexWrap": "wrap",
@@ -12,6 +13,7 @@ exports[`Storyshots Tokens/Fonts/FontSize Default 1`] = `
       "height": "100%",
       "justifyContent": "flex-start",
       "maxHeight": "auto",
+      "padding": "2em",
     }
   }
 >
@@ -50,6 +52,7 @@ exports[`Storyshots Tokens/Fonts/FontSize Sizes 1`] = `
   style={
     Object {
       "alignContent": "flex-start",
+      "background": "",
       "display": "flex",
       "flexDirection": "column",
       "flexWrap": "wrap",
@@ -57,6 +60,7 @@ exports[`Storyshots Tokens/Fonts/FontSize Sizes 1`] = `
       "height": "100%",
       "justifyContent": "flex-start",
       "maxHeight": "auto",
+      "padding": "2em",
     }
   }
 >
@@ -147,7 +151,7 @@ exports[`Storyshots Tokens/Fonts/FontSize Sizes 1`] = `
     <div
       style={
         Object {
-          "fontSize": "1.5rem",
+          "fontSize": "1.8rem",
         }
       }
     >
@@ -164,7 +168,7 @@ exports[`Storyshots Tokens/Fonts/FontSize Sizes 1`] = `
       <span
         className="label"
       >
-        1.5rem
+        1.8rem
       </span>
     </div>
   </div>
@@ -174,7 +178,7 @@ exports[`Storyshots Tokens/Fonts/FontSize Sizes 1`] = `
     <div
       style={
         Object {
-          "fontSize": "1.8rem",
+          "fontSize": "2rem",
         }
       }
     >
@@ -191,7 +195,7 @@ exports[`Storyshots Tokens/Fonts/FontSize Sizes 1`] = `
       <span
         className="label"
       >
-        1.8rem
+        2rem
       </span>
     </div>
   </div>

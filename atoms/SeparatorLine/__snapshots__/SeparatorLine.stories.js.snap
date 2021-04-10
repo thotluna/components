@@ -5,6 +5,7 @@ exports[`Storyshots Atoms/SeparatorLine Colors 1`] = `
   style={
     Object {
       "alignContent": "flex-start",
+      "background": "",
       "display": "flex",
       "flexDirection": "column",
       "flexWrap": "wrap",
@@ -12,6 +13,7 @@ exports[`Storyshots Atoms/SeparatorLine Colors 1`] = `
       "height": "100%",
       "justifyContent": "flex-start",
       "maxHeight": "auto",
+      "padding": "2em",
     }
   }
 >
@@ -39,22 +41,6 @@ exports[`Storyshots Atoms/SeparatorLine Colors 1`] = `
       title="separator"
     />
   </div>
-  <div
-    className="container-separator color-tertiary"
-  >
-    <hr
-      className="separator-line color-tertiary size-sm"
-      title="separator"
-    />
-  </div>
-  <div
-    className="container-separator color-inverted"
-  >
-    <hr
-      className="separator-line color-inverted size-sm"
-      title="separator"
-    />
-  </div>
 </div>
 `;
 
@@ -63,6 +49,7 @@ exports[`Storyshots Atoms/SeparatorLine Default 1`] = `
   style={
     Object {
       "alignContent": "flex-start",
+      "background": "",
       "display": "flex",
       "flexDirection": "column",
       "flexWrap": "wrap",
@@ -70,6 +57,7 @@ exports[`Storyshots Atoms/SeparatorLine Default 1`] = `
       "height": "100%",
       "justifyContent": "flex-start",
       "maxHeight": "auto",
+      "padding": "2em",
     }
   }
 >
@@ -89,6 +77,7 @@ exports[`Storyshots Atoms/SeparatorLine Size 1`] = `
   style={
     Object {
       "alignContent": "flex-start",
+      "background": "",
       "display": "flex",
       "flexDirection": "column",
       "flexWrap": "wrap",
@@ -96,6 +85,7 @@ exports[`Storyshots Atoms/SeparatorLine Size 1`] = `
       "height": "100%",
       "justifyContent": "flex-start",
       "maxHeight": "auto",
+      "padding": "2em",
     }
   }
 >
@@ -139,6 +129,7 @@ exports[`Storyshots Atoms/SeparatorLine Titel Colors 1`] = `
   style={
     Object {
       "alignContent": "flex-start",
+      "background": "",
       "display": "flex",
       "flexDirection": "column",
       "flexWrap": "wrap",
@@ -146,6 +137,7 @@ exports[`Storyshots Atoms/SeparatorLine Titel Colors 1`] = `
       "height": "100%",
       "justifyContent": "flex-start",
       "maxHeight": "auto",
+      "padding": "2em",
     }
   }
 >
@@ -200,40 +192,6 @@ exports[`Storyshots Atoms/SeparatorLine Titel Colors 1`] = `
       </h4>
     </div>
   </div>
-  <div
-    className="container-separator color-tertiary"
-  >
-    <hr
-      className="separator-line color-tertiary size-sm"
-      title="separator"
-    />
-    <div
-      className="title"
-    >
-      <h4
-        className="container color-tertiary"
-      >
-        separator
-      </h4>
-    </div>
-  </div>
-  <div
-    className="container-separator color-inverted"
-  >
-    <hr
-      className="separator-line color-inverted size-sm"
-      title="separator"
-    />
-    <div
-      className="title"
-    >
-      <h4
-        className="container color-inverted"
-      >
-        separator
-      </h4>
-    </div>
-  </div>
 </div>
 `;
 
@@ -242,6 +200,7 @@ exports[`Storyshots Atoms/SeparatorLine Titel Sizes 1`] = `
   style={
     Object {
       "alignContent": "flex-start",
+      "background": "",
       "display": "flex",
       "flexDirection": "column",
       "flexWrap": "wrap",
@@ -249,6 +208,7 @@ exports[`Storyshots Atoms/SeparatorLine Titel Sizes 1`] = `
       "height": "100%",
       "justifyContent": "flex-start",
       "maxHeight": "auto",
+      "padding": "2em",
     }
   }
 >

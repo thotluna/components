@@ -1,4 +1,4 @@
 export const options = {
-  colors: ['base', 'terneary', 'inverted'],
+  colors: ['base', 'primary', 'muted'],
   sizes: ['sm', 'md', 'lg'],
 }

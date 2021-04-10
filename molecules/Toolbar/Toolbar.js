@@ -27,7 +27,7 @@ export const Toolbar = ({ icon, label, iconOnclick, title }) => {
       </button>
       <Vertical size="sm" />
       {title && (
-        <Title arial-hiden={title ? false : true} color="inverted" size="lg">
+        <Title arial-hiden={title ? false : true} color="button" size="lg">
           {title}
         </Title>
       )}

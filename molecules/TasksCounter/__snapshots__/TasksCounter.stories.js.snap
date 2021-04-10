@@ -5,6 +5,7 @@ exports[`Storyshots Molecules/TasksCounter Colors 1`] = `
   style={
     Object {
       "alignContent": "flex-start",
+      "background": "",
       "display": "flex",
       "flexDirection": "column",
       "flexWrap": "wrap",
@@ -12,6 +13,7 @@ exports[`Storyshots Molecules/TasksCounter Colors 1`] = `
       "height": "100%",
       "justifyContent": "flex-start",
       "maxHeight": "auto",
+      "padding": "2em",
     }
   }
 >
@@ -67,84 +69,6 @@ exports[`Storyshots Molecules/TasksCounter Colors 1`] = `
       />
     </div>
   </div>
-  <div
-    className="container-counter"
-  >
-    <div
-      className="messages"
-    >
-      <h3
-        className="container color-secondary"
-      >
-        Task resolved
-      </h3>
-      <h3
-        className="container color-secondary"
-      >
-        5/10
-      </h3>
-    </div>
-    <div
-      className="container-separator color-secondary"
-    >
-      <hr
-        className="separator-line color-secondary size-sm"
-        title="Task Counter"
-      />
-    </div>
-  </div>
-  <div
-    className="container-counter"
-  >
-    <div
-      className="messages"
-    >
-      <h3
-        className="container color-tertiary"
-      >
-        Task resolved
-      </h3>
-      <h3
-        className="container color-tertiary"
-      >
-        5/10
-      </h3>
-    </div>
-    <div
-      className="container-separator color-tertiary"
-    >
-      <hr
-        className="separator-line color-tertiary size-sm"
-        title="Task Counter"
-      />
-    </div>
-  </div>
-  <div
-    className="container-counter"
-  >
-    <div
-      className="messages"
-    >
-      <h3
-        className="container color-inverted"
-      >
-        Task resolved
-      </h3>
-      <h3
-        className="container color-inverted"
-      >
-        5/10
-      </h3>
-    </div>
-    <div
-      className="container-separator color-inverted"
-    >
-      <hr
-        className="separator-line color-inverted size-sm"
-        title="Task Counter"
-      />
-    </div>
-  </div>
 </div>
 `;
 
@@ -153,6 +77,7 @@ exports[`Storyshots Molecules/TasksCounter Default 1`] = `
   style={
     Object {
       "alignContent": "flex-start",
+      "background": "",
       "display": "flex",
       "flexDirection": "column",
       "flexWrap": "wrap",
@@ -160,6 +85,7 @@ exports[`Storyshots Molecules/TasksCounter Default 1`] = `
       "height": "100%",
       "justifyContent": "flex-start",
       "maxHeight": "auto",
+      "padding": "2em",
     }
   }
 >

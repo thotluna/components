@@ -9,14 +9,14 @@ export const getColorSeting = (type) => {
       return {
         icon: 'trash',
         colorIcon: 'inverted',
-        colorText: 'inverted',
+        colorText: 'button',
         background: 'secondary',
       }
     case 'success':
       return {
         icon: 'check',
         colorIcon: 'inverted',
-        colorText: 'inverted',
+        colorText: 'button',
         background: 'primary',
       }
 

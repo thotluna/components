@@ -2,10 +2,10 @@
   color: var(--color-font-base);
 }
 
-.color-inverted {
-  color: var(--color-font-muted);
+.color-primary {
+  color: var(--color-font-primary);
 }
 
-.color-tertiary {
-  color: var(--color-font-highlight);
+.color-muted {
+  color: var(--color-font-muted);
 }
