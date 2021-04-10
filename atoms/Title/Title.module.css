@@ -6,6 +6,10 @@
   color: var(--color-font-primary);
 }
 
+.color-secondary {
+  color: var(--color-font-secondary);
+}
+
 .color-base {
   color: var(--color-font-base);
 }

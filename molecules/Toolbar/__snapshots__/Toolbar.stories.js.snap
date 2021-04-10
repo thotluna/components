@@ -61,7 +61,7 @@ exports[`Storyshots Molecules/Toolbar Default 1`] = `
       }
     />
     <h2
-      className="container color-inverted"
+      className="container color-button"
     >
       Login
     </h2>
@@ -174,7 +174,7 @@ exports[`Storyshots Molecules/Toolbar Only Title 1`] = `
       }
     />
     <h2
-      className="container color-inverted"
+      className="container color-button"
     >
       Home
     </h2>

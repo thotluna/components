@@ -1,6 +1,6 @@
 import React from 'react'
 import TasksCounter from '.'
-import { options } from '../../atoms/Title'
+import { options } from './constants'
 import { getVariusTemplate, getOptionsArgTypes } from '../../helpers/storybook'
 
 const Template = (args) => <TasksCounter {...args} />

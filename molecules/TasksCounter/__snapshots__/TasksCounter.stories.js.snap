@@ -69,58 +69,6 @@ exports[`Storyshots Molecules/TasksCounter Colors 1`] = `
       />
     </div>
   </div>
-  <div
-    className="container-counter"
-  >
-    <div
-      className="messages"
-    >
-      <h3
-        className="container color-muted"
-      >
-        Task resolved
-      </h3>
-      <h3
-        className="container color-muted"
-      >
-        5/10
-      </h3>
-    </div>
-    <div
-      className="container-separator color-muted"
-    >
-      <hr
-        className="separator-line color-muted size-sm"
-        title="Task Counter"
-      />
-    </div>
-  </div>
-  <div
-    className="container-counter"
-  >
-    <div
-      className="messages"
-    >
-      <h3
-        className="container color-button"
-      >
-        Task resolved
-      </h3>
-      <h3
-        className="container color-button"
-      >
-        5/10
-      </h3>
-    </div>
-    <div
-      className="container-separator color-button"
-    >
-      <hr
-        className="separator-line color-button size-sm"
-        title="Task Counter"
-      />
-    </div>
-  </div>
 </div>
 `;
 

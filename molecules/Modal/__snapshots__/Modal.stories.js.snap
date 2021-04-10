@@ -190,7 +190,7 @@ exports[`Storyshots Molecules/Modal With Title And Footer 1`] = `
         className="buttons size-short color-primary"
       >
         <h3
-          className="container color-inverted"
+          className="container color-button"
         >
           Aceptar
         </h3>

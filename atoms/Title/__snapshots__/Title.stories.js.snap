@@ -28,6 +28,11 @@ exports[`Storyshots Atoms/Title Colors 1`] = `
     Consent doubt Tuckborough challenge destroying.
   </h3>
   <h3
+    className="container color-secondary"
+  >
+    Consent doubt Tuckborough challenge destroying.
+  </h3>
+  <h3
     className="container color-muted"
   >
     Consent doubt Tuckborough challenge destroying.

@@ -13,32 +13,32 @@
   top: -13px;
   left: 2rem;
   padding: 0.5rem;
-  background: var(--background-color-primary);
+  background: var(--color-background);
   color: var(--color-font-muted);
 }
 
 .color-base {
-  border: 1px solid transparent;
+  border: none;
   background-color: var(--color-font-base);
 }
 
 .color-inverted {
-  border: 1px solid transparent;
+  border: none;
   background-color: var(--color-primary-inverted);
 }
 
 .color-primary {
-  border: 1px solid transparent;
+  border: none;
   background-color: var(--color-primary);
 }
 
 .color-secondary {
-  border: 1px solid transparent;
+  border: none;
   background-color: var(--color-secondary);
 }
 
 .color-tertiary {
-  border: 1px solid transparent;
+  border: none;
   background-color: var(--color-font-highlight);
 }
 

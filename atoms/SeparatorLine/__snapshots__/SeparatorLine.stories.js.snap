@@ -41,22 +41,6 @@ exports[`Storyshots Atoms/SeparatorLine Colors 1`] = `
       title="separator"
     />
   </div>
-  <div
-    className="container-separator color-tertiary"
-  >
-    <hr
-      className="separator-line color-tertiary size-sm"
-      title="separator"
-    />
-  </div>
-  <div
-    className="container-separator color-inverted"
-  >
-    <hr
-      className="separator-line color-inverted size-sm"
-      title="separator"
-    />
-  </div>
 </div>
 `;
 
@@ -203,40 +187,6 @@ exports[`Storyshots Atoms/SeparatorLine Titel Colors 1`] = `
     >
       <h4
         className="container color-secondary"
-      >
-        separator
-      </h4>
-    </div>
-  </div>
-  <div
-    className="container-separator color-tertiary"
-  >
-    <hr
-      className="separator-line color-tertiary size-sm"
-      title="separator"
-    />
-    <div
-      className="title"
-    >
-      <h4
-        className="container color-tertiary"
-      >
-        separator
-      </h4>
-    </div>
-  </div>
-  <div
-    className="container-separator color-inverted"
-  >
-    <hr
-      className="separator-line color-inverted size-sm"
-      title="separator"
-    />
-    <div
-      className="title"
-    >
-      <h4
-        className="container color-inverted"
       >
         separator
       </h4>
