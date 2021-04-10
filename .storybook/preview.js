@@ -1,7 +1,8 @@
-import '../styles/minireset.min.css'
-import '../styles/global.css'
-import '../styles/tokens.css'
-import '../styles/variables.css';
+// import '../styles/minireset.min.css'
+// import '../styles/global.css'
+// import '../styles/tokens.css'
+// import '../styles/variables.css';
+import '../styles/styles.css';
 
 import { themes } from '@storybook/theming';
 

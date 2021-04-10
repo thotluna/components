@@ -1,15 +1,36 @@
-# Libreria de componentes
+# Component Librery
+  It's a library of components that Storybook uses. Implementing the methodology of Desing tokens in Desing Sistem
 
-Libreria de componetes usando paradigmas de Desing System, Desing Token en apollo con herramientas como Storybook, react.
+## Getting Started
+  To install it as a dependency of your project you must:
 
-## Objetivos
-  Crear mi propio sistema de componente para el Frontend la cual de debe publicar en npm y tener su set de testing, coverage y ci.
+  > The prerequisite for using this package is having React installed.
 
-## Instalacion
+1. install
 
-## Uso
+`` bash
+  npm install @thot/components
+''
+o
 
-## Contribucion
+`` bash
+  yarn add -D @thot/components
+''
 
-## Licencia
+2. Import component in your code
+
+`` bash
+  import Button from '@thot/components
+''
+
+3. add component and prop
+
+`` bash
+ <Button color: 'primary' >Button</Button>
+''
+
+
+
+
+
 
