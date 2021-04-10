@@ -1,274 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Tokens/Decisions/Color Background Color 1`] = `
-<div
-  style={
-    Object {
-      "alignContent": "flex-start",
-      "background": "",
-      "display": "flex",
-      "flexDirection": "row",
-      "flexWrap": "wrap",
-      "gap": "10px 30px",
-      "height": "100%",
-      "justifyContent": "flex-start",
-      "maxHeight": 250,
-      "padding": "2em",
-    }
-  }
->
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#272631",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        --color-dark-background
-      </span>
-      <span
-        className="label"
-      >
-        #272631
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#fff",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        --color-light-background
-      </span>
-      <span
-        className="label"
-      >
-        #fff
-      </span>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Storyshots Tokens/Decisions/Color Button Color With Background Dark 1`] = `
-<div
-  style={
-    Object {
-      "alignContent": "flex-start",
-      "background": "#272631",
-      "display": "flex",
-      "flexDirection": "row",
-      "flexWrap": "wrap",
-      "gap": "10px 30px",
-      "height": "100%",
-      "justifyContent": "flex-start",
-      "maxHeight": 250,
-      "padding": "2em",
-    }
-  }
->
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#E6D1FA",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        --color-button-primary
-      </span>
-      <span
-        className="label"
-      >
-        #E6D1FA
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#eb2d52",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        --color-button-secondary
-      </span>
-      <span
-        className="label"
-      >
-        #eb2d52
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#272631",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        --color-button-base
-      </span>
-      <span
-        className="label"
-      >
-        #272631
-      </span>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Storyshots Tokens/Decisions/Color Button Color With Background Light 1`] = `
-<div
-  style={
-    Object {
-      "alignContent": "flex-start",
-      "background": "#fff",
-      "display": "flex",
-      "flexDirection": "row",
-      "flexWrap": "wrap",
-      "gap": "10px 30px",
-      "height": "100%",
-      "justifyContent": "flex-start",
-      "maxHeight": 250,
-      "padding": "2em",
-    }
-  }
->
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#6B17AD",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        --color-button-primary
-      </span>
-      <span
-        className="label"
-      >
-        #6B17AD
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#eb2d52",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        --color-button-secondary
-      </span>
-      <span
-        className="label"
-      >
-        #eb2d52
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#fff",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        --color-button-base
-      </span>
-      <span
-        className="label"
-      >
-        #fff
-      </span>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Storyshots Tokens/Decisions/Color Default 1`] = `
+exports[`Storyshots Tokens/Box-Shadow Dark 1`] = `
 <div
   style={
     Object {
@@ -280,7 +12,7 @@ exports[`Storyshots Tokens/Decisions/Color Default 1`] = `
       "gap": "10px 30px",
       "height": "100%",
       "justifyContent": "flex-start",
-      "maxHeight": 250,
+      "maxHeight": "auto",
       "padding": "2em",
     }
   }
@@ -289,10 +21,10 @@ exports[`Storyshots Tokens/Decisions/Color Default 1`] = `
     className="container"
   >
     <div
-      className="color"
+      className="box"
       style={
         Object {
-          "backgroundColor": "#6B17AD",
+          "boxShadow": "none",
         }
       }
     />
@@ -302,31 +34,109 @@ exports[`Storyshots Tokens/Decisions/Color Default 1`] = `
       <span
         className="label"
       >
-        --color-primary
+        --color-boxShadow-none
       </span>
       <span
         className="label"
       >
-        #6B17AD
+        none
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="box"
+      style={
+        Object {
+          "boxShadow": "0px 3px 6px rgba(255, 255, 255, 0.05)",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --color-boxShadow-xs
+      </span>
+      <span
+        className="label"
+      >
+        0px 3px 6px rgba(255, 255, 255, 0.05)
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="box"
+      style={
+        Object {
+          "boxShadow": "0px 4px 5px rgba(255, 255, 225, 0.07)",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --color-boxShadow-sm
+      </span>
+      <span
+        className="label"
+      >
+        0px 4px 5px rgba(255, 255, 225, 0.07)
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="box"
+      style={
+        Object {
+          "boxShadow": "0 0 0 1px var(--color-primary), 0 0 10px 0 var(--color-primary)",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --color-boxShadow-focus
+      </span>
+      <span
+        className="label"
+      >
+        0 0 0 1px var(--color-primary), 0 0 10px 0 var(--color-primary)
       </span>
     </div>
   </div>
 </div>
 `;
 
-exports[`Storyshots Tokens/Decisions/Color Font Color With Background Dark 1`] = `
+exports[`Storyshots Tokens/Box-Shadow Default 1`] = `
 <div
   style={
     Object {
       "alignContent": "flex-start",
-      "background": "#272631",
+      "background": "",
       "display": "flex",
-      "flexDirection": "row",
+      "flexDirection": "column",
       "flexWrap": "wrap",
       "gap": "10px 30px",
       "height": "100%",
       "justifyContent": "flex-start",
-      "maxHeight": 250,
+      "maxHeight": "auto",
       "padding": "2em",
     }
   }
@@ -335,10 +145,10 @@ exports[`Storyshots Tokens/Decisions/Color Font Color With Background Dark 1`] =
     className="container"
   >
     <div
-      className="color"
+      className="box"
       style={
         Object {
-          "backgroundColor": "#E6D1FA",
+          "boxShadow": "0",
         }
       }
     />
@@ -348,135 +158,31 @@ exports[`Storyshots Tokens/Decisions/Color Font Color With Background Dark 1`] =
       <span
         className="label"
       >
-        --color-font-primary
+        --box-shadow-none
       </span>
       <span
         className="label"
       >
-        #E6D1FA
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#fff",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        --color-font-base
-      </span>
-      <span
-        className="label"
-      >
-        #fff
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#ABABAB",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        --color-font-muted
-      </span>
-      <span
-        className="label"
-      >
-        #ABABAB
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#fff",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        --color-font-inverted
-      </span>
-      <span
-        className="label"
-      >
-        #fff
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#6B17AD",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        --color-font-button
-      </span>
-      <span
-        className="label"
-      >
-        #6B17AD
+        0
       </span>
     </div>
   </div>
 </div>
 `;
 
-exports[`Storyshots Tokens/Decisions/Color Font Color With Background Light 1`] = `
+exports[`Storyshots Tokens/Box-Shadow Familys 1`] = `
 <div
   style={
     Object {
       "alignContent": "flex-start",
-      "background": "#fff",
+      "background": "",
       "display": "flex",
-      "flexDirection": "row",
+      "flexDirection": "column",
       "flexWrap": "wrap",
       "gap": "10px 30px",
       "height": "100%",
       "justifyContent": "flex-start",
-      "maxHeight": 250,
+      "maxHeight": "auto",
       "padding": "2em",
     }
   }
@@ -485,10 +191,10 @@ exports[`Storyshots Tokens/Decisions/Color Font Color With Background Light 1`] 
     className="container"
   >
     <div
-      className="color"
+      className="box"
       style={
         Object {
-          "backgroundColor": "#6B17AD",
+          "boxShadow": "none",
         }
       }
     />
@@ -498,12 +204,12 @@ exports[`Storyshots Tokens/Decisions/Color Font Color With Background Light 1`] 
       <span
         className="label"
       >
-        --color-font-primary
+        --box-shadow-none-t
       </span>
       <span
         className="label"
       >
-        #6B17AD
+        none
       </span>
     </div>
   </div>
@@ -511,10 +217,10 @@ exports[`Storyshots Tokens/Decisions/Color Font Color With Background Light 1`] 
     className="container"
   >
     <div
-      className="color"
+      className="box"
       style={
         Object {
-          "backgroundColor": "#000",
+          "boxShadow": "0px 3px 6px rgba(0, 0, 0, 0.05)",
         }
       }
     />
@@ -524,12 +230,12 @@ exports[`Storyshots Tokens/Decisions/Color Font Color With Background Light 1`] 
       <span
         className="label"
       >
-        --color-font-base
+        --box-shadow-xs-t
       </span>
       <span
         className="label"
       >
-        #000
+        0px 3px 6px rgba(0, 0, 0, 0.05)
       </span>
     </div>
   </div>
@@ -537,10 +243,10 @@ exports[`Storyshots Tokens/Decisions/Color Font Color With Background Light 1`] 
     className="container"
   >
     <div
-      className="color"
+      className="box"
       style={
         Object {
-          "backgroundColor": "#595959",
+          "boxShadow": "0px 4px 5px rgba(0, 0, 0, 0.07)",
         }
       }
     />
@@ -550,12 +256,12 @@ exports[`Storyshots Tokens/Decisions/Color Font Color With Background Light 1`] 
       <span
         className="label"
       >
-        --color-font-muted
+        --box-shadow-sm-t
       </span>
       <span
         className="label"
       >
-        #595959
+        0px 4px 5px rgba(0, 0, 0, 0.07)
       </span>
     </div>
   </div>
@@ -563,10 +269,10 @@ exports[`Storyshots Tokens/Decisions/Color Font Color With Background Light 1`] 
     className="container"
   >
     <div
-      className="color"
+      className="box"
       style={
         Object {
-          "backgroundColor": "#fff",
+          "boxShadow": "0 0 0 1px var(--color-primary)",
         }
       }
     />
@@ -576,12 +282,12 @@ exports[`Storyshots Tokens/Decisions/Color Font Color With Background Light 1`] 
       <span
         className="label"
       >
-        --color-font-inverted
+        --box-shadow-focus-in-t
       </span>
       <span
         className="label"
       >
-        #fff
+        0 0 0 1px var(--color-primary)
       </span>
     </div>
   </div>
@@ -589,10 +295,10 @@ exports[`Storyshots Tokens/Decisions/Color Font Color With Background Light 1`] 
     className="container"
   >
     <div
-      className="color"
+      className="box"
       style={
         Object {
-          "backgroundColor": "#EBEBEB",
+          "boxShadow": "0 0 10px 0 var(--color-primary)",
         }
       }
     />
@@ -602,12 +308,136 @@ exports[`Storyshots Tokens/Decisions/Color Font Color With Background Light 1`] 
       <span
         className="label"
       >
-        --color-font-button
+        --box-shadow-focus-out-t
       </span>
       <span
         className="label"
       >
-        #EBEBEB
+        0 0 10px 0 var(--color-primary)
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tokens/Box-Shadow Light 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "background": "",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+      "padding": "2em",
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="box"
+      style={
+        Object {
+          "boxShadow": "none",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --color-boxShadow-none
+      </span>
+      <span
+        className="label"
+      >
+        none
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="box"
+      style={
+        Object {
+          "boxShadow": "0px 3px 6px rgba(0, 0, 0, 0.05)",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --color-boxShadow-xs
+      </span>
+      <span
+        className="label"
+      >
+        0px 3px 6px rgba(0, 0, 0, 0.05)
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="box"
+      style={
+        Object {
+          "boxShadow": "0px 4px 5px rgba(0, 0, 0, 0.07)",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --color-boxShadow-sm
+      </span>
+      <span
+        className="label"
+      >
+        0px 4px 5px rgba(0, 0, 0, 0.07)
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="box"
+      style={
+        Object {
+          "boxShadow": "0 0 0 1px var(--color-primary), 0 0 10px 0 var(--color-primary)",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --color-boxShadow-focus
+      </span>
+      <span
+        className="label"
+      >
+        0 0 0 1px var(--color-primary), 0 0 10px 0 var(--color-primary)
       </span>
     </div>
   </div>

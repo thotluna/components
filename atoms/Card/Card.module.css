@@ -24,17 +24,18 @@
 
 .color-primary {
   background: var(--color-primary);
-  color: var(--color-primary-inverted);
+  color: var(--color-font-inverted);
 }
 
 .color-secondary {
   background: var(--color-secondary);
-  color: var(--color-secondary-inverted);
+  color: var(--color-font-inverted);
 }
 
 .color-base {
   border: var(--border-width-thin) solid var(--color-gray-300);
-  background: var(--color-primary-inverted);
+  background: var(--color-background);
+  color: var(--color-font-base);
 }
 
 .is-clickable {
@@ -49,4 +50,8 @@
 .card.is-clickable:active,
 .card.is-draggable:active {
   box-shadow: var(--box-shadow-xs);
+}
+
+.card:focus {
+  box-shadow: var(--box-shadow-focus);
 }

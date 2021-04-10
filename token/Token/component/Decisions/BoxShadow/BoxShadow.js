@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import Helper from '../../Helper'
+import Helper from '../../../Helper'
 
-import styles from '../../Token.module.css'
+import styles from '../../../Token.module.css'
 
 const BoxShadow = ({ label, value }) => {
   return (

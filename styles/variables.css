@@ -1,15 +1,35 @@
 :root {
+  /* background */
+  --color-background: var(--color-dark-background);
+
+  /* color font */
   --color-font-primary: var(--color-dark-font-primary);
   --color-font-base: var(--color-dark-font-base);
   --color-font-muted: var(--color-dark-font-muted);
   --color-font-button: var(--color-dark-font-button);
+  --color-font-inverted: var(--color-light-font-inverted);
+
+  /* Box shadow */
+  --box-shadow-none: none;
+  --box-shadow-xs: var(--color-dark-box-shadow-xs);
+  --box-shadow-sm: var(--color-dark-box-shadow-sm);
+  --box-shadow-focus: var(--color-dark-box-shadow-focus);
 }
 
 @media (prefers-color-scheme: light) {
   :root {
+    /* background */
+    --color-background: var(--color-light-background);
+
+    /* color font */
     --color-font-primary: var(--color-light-font-primary);
     --color-font-base: var(--color-light-font-base);
     --color-font-muted: var(--color-light-font-muted);
     --color-font-button: var(--color-light-font-button);
+    --color-font-inverted: var(--color-light-font-inverted);
+
+    /* Box shadow */
+    --box-shadow-xs: var(--color-light-box-shadow-xs);
+    --box-shadow-sm: var(--color-light-box-shadow-sm);
   }
 }
