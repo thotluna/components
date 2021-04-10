@@ -364,7 +364,7 @@ exports[`Storyshots Tokens/Decisions/Color Font Color With Background Dark 1`] =
       className="color"
       style={
         Object {
-          "backgroundColor": "#E6D1FA",
+          "backgroundColor": "#000",
         }
       }
     />
@@ -379,7 +379,7 @@ exports[`Storyshots Tokens/Decisions/Color Font Color With Background Dark 1`] =
       <span
         className="label"
       >
-        #E6D1FA
+        #000
       </span>
     </div>
   </div>

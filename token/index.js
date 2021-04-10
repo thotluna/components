@@ -260,7 +260,7 @@ const decisions = {
       background: choices.color.brand.blueMarine,
       font: {
         primary: choices.color.brand.whiteViolet,
-        base: choices.color.brand.whiteViolet,
+        base: choices.color.base.black,
         muted: choices.color.brand.grayLith,
         button: choices.color.brand.violet,
       },
