@@ -95,32 +95,6 @@ exports[`Storyshots Tokens/Box-Shadow Dark 1`] = `
       </span>
     </div>
   </div>
-  <div
-    className="container"
-  >
-    <div
-      className="box"
-      style={
-        Object {
-          "boxShadow": "0 0 0 1px var(--color-primary), 0 0 10px 0 var(--color-primary)",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        --color-boxShadow-focus
-      </span>
-      <span
-        className="label"
-      >
-        0 0 0 1px var(--color-primary), 0 0 10px 0 var(--color-primary)
-      </span>
-    </div>
-  </div>
 </div>
 `;
 
@@ -412,32 +386,6 @@ exports[`Storyshots Tokens/Box-Shadow Light 1`] = `
         className="label"
       >
         0px 4px 5px rgba(0, 0, 0, 0.07)
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="box"
-      style={
-        Object {
-          "boxShadow": "0 0 0 1px var(--color-primary), 0 0 10px 0 var(--color-primary)",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        --color-boxShadow-focus
-      </span>
-      <span
-        className="label"
-      >
-        0 0 0 1px var(--color-primary), 0 0 10px 0 var(--color-primary)
       </span>
     </div>
   </div>
