@@ -458,12 +458,194 @@ exports[`Storyshots Tokens/Color Brand 1`] = `
       <span
         className="label"
       >
+        --color-brand-blue-dark
+      </span>
+      <span
+        className="label"
+      >
+        #272631
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#3B3670",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --color-brand-blue-marines
+      </span>
+      <span
+        className="label"
+      >
+        #3B3670
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#9793BD",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --color-brand-gray-blue
+      </span>
+      <span
+        className="label"
+      >
+        #9793BD
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#7F74F2",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --color-brand-aqua-marine
+      </span>
+      <span
+        className="label"
+      >
+        #7F74F2
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#BFBBF0",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --color-brand-blue-light
+      </span>
+      <span
+        className="label"
+      >
+        #BFBBF0
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#272631",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
         --color-brand-blue-marine
       </span>
       <span
         className="label"
       >
         #272631
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#EB610C",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --color-brand-orange
+      </span>
+      <span
+        className="label"
+      >
+        #EB610C
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#923E0C",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --color-brand-orange-dark
+      </span>
+      <span
+        className="label"
+      >
+        #923E0C
       </span>
     </div>
   </div>

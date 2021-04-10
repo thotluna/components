@@ -3,7 +3,14 @@
 const choices = {
   color: {
     brand: {
+      blueDark: '#272631',
+      blueMarines: '#3B3670',
+      grayBlue: '#9793BD',
+      aquaMarine: '#7F74F2',
+      blueLight: '#BFBBF0',
       blueMarine: '#272631',
+      orange: '#EB610C',
+      orangeDark: '#923E0C',
       violet: '#6B17AD',
       whiteViolet: '#E6D1FA',
       gray: '#EBEBEB',
@@ -173,8 +180,8 @@ const choices = {
     base: '10px',
     xs: '1.1rem',
     sm: '1.3rem',
-    md: '1.5rem',
-    lg: '1.8rem',
+    md: '1.8rem',
+    lg: '2rem',
     xl: '2.1rem',
     '2xl': '6rem',
   },
@@ -258,6 +265,8 @@ const decisions = {
     sun: '#FFBC13',
     dark: {
       background: choices.color.brand.blueMarine,
+      primary: choices.color.brand.blueMarines,
+      secondary: choices.color.brand.orangeDark,
       font: {
         primary: choices.color.brand.whiteViolet,
         base: choices.color.base.white,
@@ -279,6 +288,8 @@ const decisions = {
     },
     light: {
       background: choices.color.base.white,
+      primary: choices.color.brand.blueMarines,
+      secondary: choices.color.brand.orange,
       font: {
         primary: choices.color.brand.violet,
         base: choices.color.base.black,

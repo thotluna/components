@@ -1,5 +1,12 @@
 :root {
+  --color-brand-blue-dark: #272631;
+  --color-brand-blue-marines: #3b3670;
+  --color-brand-gray-blue: #9793bd;
+  --color-brand-aqua-marine: #7f74f2;
+  --color-brand-blue-light: #bfbbf0;
   --color-brand-blue-marine: #272631;
+  --color-brand-orange: #eb610c;
+  --color-brand-orange-dark: #923e0c;
   --color-brand-violet: #6b17ad;
   --color-brand-white-violet: #e6d1fa;
   --color-brand-gray: #ebebeb;
@@ -187,6 +194,8 @@
   --color-secondary-inverted: #fff;
   --color-sun: #ffbc13;
   --color-dark-background: #272631;
+  --color-dark-primary: #3b3670;
+  --color-dark-secondary: #923e0c;
   --color-dark-font-primary: #e6d1fa;
   --color-dark-font-base: #fff;
   --color-dark-font-muted: #ababab;
@@ -202,6 +211,8 @@
     0 0 0 1px var(--color-primary),
     0 0 10px 0 var(--color-primary);
   --color-light-background: #fff;
+  --color-light-primary: #3b3670;
+  --color-light-secondary: #eb610c;
   --color-light-font-primary: #6b17ad;
   --color-light-font-base: #000;
   --color-light-font-muted: #595959;

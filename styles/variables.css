@@ -2,6 +2,10 @@
   /* background */
   --color-background: var(--color-dark-background);
 
+  /* color */
+  --color-primary: var(--color-dark-primary);
+  --color-secondary: var(--color-dark-secondary);
+
   /* color font */
   --color-font-primary: var(--color-dark-font-primary);
   --color-font-base: var(--color-dark-font-base);
@@ -20,6 +24,10 @@
   :root {
     /* background */
     --color-background: var(--color-light-background);
+
+    /* color */
+    --color-primary: var(--color-light-primary);
+    --color-secondary: var(--color-light-secondary);
 
     /* color font */
     --color-font-primary: var(--color-light-font-primary);
