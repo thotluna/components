@@ -1,4 +1,3 @@
-export { default } from './styles/styles.css'
 export { default as Avatar } from './atoms/Avatar'
 export { default as Card } from './atoms/Card'
 export { default as Icon } from './atoms/Icons'
