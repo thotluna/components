@@ -1,3 +1,10 @@
+## [1.10.1](https://github.com/thotluna/components/compare/v1.10.0...v1.10.1) (2021-04-10)
+
+
+### Bug Fixes
+
+* **index:** export styles ([a70f8ec](https://github.com/thotluna/components/commit/a70f8ecb492dc384176837fa7c1dad9d9ded82bc)), closes [#26](https://github.com/thotluna/components/issues/26)
+
 # [1.10.0](https://github.com/thotluna/components/compare/v1.9.1...v1.10.0) (2021-04-10)
 
 
