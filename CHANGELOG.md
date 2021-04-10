@@ -1,3 +1,10 @@
+## [1.10.2](https://github.com/thotluna/components/compare/v1.10.1...v1.10.2) (2021-04-10)
+
+
+### Bug Fixes
+
+* **css:** change styles.css form styles.module.css ([431f544](https://github.com/thotluna/components/commit/431f5443e86fc1c7a0f30f39aa7ae4c383ecd4db)), closes [#28](https://github.com/thotluna/components/issues/28)
+
 ## [1.10.1](https://github.com/thotluna/components/compare/v1.10.0...v1.10.1) (2021-04-10)
 
 
