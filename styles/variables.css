@@ -17,7 +17,7 @@
   --box-shadow-none: none;
   --box-shadow-xs: var(--color-dark-box-shadow-xs);
   --box-shadow-sm: var(--color-dark-box-shadow-sm);
-  --box-shadow-focus: var(--color-dark-box-shadow-focus);
+  --box-shadow-focus: var(--shadow-focus-in), var(--shadow-focus-out);
 }
 
 @media (prefers-color-scheme: light) {

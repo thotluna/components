@@ -263,6 +263,8 @@ const decisions = {
     secondaryMuted: choices.color.brand.mandy,
     secondaryInverted: choices.color.base.white,
     sun: '#FFBC13',
+    shadowFocusIn: choices.boxShadow.focusInT,
+    shadowFocusOut: choices.boxShadow.focusOutT,
     dark: {
       background: choices.color.brand.blueMarine,
       primary: choices.color.brand.blueMarines,
@@ -283,7 +285,6 @@ const decisions = {
         none: 'none',
         xs: '0px 3px 6px rgba(255, 255, 255, 0.05)',
         sm: '0px 4px 5px rgba(255, 255, 225, 0.07)',
-        focus: `${choices.boxShadow.focusInT}, ${choices.boxShadow.focusOutT}`,
       },
     },
     light: {
@@ -306,7 +307,6 @@ const decisions = {
         none: 'none',
         xs: '0px 3px 6px rgba(0, 0, 0, 0.05)',
         sm: '0px 4px 5px rgba(0, 0, 0, 0.07)',
-        focus: `${choices.boxShadow.focusInT}, ${choices.boxShadow.focusOutT}`,
       },
     },
   },
