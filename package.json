@@ -1,6 +1,6 @@
 {
   "name": "@thot/components",
-  "version": "1.9.1",
+  "version": "1.10.0",
   "description": "Libreria de componentes web",
   "main": "index.js",
   "repository": {

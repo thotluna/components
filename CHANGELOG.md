@@ -1,3 +1,16 @@
+# [1.10.0](https://github.com/thotluna/components/compare/v1.9.1...v1.10.0) (2021-04-10)
+
+
+### Bug Fixes
+
+* **css:** repair fix lint ([a816216](https://github.com/thotluna/components/commit/a81621618ef1bbc527c89193c6f67e2a77c051a4)), closes [#28](https://github.com/thotluna/components/issues/28)
+
+
+### Features
+
+* **dark mode:** create dark mode ([0ccb031](https://github.com/thotluna/components/commit/0ccb0315e3d9280623f5e3611f688096aa0d9538)), closes [#28](https://github.com/thotluna/components/issues/28)
+* **subtitle:** change color system ([e45ff50](https://github.com/thotluna/components/commit/e45ff50d0e8d9294a6523819ceb79d855c1fdd6c)), closes [#28](https://github.com/thotluna/components/issues/28)
+
 ## [1.9.1](https://github.com/thotluna/components/compare/v1.9.0...v1.9.1) (2021-04-09)
 
 
