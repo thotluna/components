@@ -1,0 +1,563 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Tokens/Decisions/Color Background Color 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "background": "#fff",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": 250,
+      "padding": "2em",
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#413F55",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --color-dark-background
+      </span>
+      <span
+        className="label"
+      >
+        #413F55
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#fff",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --color-light-background
+      </span>
+      <span
+        className="label"
+      >
+        #fff
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tokens/Decisions/Color Button Color With Background Dark 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "background": "#413F55",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": 250,
+      "padding": "2em",
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#E6D1FA",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --color-button-primary
+      </span>
+      <span
+        className="label"
+      >
+        #E6D1FA
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#eb2d52",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --color-button-secondary
+      </span>
+      <span
+        className="label"
+      >
+        #eb2d52
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#413F55",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --color-button-base
+      </span>
+      <span
+        className="label"
+      >
+        #413F55
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tokens/Decisions/Color Button Color With Background Light 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "background": "#fff",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": 250,
+      "padding": "2em",
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#6B17AD",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --color-button-primary
+      </span>
+      <span
+        className="label"
+      >
+        #6B17AD
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#eb2d52",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --color-button-secondary
+      </span>
+      <span
+        className="label"
+      >
+        #eb2d52
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#fff",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --color-button-base
+      </span>
+      <span
+        className="label"
+      >
+        #fff
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tokens/Decisions/Color Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "background": "",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": 250,
+      "padding": "2em",
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#6B17AD",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --color-primary
+      </span>
+      <span
+        className="label"
+      >
+        #6B17AD
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tokens/Decisions/Color Font Color With Background Dark 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "background": "#413F55",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": 250,
+      "padding": "2em",
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#E6D1FA",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --color-font-primary
+      </span>
+      <span
+        className="label"
+      >
+        #E6D1FA
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#E6D1FA",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --color-font-base
+      </span>
+      <span
+        className="label"
+      >
+        #E6D1FA
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#ABABAB",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --color-font-muted
+      </span>
+      <span
+        className="label"
+      >
+        #ABABAB
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#6B17AD",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --color-font-button
+      </span>
+      <span
+        className="label"
+      >
+        #6B17AD
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tokens/Decisions/Color Font Color With Background Light 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "background": "#fff",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": 250,
+      "padding": "2em",
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#6B17AD",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --color-font-primary
+      </span>
+      <span
+        className="label"
+      >
+        #6B17AD
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#000",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --color-font-base
+      </span>
+      <span
+        className="label"
+      >
+        #000
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#595959",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --color-font-muted
+      </span>
+      <span
+        className="label"
+      >
+        #595959
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#EBEBEB",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        --color-font-button
+      </span>
+      <span
+        className="label"
+      >
+        #EBEBEB
+      </span>
+    </div>
+  </div>
+</div>
+`;

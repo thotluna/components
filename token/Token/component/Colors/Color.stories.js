@@ -19,7 +19,7 @@ export default {
 }
 
 const getItems = getTokenItems(choices.color, 'color')
-const getDecisionItems = getTokenItems(decisions.color, 'color')
+// const getDecisionItems = getTokenItems(decisions.color, 'color')
 const getBackgroundItems = getTokenItems(
   decisions.backgroundColor,
   'background-color'
@@ -43,14 +43,14 @@ Brand.parameters = {
   __sb: { mh: 300 },
 }
 
-export const Decisions = ListTemplate.bind({})
-Decisions.args = {
-  __sb: { mh: 300 },
-  items: getDecisionItems(),
-}
-Decisions.parameters = {
-  __sb: { mh: 300 },
-}
+// export const Decisions = ListTemplate.bind({})
+// Decisions.args = {
+//   __sb: { mh: 300 },
+//   items: getDecisionItems(),
+// }
+// Decisions.parameters = {
+//   __sb: { mh: 300 },
+// }
 
 export const Backgrounds = ListTemplate.bind({})
 Backgrounds.args = {

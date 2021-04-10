@@ -1,4 +1,10 @@
 :root {
+  --color-brand-blue-marine: #413f55;
+  --color-brand-violet: #6b17ad;
+  --color-brand-white-violet: #e6d1fa;
+  --color-brand-gray: #ebebeb;
+  --color-brand-gray-lith: #ababab;
+  --color-brand-gray-dark: #595959;
   --color-brand-slate-blue: #7559d1;
   --color-brand-medium-purple: #9879e9;
   --color-brand-blue-moon: #eff1fd;
@@ -180,6 +186,22 @@
   --color-secondary-muted: #eb4e58;
   --color-secondary-inverted: #fff;
   --color-sun: #ffbc13;
+  --color-dark-background: #413f55;
+  --color-dark-font-primary: #e6d1fa;
+  --color-dark-font-base: #e6d1fa;
+  --color-dark-font-muted: #ababab;
+  --color-dark-font-button: #6b17ad;
+  --color-dark-button-primary: #e6d1fa;
+  --color-dark-button-secondary: #eb2d52;
+  --color-dark-button-base: #413f55;
+  --color-light-background: #fff;
+  --color-light-font-primary: #6b17ad;
+  --color-light-font-base: #000;
+  --color-light-font-muted: #595959;
+  --color-light-font-button: #ebebeb;
+  --color-light-button-primary: #6b17ad;
+  --color-light-button-secondary: #eb2d52;
+  --color-light-button-base: #fff;
   --background-color-primary: #f9f9f9;
   --background-color-primary-highlight: #fcfdfd;
   --container-max-width: 800px;

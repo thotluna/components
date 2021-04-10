@@ -1,10 +1,9 @@
 import '../styles/minireset.min.css'
 import '../styles/global.css'
 import '../styles/tokens.css'
+import '../styles/variables.css';
 
 import React from 'react'
-import { themes } from '@storybook/theming';
-
 
 const getStyles = ({ __sb } = {}) => ({
   display: 'flex',
@@ -14,7 +13,9 @@ const getStyles = ({ __sb } = {}) => ({
   alignContent: 'flex-start',
   flexWrap: 'wrap',
   height: '100%',
+  padding: '2em',
   gap: '10px 30px',
+  background: __sb?.bc || ''
 })
 
 export const decorators = [
@@ -31,10 +32,6 @@ export const parameters = {
     styles: { table: { disable: true }},
     getStyles: { table: { disable: true }},
   },
-  //args: { isPlayground: true  },
   actions: { argTypesRegex: '^on[A-Z].*'},
-  docs: {
-    theme: themes.dark,
-  },
 
 }

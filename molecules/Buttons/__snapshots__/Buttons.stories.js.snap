@@ -5,6 +5,7 @@ exports[`Storyshots Molecules/Button Color 1`] = `
   style={
     Object {
       "alignContent": "flex-start",
+      "background": "",
       "display": "flex",
       "flexDirection": "column",
       "flexWrap": "wrap",
@@ -12,6 +13,7 @@ exports[`Storyshots Molecules/Button Color 1`] = `
       "height": "100%",
       "justifyContent": "flex-start",
       "maxHeight": 250,
+      "padding": "2em",
     }
   }
 >
@@ -53,6 +55,7 @@ exports[`Storyshots Molecules/Button Default 1`] = `
   style={
     Object {
       "alignContent": "flex-start",
+      "background": "",
       "display": "flex",
       "flexDirection": "column",
       "flexWrap": "wrap",
@@ -60,6 +63,7 @@ exports[`Storyshots Molecules/Button Default 1`] = `
       "height": "100%",
       "justifyContent": "flex-start",
       "maxHeight": 250,
+      "padding": "2em",
     }
   }
 >
@@ -81,6 +85,7 @@ exports[`Storyshots Molecules/Button Left Icon 1`] = `
   style={
     Object {
       "alignContent": "flex-start",
+      "background": "",
       "display": "flex",
       "flexDirection": "column",
       "flexWrap": "wrap",
@@ -88,6 +93,7 @@ exports[`Storyshots Molecules/Button Left Icon 1`] = `
       "height": "100%",
       "justifyContent": "flex-start",
       "maxHeight": 250,
+      "padding": "2em",
     }
   }
 >
@@ -186,6 +192,7 @@ exports[`Storyshots Molecules/Button Only Icon 1`] = `
   style={
     Object {
       "alignContent": "flex-start",
+      "background": "",
       "display": "flex",
       "flexDirection": "row",
       "flexWrap": "wrap",
@@ -193,6 +200,7 @@ exports[`Storyshots Molecules/Button Only Icon 1`] = `
       "height": "100%",
       "justifyContent": "flex-start",
       "maxHeight": 250,
+      "padding": "2em",
     }
   }
 >
@@ -399,6 +407,7 @@ exports[`Storyshots Molecules/Button Right Icon 1`] = `
   style={
     Object {
       "alignContent": "flex-start",
+      "background": "",
       "display": "flex",
       "flexDirection": "column",
       "flexWrap": "wrap",
@@ -406,6 +415,7 @@ exports[`Storyshots Molecules/Button Right Icon 1`] = `
       "height": "100%",
       "justifyContent": "flex-start",
       "maxHeight": 250,
+      "padding": "2em",
     }
   }
 >
@@ -504,6 +514,7 @@ exports[`Storyshots Molecules/Button Size 1`] = `
   style={
     Object {
       "alignContent": "flex-start",
+      "background": "",
       "display": "flex",
       "flexDirection": "column",
       "flexWrap": "wrap",
@@ -511,6 +522,7 @@ exports[`Storyshots Molecules/Button Size 1`] = `
       "height": "100%",
       "justifyContent": "flex-start",
       "maxHeight": 250,
+      "padding": "2em",
     }
   }
 >

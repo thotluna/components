@@ -5,6 +5,7 @@ exports[`Storyshots Molecules/TasksCounter Colors 1`] = `
   style={
     Object {
       "alignContent": "flex-start",
+      "background": "",
       "display": "flex",
       "flexDirection": "column",
       "flexWrap": "wrap",
@@ -12,6 +13,7 @@ exports[`Storyshots Molecules/TasksCounter Colors 1`] = `
       "height": "100%",
       "justifyContent": "flex-start",
       "maxHeight": "auto",
+      "padding": "2em",
     }
   }
 >
@@ -74,21 +76,21 @@ exports[`Storyshots Molecules/TasksCounter Colors 1`] = `
       className="messages"
     >
       <h3
-        className="container color-secondary"
+        className="container color-muted"
       >
         Task resolved
       </h3>
       <h3
-        className="container color-secondary"
+        className="container color-muted"
       >
         5/10
       </h3>
     </div>
     <div
-      className="container-separator color-secondary"
+      className="container-separator color-muted"
     >
       <hr
-        className="separator-line color-secondary size-sm"
+        className="separator-line color-muted size-sm"
         title="Task Counter"
       />
     </div>
@@ -100,47 +102,21 @@ exports[`Storyshots Molecules/TasksCounter Colors 1`] = `
       className="messages"
     >
       <h3
-        className="container color-tertiary"
+        className="container color-button"
       >
         Task resolved
       </h3>
       <h3
-        className="container color-tertiary"
+        className="container color-button"
       >
         5/10
       </h3>
     </div>
     <div
-      className="container-separator color-tertiary"
+      className="container-separator color-button"
     >
       <hr
-        className="separator-line color-tertiary size-sm"
-        title="Task Counter"
-      />
-    </div>
-  </div>
-  <div
-    className="container-counter"
-  >
-    <div
-      className="messages"
-    >
-      <h3
-        className="container color-inverted"
-      >
-        Task resolved
-      </h3>
-      <h3
-        className="container color-inverted"
-      >
-        5/10
-      </h3>
-    </div>
-    <div
-      className="container-separator color-inverted"
-    >
-      <hr
-        className="separator-line color-inverted size-sm"
+        className="separator-line color-button size-sm"
         title="Task Counter"
       />
     </div>
@@ -153,6 +129,7 @@ exports[`Storyshots Molecules/TasksCounter Default 1`] = `
   style={
     Object {
       "alignContent": "flex-start",
+      "background": "",
       "display": "flex",
       "flexDirection": "column",
       "flexWrap": "wrap",
@@ -160,6 +137,7 @@ exports[`Storyshots Molecules/TasksCounter Default 1`] = `
       "height": "100%",
       "justifyContent": "flex-start",
       "maxHeight": "auto",
+      "padding": "2em",
     }
   }
 >

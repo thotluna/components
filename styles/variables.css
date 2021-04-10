@@ -1,0 +1,15 @@
+:root {
+  --color-font-primary: var(--color-dark-font-primary);
+  --color-font-base: var(--color-dark-font-base);
+  --color-font-muted: var(--color-dark-font-muted);
+  --color-font-button: var(--color-dark-font-button);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --color-font-primary: var(--color-light-font-primary);
+    --color-font-base: var(--color-light-font-base);
+    --color-font-muted: var(--color-light-font-muted);
+    --color-font-button: var(--color-light-font-button);
+  }
+}
