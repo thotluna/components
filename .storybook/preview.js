@@ -3,6 +3,8 @@ import '../styles/global.css'
 import '../styles/tokens.css'
 import '../styles/variables.css';
 
+import { themes } from '@storybook/theming';
+
 import React from 'react'
 
 const getStyles = ({ __sb } = {}) => ({
@@ -33,5 +35,28 @@ export const parameters = {
     getStyles: { table: { disable: true }},
   },
   actions: { argTypesRegex: '^on[A-Z].*'},
+  backgrounds: {
+    default: 'dark',
+    values: [
+      {
+        name: 'dark',
+        value: '#272631',
+      },
+      {
+        name: 'light',
+        value: '#fff',
+      },
+    ],
+  },
+  darkMode: {
+    // Override the default dark theme
+    dark: { ...themes.dark, appBg: '#282C34' },
+    // Override the default light theme
+    light: { ...themes.normal, appBg: '#fff' }
+  },
+
+  doc: { ...themes.dark, appBg: '#282C34' },
 
 }
+
+

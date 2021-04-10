@@ -39,11 +39,11 @@ const backgroundColor = [
 
 export const BackgroundColor = ListTemplateBackground.bind({})
 BackgroundColor.args = {
-  __sb: { fd: 'row', bc: decisions.color.light.background },
+  __sb: { fd: 'row' },
   items: backgroundColor,
 }
 BackgroundColor.parameters = {
-  __sb: { fd: 'row', bc: decisions.color.light.background },
+  __sb: { fd: 'row' },
 }
 
 const getDecisionLightItem = getTokenItems(decisions.color.light, 'color')

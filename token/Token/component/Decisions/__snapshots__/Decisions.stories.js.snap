@@ -5,7 +5,7 @@ exports[`Storyshots Tokens/Decisions/Color Background Color 1`] = `
   style={
     Object {
       "alignContent": "flex-start",
-      "background": "#fff",
+      "background": "",
       "display": "flex",
       "flexDirection": "row",
       "flexWrap": "wrap",
@@ -24,7 +24,7 @@ exports[`Storyshots Tokens/Decisions/Color Background Color 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#413F55",
+          "backgroundColor": "#272631",
         }
       }
     />
@@ -39,7 +39,7 @@ exports[`Storyshots Tokens/Decisions/Color Background Color 1`] = `
       <span
         className="label"
       >
-        #413F55
+        #272631
       </span>
     </div>
   </div>
@@ -77,7 +77,7 @@ exports[`Storyshots Tokens/Decisions/Color Button Color With Background Dark 1`]
   style={
     Object {
       "alignContent": "flex-start",
-      "background": "#413F55",
+      "background": "#272631",
       "display": "flex",
       "flexDirection": "row",
       "flexWrap": "wrap",
@@ -148,7 +148,7 @@ exports[`Storyshots Tokens/Decisions/Color Button Color With Background Dark 1`]
       className="color"
       style={
         Object {
-          "backgroundColor": "#413F55",
+          "backgroundColor": "#272631",
         }
       }
     />
@@ -163,7 +163,7 @@ exports[`Storyshots Tokens/Decisions/Color Button Color With Background Dark 1`]
       <span
         className="label"
       >
-        #413F55
+        #272631
       </span>
     </div>
   </div>
@@ -319,7 +319,7 @@ exports[`Storyshots Tokens/Decisions/Color Font Color With Background Dark 1`] =
   style={
     Object {
       "alignContent": "flex-start",
-      "background": "#413F55",
+      "background": "#272631",
       "display": "flex",
       "flexDirection": "row",
       "flexWrap": "wrap",
@@ -364,7 +364,7 @@ exports[`Storyshots Tokens/Decisions/Color Font Color With Background Dark 1`] =
       className="color"
       style={
         Object {
-          "backgroundColor": "#000",
+          "backgroundColor": "#fff",
         }
       }
     />
@@ -379,7 +379,7 @@ exports[`Storyshots Tokens/Decisions/Color Font Color With Background Dark 1`] =
       <span
         className="label"
       >
-        #000
+        #fff
       </span>
     </div>
   </div>

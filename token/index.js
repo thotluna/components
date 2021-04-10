@@ -3,7 +3,7 @@
 const choices = {
   color: {
     brand: {
-      blueMarine: '#413F55',
+      blueMarine: '#272631',
       violet: '#6B17AD',
       whiteViolet: '#E6D1FA',
       gray: '#EBEBEB',
@@ -260,7 +260,7 @@ const decisions = {
       background: choices.color.brand.blueMarine,
       font: {
         primary: choices.color.brand.whiteViolet,
-        base: choices.color.base.black,
+        base: choices.color.base.white,
         muted: choices.color.brand.grayLith,
         button: choices.color.brand.violet,
       },

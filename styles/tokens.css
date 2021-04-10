@@ -1,5 +1,5 @@
 :root {
-  --color-brand-blue-marine: #413f55;
+  --color-brand-blue-marine: #272631;
   --color-brand-violet: #6b17ad;
   --color-brand-white-violet: #e6d1fa;
   --color-brand-gray: #ebebeb;
@@ -186,14 +186,14 @@
   --color-secondary-muted: #eb4e58;
   --color-secondary-inverted: #fff;
   --color-sun: #ffbc13;
-  --color-dark-background: #413f55;
+  --color-dark-background: #272631;
   --color-dark-font-primary: #e6d1fa;
-  --color-dark-font-base: #000;
+  --color-dark-font-base: #fff;
   --color-dark-font-muted: #ababab;
   --color-dark-font-button: #6b17ad;
   --color-dark-button-primary: #e6d1fa;
   --color-dark-button-secondary: #eb2d52;
-  --color-dark-button-base: #413f55;
+  --color-dark-button-base: #272631;
   --color-light-background: #fff;
   --color-light-font-primary: #6b17ad;
   --color-light-font-base: #000;

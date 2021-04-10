@@ -448,7 +448,7 @@ exports[`Storyshots Tokens/Color Brand 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#413F55",
+          "backgroundColor": "#272631",
         }
       }
     />
@@ -463,7 +463,7 @@ exports[`Storyshots Tokens/Color Brand 1`] = `
       <span
         className="label"
       >
-        #413F55
+        #272631
       </span>
     </div>
   </div>
