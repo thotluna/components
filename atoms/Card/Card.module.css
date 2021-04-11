@@ -25,12 +25,12 @@
 
 .color-primary {
   background: var(--color-primary);
-  color: var(--color-font-base);
+  color: var(--color-base-white);
 }
 
 .color-secondary {
   background: var(--color-secondary);
-  color: var(--color-font-base);
+  color: var(--color-base-white);
 }
 
 .color-base {

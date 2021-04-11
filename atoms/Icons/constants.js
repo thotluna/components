@@ -1,6 +1,6 @@
 import React from 'react'
 export const options = {
-  colors: ['base', 'primary', 'secondary', 'inverted', 'sun'],
+  colors: ['base', 'primary', 'sun'],
   size: ['sm', 'md', 'lg'],
   type: [
     'chevron-left',

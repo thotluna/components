@@ -67,7 +67,7 @@ exports[`Storyshots Atoms/Check Active Color 1`] = `
       className="icon-check"
     >
       <div
-        className="container color-secondary size-sm"
+        className="container color-primary size-sm"
       >
         <svg
           fill="none"

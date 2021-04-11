@@ -56,44 +56,6 @@ exports[`Storyshots Atoms/Icon Colors 1`] = `
     </svg>
   </div>
   <div
-    className="container color-secondary size-md"
-  >
-    <svg
-      fill="none"
-      height="100%"
-      stroke="currentColor"
-      viewBox="0 0 24 24"
-      width="100%"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M15 19l-7-7 7-7"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth={1}
-      />
-    </svg>
-  </div>
-  <div
-    className="container color-inverted size-md"
-  >
-    <svg
-      fill="none"
-      height="100%"
-      stroke="currentColor"
-      viewBox="0 0 24 24"
-      width="100%"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M15 19l-7-7 7-7"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth={1}
-      />
-    </svg>
-  </div>
-  <div
     className="container color-sun size-md"
   >
     <svg
@@ -192,44 +154,6 @@ exports[`Storyshots Atoms/Icon Has Border 1`] = `
   </div>
   <div
     className="container color-primary size-md has-borde-primary"
-  >
-    <svg
-      fill="none"
-      height="100%"
-      stroke="currentColor"
-      viewBox="0 0 24 24"
-      width="100%"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M15 19l-7-7 7-7"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth={1}
-      />
-    </svg>
-  </div>
-  <div
-    className="container color-secondary size-md has-borde-secondary"
-  >
-    <svg
-      fill="none"
-      height="100%"
-      stroke="currentColor"
-      viewBox="0 0 24 24"
-      width="100%"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M15 19l-7-7 7-7"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth={1}
-      />
-    </svg>
-  </div>
-  <div
-    className="container color-inverted size-md"
   >
     <svg
       fill="none"

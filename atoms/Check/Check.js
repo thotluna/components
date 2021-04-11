@@ -22,7 +22,7 @@ export const Check = ({ id, isChecked, onChange, name, color, size }) => {
 
       {isChecked && (
         <div className={getStyles('icon-check')}>
-          <Icon color={color} type="check" size={size} />
+          <Icon color="primary" type="check" size={size} />
         </div>
       )}
     </div>

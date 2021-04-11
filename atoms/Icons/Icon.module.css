@@ -5,19 +5,11 @@
 }
 
 .color-base svg {
-  stroke: var(--color-font-muted);
+  stroke: var(--color-font-base);
 }
 
 .color-primary svg {
   stroke: var(--color-light-primary);
-}
-
-.color-secondary svg {
-  stroke: var(--color-light-secondary);
-}
-
-.color-inverted svg {
-  stroke: var(--color-font-inverted);
 }
 
 .color-sun svg {
