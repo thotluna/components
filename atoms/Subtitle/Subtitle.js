@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { styles, options } from '.'
+import styles from './Subtitle.module.css'
+import { options } from './constants'
 import { getClasses } from '../../helpers/styles'
 
 export const Subtitle = ({ children, color, size }) => {
