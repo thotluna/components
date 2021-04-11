@@ -24,7 +24,7 @@ exports[`Storyshots Tokens/Decisions/Color Background Color 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#272631",
+          "backgroundColor": "#2B2351",
         }
       }
     />
@@ -39,7 +39,7 @@ exports[`Storyshots Tokens/Decisions/Color Background Color 1`] = `
       <span
         className="label"
       >
-        #272631
+        #2B2351
       </span>
     </div>
   </div>
@@ -50,7 +50,7 @@ exports[`Storyshots Tokens/Decisions/Color Background Color 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#fff",
+          "backgroundColor": "#F5F5F5",
         }
       }
     />
@@ -65,7 +65,7 @@ exports[`Storyshots Tokens/Decisions/Color Background Color 1`] = `
       <span
         className="label"
       >
-        #fff
+        #F5F5F5
       </span>
     </div>
   </div>
@@ -77,7 +77,7 @@ exports[`Storyshots Tokens/Decisions/Color Button Color With Background Dark 1`]
   style={
     Object {
       "alignContent": "flex-start",
-      "background": "#272631",
+      "background": "#2B2351",
       "display": "flex",
       "flexDirection": "row",
       "flexWrap": "wrap",
@@ -96,7 +96,7 @@ exports[`Storyshots Tokens/Decisions/Color Button Color With Background Dark 1`]
       className="color"
       style={
         Object {
-          "backgroundColor": "#E6D1FA",
+          "backgroundColor": "#716181",
         }
       }
     />
@@ -111,7 +111,7 @@ exports[`Storyshots Tokens/Decisions/Color Button Color With Background Dark 1`]
       <span
         className="label"
       >
-        #E6D1FA
+        #716181
       </span>
     </div>
   </div>
@@ -122,7 +122,7 @@ exports[`Storyshots Tokens/Decisions/Color Button Color With Background Dark 1`]
       className="color"
       style={
         Object {
-          "backgroundColor": "#eb2d52",
+          "backgroundColor": "#C91280",
         }
       }
     />
@@ -137,7 +137,7 @@ exports[`Storyshots Tokens/Decisions/Color Button Color With Background Dark 1`]
       <span
         className="label"
       >
-        #eb2d52
+        #C91280
       </span>
     </div>
   </div>
@@ -148,7 +148,7 @@ exports[`Storyshots Tokens/Decisions/Color Button Color With Background Dark 1`]
       className="color"
       style={
         Object {
-          "backgroundColor": "#272631",
+          "backgroundColor": "transparent",
         }
       }
     />
@@ -163,7 +163,7 @@ exports[`Storyshots Tokens/Decisions/Color Button Color With Background Dark 1`]
       <span
         className="label"
       >
-        #272631
+        transparent
       </span>
     </div>
   </div>
@@ -175,7 +175,7 @@ exports[`Storyshots Tokens/Decisions/Color Button Color With Background Light 1`
   style={
     Object {
       "alignContent": "flex-start",
-      "background": "#fff",
+      "background": "#F5F5F5",
       "display": "flex",
       "flexDirection": "row",
       "flexWrap": "wrap",
@@ -194,7 +194,7 @@ exports[`Storyshots Tokens/Decisions/Color Button Color With Background Light 1`
       className="color"
       style={
         Object {
-          "backgroundColor": "#6B17AD",
+          "backgroundColor": "#716181",
         }
       }
     />
@@ -209,7 +209,7 @@ exports[`Storyshots Tokens/Decisions/Color Button Color With Background Light 1`
       <span
         className="label"
       >
-        #6B17AD
+        #716181
       </span>
     </div>
   </div>
@@ -220,7 +220,7 @@ exports[`Storyshots Tokens/Decisions/Color Button Color With Background Light 1`
       className="color"
       style={
         Object {
-          "backgroundColor": "#eb2d52",
+          "backgroundColor": "#C91280",
         }
       }
     />
@@ -235,7 +235,7 @@ exports[`Storyshots Tokens/Decisions/Color Button Color With Background Light 1`
       <span
         className="label"
       >
-        #eb2d52
+        #C91280
       </span>
     </div>
   </div>
@@ -246,7 +246,7 @@ exports[`Storyshots Tokens/Decisions/Color Button Color With Background Light 1`
       className="color"
       style={
         Object {
-          "backgroundColor": "#fff",
+          "backgroundColor": "transparent",
         }
       }
     />
@@ -261,7 +261,7 @@ exports[`Storyshots Tokens/Decisions/Color Button Color With Background Light 1`
       <span
         className="label"
       >
-        #fff
+        transparent
       </span>
     </div>
   </div>
@@ -292,7 +292,7 @@ exports[`Storyshots Tokens/Decisions/Color Default 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#6B17AD",
+          "backgroundColor": undefined,
         }
       }
     />
@@ -306,9 +306,7 @@ exports[`Storyshots Tokens/Decisions/Color Default 1`] = `
       </span>
       <span
         className="label"
-      >
-        #6B17AD
-      </span>
+      />
     </div>
   </div>
 </div>
@@ -319,7 +317,7 @@ exports[`Storyshots Tokens/Decisions/Color Font Color With Background Dark 1`] =
   style={
     Object {
       "alignContent": "flex-start",
-      "background": "#272631",
+      "background": "#2B2351",
       "display": "flex",
       "flexDirection": "row",
       "flexWrap": "wrap",
@@ -331,32 +329,6 @@ exports[`Storyshots Tokens/Decisions/Color Font Color With Background Dark 1`] =
     }
   }
 >
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#E6D1FA",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        --color-font-primary
-      </span>
-      <span
-        className="label"
-      >
-        #E6D1FA
-      </span>
-    </div>
-  </div>
   <div
     className="container"
   >
@@ -390,7 +362,7 @@ exports[`Storyshots Tokens/Decisions/Color Font Color With Background Dark 1`] =
       className="color"
       style={
         Object {
-          "backgroundColor": "#ABABAB",
+          "backgroundColor": "#EDEDED",
         }
       }
     />
@@ -405,59 +377,7 @@ exports[`Storyshots Tokens/Decisions/Color Font Color With Background Dark 1`] =
       <span
         className="label"
       >
-        #ABABAB
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#fff",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        --color-font-inverted
-      </span>
-      <span
-        className="label"
-      >
-        #fff
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#6B17AD",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        --color-font-button
-      </span>
-      <span
-        className="label"
-      >
-        #6B17AD
+        #EDEDED
       </span>
     </div>
   </div>
@@ -469,7 +389,7 @@ exports[`Storyshots Tokens/Decisions/Color Font Color With Background Light 1`] 
   style={
     Object {
       "alignContent": "flex-start",
-      "background": "#fff",
+      "background": "#F5F5F5",
       "display": "flex",
       "flexDirection": "row",
       "flexWrap": "wrap",
@@ -488,84 +408,6 @@ exports[`Storyshots Tokens/Decisions/Color Font Color With Background Light 1`] 
       className="color"
       style={
         Object {
-          "backgroundColor": "#6B17AD",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        --color-font-primary
-      </span>
-      <span
-        className="label"
-      >
-        #6B17AD
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#000",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        --color-font-base
-      </span>
-      <span
-        className="label"
-      >
-        #000
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#595959",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        --color-font-muted
-      </span>
-      <span
-        className="label"
-      >
-        #595959
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
           "backgroundColor": "#fff",
         }
       }
@@ -576,7 +418,7 @@ exports[`Storyshots Tokens/Decisions/Color Font Color With Background Light 1`] 
       <span
         className="label"
       >
-        --color-font-inverted
+        --color-font-base
       </span>
       <span
         className="label"
@@ -592,7 +434,7 @@ exports[`Storyshots Tokens/Decisions/Color Font Color With Background Light 1`] 
       className="color"
       style={
         Object {
-          "backgroundColor": "#EBEBEB",
+          "backgroundColor": "#706080",
         }
       }
     />
@@ -602,12 +444,12 @@ exports[`Storyshots Tokens/Decisions/Color Font Color With Background Light 1`] 
       <span
         className="label"
       >
-        --color-font-button
+        --color-font-muted
       </span>
       <span
         className="label"
       >
-        #EBEBEB
+        #706080
       </span>
     </div>
   </div>

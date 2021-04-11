@@ -4,7 +4,7 @@
   align-items: center;
   padding: 12px 10px;
   border: var(--border-width-thin) solid var(--color-base-transparent);
-  border-radius: var(--card-border-radius);
+  border-radius: var(--border-radius-card);
   box-shadow: var(--box-shadow-sm);
   color: var(--color-font-base);
   font-size: var(--font-size-md);
@@ -25,18 +25,18 @@
 
 .color-primary {
   background: var(--color-primary);
-  color: var(--color-font-inverted);
+  color: var(--color-font-base);
 }
 
 .color-secondary {
   background: var(--color-secondary);
-  color: var(--color-font-inverted);
+  color: var(--color-font-base);
 }
 
 .color-base {
-  border: var(--border-width-thin) solid var(--color-gray-300);
-  background: var(--color-background);
-  color: var(--color-font-base);
+  border: var(--border-width-thin) solid var(--color-primary);
+  background: var(--color-base);
+  color: var(--color-font-primary);
 }
 
 .is-clickable {

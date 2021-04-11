@@ -50,7 +50,7 @@ exports[`Storyshots Tokens/Box-Shadow Dark 1`] = `
       className="box"
       style={
         Object {
-          "boxShadow": "0px 3px 6px rgba(255, 255, 255, 0.05)",
+          "boxShadow": "none",
         }
       }
     />
@@ -65,7 +65,7 @@ exports[`Storyshots Tokens/Box-Shadow Dark 1`] = `
       <span
         className="label"
       >
-        0px 3px 6px rgba(255, 255, 255, 0.05)
+        none
       </span>
     </div>
   </div>
@@ -76,7 +76,7 @@ exports[`Storyshots Tokens/Box-Shadow Dark 1`] = `
       className="box"
       style={
         Object {
-          "boxShadow": "0px 4px 5px rgba(255, 255, 225, 0.07)",
+          "boxShadow": "none",
         }
       }
     />
@@ -91,7 +91,7 @@ exports[`Storyshots Tokens/Box-Shadow Dark 1`] = `
       <span
         className="label"
       >
-        0px 4px 5px rgba(255, 255, 225, 0.07)
+        none
       </span>
     </div>
   </div>
@@ -344,7 +344,7 @@ exports[`Storyshots Tokens/Box-Shadow Light 1`] = `
       className="box"
       style={
         Object {
-          "boxShadow": "0px 3px 6px rgba(0, 0, 0, 0.05)",
+          "boxShadow": "0px 3px 6px #B3B3B3",
         }
       }
     />
@@ -359,7 +359,7 @@ exports[`Storyshots Tokens/Box-Shadow Light 1`] = `
       <span
         className="label"
       >
-        0px 3px 6px rgba(0, 0, 0, 0.05)
+        0px 3px 6px #B3B3B3
       </span>
     </div>
   </div>
@@ -370,7 +370,7 @@ exports[`Storyshots Tokens/Box-Shadow Light 1`] = `
       className="box"
       style={
         Object {
-          "boxShadow": "0px 4px 5px rgba(0, 0, 0, 0.07)",
+          "boxShadow": "0px 4px 5px #B3B3B3",
         }
       }
     />
@@ -385,7 +385,7 @@ exports[`Storyshots Tokens/Box-Shadow Light 1`] = `
       <span
         className="label"
       >
-        0px 4px 5px rgba(0, 0, 0, 0.07)
+        0px 4px 5px #B3B3B3
       </span>
     </div>
   </div>
