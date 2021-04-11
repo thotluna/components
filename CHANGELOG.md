@@ -1,3 +1,10 @@
+## [1.10.3](https://github.com/thotluna/components/compare/v1.10.2...v1.10.3) (2021-04-11)
+
+
+### Bug Fixes
+
+* **styles:** error import styles.css ([e16f9f8](https://github.com/thotluna/components/commit/e16f9f8f45d480551e9d349bf5424ebe41952879)), closes [#26](https://github.com/thotluna/components/issues/26)
+
 ## [1.10.2](https://github.com/thotluna/components/compare/v1.10.1...v1.10.2) (2021-04-10)
 
 
