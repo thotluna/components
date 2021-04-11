@@ -1,4 +1,4 @@
-import '../styles/styles.module.css';
+import '../styles/styles.css';
 
 import { themes } from '@storybook/theming';
 
