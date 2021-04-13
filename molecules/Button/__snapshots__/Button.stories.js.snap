@@ -1,0 +1,534 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Molecules/Button Colors 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "background": "",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+      "padding": "2em",
+    }
+  }
+>
+  <button
+    aria-label="Butron Text"
+    className="button color-base"
+    id="0"
+  >
+    BUTTON
+  </button>
+  <button
+    aria-label="Butron Text"
+    className="button color-primary"
+    id="1"
+  >
+    BUTTON
+  </button>
+  <button
+    aria-label="Butron Text"
+    className="button color-secondary"
+    id="2"
+  >
+    BUTTON
+  </button>
+</div>
+`;
+
+exports[`Storyshots Molecules/Button Colors Compact 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "background": "",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+      "padding": "2em",
+    }
+  }
+>
+  <button
+    aria-label="Butron Text"
+    className="button color-base is-compact"
+    id="0"
+  >
+    BUTTON
+  </button>
+  <button
+    aria-label="Butron Text"
+    className="button color-primary is-compact"
+    id="1"
+  >
+    BUTTON
+  </button>
+  <button
+    aria-label="Butron Text"
+    className="button color-secondary is-compact"
+    id="2"
+  >
+    BUTTON
+  </button>
+</div>
+`;
+
+exports[`Storyshots Molecules/Button Colors Icon 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "background": "",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+      "padding": "2em",
+    }
+  }
+>
+  <button
+    aria-label="Butron Text"
+    className="button color-base"
+    id="ColorAndIcon-0"
+  >
+    <span
+      className="icon color-base size-sm"
+    >
+      <svg
+        height={21}
+        stroke="currentColor"
+        viewBox="0 0 21 21"
+        width={21}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M5.5 11.5l3 3 8.028-8"
+          fill="none"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </span>
+    <div
+      className="spacer vertical"
+      style={
+        Object {
+          "height": "100%",
+          "maxHeight": "auto",
+          "width": 15,
+        }
+      }
+    />
+    BUTTON
+  </button>
+  <button
+    aria-label="Butron Text"
+    className="button color-primary"
+    id="ColorAndIcon-1"
+  >
+    <span
+      className="icon color-primary size-sm"
+    >
+      <svg
+        height={21}
+        stroke="currentColor"
+        viewBox="0 0 21 21"
+        width={21}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M5.5 11.5l3 3 8.028-8"
+          fill="none"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </span>
+    <div
+      className="spacer vertical"
+      style={
+        Object {
+          "height": "100%",
+          "maxHeight": "auto",
+          "width": 15,
+        }
+      }
+    />
+    BUTTON
+  </button>
+  <button
+    aria-label="Butron Text"
+    className="button color-secondary"
+    id="ColorAndIcon-2"
+  >
+    <span
+      className="icon color-primary size-sm"
+    >
+      <svg
+        height={21}
+        stroke="currentColor"
+        viewBox="0 0 21 21"
+        width={21}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M5.5 11.5l3 3 8.028-8"
+          fill="none"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </span>
+    <div
+      className="spacer vertical"
+      style={
+        Object {
+          "height": "100%",
+          "maxHeight": "auto",
+          "width": 15,
+        }
+      }
+    />
+    BUTTON
+  </button>
+</div>
+`;
+
+exports[`Storyshots Molecules/Button Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "background": "",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+      "padding": "2em",
+    }
+  }
+>
+  <button
+    aria-label="Butron Text"
+    className="button color-base"
+    id="#1"
+  >
+    BUTTON
+  </button>
+</div>
+`;
+
+exports[`Storyshots Molecules/Button Icon Only 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "background": "",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+      "padding": "2em",
+    }
+  }
+>
+  <button
+    aria-label="Butron Text"
+    className="button color-base is-round"
+    id="0-0"
+  >
+    <span
+      className="icon color-base size-sm"
+    >
+      <svg
+        height={21}
+        stroke="currentColor"
+        viewBox="0 0 21 21"
+        width={21}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          fill="none"
+          fillRule="evenodd"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <path
+            d="M6.5 10.5l4 4.232 4-4.191M10.5 3.5v11M4.5 17.5h12"
+          />
+        </g>
+      </svg>
+    </span>
+    
+    
+  </button>
+  <button
+    aria-label="Butron Text"
+    className="button color-primary is-round"
+    id="0-1"
+  >
+    <span
+      className="icon color-primary size-sm"
+    >
+      <svg
+        height={21}
+        stroke="currentColor"
+        viewBox="0 0 21 21"
+        width={21}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          fill="none"
+          fillRule="evenodd"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <path
+            d="M6.5 10.5l4 4.232 4-4.191M10.5 3.5v11M4.5 17.5h12"
+          />
+        </g>
+      </svg>
+    </span>
+    
+    
+  </button>
+  <button
+    aria-label="Butron Text"
+    className="button color-secondary is-round"
+    id="0-2"
+  >
+    <span
+      className="icon color-primary size-sm"
+    >
+      <svg
+        height={21}
+        stroke="currentColor"
+        viewBox="0 0 21 21"
+        width={21}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          fill="none"
+          fillRule="evenodd"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <path
+            d="M6.5 10.5l4 4.232 4-4.191M10.5 3.5v11M4.5 17.5h12"
+          />
+        </g>
+      </svg>
+    </span>
+    
+    
+  </button>
+  <button
+    aria-label="Butron Text"
+    className="button color-base is-round"
+    id="1-0"
+  >
+    <span
+      className="icon color-base size-sm"
+    >
+      <svg
+        height={21}
+        stroke="currentColor"
+        viewBox="0 0 21 21"
+        width={21}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          fill="none"
+          fillRule="evenodd"
+          transform="translate(1 1)"
+        >
+          <path
+            d="M9.5.5l9 16H.5zM9.5 10.5v-5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+          <circle
+            cx={9.5}
+            cy={13.5}
+            fill="currentColor"
+            r={1}
+          />
+        </g>
+      </svg>
+    </span>
+    
+    
+  </button>
+  <button
+    aria-label="Butron Text"
+    className="button color-primary is-round"
+    id="1-1"
+  >
+    <span
+      className="icon color-primary size-sm"
+    >
+      <svg
+        height={21}
+        stroke="currentColor"
+        viewBox="0 0 21 21"
+        width={21}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          fill="none"
+          fillRule="evenodd"
+          transform="translate(1 1)"
+        >
+          <path
+            d="M9.5.5l9 16H.5zM9.5 10.5v-5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+          <circle
+            cx={9.5}
+            cy={13.5}
+            fill="currentColor"
+            r={1}
+          />
+        </g>
+      </svg>
+    </span>
+    
+    
+  </button>
+  <button
+    aria-label="Butron Text"
+    className="button color-secondary is-round"
+    id="1-2"
+  >
+    <span
+      className="icon color-primary size-sm"
+    >
+      <svg
+        height={21}
+        stroke="currentColor"
+        viewBox="0 0 21 21"
+        width={21}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          fill="none"
+          fillRule="evenodd"
+          transform="translate(1 1)"
+        >
+          <path
+            d="M9.5.5l9 16H.5zM9.5 10.5v-5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+          <circle
+            cx={9.5}
+            cy={13.5}
+            fill="currentColor"
+            r={1}
+          />
+        </g>
+      </svg>
+    </span>
+    
+    
+  </button>
+  <button
+    aria-label="Butron Text"
+    className="button color-base is-round"
+    id="2-0"
+  >
+    <span
+      className="icon color-base size-sm"
+    >
+      <svg
+        height={21}
+        stroke="currentColor"
+        viewBox="0 0 21 21"
+        width={21}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M5.5 11.5l3 3 8.028-8"
+          fill="none"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </span>
+    
+    
+  </button>
+  <button
+    aria-label="Butron Text"
+    className="button color-primary is-round"
+    id="2-1"
+  >
+    <span
+      className="icon color-primary size-sm"
+    >
+      <svg
+        height={21}
+        stroke="currentColor"
+        viewBox="0 0 21 21"
+        width={21}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M5.5 11.5l3 3 8.028-8"
+          fill="none"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </span>
+    
+    
+  </button>
+  <button
+    aria-label="Butron Text"
+    className="button color-secondary is-round"
+    id="2-2"
+  >
+    <span
+      className="icon color-primary size-sm"
+    >
+      <svg
+        height={21}
+        stroke="currentColor"
+        viewBox="0 0 21 21"
+        width={21}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M5.5 11.5l3 3 8.028-8"
+          fill="none"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </span>
+    
+    
+  </button>
+</div>
+`;

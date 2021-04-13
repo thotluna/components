@@ -5,6 +5,7 @@ import { options, getIcon } from './constants'
 import { getClasses } from '../../helpers/styles'
 
 export const Icon = ({ type, color, size }) => {
+  console.log({ color })
   const getStyles = getClasses(styles)({ color, size })
   return (
     <span className={getStyles('icon', ['color', 'size'])}>
