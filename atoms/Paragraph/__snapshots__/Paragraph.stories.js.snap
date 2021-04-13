@@ -18,24 +18,19 @@ exports[`Storyshots Atoms/Paragraph Colors 1`] = `
   }
 >
   <p
-    className="container color-base size-md"
+    className="paragraph color-base size-sm"
   >
-    I can't remember anything Can't tell if this is true or dream deep down inside I feel the scream This terrible silence stops in me Now that the war is through with me I'm waking up, I cannot see That there is not much left of me Nothing is real but pain now
+    Consent doubt Tuckborough challenge destroying.
   </p>
   <p
-    className="container color-primary size-md"
+    className="paragraph color-primary size-sm"
   >
-    I can't remember anything Can't tell if this is true or dream deep down inside I feel the scream This terrible silence stops in me Now that the war is through with me I'm waking up, I cannot see That there is not much left of me Nothing is real but pain now
+    Consent doubt Tuckborough challenge destroying.
   </p>
   <p
-    className="container color-muted size-md"
+    className="paragraph color-inverted size-sm"
   >
-    I can't remember anything Can't tell if this is true or dream deep down inside I feel the scream This terrible silence stops in me Now that the war is through with me I'm waking up, I cannot see That there is not much left of me Nothing is real but pain now
-  </p>
-  <p
-    className="container color-inverted size-md"
-  >
-    I can't remember anything Can't tell if this is true or dream deep down inside I feel the scream This terrible silence stops in me Now that the war is through with me I'm waking up, I cannot see That there is not much left of me Nothing is real but pain now
+    Consent doubt Tuckborough challenge destroying.
   </p>
 </div>
 `;
@@ -58,34 +53,9 @@ exports[`Storyshots Atoms/Paragraph Default 1`] = `
   }
 >
   <p
-    className="container color-base size-md"
+    className="paragraph color-base size-sm"
   >
-    I can't remember anything Can't tell if this is true or dream deep down inside I feel the scream This terrible silence stops in me Now that the war is through with me I'm waking up, I cannot see That there is not much left of me Nothing is real but pain now
-  </p>
-</div>
-`;
-
-exports[`Storyshots Atoms/Paragraph Is Inline 1`] = `
-<div
-  style={
-    Object {
-      "alignContent": "flex-start",
-      "background": "",
-      "display": "flex",
-      "flexDirection": "column",
-      "flexWrap": "wrap",
-      "gap": "10px 30px",
-      "height": "100%",
-      "justifyContent": "flex-start",
-      "maxHeight": "auto",
-      "padding": "2em",
-    }
-  }
->
-  <p
-    className="container color-base size-md is-inline"
-  >
-    it is paragraph inline
+    Consent doubt Tuckborough challenge destroying.
   </p>
 </div>
 `;
@@ -108,29 +78,19 @@ exports[`Storyshots Atoms/Paragraph Size 1`] = `
   }
 >
   <p
-    className="container color-base size-xs"
+    className="paragraph color-base size-sm"
   >
-    I can't remember anything Can't tell if this is true or dream deep down inside I feel the scream This terrible silence stops in me Now that the war is through with me I'm waking up, I cannot see That there is not much left of me Nothing is real but pain now
+    Consent doubt Tuckborough challenge destroying.
   </p>
   <p
-    className="container color-base size-sm"
+    className="paragraph color-base size-md"
   >
-    I can't remember anything Can't tell if this is true or dream deep down inside I feel the scream This terrible silence stops in me Now that the war is through with me I'm waking up, I cannot see That there is not much left of me Nothing is real but pain now
+    Consent doubt Tuckborough challenge destroying.
   </p>
   <p
-    className="container color-base size-md"
+    className="paragraph color-base size-lg"
   >
-    I can't remember anything Can't tell if this is true or dream deep down inside I feel the scream This terrible silence stops in me Now that the war is through with me I'm waking up, I cannot see That there is not much left of me Nothing is real but pain now
-  </p>
-  <p
-    className="container color-base size-lg"
-  >
-    I can't remember anything Can't tell if this is true or dream deep down inside I feel the scream This terrible silence stops in me Now that the war is through with me I'm waking up, I cannot see That there is not much left of me Nothing is real but pain now
-  </p>
-  <p
-    className="container color-base size-xl"
-  >
-    I can't remember anything Can't tell if this is true or dream deep down inside I feel the scream This terrible silence stops in me Now that the war is through with me I'm waking up, I cannot see That there is not much left of me Nothing is real but pain now
+    Consent doubt Tuckborough challenge destroying.
   </p>
 </div>
 `;

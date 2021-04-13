@@ -17,31 +17,21 @@ exports[`Storyshots Atoms/Title Colors 1`] = `
     }
   }
 >
-  <h3
-    className="container color-base"
+  <h4
+    className="title color-base"
   >
-    Consent doubt Tuckborough challenge destroying.
-  </h3>
-  <h3
-    className="container color-primary"
+    It is a Title.
+  </h4>
+  <h4
+    className="title color-primary"
   >
-    Consent doubt Tuckborough challenge destroying.
-  </h3>
-  <h3
-    className="container color-secondary"
+    It is a Title.
+  </h4>
+  <h4
+    className="title color-error"
   >
-    Consent doubt Tuckborough challenge destroying.
-  </h3>
-  <h3
-    className="container color-muted"
-  >
-    Consent doubt Tuckborough challenge destroying.
-  </h3>
-  <h3
-    className="container color-button"
-  >
-    Consent doubt Tuckborough challenge destroying.
-  </h3>
+    It is a Title.
+  </h4>
 </div>
 `;
 
@@ -62,15 +52,15 @@ exports[`Storyshots Atoms/Title Default 1`] = `
     }
   }
 >
-  <h3
-    className="container color-primary"
+  <h4
+    className="title color-base"
   >
-    Consent doubt Tuckborough challenge destroying.
-  </h3>
+    It is a Title.
+  </h4>
 </div>
 `;
 
-exports[`Storyshots Atoms/Title Sizes 1`] = `
+exports[`Storyshots Atoms/Title Size 1`] = `
 <div
   style={
     Object {
@@ -88,19 +78,84 @@ exports[`Storyshots Atoms/Title Sizes 1`] = `
   }
 >
   <h4
-    className="container color-primary"
+    className="title color-base"
   >
-    Consent doubt Tuckborough challenge destroying.
+    It is a Title.
   </h4>
   <h3
-    className="container color-primary"
+    className="title color-base"
   >
-    Consent doubt Tuckborough challenge destroying.
+    It is a Title.
   </h3>
   <h2
-    className="container color-primary"
+    className="title color-base"
   >
-    Consent doubt Tuckborough challenge destroying.
+    It is a Title.
+  </h2>
+</div>
+`;
+
+exports[`Storyshots Atoms/Title Size Color 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "background": "",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+      "padding": "2em",
+    }
+  }
+>
+  <h4
+    className="title color-base"
+  >
+    It is a Title.
+  </h4>
+  <h3
+    className="title color-base"
+  >
+    It is a Title.
+  </h3>
+  <h2
+    className="title color-base"
+  >
+    It is a Title.
+  </h2>
+  <h4
+    className="title color-primary"
+  >
+    It is a Title.
+  </h4>
+  <h3
+    className="title color-primary"
+  >
+    It is a Title.
+  </h3>
+  <h2
+    className="title color-primary"
+  >
+    It is a Title.
+  </h2>
+  <h4
+    className="title color-error"
+  >
+    It is a Title.
+  </h4>
+  <h3
+    className="title color-error"
+  >
+    It is a Title.
+  </h3>
+  <h2
+    className="title color-error"
+  >
+    It is a Title.
   </h2>
 </div>
 `;

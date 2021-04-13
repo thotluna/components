@@ -19,11 +19,6 @@ export default {
 }
 
 const getItems = getTokenItems(choices.color, 'color')
-// const getDecisionItems = getTokenItems(decisions.color, 'color')
-const getBackgroundItems = getTokenItems(
-  decisions.backgroundColor,
-  'background-color'
-)
 
 export const Default = Template.bind({})
 Default.args = {
@@ -42,50 +37,3 @@ Brand.args = { items: getItems('brand') }
 Brand.parameters = {
   __sb: { mh: 300 },
 }
-
-// export const Decisions = ListTemplate.bind({})
-// Decisions.args = {
-//   __sb: { mh: 300 },
-//   items: getDecisionItems(),
-// }
-// Decisions.parameters = {
-//   __sb: { mh: 300 },
-// }
-
-export const Backgrounds = ListTemplate.bind({})
-Backgrounds.args = {
-  items: getBackgroundItems(),
-}
-Backgrounds.parameters = {
-  __sb: { fd: 'row' },
-}
-
-export const Gray = ListTemplate.bind({})
-Gray.args = { items: getItems('gray') }
-
-export const Red = ListTemplate.bind({})
-Red.args = { items: getItems('red') }
-
-export const Orange = ListTemplate.bind({})
-Orange.args = { items: getItems('orange') }
-
-export const Yellow = ListTemplate.bind({})
-Yellow.args = { items: getItems('yellow') }
-
-export const Green = ListTemplate.bind({})
-Green.args = { items: getItems('green') }
-
-export const Teal = ListTemplate.bind({})
-Teal.args = { items: getItems('teal') }
-
-export const Blue = ListTemplate.bind({})
-Blue.args = { items: getItems('blue') }
-
-export const Indigo = ListTemplate.bind({})
-Indigo.args = { items: getItems('indigo') }
-
-export const Purple = ListTemplate.bind({})
-Purple.args = { items: getItems('purple') }
-
-export const Pink = ListTemplate.bind({})
-Pink.args = { items: getItems('pink') }

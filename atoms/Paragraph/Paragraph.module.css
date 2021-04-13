@@ -1,25 +1,6 @@
 .paragraph {
   width: 100%;
-}
-
-.color-base {
-  color: var(--font-base);
-}
-
-.color-primary {
-  color: var(--color-primary);
-}
-
-.color-muted {
-  color: var(--color-font-highlight);
-}
-
-.color-inverted {
-  color: var(--color-font-inverted);
-}
-
-.size-xs {
-  font-size: var(--font-size-xs);
+  text-align: justify;
 }
 
 .size-sm {
@@ -34,8 +15,16 @@
   font-size: var(--font-size-lg);
 }
 
-.size-xl {
-  font-size: var(--font-size-xl);
+.color-base {
+  color: var(--color-font-base);
+}
+
+.color-primary {
+  color: var(--color-font-primary);
+}
+
+.color-inverted {
+  color: var(--color-base-white);
 }
 
 .is-inline {

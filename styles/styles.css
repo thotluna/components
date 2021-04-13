@@ -1,4 +1,4 @@
-@import './global.css';
 @import './minireset.min.css';
 @import './tokens.css';
+@import './global.css';
 @import './variables.css';

@@ -8,7 +8,6 @@ import {
   FontWeight,
   LineHeight,
   LetterSpacing,
-  BoxShadow,
   BorderRadius,
   BorderWidth,
 } from './component'
@@ -22,7 +21,6 @@ Token.FontSize = FontSize
 Token.FontWeight = FontWeight
 Token.LineHeight = LineHeight
 Token.LetterSpacing = LetterSpacing
-Token.BoxShadow = BoxShadow
 Token.BorderRadius = BorderRadius
 Token.BorderWidth = BorderWidth
 
