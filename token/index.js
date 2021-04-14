@@ -113,6 +113,7 @@ const decisions = {
   color: {
     background: choices.color.brand.charcoalGray,
     primary: choices.color.brand.blueAngel,
+    secondary: choices.color.brand.blossomPing,
     font: {
       base: choices.color.brand.blueAngel,
       primary: choices.color.brand.charcoalGray,

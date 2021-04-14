@@ -38,13 +38,19 @@
   color: var(--button-primary-color);
 }
 
+.color-error {
+  border: 2px solid var(--button-primary-color-border);
+  background-color: var(--button-secondary-background);
+  color: var(--color-font-error);
+}
+
 .is-compact {
   max-width: max-content;
 }
 
 .button.is-round {
-  width: 48px;
-  height: 48px;
+  width: 36px !important;
+  height: 36px !important;
   padding: 0;
   border: var(--border-width-thick) solid var(--color-base-transparent);
 }

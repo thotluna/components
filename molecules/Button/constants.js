@@ -1,3 +1,3 @@
 export const options = {
-  colors: ['base', 'primary', 'secondary'],
+  colors: ['base', 'primary', 'secondary', 'error'],
 }

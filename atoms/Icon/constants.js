@@ -2,7 +2,7 @@ import React from 'react'
 export const options = {
   colors: ['base', 'primary', 'error'],
   sizes: ['sm', 'md', 'lg'],
-  types: ['save', 'alert', 'check'],
+  types: ['alert', 'check', 'close', 'save'],
 }
 
 export const getIcon = (type) => {
@@ -60,6 +60,25 @@ export const getIcon = (type) => {
             strokeLinecap="round"
             strokeLinejoin="round"
           />
+        </svg>
+      )
+    case 'close':
+      return (
+        <svg
+          height={21}
+          viewBox="0 0 21 21"
+          width={21}
+          xmlns="http://www.w3.org/2000/svg"
+          stroke="currentColor"
+        >
+          <g
+            fill="none"
+            fillRule="evenodd"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <path d="M7.5 7.5l6 6M13.5 7.5l-6 6" />
+          </g>
         </svg>
       )
 

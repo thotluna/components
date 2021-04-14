@@ -1,0 +1,29 @@
+.snackbar {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.snackbar-content {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5em 1rem;
+  border-radius: var(--border-radius-full);
+}
+
+.snackbar-left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.color-primary {
+  background-color: var(--color-primary);
+}
+
+.color-secondary {
+  background-color: var(--color-secondary);
+}

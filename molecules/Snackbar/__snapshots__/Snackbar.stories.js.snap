@@ -1,0 +1,260 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Molecules/Snackbar Colors 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "background": "",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+      "padding": "2em",
+    }
+  }
+>
+  <div
+    className="snackbar"
+  >
+    <div
+      className="snackbar-content color-primary"
+    >
+      <div
+        className="snackbar-left"
+      >
+        <span
+          className="icon color-primary size-md"
+        >
+          <svg
+            height={21}
+            stroke="currentColor"
+            viewBox="0 0 21 21"
+            width={21}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M5.5 11.5l3 3 8.028-8"
+              fill="none"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </span>
+        <div
+          className="spacer vertical"
+          style={
+            Object {
+              "height": "100%",
+              "maxHeight": "auto",
+              "width": 15,
+            }
+          }
+        />
+        <h3
+          className="title color-primary"
+        >
+          Consent doubt Tuckborough challenge destroying.
+        </h3>
+      </div>
+      <button
+        aria-label="close"
+        className="button color-primary is-round"
+        id="button-close"
+      >
+        <span
+          className="icon color-primary size-sm"
+        >
+          <svg
+            height={21}
+            stroke="currentColor"
+            viewBox="0 0 21 21"
+            width={21}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              fill="none"
+              fillRule="evenodd"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path
+                d="M7.5 7.5l6 6M13.5 7.5l-6 6"
+              />
+            </g>
+          </svg>
+        </span>
+      </button>
+    </div>
+  </div>
+  <div
+    className="snackbar"
+  >
+    <div
+      className="snackbar-content color-secondary"
+    >
+      <div
+        className="snackbar-left"
+      >
+        <span
+          className="icon color-error size-md"
+        >
+          <svg
+            height={21}
+            stroke="currentColor"
+            viewBox="0 0 21 21"
+            width={21}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M5.5 11.5l3 3 8.028-8"
+              fill="none"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </span>
+        <div
+          className="spacer vertical"
+          style={
+            Object {
+              "height": "100%",
+              "maxHeight": "auto",
+              "width": 15,
+            }
+          }
+        />
+        <h3
+          className="title color-error"
+        >
+          Consent doubt Tuckborough challenge destroying.
+        </h3>
+      </div>
+      <button
+        aria-label="close"
+        className="button color-error is-round"
+        id="button-close"
+      >
+        <span
+          className="icon color-error size-sm"
+        >
+          <svg
+            height={21}
+            stroke="currentColor"
+            viewBox="0 0 21 21"
+            width={21}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              fill="none"
+              fillRule="evenodd"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path
+                d="M7.5 7.5l6 6M13.5 7.5l-6 6"
+              />
+            </g>
+          </svg>
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/Snackbar Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "background": "",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+      "padding": "2em",
+    }
+  }
+>
+  <div
+    className="snackbar"
+  >
+    <div
+      className="snackbar-content color-primary"
+    >
+      <div
+        className="snackbar-left"
+      >
+        <span
+          className="icon color-primary size-md"
+        >
+          <svg
+            height={21}
+            stroke="currentColor"
+            viewBox="0 0 21 21"
+            width={21}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M5.5 11.5l3 3 8.028-8"
+              fill="none"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </span>
+        <div
+          className="spacer vertical"
+          style={
+            Object {
+              "height": "100%",
+              "maxHeight": "auto",
+              "width": 15,
+            }
+          }
+        />
+        <h3
+          className="title color-primary"
+        >
+          Consent doubt Tuckborough challenge destroying.
+        </h3>
+      </div>
+      <button
+        aria-label="close"
+        className="button color-primary is-round"
+        id="button-close"
+      >
+        <span
+          className="icon color-primary size-sm"
+        >
+          <svg
+            height={21}
+            stroke="currentColor"
+            viewBox="0 0 21 21"
+            width={21}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              fill="none"
+              fillRule="evenodd"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path
+                d="M7.5 7.5l6 6M13.5 7.5l-6 6"
+              />
+            </g>
+          </svg>
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;

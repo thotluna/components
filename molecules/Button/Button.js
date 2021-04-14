@@ -28,7 +28,12 @@ export const Button = ({
       onClick={handelOnClick}
     >
       {icon && (
-        <Icon type={icon} color={color === 'base' ? 'base' : 'primary'} />
+        <Icon
+          type={icon}
+          color={
+            color === 'base' ? 'base' : color === 'error' ? 'error' : 'primary'
+          }
+        />
       )}
       {icon && value && <Spacer.Vertical size="sm" />}
       {value}
@@ -37,7 +42,13 @@ export const Button = ({
           <Spacer.Vertical size="sm" />
           <Icon
             type={iconRight}
-            color={color === 'base' ? 'base' : 'primary'}
+            color={
+              color === 'base'
+                ? 'base'
+                : color === 'error'
+                ? 'error'
+                : 'primary'
+            }
           />
         </>
       )}
