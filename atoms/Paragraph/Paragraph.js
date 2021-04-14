@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { styles, options } from '.'
+import styles from './Paragraph.module.css'
+import { options } from './constants'
 import { getClasses } from '../../helpers/styles'
 
 export const Paragraph = ({ children, color, size, isInline }) => {
