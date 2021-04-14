@@ -1,3 +1,27 @@
+# [2.0.0](https://github.com/thotluna/components/compare/v1.10.3...v2.0.0) (2021-04-14)
+
+
+### Bug Fixes
+
+* **card:** change color ([1eda8f4](https://github.com/thotluna/components/commit/1eda8f4d2f8ec485adf32951c96dfc8d9f4dc98e)), closes [#26](https://github.com/thotluna/components/issues/26)
+* **check:** change color ([ca157e0](https://github.com/thotluna/components/commit/ca157e041c308ed4cb7c17e0e995c22a4a8bf437)), closes [#26](https://github.com/thotluna/components/issues/26)
+* **icon:** change color ([56e20f8](https://github.com/thotluna/components/commit/56e20f83de988e46ada0616f33e2c318a63ec19c)), closes [#16](https://github.com/thotluna/components/issues/16)
+
+
+### Features
+
+* **atoms:** redesigning the components from scratch ([6f5bb7d](https://github.com/thotluna/components/commit/6f5bb7d9324344f9dc06c69092d7e6ffa2a10e28)), closes [#26](https://github.com/thotluna/components/issues/26)
+* **button:** change color ([fb1f39a](https://github.com/thotluna/components/commit/fb1f39a9f601585f2dcbd4fd1ceaf877913ab3d9)), closes [#26](https://github.com/thotluna/components/issues/26)
+* **create input:** create input ([dffffaf](https://github.com/thotluna/components/commit/dffffaf3b9ef42e241556a7968c664a7fd21542b)), closes [#26](https://github.com/thotluna/components/issues/26)
+* **menu:** create menu ([442405e](https://github.com/thotluna/components/commit/442405e2f128e31329e871592e74c7587b44b970)), closes [#26](https://github.com/thotluna/components/issues/26)
+* **snackbar:** create snackbar ([b898247](https://github.com/thotluna/components/commit/b898247f98b21d136292a96226893fc127e1a04f))
+* **toolbar:** create Toolbar component ([08877d0](https://github.com/thotluna/components/commit/08877d04d587b2aadfd1e0c38671daac706fbf6e)), closes [#26](https://github.com/thotluna/components/issues/26)
+
+
+### BREAKING CHANGES
+
+* **atoms:** Change all props from the components
+
 ## [1.10.3](https://github.com/thotluna/components/compare/v1.10.2...v1.10.3) (2021-04-11)
 
 
