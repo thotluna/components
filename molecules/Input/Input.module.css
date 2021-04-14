@@ -1,0 +1,75 @@
+.input-container {
+  width: 100%;
+}
+
+.is-compact {
+  max-width: max-content;
+}
+
+.input-frame {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 17px;
+  border: 2px solid var(--color-primary);
+  background-color: var(--color-base-white);
+  border-radius: var(--border-radius-full);
+}
+
+.input-label {
+  font-size: var(--font-size-md);
+}
+
+.is-error {
+  border: 2px solid var(--color-secondary);
+  color: var(--color-font-error);
+}
+
+.input-label.is-error {
+  color: var(--color-font-error);
+}
+
+.input {
+  width: 100%;
+  flex: 3;
+  border: none;
+  border-radius: var(--border-radius-full);
+  color: var(--color-font-primary);
+  font-family: var(--font-family-sans);
+  font-size: var(--font-size-md);
+  outline: none;
+}
+
+.input-frame:focus-within {
+  box-shadow: var(--box-shadow-in), var(--box-shadow-out);
+}
+
+.input.is-error {
+  color: var(--color-font-error);
+}
+
+.input-error {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.input::placeholder {
+  color: var(--color-font-base);
+}
+
+.input-message {
+  display: flex;
+  width: max-content;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  padding: 0.2em 0;
+  background-color: var(--color-primary);
+  border-radius: var(--border-radius-full);
+}
+
+.input-wrap {
+  height: 74px;
+}
