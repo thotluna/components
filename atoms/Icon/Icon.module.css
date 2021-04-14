@@ -1,0 +1,32 @@
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.size-sm svg {
+  width: 24px;
+  height: 24px;
+}
+
+.size-md svg {
+  width: 36px;
+  height: 36px;
+}
+
+.size-lg svg {
+  width: 48px;
+  height: 48px;
+}
+
+.color-base svg {
+  stroke: var(--color-font-base);
+}
+
+.color-primary svg {
+  stroke: var(--color-font-primary);
+}
+
+.color-error svg {
+  stroke: var(--color-font-error);
+}

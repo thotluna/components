@@ -1,5 +1,6 @@
 import React from 'react'
-import Snackbar, { options } from '.'
+import Snackbar from '.'
+import { options } from './constants'
 import { getVariusTemplate, getOptionsArgTypes } from '../../helpers/storybook'
 
 const Template = (args) => <Snackbar {...args} />
@@ -7,18 +8,19 @@ const ListTemplate = getVariusTemplate(Snackbar)
 
 export default {
   title: 'Molecules/Snackbar',
-  component: Snackbar,
+  snackbar: Snackbar,
   args: {
     children: 'Consent doubt Tuckborough challenge destroying.',
+    icon: 'check',
+    color: 'primary',
   },
   argTypes: {
     children: { control: 'text' },
-    type: getOptionsArgTypes(options.types),
     color: getOptionsArgTypes(options.colors),
   },
 }
 
 export const Default = Template.bind({})
 
-export const Types = ListTemplate.bind({})
-Types.args = { items: options.types.map((type) => ({ type })) }
+export const Colors = ListTemplate.bind({})
+Colors.args = { items: options.colors.map((color) => ({ color })) }

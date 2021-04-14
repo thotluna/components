@@ -1,0 +1,348 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Molecules/Input Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "background": "",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+      "padding": "2em",
+    }
+  }
+>
+  <div
+    className="input-container"
+  >
+    <label
+      aria-labelledby="input"
+      className="input-label is-show-label"
+      htmlFor="input"
+    >
+      input
+    </label>
+    <div
+      className="input-wrap"
+    >
+      <div
+        className="input-frame"
+      >
+        <input
+          aria-label="input"
+          className="input"
+          id="input"
+          name="input"
+          placeholder="is placeholder"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/Input Default Compact 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "background": "",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+      "padding": "2em",
+    }
+  }
+>
+  <div
+    className="input-container is-compact"
+  >
+    <label
+      aria-labelledby="input"
+      className="input-label is-show-label"
+      htmlFor="input"
+    >
+      input
+    </label>
+    <div
+      className="input-wrap"
+    >
+      <div
+        className="input-frame"
+      >
+        <input
+          aria-label="input"
+          className="input"
+          id="input"
+          name="input"
+          placeholder="is placeholder"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/Input Default Error 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "background": "",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+      "padding": "2em",
+    }
+  }
+>
+  <div
+    className="input-container"
+  >
+    <label
+      aria-labelledby="input"
+      className="input-label is-show-label is-error"
+      htmlFor="input"
+    >
+      input
+    </label>
+    <div
+      className="input-wrap"
+    >
+      <div
+        className="input-frame is-error"
+      >
+        <input
+          aria-label="input"
+          className="input"
+          id="input"
+          name="input"
+          placeholder="is placeholder"
+        />
+        <span
+          className="icon color-error size-sm"
+        >
+          <svg
+            height={21}
+            stroke="currentColor"
+            viewBox="0 0 21 21"
+            width={21}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              fill="none"
+              fillRule="evenodd"
+              transform="translate(1 1)"
+            >
+              <path
+                d="M9.5.5l9 16H.5zM9.5 10.5v-5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+              <circle
+                cx={9.5}
+                cy={13.5}
+                fill="currentColor"
+                r={1}
+              />
+            </g>
+          </svg>
+        </span>
+      </div>
+      <div
+        className="input-error"
+      >
+        <h4
+          className="title color-error"
+        >
+          this is a message error
+        </h4>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/Input Default Error Without Label 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "background": "",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+      "padding": "2em",
+    }
+  }
+>
+  <div
+    className="input-container"
+  >
+    <div
+      className="input-wrap"
+    >
+      <div
+        className="input-frame is-error"
+      >
+        <input
+          aria-label="input"
+          className="input"
+          id="input"
+          name="input"
+          placeholder="is placeholder"
+        />
+        <span
+          className="icon color-error size-sm"
+        >
+          <svg
+            height={21}
+            stroke="currentColor"
+            viewBox="0 0 21 21"
+            width={21}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              fill="none"
+              fillRule="evenodd"
+              transform="translate(1 1)"
+            >
+              <path
+                d="M9.5.5l9 16H.5zM9.5 10.5v-5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+              <circle
+                cx={9.5}
+                cy={13.5}
+                fill="currentColor"
+                r={1}
+              />
+            </g>
+          </svg>
+        </span>
+      </div>
+      <div
+        className="input-error"
+      >
+        <h4
+          className="title color-error"
+        >
+          this is a message error
+        </h4>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/Input Default With Key Enter Message 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "background": "",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+      "padding": "2em",
+    }
+  }
+>
+  <div
+    className="input-container"
+  >
+    <label
+      aria-labelledby="input"
+      className="input-label is-show-label"
+      htmlFor="input"
+    >
+      input
+    </label>
+    <div
+      className="input-wrap"
+    >
+      <div
+        className="input-frame"
+      >
+        <input
+          aria-label="input"
+          className="input"
+          id="input"
+          name="input"
+          placeholder="is placeholder"
+        />
+        <div
+          className="input-message"
+        >
+          <h4
+            className="title color-primary"
+          >
+            Enter for continued
+          </h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/Input Default Without Label 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "background": "",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+      "padding": "2em",
+    }
+  }
+>
+  <div
+    className="input-container"
+  >
+    <div
+      className="input-wrap"
+    >
+      <div
+        className="input-frame"
+      >
+        <input
+          aria-label="input"
+          className="input"
+          id="input"
+          name="input"
+          placeholder="is placeholder"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

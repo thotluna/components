@@ -1,50 +1,46 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import styles from './Snackbar.module.css'
 import { options } from './constants'
-import { getColorSeting } from './constants'
-
-import Buttons from '../Buttons'
-import Title from '../../atoms/Title'
-import Icon from '../../atoms/Icons'
+import styles from './Snackbar.module.css'
 import { getClasses } from '../../helpers/styles'
+import Title from '../../atoms/Title'
+import Icon, { options as optionIcon } from '../../atoms/Icon'
+import Spacer from '../../layout/Spacer'
+import Button from '../Button/Button'
 
-export const Snackbar = ({ children, type, onClose }) => {
-  const getStyle = getColorSeting(type)
-  const color = getStyle.background
-  const classStyles = getClasses(styles)({ color })
-
+export const Snackbar = ({ children, color, icon }) => {
+  const getStyles = getClasses(styles)({ color })
   return (
-    <div className={classStyles('snackbar', ['color'])}>
-      <div className={classStyles('snackbar-body')}>
-        <div className={classStyles('snackbar-left')}>
-          <Icon type="trash" size="lg" color={getStyle.colorIcon} />
-          <Title size="md" color={getStyle.colorText}>
+    <div className={getStyles('snackbar')}>
+      <div className={getStyles('snackbar-content', ['color'])}>
+        <div className={getStyles('snackbar-left')}>
+          <Icon
+            type={icon}
+            size="md"
+            color={color === 'secondary' ? 'error' : color}
+          />
+          <Spacer.Vertical size="sm" />
+          <Title color={color === 'secondary' ? 'error' : color} size="md">
             {children}
           </Title>
         </div>
-        <Buttons
-          ariaLabel="button"
-          color={color}
+        <Button
+          ariaLabel="close"
+          id="button-close"
           icon="close"
-          onCLick={onClose}
-          size="short"
-          withoutBorder
+          color={color === 'secondary' ? 'error' : color}
         />
       </div>
-      <div className={classStyles('snackbar-body')}></div>
     </div>
   )
 }
 
 Snackbar.propTypes = {
-  children: PropTypes.node.isRequired,
-  type: PropTypes.oneOf(options.types).isRequired,
-  onClose: PropTypes.func,
+  icon: PropTypes.oneOf(optionIcon.types).isRequired,
+  children: PropTypes.string.isRequired,
+  color: PropTypes.oneOf(options.colors),
 }
 
-Snackbar.defaultProps = {
-  type: 'alert',
-}
+Snackbar.defaultProps = {}
 
 export default Snackbar

@@ -8,7 +8,7 @@ const getStyles = ({ __sb } = {}) => ({
   display: 'flex',
   flexDirection: __sb?.fd || 'column',
   maxHeight: __sb?.mh || 'auto',
-  justifyContent: 'flex-start',
+  justifyContent: __sb?.jc || 'flex-start',
   alignContent: 'flex-start',
   flexWrap: 'wrap',
   height: '100%',
@@ -37,7 +37,7 @@ export const parameters = {
     values: [
       {
         name: 'dark',
-        value: '#272631',
+        value: '#3B3F45',
       },
       {
         name: 'light',
@@ -47,12 +47,14 @@ export const parameters = {
   },
   darkMode: {
     // Override the default dark theme
-    dark: { ...themes.dark, appBg: '#282C34' },
+    dark: { ...themes.dark, appBg: '#3B3F45' },
     // Override the default light theme
     light: { ...themes.normal, appBg: '#fff' }
   },
 
-  doc: { ...themes.dark, appBg: '#282C34' },
+  docs: {
+    theme: themes.dark,
+  },
 
 }
 

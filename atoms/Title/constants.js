@@ -1,4 +1,4 @@
 export const options = {
-  colors: ['base', 'primary', 'secondary', 'muted', 'button'],
+  colors: ['base', 'primary', 'error'],
   sizes: ['sm', 'md', 'lg'],
 }

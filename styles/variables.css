@@ -1,43 +1,10 @@
 :root {
-  /* background */
-  --color-background: var(--color-dark-background);
-
-  /* color */
-  --color-primary: var(--color-dark-primary);
-  --color-secondary: var(--color-dark-secondary);
-
-  /* color font */
-  --color-font-primary: var(--color-dark-font-primary);
-  --color-font-base: var(--color-dark-font-base);
-  --color-font-muted: var(--color-dark-font-muted);
-  --color-font-button: var(--color-dark-font-button);
-  --color-font-inverted: var(--color-light-font-inverted);
-
-  /* Box shadow */
-  --box-shadow-none: none;
-  --box-shadow-xs: var(--color-dark-box-shadow-xs);
-  --box-shadow-sm: var(--color-dark-box-shadow-sm);
-  --box-shadow-focus: var(--shadow-focus-in), var(--shadow-focus-out);
+  --box-shadow-in: 0 0 4px rgba(180, 209, 254, 0.25);
+  --box-shadow-out: 0 0 5px 7px rgba(180, 209, 254, 0.25);
+  --box-shadow-dark-in: 0 0 4px rgba(180, 209, 254, 0.11);
+  --box-shadow-dark-out: 0 0 5px 7px rgba(180, 209, 254, 0.11);
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    /* background */
-    --color-background: var(--color-light-background);
-
-    /* color */
-    --color-primary: var(--color-light-primary);
-    --color-secondary: var(--color-light-secondary);
-
-    /* color font */
-    --color-font-primary: var(--color-light-font-primary);
-    --color-font-base: var(--color-light-font-base);
-    --color-font-muted: var(--color-light-font-muted);
-    --color-font-button: var(--color-light-font-button);
-    --color-font-inverted: var(--color-light-font-inverted);
-
-    /* Box shadow */
-    --box-shadow-xs: var(--color-light-box-shadow-xs);
-    --box-shadow-sm: var(--color-light-box-shadow-sm);
-  }
+body {
+  color: var(--color-font-base);
 }

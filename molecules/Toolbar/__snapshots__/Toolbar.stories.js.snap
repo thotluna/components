@@ -18,58 +18,54 @@ exports[`Storyshots Molecules/Toolbar Default 1`] = `
   }
 >
   <div
-    className="container"
+    className="toolbar"
   >
-    <button
-      aria-label="back"
-      style={
-        Object {
-          "backgroundColor": "transparent",
-          "border": 0,
-          "padding": 0,
-        }
-      }
-    >
-      <div
-        className="container color-inverted size-md"
-      >
-        <svg
-          fill="none"
-          height="100%"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          width="100%"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M15 19l-7-7 7-7"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={1}
-          />
-        </svg>
-      </div>
-    </button>
     <div
-      className="spacer vertical"
-      style={
-        Object {
-          "height": "100%",
-          "maxHeight": "auto",
-          "width": 15,
-        }
-      }
-    />
-    <h2
-      className="container color-button"
+      className="tookbar-content"
     >
-      Login
-    </h2>
+      <h2
+        className="title color-base"
+      >
+        Home
+      </h2>
+    </div>
+    <nav
+      className="menu"
+    >
+      <button
+        aria-label="menu"
+        className="button color-base is-round"
+        id="menu"
+        onClick={[Function]}
+      >
+        <span
+          className="icon color-base size-sm"
+        >
+          <svg
+            fill="currentColor"
+            height={21}
+            viewBox="0 0 21 21"
+            width={21}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              fill="none"
+              fillRule="evenodd"
+              transform="translate(2 2)"
+            >
+              <path
+                d="M8.5 9.5c.5 0 1-.5 1-1s-.5-1-1-1-.999.5-.999 1 .499 1 .999 1zm-4 0c.5 0 1-.5 1-1s-.5-1-1-1-.999.5-.999 1 .499 1 .999 1zm8 0c.5 0 1-.5 1-1s-.5-1-1-1-.999.5-.999 1 .499 1 .999 1z"
+              />
+            </g>
+          </svg>
+        </span>
+      </button>
+    </nav>
   </div>
 </div>
 `;
 
-exports[`Storyshots Molecules/Toolbar Only Icon 1`] = `
+exports[`Storyshots Molecules/Toolbar Default With On Back 1`] = `
 <div
   style={
     Object {
@@ -87,97 +83,72 @@ exports[`Storyshots Molecules/Toolbar Only Icon 1`] = `
   }
 >
   <div
-    className="container"
+    className="toolbar"
   >
-    <button
-      aria-label="back"
-      style={
-        Object {
-          "backgroundColor": "transparent",
-          "border": 0,
-          "padding": 0,
-        }
-      }
+    <div
+      className="tookbar-content"
     >
-      <div
-        className="container color-inverted size-md"
+      <button
+        className="button color-base is-round"
+        onClick={[Function]}
       >
-        <svg
-          fill="none"
-          height="100%"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          width="100%"
-          xmlns="http://www.w3.org/2000/svg"
+        <span
+          className="icon color-base size-sm"
         >
-          <path
-            d="M15 19l-7-7 7-7"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={1}
-          />
-        </svg>
-      </div>
-    </button>
-    <div
-      className="spacer vertical"
-      style={
-        Object {
-          "height": "100%",
-          "maxHeight": "auto",
-          "width": 15,
-        }
-      }
-    />
-  </div>
-</div>
-`;
-
-exports[`Storyshots Molecules/Toolbar Only Title 1`] = `
-<div
-  style={
-    Object {
-      "alignContent": "flex-start",
-      "background": "",
-      "display": "flex",
-      "flexDirection": "column",
-      "flexWrap": "wrap",
-      "gap": "10px 30px",
-      "height": "100%",
-      "justifyContent": "flex-start",
-      "maxHeight": "auto",
-      "padding": "2em",
-    }
-  }
->
-  <div
-    className="container"
-  >
-    <button
-      aria-label="back"
-      style={
-        Object {
-          "backgroundColor": "transparent",
-          "border": 0,
-          "padding": 0,
-        }
-      }
-    />
-    <div
-      className="spacer vertical"
-      style={
-        Object {
-          "height": "100%",
-          "maxHeight": "auto",
-          "width": 15,
-        }
-      }
-    />
-    <h2
-      className="container color-button"
+          <svg
+            height={21}
+            stroke="currentColor"
+            viewBox="0 0 21 21"
+            width={21}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M11.5 14.5l-4-4 4-4"
+              fill="none"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </span>
+      </button>
+      <h2
+        className="title color-base"
+      >
+        Home
+      </h2>
+    </div>
+    <nav
+      className="menu"
     >
-      Home
-    </h2>
+      <button
+        aria-label="menu"
+        className="button color-base is-round"
+        id="menu"
+        onClick={[Function]}
+      >
+        <span
+          className="icon color-base size-sm"
+        >
+          <svg
+            fill="currentColor"
+            height={21}
+            viewBox="0 0 21 21"
+            width={21}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              fill="none"
+              fillRule="evenodd"
+              transform="translate(2 2)"
+            >
+              <path
+                d="M8.5 9.5c.5 0 1-.5 1-1s-.5-1-1-1-.999.5-.999 1 .499 1 .999 1zm-4 0c.5 0 1-.5 1-1s-.5-1-1-1-.999.5-.999 1 .499 1 .999 1zm8 0c.5 0 1-.5 1-1s-.5-1-1-1-.999.5-.999 1 .499 1 .999 1z"
+              />
+            </g>
+          </svg>
+        </span>
+      </button>
+    </nav>
   </div>
 </div>
 `;

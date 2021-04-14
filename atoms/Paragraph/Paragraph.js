@@ -1,14 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import styles from './Paragraph.module.css'
-import { options } from './constants'
+import { styles, options } from '.'
 import { getClasses } from '../../helpers/styles'
 
-export const Paragraph = ({ children, isInline, color, size }) => {
+export const Paragraph = ({ children, color, size, isInline }) => {
   const getStyles = getClasses(styles)({ color, size })
   return (
     <p
-      className={getStyles('container', ['color', 'size'], {
+      className={getStyles('paragraph', ['color', 'size'], {
         'is-inline': isInline,
       })}
     >
@@ -18,16 +17,16 @@ export const Paragraph = ({ children, isInline, color, size }) => {
 }
 
 Paragraph.propTypes = {
-  children: PropTypes.node,
-  isInline: PropTypes.bool,
+  children: PropTypes.string.isRequired,
   color: PropTypes.oneOf(options.colors),
-  size: PropTypes.oneOf(options.size),
+  size: PropTypes.oneOf(options.sizes),
+  isInline: PropTypes.bool,
 }
 
 Paragraph.defaultProps = {
-  isInline: false,
+  size: 'sm',
   color: 'base',
-  size: 'md',
+  isInline: false,
 }
 
 export default Paragraph

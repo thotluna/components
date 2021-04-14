@@ -1,0 +1,30 @@
+.menu {
+  position: relative;
+}
+
+.menu-list-items {
+  position: absolute;
+  z-index: 9;
+  top: 48px;
+  min-width: 100px;
+  padding: 0.5em;
+  background-color: var(--color-brand-mist-blue);
+  font-size: var(--font-size-md);
+}
+
+.menu-list-items.position-left {
+  left: 0;
+}
+
+.menu-list-items.position-right {
+  right: 0;
+}
+
+.menu-item a {
+  color: var(--color-font-base);
+  text-decoration: none;
+}
+
+.menu-item a:hover {
+  text-decoration: underline;
+}

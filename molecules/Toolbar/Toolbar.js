@@ -1,45 +1,34 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styles from './Toolbar.module.css'
-
-import Icon, { options as iconOptions } from '../../atoms/Icons'
-import Title from '../../atoms/Title'
-import { Vertical } from '../../layout/Spacer/components'
 import { getClasses } from '../../helpers/styles'
 
-export const Toolbar = ({ icon, label, iconOnclick, title }) => {
+import Button from '../Button'
+import Title from '../../atoms/Title'
+import Menu from '../Menu'
+
+export const Toolbar = ({ children, listLink, onBack }) => {
   const getStyles = getClasses(styles)({})
   return (
-    <div className={getStyles('container')}>
-      <button
-        aria-label={label}
-        style={{ padding: 0, border: 0, backgroundColor: 'transparent' }}
-        onClick={iconOnclick}
-      >
-        {icon && (
-          <Icon
-            arial-hiden={icon ? false : true}
-            type={icon}
-            color="inverted"
-            size="md"
-          />
-        )}
-      </button>
-      <Vertical size="sm" />
-      {title && (
-        <Title arial-hiden={title ? false : true} color="button" size="lg">
-          {title}
-        </Title>
-      )}
+    <div className={getStyles('toolbar')}>
+      <div className={getStyles('tookbar-content')}>
+        {onBack && <Button icon="left-chevron" handelOnClick={onBack} />}
+        <Title size="lg">{children}</Title>
+      </div>
+      <Menu listLink={listLink} position="right" />
     </div>
   )
 }
 
 Toolbar.propTypes = {
-  label: PropTypes.string.isRequired,
-  iconOnclick: PropTypes.func,
-  icon: PropTypes.oneOf(iconOptions.type),
-  title: PropTypes.string,
+  children: PropTypes.string,
+  listLink: PropTypes.arrayOf(
+    PropTypes.shape({
+      link: PropTypes.string.isRequired,
+      name: PropTypes.string.isRequired,
+    })
+  ),
+  onBack: PropTypes.func,
 }
 
 Toolbar.defaultProps = {}
