@@ -687,16 +687,12 @@ exports[`Storyshots Molecules/Button Icon Only 1`] = `
         width={21}
         xmlns="http://www.w3.org/2000/svg"
       >
-        <g
+        <path
+          d="M11.5 14.5l-4-4 4-4"
           fill="none"
-          fillRule="evenodd"
           strokeLinecap="round"
           strokeLinejoin="round"
-        >
-          <path
-            d="M6.5 10.5l4 4.232 4-4.191M10.5 3.5v11M4.5 17.5h12"
-          />
-        </g>
+        />
       </svg>
     </span>
     
@@ -717,16 +713,12 @@ exports[`Storyshots Molecules/Button Icon Only 1`] = `
         width={21}
         xmlns="http://www.w3.org/2000/svg"
       >
-        <g
+        <path
+          d="M11.5 14.5l-4-4 4-4"
           fill="none"
-          fillRule="evenodd"
           strokeLinecap="round"
           strokeLinejoin="round"
-        >
-          <path
-            d="M6.5 10.5l4 4.232 4-4.191M10.5 3.5v11M4.5 17.5h12"
-          />
-        </g>
+        />
       </svg>
     </span>
     
@@ -747,16 +739,12 @@ exports[`Storyshots Molecules/Button Icon Only 1`] = `
         width={21}
         xmlns="http://www.w3.org/2000/svg"
       >
-        <g
+        <path
+          d="M11.5 14.5l-4-4 4-4"
           fill="none"
-          fillRule="evenodd"
           strokeLinecap="round"
           strokeLinejoin="round"
-        >
-          <path
-            d="M6.5 10.5l4 4.232 4-4.191M10.5 3.5v11M4.5 17.5h12"
-          />
-        </g>
+        />
       </svg>
     </span>
     
@@ -777,16 +765,12 @@ exports[`Storyshots Molecules/Button Icon Only 1`] = `
         width={21}
         xmlns="http://www.w3.org/2000/svg"
       >
-        <g
+        <path
+          d="M11.5 14.5l-4-4 4-4"
           fill="none"
-          fillRule="evenodd"
           strokeLinecap="round"
           strokeLinejoin="round"
-        >
-          <path
-            d="M6.5 10.5l4 4.232 4-4.191M10.5 3.5v11M4.5 17.5h12"
-          />
-        </g>
+        />
       </svg>
     </span>
     
@@ -901,6 +885,126 @@ exports[`Storyshots Molecules/Button Icon Only 1`] = `
         >
           <path
             d="M8.5 9.5c.5 0 1-.5 1-1s-.5-1-1-1-.999.5-.999 1 .499 1 .999 1zm-4 0c.5 0 1-.5 1-1s-.5-1-1-1-.999.5-.999 1 .499 1 .999 1zm8 0c.5 0 1-.5 1-1s-.5-1-1-1-.999.5-.999 1 .499 1 .999 1z"
+          />
+        </g>
+      </svg>
+    </span>
+    
+    
+  </button>
+  <button
+    aria-label="Butron Text"
+    className="button color-base is-round"
+    id="5-0"
+  >
+    <span
+      className="icon color-base size-sm"
+    >
+      <svg
+        height={21}
+        stroke="currentColor"
+        viewBox="0 0 21 21"
+        width={21}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          fill="none"
+          fillRule="evenodd"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <path
+            d="M6.5 10.5l4 4.232 4-4.191M10.5 3.5v11M4.5 17.5h12"
+          />
+        </g>
+      </svg>
+    </span>
+    
+    
+  </button>
+  <button
+    aria-label="Butron Text"
+    className="button color-primary is-round"
+    id="5-1"
+  >
+    <span
+      className="icon color-primary size-sm"
+    >
+      <svg
+        height={21}
+        stroke="currentColor"
+        viewBox="0 0 21 21"
+        width={21}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          fill="none"
+          fillRule="evenodd"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <path
+            d="M6.5 10.5l4 4.232 4-4.191M10.5 3.5v11M4.5 17.5h12"
+          />
+        </g>
+      </svg>
+    </span>
+    
+    
+  </button>
+  <button
+    aria-label="Butron Text"
+    className="button color-secondary is-round"
+    id="5-2"
+  >
+    <span
+      className="icon color-primary size-sm"
+    >
+      <svg
+        height={21}
+        stroke="currentColor"
+        viewBox="0 0 21 21"
+        width={21}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          fill="none"
+          fillRule="evenodd"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <path
+            d="M6.5 10.5l4 4.232 4-4.191M10.5 3.5v11M4.5 17.5h12"
+          />
+        </g>
+      </svg>
+    </span>
+    
+    
+  </button>
+  <button
+    aria-label="Butron Text"
+    className="button color-error is-round"
+    id="5-3"
+  >
+    <span
+      className="icon color-error size-sm"
+    >
+      <svg
+        height={21}
+        stroke="currentColor"
+        viewBox="0 0 21 21"
+        width={21}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          fill="none"
+          fillRule="evenodd"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <path
+            d="M6.5 10.5l4 4.232 4-4.191M10.5 3.5v11M4.5 17.5h12"
           />
         </g>
       </svg>

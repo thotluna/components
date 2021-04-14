@@ -10,7 +10,7 @@ export const Menu = ({ listLink, active, position }) => {
   const [show, setShow] = useState(active)
   const getStyles = getClasses(styles)({ position })
   return (
-    <div className={getStyles('menu')}>
+    <nav className={getStyles('menu')}>
       <Button
         ariaLabel="menu"
         icon="menu"
@@ -24,12 +24,18 @@ export const Menu = ({ listLink, active, position }) => {
           {listLink.length &&
             listLink.map((item, index) => (
               <div key={index} className={getStyles('menu-item')}>
-                <a href={item.link}>{item.name}</a>
+                <a
+                  onClick={() => setShow(!show)}
+                  aria-current={item.name}
+                  href={item.link}
+                >
+                  {item.name}
+                </a>
               </div>
             ))}
         </div>
       )}
-    </div>
+    </nav>
   )
 }
 

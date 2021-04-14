@@ -2,7 +2,7 @@ import React from 'react'
 export const options = {
   colors: ['base', 'primary', 'error'],
   sizes: ['sm', 'md', 'lg'],
-  types: ['alert', 'check', 'close', 'save', 'menu'],
+  types: ['alert', 'check', 'close', 'left-chevron', 'menu', 'save'],
 }
 
 export const getIcon = (type) => {
@@ -93,6 +93,23 @@ export const getIcon = (type) => {
           <g fill="none" fillRule="evenodd" transform="translate(2 2)">
             <path d="M8.5 9.5c.5 0 1-.5 1-1s-.5-1-1-1-.999.5-.999 1 .499 1 .999 1zm-4 0c.5 0 1-.5 1-1s-.5-1-1-1-.999.5-.999 1 .499 1 .999 1zm8 0c.5 0 1-.5 1-1s-.5-1-1-1-.999.5-.999 1 .499 1 .999 1z" />
           </g>
+        </svg>
+      )
+    case 'left-chevron':
+      return (
+        <svg
+          height={21}
+          viewBox="0 0 21 21"
+          width={21}
+          xmlns="http://www.w3.org/2000/svg"
+          stroke="currentColor"
+        >
+          <path
+            d="M11.5 14.5l-4-4 4-4"
+            fill="none"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
         </svg>
       )
 
