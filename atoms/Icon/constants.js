@@ -2,7 +2,7 @@ import React from 'react'
 export const options = {
   colors: ['base', 'primary', 'error'],
   sizes: ['sm', 'md', 'lg'],
-  types: ['alert', 'check', 'close', 'save'],
+  types: ['alert', 'check', 'close', 'save', 'menu'],
 }
 
 export const getIcon = (type) => {
@@ -78,6 +78,20 @@ export const getIcon = (type) => {
             strokeLinejoin="round"
           >
             <path d="M7.5 7.5l6 6M13.5 7.5l-6 6" />
+          </g>
+        </svg>
+      )
+    case 'menu':
+      return (
+        <svg
+          height={21}
+          viewBox="0 0 21 21"
+          width={21}
+          xmlns="http://www.w3.org/2000/svg"
+          fill="currentColor"
+        >
+          <g fill="none" fillRule="evenodd" transform="translate(2 2)">
+            <path d="M8.5 9.5c.5 0 1-.5 1-1s-.5-1-1-1-.999.5-.999 1 .499 1 .999 1zm-4 0c.5 0 1-.5 1-1s-.5-1-1-1-.999.5-.999 1 .499 1 .999 1zm8 0c.5 0 1-.5 1-1s-.5-1-1-1-.999.5-.999 1 .499 1 .999 1z" />
           </g>
         </svg>
       )

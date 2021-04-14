@@ -8,7 +8,7 @@ const getStyles = ({ __sb } = {}) => ({
   display: 'flex',
   flexDirection: __sb?.fd || 'column',
   maxHeight: __sb?.mh || 'auto',
-  justifyContent: 'flex-start',
+  justifyContent: __sb?.jc || 'flex-start',
   alignContent: 'flex-start',
   flexWrap: 'wrap',
   height: '100%',
