@@ -8,6 +8,9 @@ export const Title = ({ children, color, size }) => {
   const getStyles = getClasses(styles)({ color })
   return (
     <>
+      {size === 'xl' && (
+        <h1 className={getStyles('title', ['color'])}>{children}</h1>
+      )}
       {size === 'lg' && (
         <h2 className={getStyles('title', ['color'])}>{children}</h2>
       )}

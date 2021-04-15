@@ -12,7 +12,14 @@ export const Toolbar = ({ children, listLink, onBack }) => {
   return (
     <div className={getStyles('toolbar')}>
       <div className={getStyles('tookbar-content')}>
-        {onBack && <Button icon="left-chevron" handelOnClick={onBack} />}
+        {onBack && (
+          <Button
+            id="back-button"
+            ariaLabel="back-button"
+            icon="left-chevron"
+            handelOnClick={onBack}
+          />
+        )}
         <Title size="lg">{children}</Title>
       </div>
       <Menu listLink={listLink} position="right" />

@@ -92,6 +92,11 @@ exports[`Storyshots Atoms/Title Size 1`] = `
   >
     It is a Title.
   </h2>
+  <h1
+    className="title color-base"
+  >
+    It is a Title.
+  </h1>
 </div>
 `;
 
@@ -127,6 +132,11 @@ exports[`Storyshots Atoms/Title Size Color 1`] = `
   >
     It is a Title.
   </h2>
+  <h1
+    className="title color-base"
+  >
+    It is a Title.
+  </h1>
   <h4
     className="title color-primary"
   >
@@ -142,6 +152,11 @@ exports[`Storyshots Atoms/Title Size Color 1`] = `
   >
     It is a Title.
   </h2>
+  <h1
+    className="title color-primary"
+  >
+    It is a Title.
+  </h1>
   <h4
     className="title color-error"
   >
@@ -157,5 +172,10 @@ exports[`Storyshots Atoms/Title Size Color 1`] = `
   >
     It is a Title.
   </h2>
+  <h1
+    className="title color-error"
+  >
+    It is a Title.
+  </h1>
 </div>
 `;
