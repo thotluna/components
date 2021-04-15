@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/thotluna/components/compare/v2.0.0...v2.0.1) (2021-04-15)
+
+
+### Bug Fixes
+
+* **paragraph:** reimport styles an constant ([78a6dd7](https://github.com/thotluna/components/commit/78a6dd7d844b78111e2189b5ba30692ca9f9ed90)), closes [#26](https://github.com/thotluna/components/issues/26)
+
 # [2.0.0](https://github.com/thotluna/components/compare/v1.10.3...v2.0.0) (2021-04-14)
 
 
