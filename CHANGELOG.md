@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/thotluna/components/compare/v2.0.1...v2.0.2) (2021-04-16)
+
+
+### Bug Fixes
+
+* **title:** change size font ([0490645](https://github.com/thotluna/components/commit/0490645f29a23d8747a3c0d09ca567234e995258)), closes [#26](https://github.com/thotluna/components/issues/26)
+
 ## [2.0.1](https://github.com/thotluna/components/compare/v2.0.0...v2.0.1) (2021-04-15)
 
 
