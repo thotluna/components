@@ -124,7 +124,7 @@ exports[`Storyshots Tokens/Fonts/FontSize Sizes 1`] = `
     <div
       style={
         Object {
-          "fontSize": "1.3rem",
+          "fontSize": "1.4rem",
         }
       }
     >
@@ -141,7 +141,7 @@ exports[`Storyshots Tokens/Fonts/FontSize Sizes 1`] = `
       <span
         className="label"
       >
-        1.3rem
+        1.4rem
       </span>
     </div>
   </div>
