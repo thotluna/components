@@ -18,7 +18,7 @@ export const Paragraph = ({ children, color, size, isInline }) => {
 }
 
 Paragraph.propTypes = {
-  children: PropTypes.string.isRequired,
+  children: PropTypes.any.isRequired,
   color: PropTypes.oneOf(options.colors),
   size: PropTypes.oneOf(options.sizes),
   isInline: PropTypes.bool,

@@ -21,6 +21,7 @@ export const Input = ({
   isCompact,
 }) => {
   const getStyles = getClasses(styles)({ color })
+
   return (
     <div className={getStyles('input-container', { 'is-compact': isCompact })}>
       {isShowLabel && (

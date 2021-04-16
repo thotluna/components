@@ -47,7 +47,7 @@ const choices = {
   fontSize: {
     base: '10px',
     xs: '1.1rem',
-    sm: '1.3rem',
+    sm: '1.4rem',
     md: '1.8rem',
     lg: '2rem',
     xl: '2.1rem',
