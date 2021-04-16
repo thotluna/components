@@ -1,3 +1,10 @@
+## [2.0.3](https://github.com/thotluna/components/compare/v2.0.2...v2.0.3) (2021-04-16)
+
+
+### Bug Fixes
+
+* **varius:** repair size font, props paragraph, padding button ([109c5a4](https://github.com/thotluna/components/commit/109c5a4b31dc5c2442e3d1130ceb3cd9012b2665)), closes [#26](https://github.com/thotluna/components/issues/26)
+
 ## [2.0.2](https://github.com/thotluna/components/compare/v2.0.1...v2.0.2) (2021-04-16)
 
 
