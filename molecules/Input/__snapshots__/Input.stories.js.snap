@@ -22,7 +22,7 @@ exports[`Storyshots Molecules/Input Default 1`] = `
   >
     <label
       aria-labelledby="input"
-      className="input-label is-show-label"
+      className="input-label"
       htmlFor="input"
     >
       input
@@ -68,7 +68,7 @@ exports[`Storyshots Molecules/Input Default Compact 1`] = `
   >
     <label
       aria-labelledby="input"
-      className="input-label is-show-label"
+      className="input-label"
       htmlFor="input"
     >
       input
@@ -114,7 +114,7 @@ exports[`Storyshots Molecules/Input Default Error 1`] = `
   >
     <label
       aria-labelledby="input"
-      className="input-label is-show-label is-error"
+      className="input-label is-error"
       htmlFor="input"
     >
       input
@@ -275,7 +275,7 @@ exports[`Storyshots Molecules/Input Default With Key Enter Message 1`] = `
   >
     <label
       aria-labelledby="input"
-      className="input-label is-show-label"
+      className="input-label"
       htmlFor="input"
     >
       input

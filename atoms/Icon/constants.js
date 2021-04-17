@@ -2,7 +2,15 @@ import React from 'react'
 export const options = {
   colors: ['base', 'primary', 'error'],
   sizes: ['sm', 'md', 'lg'],
-  types: ['alert', 'check', 'close', 'left-chevron', 'menu', 'save'],
+  types: [
+    'alert',
+    'check',
+    'close',
+    'down-chevron',
+    'left-chevron',
+    'menu',
+    'save',
+  ],
 }
 
 export const getIcon = (type) => {
@@ -109,6 +117,24 @@ export const getIcon = (type) => {
             fill="none"
             strokeLinecap="round"
             strokeLinejoin="round"
+          />
+        </svg>
+      )
+    case 'down-chevron':
+      return (
+        <svg
+          height="21"
+          viewBox="0 0 21 21"
+          width="21"
+          xmlns="http://www.w3.org/2000/svg"
+          stroke="currentColor"
+        >
+          <path
+            d="m8.5.5-4 4-4-4"
+            fill="none"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            transform="translate(6 8)"
           />
         </svg>
       )
