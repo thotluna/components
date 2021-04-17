@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/thotluna/components/compare/v2.0.3...v2.1.0) (2021-04-17)
+
+
+### Features
+
+* **select:** create Selct component ([26c8093](https://github.com/thotluna/components/commit/26c809378c318714d005f81e3ad4e27e7bfd9cfb)), closes [#63](https://github.com/thotluna/components/issues/63)
+
 ## [2.0.3](https://github.com/thotluna/components/compare/v2.0.2...v2.0.3) (2021-04-16)
 
 
