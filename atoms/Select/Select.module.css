@@ -1,0 +1,75 @@
+.select {
+  position: relative;
+  display: block;
+  width: 100%;
+  min-width: 150px;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 12px 30px 12px 17px;
+  border: var(--border-width-thin) solid var(--color-primary);
+  margin: 0;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: var(--color-base-white);
+  background-image: url('/image/icon.svg');
+  background-position: right 0.7em top 50%, 0 0;
+  background-repeat: no-repeat, repeat;
+  background-size: 1em auto, 100%;
+  border-radius: var(--border-radius-full);
+  color: var(--color-font-primary);
+  font-family: var(--font-family-sans);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: var(--line-height-tight);
+}
+
+.select-container {
+  position: relative;
+}
+
+.icon-select {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  pointer-events: none;
+  stroke: var(--color-brand-light-slate-blue);
+  transform: translateY(-50%);
+}
+
+.select::-ms-expand {
+  display: none;
+}
+
+.select:hover {
+  border-color: var(--color-primary);
+  box-shadow: var(--box-shadow-in), var(--box-shadow-out);
+}
+
+.select:focus {
+  box-shadow: var(--box-shadow-in), var(--box-shadow-out);
+  outline: none;
+}
+
+.is-compact {
+  max-width: max-content;
+}
+
+.select option {
+  font-weight: normal;
+}
+
+.label {
+  width: 100%;
+}
+
+.span {
+  display: block;
+  width: 100%;
+  color: var(--color-primary);
+  font-size: var(--font-size-md);
+}
+
+.is-hide {
+  display: none;
+}

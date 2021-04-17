@@ -29,7 +29,6 @@ export const Input = ({
           htmlFor={id}
           aria-labelledby={id}
           className={getStyles('input-label', ['color'], {
-            'is-show-label': isShowLabel,
             'is-error': isError,
           })}
         >
