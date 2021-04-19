@@ -1,0 +1,29 @@
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--color-primary);
+  border-radius: var(--border-radius-full);
+}
+
+.size-sm {
+  max-width: 24px;
+  max-height: 24px;
+}
+
+.size-md {
+  max-width: 36px;
+  max-height: 36px;
+}
+
+.size-lg {
+  max-width: 48px;
+  max-height: 48px;
+}
+
+.avatar-img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--border-radius-full);
+  object-fit: cover;
+}
