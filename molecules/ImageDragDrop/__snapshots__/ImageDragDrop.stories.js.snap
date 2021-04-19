@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Molecules/ImageDragDrop Colors 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "background": "",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+      "padding": "2em",
+    }
+  }
+>
+  <div
+    className="imageDragDrop"
+    onClick={[Function]}
+    onKeyPress={[Function]}
+    style={
+      Object {
+        "height": 150,
+        "width": 150,
+      }
+    }
+    tabIndex="0"
+  >
+    <img
+      alt="insert your photo"
+      onDragEnter={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDrop={[Function]}
+      src="https://dummyimage.com/150x150/#b4d1f/#3b3f4"
+      style={
+        Object {
+          "height": 150,
+          "width": 150,
+        }
+      }
+    />
+    <input
+      accept="image/*"
+      className="input-image"
+      onChange={[Function]}
+      type="file"
+    />
+  </div>
+  <div
+    className="imageDragDrop"
+    onClick={[Function]}
+    onKeyPress={[Function]}
+    style={
+      Object {
+        "height": 150,
+        "width": 150,
+      }
+    }
+    tabIndex="0"
+  >
+    <img
+      alt="insert your photo"
+      onDragEnter={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDrop={[Function]}
+      src="https://dummyimage.com/150x150/#b4d1f/#3b3f4"
+      style={
+        Object {
+          "height": 150,
+          "width": 150,
+        }
+      }
+    />
+    <input
+      accept="image/*"
+      className="input-image"
+      onChange={[Function]}
+      type="file"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/ImageDragDrop Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "background": "",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+      "padding": "2em",
+    }
+  }
+>
+  <div
+    className="imageDragDrop"
+    onClick={[Function]}
+    onKeyPress={[Function]}
+    style={
+      Object {
+        "height": 150,
+        "width": 150,
+      }
+    }
+    tabIndex="0"
+  >
+    <img
+      alt="insert your photo"
+      onDragEnter={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDrop={[Function]}
+      src="https://dummyimage.com/150x150/#b4d1f/#3b3f4"
+      style={
+        Object {
+          "height": 150,
+          "width": 150,
+        }
+      }
+    />
+    <input
+      accept="image/*"
+      className="input-image"
+      onChange={[Function]}
+      type="file"
+    />
+  </div>
+</div>
+`;
