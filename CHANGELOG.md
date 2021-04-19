@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/thotluna/components/compare/v2.1.0...v2.2.0) (2021-04-19)
+
+
+### Features
+
+* **imagedragdrop:** create ImageDragDrop component ([51f7ab6](https://github.com/thotluna/components/commit/51f7ab67080f536386090a1a64adb716f42789a6)), closes [#64](https://github.com/thotluna/components/issues/64)
+
 # [2.1.0](https://github.com/thotluna/components/compare/v2.0.3...v2.1.0) (2021-04-17)
 
 
