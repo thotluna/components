@@ -1,0 +1,20 @@
+.imageDragDrop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px dashed var(--color-basic-white);
+  border-radius: var(--border-radius-full);
+}
+
+.is-drag {
+  border: 4px dashed var(--color-primary);
+}
+
+.imageDragDrop > img {
+  border-radius: var(--border-radius-full);
+  object-fit: cover;
+}
+
+.input-image {
+  display: none;
+}
