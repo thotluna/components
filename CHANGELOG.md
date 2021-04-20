@@ -1,3 +1,11 @@
+# [2.3.0](https://github.com/thotluna/components/compare/v2.2.0...v2.3.0) (2021-04-20)
+
+
+### Features
+
+* **avatar and avatarbar:** create Avatar and AvatarBar Component ([b97b741](https://github.com/thotluna/components/commit/b97b741bb560d00d8227159e15721df74549be1d)), closes [#67](https://github.com/thotluna/components/issues/67)
+* **create avatar:** created Avatar Component ([2ddc912](https://github.com/thotluna/components/commit/2ddc9127720ed408d21638fdbf8d5031c7187dff)), closes [#67](https://github.com/thotluna/components/issues/67)
+
 # [2.2.0](https://github.com/thotluna/components/compare/v2.1.0...v2.2.0) (2021-04-19)
 
 
