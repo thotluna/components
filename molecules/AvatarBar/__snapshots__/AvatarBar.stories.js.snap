@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Molecules/AvatarBar Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "background": "",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+      "padding": "2em",
+    }
+  }
+>
+  <div
+    className="avatarBar size-lg"
+  >
+    <div
+      className="avatar size-lg"
+    >
+      <img
+        alt="your avatar"
+        className="avatar size-lg"
+        src="https://i.pravatar.cc/300"
+      />
+    </div>
+    <div
+      className="avatar-data"
+    >
+      <h2
+        className="title color-base"
+      >
+        Eladio Feijoo
+      </h2>
+      <p
+        className="paragraph color-inverted size-sm"
+      >
+        eladio.feijoo@gmail.com
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/AvatarBar Size 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "background": "",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+      "padding": "2em",
+    }
+  }
+>
+  <div
+    className="avatarBar size-sm"
+  >
+    <div
+      className="avatar size-sm"
+    >
+      <img
+        alt="your avatar"
+        className="avatar size-sm"
+        src="https://i.pravatar.cc/300"
+      />
+    </div>
+    <div
+      className="avatar-data"
+    >
+      <h4
+        className="title color-base"
+      >
+        Eladio Feijoo
+      </h4>
+    </div>
+  </div>
+  <div
+    className="avatarBar size-lg"
+  >
+    <div
+      className="avatar size-lg"
+    >
+      <img
+        alt="your avatar"
+        className="avatar size-lg"
+        src="https://i.pravatar.cc/300"
+      />
+    </div>
+    <div
+      className="avatar-data"
+    >
+      <h2
+        className="title color-base"
+      >
+        Eladio Feijoo
+      </h2>
+      <p
+        className="paragraph color-inverted size-sm"
+      >
+        eladio.feijoo@gmail.com
+      </p>
+    </div>
+  </div>
+</div>
+`;

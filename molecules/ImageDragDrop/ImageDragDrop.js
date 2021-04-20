@@ -12,6 +12,7 @@ const DRAG_IMAGE_STATES = {
   DRAG_OVER: true,
 }
 
+// FIXME: Remove all functions a other file
 export const ImageDragDrop = ({ width, handelFile }) => {
   const inputRef = useRef()
   const [drag, setDrag] = useState(DRAG_IMAGE_STATES.NONE)
