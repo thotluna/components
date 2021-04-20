@@ -1,3 +1,10 @@
+# [2.4.0](https://github.com/thotluna/components/compare/v2.3.0...v2.4.0) (2021-04-20)
+
+
+### Features
+
+* **lineseparato:** create LineSeparator component ([6ce79e3](https://github.com/thotluna/components/commit/6ce79e3c4f32f990f4e5f002910de456dbe423f4)), closes [#68](https://github.com/thotluna/components/issues/68)
+
 # [2.3.0](https://github.com/thotluna/components/compare/v2.2.0...v2.3.0) (2021-04-20)
 
 
