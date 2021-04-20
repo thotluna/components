@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Molecules/InputTask Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "background": "",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+      "padding": "2em",
+    }
+  }
+>
+  <div
+    className="inputTask"
+    onFocus={[Function]}
+    tabIndex="0"
+  >
+    <h3
+      className="title color-base"
+    >
+      What are we going to do today?.
+    </h3>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/InputTask Status 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "background": "",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+      "padding": "2em",
+    }
+  }
+>
+  <div
+    className="inputTask"
+    onFocus={[Function]}
+    tabIndex="0"
+  >
+    <h3
+      className="title color-base"
+    >
+      What are we going to do today?.
+    </h3>
+  </div>
+  <div
+    className="input-container"
+  >
+    <div
+      className="input-wrap"
+    >
+      <div
+        className="input-frame"
+      >
+        <input
+          aria-label="input"
+          className="input"
+          id="input"
+          name="input"
+          onChange={[Function]}
+          onKeyPress={[Function]}
+          placeholder="is placeholder"
+          value=""
+        />
+        <div
+          className="input-message"
+        >
+          <h4
+            className="title color-primary"
+          >
+            Enter for continued
+          </h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

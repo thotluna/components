@@ -1,0 +1,10 @@
+.inputTask {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 17px;
+  border: 2px solid var(--color-primary);
+  background-color: var(--color-background);
+  border-radius: var(--border-radius-full);
+}
