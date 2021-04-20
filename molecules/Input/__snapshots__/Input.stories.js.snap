@@ -38,6 +38,7 @@ exports[`Storyshots Molecules/Input Default 1`] = `
           className="input"
           id="input"
           name="input"
+          onKeyPress={[Function]}
           placeholder="is placeholder"
         />
       </div>
@@ -84,6 +85,7 @@ exports[`Storyshots Molecules/Input Default Compact 1`] = `
           className="input"
           id="input"
           name="input"
+          onKeyPress={[Function]}
           placeholder="is placeholder"
         />
       </div>
@@ -130,6 +132,7 @@ exports[`Storyshots Molecules/Input Default Error 1`] = `
           className="input"
           id="input"
           name="input"
+          onKeyPress={[Function]}
           placeholder="is placeholder"
         />
         <span
@@ -207,6 +210,7 @@ exports[`Storyshots Molecules/Input Default Error Without Label 1`] = `
           className="input"
           id="input"
           name="input"
+          onKeyPress={[Function]}
           placeholder="is placeholder"
         />
         <span
@@ -291,6 +295,7 @@ exports[`Storyshots Molecules/Input Default With Key Enter Message 1`] = `
           className="input"
           id="input"
           name="input"
+          onKeyPress={[Function]}
           placeholder="is placeholder"
         />
         <div
@@ -339,6 +344,7 @@ exports[`Storyshots Molecules/Input Default Without Label 1`] = `
           className="input"
           id="input"
           name="input"
+          onKeyPress={[Function]}
           placeholder="is placeholder"
         />
       </div>

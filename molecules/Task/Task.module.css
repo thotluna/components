@@ -1,0 +1,21 @@
+.task {
+  display: flex;
+  width: 100%;
+  height: 67px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 17px;
+  border: 2px solid var(--color-primary);
+  background-color: var(--color-background);
+  border-radius: var(--border-radius-full);
+}
+
+.task.status-first {
+  border-bottom: 5px solid var(--color-brand-light-slate-blue);
+  box-shadow: 20px 20px 60px #363636, -20px -20px 60px #4a4848;
+}
+
+.task.status-second {
+  border-bottom: 5px solid var(--color-brand-shocking-ping);
+  box-shadow: 20px 20px 60px #363636, -20px -20px 60px #4a4848;
+}
