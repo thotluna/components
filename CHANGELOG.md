@@ -1,3 +1,11 @@
+# [2.5.0](https://github.com/thotluna/components/compare/v2.4.0...v2.5.0) (2021-04-20)
+
+
+### Features
+
+* **inputtask:** create InputTask component ([c3d69b0](https://github.com/thotluna/components/commit/c3d69b0fb125a4dc262fde7fcd0fbcc151c2765c)), closes [#69](https://github.com/thotluna/components/issues/69)
+* **task:** create Task Component ([38460e5](https://github.com/thotluna/components/commit/38460e58665fff2878d37a9ec0a181401415c3ff)), closes [#69](https://github.com/thotluna/components/issues/69)
+
 # [2.4.0](https://github.com/thotluna/components/compare/v2.3.0...v2.4.0) (2021-04-20)
 
 
