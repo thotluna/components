@@ -1,0 +1,25 @@
+.lineSeparator {
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.color-primary {
+  background-color: var(--color-primary);
+}
+
+.color-secondary {
+  background-color: var(--color-secondary);
+}
+
+.size-sm {
+  height: 1px;
+}
+
+.size-md {
+  height: 2px;
+}
+
+.size-lg {
+  height: 4px;
+}
