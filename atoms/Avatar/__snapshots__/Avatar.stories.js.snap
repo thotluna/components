@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Atoms/Avatar Default 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "background": "",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+      "padding": "2em",
+    }
+  }
+>
+  <div
+    className="avatar size-md"
+  >
+    <img
+      alt="your avatar"
+      className="avatar size-md"
+      src="https://i.pravatar.cc/300"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Avatar Sizes 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "background": "",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+      "padding": "2em",
+    }
+  }
+>
+  <div
+    className="avatar size-sm"
+  >
+    <img
+      alt="your avatar"
+      className="avatar size-sm"
+      src="https://i.pravatar.cc/300"
+    />
+  </div>
+  <div
+    className="avatar size-md"
+  >
+    <img
+      alt="your avatar"
+      className="avatar size-md"
+      src="https://i.pravatar.cc/300"
+    />
+  </div>
+  <div
+    className="avatar size-lg"
+  >
+    <img
+      alt="your avatar"
+      className="avatar size-lg"
+      src="https://i.pravatar.cc/300"
+    />
+  </div>
+</div>
+`;
