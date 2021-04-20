@@ -5,11 +5,14 @@ export const options = {
   types: [
     'alert',
     'check',
+    'circle',
     'close',
     'down-chevron',
+    'drag',
     'left-chevron',
     'menu',
     'save',
+    'trash',
   ],
 }
 
@@ -53,6 +56,20 @@ export const getIcon = (type) => {
           </g>
         </svg>
       )
+    case 'circle':
+      return (
+        <svg
+          height={22}
+          viewBox="0 0 22 22"
+          width={22}
+          xmlns="http://www.w3.org/2000/svg"
+          stroke="currentColor"
+        >
+          <g fill="none" fillRule="evenodd" transform="translate(1 1)">
+            <circle cx="10" cy="10" r="10" strokeWidth="2.5" />
+          </g>
+        </svg>
+      )
     case 'check':
       return (
         <svg
@@ -62,12 +79,15 @@ export const getIcon = (type) => {
           xmlns="http://www.w3.org/2000/svg"
           stroke="currentColor"
         >
-          <path
-            d="M5.5 11.5l3 3 8.028-8"
+          <g
             fill="none"
+            fillRule="evenodd"
             strokeLinecap="round"
             strokeLinejoin="round"
-          />
+            strokeWidth="2"
+          >
+            <path d="M14.857 3.79a8 8 0 102.852 3.24M6.5 9.5l3 3 8-8" />
+          </g>
         </svg>
       )
     case 'close':
@@ -136,6 +156,38 @@ export const getIcon = (type) => {
             strokeLinejoin="round"
             transform="translate(6 8)"
           />
+        </svg>
+      )
+    case 'trash':
+      return (
+        <svg
+          height={21}
+          viewBox="0 0 21 21"
+          width={21}
+          xmlns="http://www.w3.org/2000/svg"
+          stroke="currentColor"
+        >
+          <g
+            fill="none"
+            fillRule="evenodd"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <path d="M5.5 4.5h10v12a2 2 0 01-2 2h-6a2 2 0 01-2-2zm5-2a2 2 0 011.995 1.85l.005.15h-4a2 2 0 012-2zM3.5 4.5h14M8.5 7.5v8M12.5 7.5v8" />
+          </g>
+        </svg>
+      )
+    case 'drag':
+      return (
+        <svg
+          height={21}
+          viewBox="0 0 21 21"
+          width={21}
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g fill="currentColor" fillRule="evenodd">
+            <path d="M7 5h2v2H7zM12 5h2v2h-2zM7 9h2v2H7zM12 9h2v2h-2zM7 13h2v2H7zM12 13h2v2h-2z" />
+          </g>
         </svg>
       )
 
