@@ -68,7 +68,7 @@ Button.propTypes = {
   iconRight: PropTypes.oneOf(optionIcon.types),
   color: PropTypes.oneOf(options.colors),
   isCompact: PropTypes.bool,
-  sizeIcon: PropTypes.oneOf(optionIcon.size),
+  sizeIcon: PropTypes.oneOf(optionIcon.sizes),
 }
 
 Button.defaultProps = {
