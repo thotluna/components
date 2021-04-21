@@ -23,36 +23,25 @@ exports[`Storyshots Molecules/Task Default 1`] = `
     <div
       className="wrapper"
     >
-      <button
-        aria-label="culminated button"
-        className="button color-base is-round"
-        id="button-trash"
+      <span
+        className="icon color-base size-md"
       >
-        <span
-          className="icon color-base size-md"
+        <svg
+          height={21}
+          viewBox="0 0 21 21"
+          width={21}
+          xmlns="http://www.w3.org/2000/svg"
         >
-          <svg
-            height={21}
-            stroke="currentColor"
-            viewBox="0 0 21 21"
-            width={21}
-            xmlns="http://www.w3.org/2000/svg"
+          <g
+            fill="currentColor"
+            fillRule="evenodd"
           >
-            <g
-              fill="none"
-              fillRule="evenodd"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <path
-                d="M14.857 3.79a8 8 0 102.852 3.24M6.5 9.5l3"
-              />
-            </g>
-          </svg>
-        </span>
-        
-        
-      </button>
+            <path
+              d="M7 5h2v2H7zM12 5h2v2h-2zM7 9h2v2H7zM12 9h2v2h-2zM7 13h2v2H7zM12 13h2v2h-2z"
+            />
+          </g>
+        </svg>
+      </span>
       <h4
         className="title color-base"
       >
@@ -63,9 +52,464 @@ exports[`Storyshots Molecules/Task Default 1`] = `
       aria-label="delete button"
       className="button color-base is-round"
       id="button-trash"
+      onClick={[Function]}
+    >
+      <span
+        className="icon color-base size-sm"
+      >
+        <svg
+          height={21}
+          stroke="currentColor"
+          viewBox="0 0 21 21"
+          width={21}
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            fill="none"
+            fillRule="evenodd"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <path
+              d="M5.5 4.5h10v12a2 2 0 01-2 2h-6a2 2 0 01-2-2zm5-2a2 2 0 011.995 1.85l.005.15h-4a2 2 0 012-2zM3.5 4.5h14M8.5 7.5v8M12.5 7.5v8"
+            />
+          </g>
+        </svg>
+      </span>
+      
+      
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/Task First Active 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "background": "",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+      "padding": "2em",
+    }
+  }
+>
+  <div
+    className="task is-first"
+  >
+    <div
+      className="wrapper"
+    >
+      <input
+        aria-label="check"
+        checked={false}
+        className="checkbox"
+        id="check"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <h4
+        className="title color-base"
+      >
+        Consent doubt Tuckborough challenge destroying.
+      </h4>
+    </div>
+    <button
+      aria-label="delete button"
+      className="button color-base is-round"
+      id="button-trash"
+      onClick={[Function]}
+    >
+      <span
+        className="icon color-base size-sm"
+      >
+        <svg
+          height={21}
+          stroke="currentColor"
+          viewBox="0 0 21 21"
+          width={21}
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            fill="none"
+            fillRule="evenodd"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <path
+              d="M5.5 4.5h10v12a2 2 0 01-2 2h-6a2 2 0 01-2-2zm5-2a2 2 0 011.995 1.85l.005.15h-4a2 2 0 012-2zM3.5 4.5h14M8.5 7.5v8M12.5 7.5v8"
+            />
+          </g>
+        </svg>
+      </span>
+      
+      
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/Task First Culminated 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "background": "",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+      "padding": "2em",
+    }
+  }
+>
+  <div
+    className="task"
+  >
+    <div
+      className="wrapper"
+    >
+      <input
+        aria-label="check"
+        checked={true}
+        className="checkbox"
+        id="check"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <h4
+        className="title color-base"
+      >
+        Consent doubt Tuckborough challenge destroying.
+      </h4>
+    </div>
+    <button
+      aria-label="delete button"
+      className="button color-base is-round"
+      id="button-trash"
+      onClick={[Function]}
+    >
+      <span
+        className="icon color-base size-sm"
+      >
+        <svg
+          height={21}
+          stroke="currentColor"
+          viewBox="0 0 21 21"
+          width={21}
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            fill="none"
+            fillRule="evenodd"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <path
+              d="M5.5 4.5h10v12a2 2 0 01-2 2h-6a2 2 0 01-2-2zm5-2a2 2 0 011.995 1.85l.005.15h-4a2 2 0 012-2zM3.5 4.5h14M8.5 7.5v8M12.5 7.5v8"
+            />
+          </g>
+        </svg>
+      </span>
+      
+      
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/Task First Pending 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "background": "",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+      "padding": "2em",
+    }
+  }
+>
+  <div
+    className="task is-first"
+  >
+    <div
+      className="wrapper"
     >
       <span
         className="icon color-base size-md"
+      >
+        <svg
+          height={21}
+          viewBox="0 0 21 21"
+          width={21}
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            fill="currentColor"
+            fillRule="evenodd"
+          >
+            <path
+              d="M7 5h2v2H7zM12 5h2v2h-2zM7 9h2v2H7zM12 9h2v2h-2zM7 13h2v2H7zM12 13h2v2h-2z"
+            />
+          </g>
+        </svg>
+      </span>
+      <h4
+        className="title color-base"
+      >
+        Consent doubt Tuckborough challenge destroying.
+      </h4>
+    </div>
+    <button
+      aria-label="delete button"
+      className="button color-base is-round"
+      id="button-trash"
+      onClick={[Function]}
+    >
+      <span
+        className="icon color-base size-sm"
+      >
+        <svg
+          height={21}
+          stroke="currentColor"
+          viewBox="0 0 21 21"
+          width={21}
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            fill="none"
+            fillRule="evenodd"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <path
+              d="M5.5 4.5h10v12a2 2 0 01-2 2h-6a2 2 0 01-2-2zm5-2a2 2 0 011.995 1.85l.005.15h-4a2 2 0 012-2zM3.5 4.5h14M8.5 7.5v8M12.5 7.5v8"
+            />
+          </g>
+        </svg>
+      </span>
+      
+      
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/Task Second Active 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "background": "",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+      "padding": "2em",
+    }
+  }
+>
+  <div
+    className="task is-second"
+  >
+    <div
+      className="wrapper"
+    >
+      <input
+        aria-label="check"
+        checked={false}
+        className="checkbox"
+        id="check"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <h4
+        className="title color-base"
+      >
+        Consent doubt Tuckborough challenge destroying.
+      </h4>
+    </div>
+    <button
+      aria-label="delete button"
+      className="button color-base is-round"
+      id="button-trash"
+      onClick={[Function]}
+    >
+      <span
+        className="icon color-base size-sm"
+      >
+        <svg
+          height={21}
+          stroke="currentColor"
+          viewBox="0 0 21 21"
+          width={21}
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            fill="none"
+            fillRule="evenodd"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <path
+              d="M5.5 4.5h10v12a2 2 0 01-2 2h-6a2 2 0 01-2-2zm5-2a2 2 0 011.995 1.85l.005.15h-4a2 2 0 012-2zM3.5 4.5h14M8.5 7.5v8M12.5 7.5v8"
+            />
+          </g>
+        </svg>
+      </span>
+      
+      
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/Task Second Culminated 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "background": "",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+      "padding": "2em",
+    }
+  }
+>
+  <div
+    className="task"
+  >
+    <div
+      className="wrapper"
+    >
+      <input
+        aria-label="check"
+        checked={true}
+        className="checkbox"
+        id="check"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <h4
+        className="title color-base"
+      >
+        Consent doubt Tuckborough challenge destroying.
+      </h4>
+    </div>
+    <button
+      aria-label="delete button"
+      className="button color-base is-round"
+      id="button-trash"
+      onClick={[Function]}
+    >
+      <span
+        className="icon color-base size-sm"
+      >
+        <svg
+          height={21}
+          stroke="currentColor"
+          viewBox="0 0 21 21"
+          width={21}
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            fill="none"
+            fillRule="evenodd"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <path
+              d="M5.5 4.5h10v12a2 2 0 01-2 2h-6a2 2 0 01-2-2zm5-2a2 2 0 011.995 1.85l.005.15h-4a2 2 0 012-2zM3.5 4.5h14M8.5 7.5v8M12.5 7.5v8"
+            />
+          </g>
+        </svg>
+      </span>
+      
+      
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/Task Second Pending 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "background": "",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+      "padding": "2em",
+    }
+  }
+>
+  <div
+    className="task is-second"
+  >
+    <div
+      className="wrapper"
+    >
+      <span
+        className="icon color-base size-md"
+      >
+        <svg
+          height={21}
+          viewBox="0 0 21 21"
+          width={21}
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            fill="currentColor"
+            fillRule="evenodd"
+          >
+            <path
+              d="M7 5h2v2H7zM12 5h2v2h-2zM7 9h2v2H7zM12 9h2v2h-2zM7 13h2v2H7zM12 13h2v2h-2z"
+            />
+          </g>
+        </svg>
+      </span>
+      <h4
+        className="title color-base"
+      >
+        Consent doubt Tuckborough challenge destroying.
+      </h4>
+    </div>
+    <button
+      aria-label="delete button"
+      className="button color-base is-round"
+      id="button-trash"
+      onClick={[Function]}
+    >
+      <span
+        className="icon color-base size-sm"
       >
         <svg
           height={21}

@@ -1,56 +1,55 @@
-import React, { useState } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
 import styles from './Task.module.css'
-import { options, states } from './constants'
 import { getClasses } from '../../helpers/styles'
 
 import Button from '../Button'
 import Title from '../../atoms/Title'
 import Icon from '../../atoms/Icon'
+import Checkbox from '../../atoms/Checkbox'
 
-export const Task = ({ description, newState }) => {
-  const [state, setState] = useState(newState)
+const handelDelete = ({ idTask, onDelete }) => () => {
+  onDelete(idTask)
+}
+
+export const Task = ({
+  idTask,
+  position,
+  description,
+  isChecked,
+  isPending,
+  onChecked,
+  onDelete,
+}) => {
   const getStyles = getClasses(styles)({})
 
-  const getTypeIcon = () => {
-    switch (state) {
-      case states.ACTIVE:
-        return 'circle'
-
-      case states.CULMINATED:
-        return 'check'
-
-      case states.DELETE:
-        return 'close'
-
-      default:
-        return 'drag'
-    }
-  }
-
   return (
-    <div className={getStyles('task')}>
+    <div
+      className={getStyles('task', {
+        'is-first': position === 0 && !isChecked,
+        'is-second': position === 1 && !isChecked,
+      })}
+    >
       <div className={getStyles('wrapper')}>
-        {state === states.ACTIVE ? (
-          <Button
-            ariaLabel="culminated button"
-            icon={getTypeIcon()}
-            id="button-trash"
-            onClick={() => {
-              setState(states.CULMINATED)
-            }}
-            value=""
-          />
+        {isPending ? (
+          <Icon type="drag" size="md" />
         ) : (
-          <Icon size="md" type={getTypeIcon()} />
+          <Checkbox
+            ariaLabel="check"
+            id="check"
+            isChecked={isChecked}
+            onChecked={onChecked}
+          />
         )}
+
         <Title>{description}</Title>
       </div>
       <Button
         ariaLabel="delete button"
         icon="trash"
         id="button-trash"
-        onClick={() => {}}
+        sizeIcon="sm"
+        handelOnClick={handelDelete({ idTask, onDelete })}
         value=""
       />
     </div>
@@ -58,12 +57,18 @@ export const Task = ({ description, newState }) => {
 }
 
 Task.propTypes = {
+  idTask: PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired,
   description: PropTypes.string.isRequired,
-  newState: PropTypes.oneOf(options.states),
+  position: PropTypes.number,
+  isChecked: PropTypes.bool,
+  isPending: PropTypes.bool,
+  onChecked: PropTypes.func,
+  onDelete: PropTypes.func,
 }
 
 Task.defaultProps = {
-  state: states.ACTIVE,
+  isChecked: false,
+  isPending: true,
 }
 
 export default Task

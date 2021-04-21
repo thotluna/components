@@ -13,6 +13,7 @@ export const Button = ({
   color,
   icon,
   iconRight,
+  sizeIcon,
   isCompact,
   handelOnClick,
 }) => {
@@ -30,10 +31,10 @@ export const Button = ({
       {icon && (
         <Icon
           type={icon}
+          size={sizeIcon}
           color={
             color === 'base' ? 'base' : color === 'error' ? 'error' : 'primary'
           }
-          size="md"
         />
       )}
       {icon && value && <Spacer.Vertical size="sm" />}
@@ -43,6 +44,7 @@ export const Button = ({
           <Spacer.Vertical size="sm" />
           <Icon
             type={iconRight}
+            size={sizeIcon}
             color={
               color === 'base'
                 ? 'base'
@@ -66,11 +68,13 @@ Button.propTypes = {
   iconRight: PropTypes.oneOf(optionIcon.types),
   color: PropTypes.oneOf(options.colors),
   isCompact: PropTypes.bool,
+  sizeIcon: PropTypes.oneOf(optionIcon.size),
 }
 
 Button.defaultProps = {
   color: 'base',
   isCompact: false,
+  sizeIcon: 'md',
 }
 
 export default Button
