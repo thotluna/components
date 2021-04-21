@@ -1,3 +1,10 @@
+## [2.6.1](https://github.com/thotluna/components/compare/v2.6.0...v2.6.1) (2021-04-21)
+
+
+### Bug Fixes
+
+* **button:** repair error with size of icon in button ([6aaa614](https://github.com/thotluna/components/commit/6aaa6149bedc0d526cc6db01b5eba01c54d2d894)), closes [#69](https://github.com/thotluna/components/issues/69)
+
 # [2.6.0](https://github.com/thotluna/components/compare/v2.5.0...v2.6.0) (2021-04-21)
 
 
