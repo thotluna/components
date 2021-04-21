@@ -1,3 +1,11 @@
+# [2.6.0](https://github.com/thotluna/components/compare/v2.5.0...v2.6.0) (2021-04-21)
+
+
+### Features
+
+* **checkbox:** create Checkbox component ([3b266f7](https://github.com/thotluna/components/commit/3b266f7e661eefec7bdea99dd4ff054ab474029b)), closes [#69](https://github.com/thotluna/components/issues/69)
+* **task:** recreate Task component ([ed2319f](https://github.com/thotluna/components/commit/ed2319fc379103e8567df99dc99a6a1932b5e1a4)), closes [#69](https://github.com/thotluna/components/issues/69)
+
 # [2.5.0](https://github.com/thotluna/components/compare/v2.4.0...v2.5.0) (2021-04-20)
 
 
