@@ -27,7 +27,7 @@ exports[`Storyshots Molecules/Menu Active 1`] = `
       onClick={[Function]}
     >
       <span
-        className="icon color-base size-sm"
+        className="icon color-base size-md"
       >
         <svg
           fill="currentColor"
@@ -105,7 +105,7 @@ exports[`Storyshots Molecules/Menu Default 1`] = `
       onClick={[Function]}
     >
       <span
-        className="icon color-base size-sm"
+        className="icon color-base size-md"
       >
         <svg
           fill="currentColor"
@@ -157,7 +157,7 @@ exports[`Storyshots Molecules/Menu Posicion 1`] = `
       onClick={[Function]}
     >
       <span
-        className="icon color-base size-sm"
+        className="icon color-base size-md"
       >
         <svg
           fill="currentColor"
@@ -189,7 +189,7 @@ exports[`Storyshots Molecules/Menu Posicion 1`] = `
       onClick={[Function]}
     >
       <span
-        className="icon color-base size-sm"
+        className="icon color-base size-md"
       >
         <svg
           fill="currentColor"

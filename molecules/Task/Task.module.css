@@ -1,21 +1,26 @@
 .task {
   display: flex;
   width: 100%;
-  height: 67px;
+  height: 60px;
   align-items: center;
   justify-content: space-between;
-  padding: 12px 17px;
+  padding: 0 1rem;
   border: 2px solid var(--color-primary);
-  background-color: var(--color-background);
-  border-radius: var(--border-radius-full);
+  border-radius: var(--border-radius-md);
 }
 
-.task.status-first {
-  border-bottom: 5px solid var(--color-brand-light-slate-blue);
-  box-shadow: 20px 20px 60px #363636, -20px -20px 60px #4a4848;
+.wrapper {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
 }
 
-.task.status-second {
-  border-bottom: 5px solid var(--color-brand-shocking-ping);
-  box-shadow: 20px 20px 60px #363636, -20px -20px 60px #4a4848;
+.is-first {
+  border-bottom: 8px solid var(--color-brand-light-slate-blue);
+}
+
+.is-second {
+  border-bottom: 8px solid var(--color-brand-shocking-ping);
 }

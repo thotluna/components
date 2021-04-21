@@ -1,16 +1,9 @@
-export const statusTask = {
-  FIRST: 'first',
-  SECOND: 'second',
+export const states = {
+  ACTIVE: 'active',
   PENDING: 'pending',
   CULMINATED: 'culminated',
-  ACTIVE: 'active',
+  DELETE: 'delete',
 }
 export const options = {
-  status: [
-    statusTask.FIRST,
-    statusTask.SECOND,
-    statusTask.PENDING,
-    statusTask.CULMINATED,
-    statusTask.ACTIVE,
-  ],
+  states: [states.ACTIVE, states.CULMINATED, states.DELETE, states.PENDING],
 }

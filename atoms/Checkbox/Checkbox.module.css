@@ -1,0 +1,20 @@
+.checkbox {
+  position: relative;
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  border: 2px solid var(--color-primary);
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: var(--color-background);
+  border-radius: var(--border-radius-full);
+}
+
+.checkbox:checked::after {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  color: var(--color-primary);
+  content: '\2714';
+  font-size: 18px;
+}

@@ -1,65 +1,74 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { styles, options } from '.'
+import styles from './Task.module.css'
 import { getClasses } from '../../helpers/styles'
 
-import Icon from '../../atoms/Icon'
-import Title from '../../atoms/Title'
 import Button from '../Button'
-import { statusTask } from './constants'
+import Title from '../../atoms/Title'
+import Icon from '../../atoms/Icon'
+import Checkbox from '../../atoms/Checkbox'
 
-export const Task = ({ children, status, handelOnDelete, handelOnCheck }) => {
-  const getStyles = getClasses(styles)({ status })
+const handelDelete = ({ idTask, onDelete }) => () => {
+  onDelete(idTask)
+}
+
+export const Task = ({
+  idTask,
+  position,
+  description,
+  isChecked,
+  isPending,
+  onChecked,
+  onDelete,
+}) => {
+  const getStyles = getClasses(styles)({})
 
   return (
-    <div className={getStyles('task', ['status'])}>
-      <div
-        style={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'flex-start',
-          gap: '2rem',
-        }}
-      >
-        {(status === statusTask.FIRST ||
-          status === statusTask.SECOND ||
-          status === statusTask.PENDING) && <Icon type="drag" />}
-        {status === statusTask.ACTIVE && (
-          <Button
-            id="Delete task"
-            ariaLabel="Delete task"
-            icon="circle"
-            onClick={handelOnCheck}
-            value=""
+    <div
+      className={getStyles('task', {
+        'is-first': position === 0 && !isChecked,
+        'is-second': position === 1 && !isChecked,
+      })}
+    >
+      <div className={getStyles('wrapper')}>
+        {isPending ? (
+          <Icon type="drag" size="md" />
+        ) : (
+          <Checkbox
+            ariaLabel="check"
+            id="check"
+            isChecked={isChecked}
+            onChecked={onChecked}
           />
         )}
-        {status === statusTask.CULMINATED && <Icon type="check" />}
-        <Title size="md">{children + ' ' + status}</Title>
+
+        <Title>{description}</Title>
       </div>
-      {(status === statusTask.FIRST ||
-        status === statusTask.SECOND ||
-        status === statusTask.PENDING) && (
-        <Button
-          id="Delete task"
-          ariaLabel="Delete task"
-          icon="trash"
-          onClick={handelOnDelete}
-          value=""
-        />
-      )}
+      <Button
+        ariaLabel="delete button"
+        icon="trash"
+        id="button-trash"
+        sizeIcon="sm"
+        handelOnClick={handelDelete({ idTask, onDelete })}
+        value=""
+      />
     </div>
   )
 }
 
 Task.propTypes = {
-  children: PropTypes.node.isRequired,
-  handelOnDelete: PropTypes.func.isRequired,
-  handelOnCheck: PropTypes.func.isRequired,
-  status: PropTypes.oneOf(options.status),
+  idTask: PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired,
+  description: PropTypes.string.isRequired,
+  position: PropTypes.number,
+  isChecked: PropTypes.bool,
+  isPending: PropTypes.bool,
+  onChecked: PropTypes.func,
+  onDelete: PropTypes.func,
 }
 
 Task.defaultProps = {
-  status: statusTask.ACTIVE,
+  isChecked: false,
+  isPending: true,
 }
 
 export default Task

@@ -333,7 +333,6 @@ exports[`Storyshots Atoms/Icon Type Color 1`] = `
         fillRule="evenodd"
         strokeLinecap="round"
         strokeLinejoin="round"
-        strokeWidth="2"
       >
         <path
           d="M14.857 3.79a8 8 0 102.852 3.24M6.5 9.5l3 3 8-8"
@@ -356,7 +355,6 @@ exports[`Storyshots Atoms/Icon Type Color 1`] = `
         fillRule="evenodd"
         strokeLinecap="round"
         strokeLinejoin="round"
-        strokeWidth="2"
       >
         <path
           d="M14.857 3.79a8 8 0 102.852 3.24M6.5 9.5l3 3 8-8"
@@ -379,7 +377,6 @@ exports[`Storyshots Atoms/Icon Type Color 1`] = `
         fillRule="evenodd"
         strokeLinecap="round"
         strokeLinejoin="round"
-        strokeWidth="2"
       >
         <path
           d="M14.857 3.79a8 8 0 102.852 3.24M6.5 9.5l3 3 8-8"
@@ -391,22 +388,20 @@ exports[`Storyshots Atoms/Icon Type Color 1`] = `
     className="icon color-base size-md"
   >
     <svg
-      height={22}
+      height={21}
       stroke="currentColor"
-      viewBox="0 0 22 22"
-      width={22}
+      viewBox="0 0 21 21"
+      width={21}
       xmlns="http://www.w3.org/2000/svg"
     >
       <g
         fill="none"
         fillRule="evenodd"
-        transform="translate(1 1)"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       >
-        <circle
-          cx="10"
-          cy="10"
-          r="10"
-          strokeWidth="2.5"
+        <path
+          d="M14.857 3.79a8 8 0 102.852 3.24M6.5 9.5l3"
         />
       </g>
     </svg>
@@ -415,22 +410,20 @@ exports[`Storyshots Atoms/Icon Type Color 1`] = `
     className="icon color-primary size-md"
   >
     <svg
-      height={22}
+      height={21}
       stroke="currentColor"
-      viewBox="0 0 22 22"
-      width={22}
+      viewBox="0 0 21 21"
+      width={21}
       xmlns="http://www.w3.org/2000/svg"
     >
       <g
         fill="none"
         fillRule="evenodd"
-        transform="translate(1 1)"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       >
-        <circle
-          cx="10"
-          cy="10"
-          r="10"
-          strokeWidth="2.5"
+        <path
+          d="M14.857 3.79a8 8 0 102.852 3.24M6.5 9.5l3"
         />
       </g>
     </svg>
@@ -439,22 +432,20 @@ exports[`Storyshots Atoms/Icon Type Color 1`] = `
     className="icon color-error size-md"
   >
     <svg
-      height={22}
+      height={21}
       stroke="currentColor"
-      viewBox="0 0 22 22"
-      width={22}
+      viewBox="0 0 21 21"
+      width={21}
       xmlns="http://www.w3.org/2000/svg"
     >
       <g
         fill="none"
         fillRule="evenodd"
-        transform="translate(1 1)"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       >
-        <circle
-          cx="10"
-          cy="10"
-          r="10"
-          strokeWidth="2.5"
+        <path
+          d="M14.857 3.79a8 8 0 102.852 3.24M6.5 9.5l3"
         />
       </g>
     </svg>
@@ -752,6 +743,72 @@ exports[`Storyshots Atoms/Icon Type Color 1`] = `
       >
         <path
           d="M8.5 9.5c.5 0 1-.5 1-1s-.5-1-1-1-.999.5-.999 1 .499 1 .999 1zm-4 0c.5 0 1-.5 1-1s-.5-1-1-1-.999.5-.999 1 .499 1 .999 1zm8 0c.5 0 1-.5 1-1s-.5-1-1-1-.999.5-.999 1 .499 1 .999 1z"
+        />
+      </g>
+    </svg>
+  </span>
+  <span
+    className="icon color-base size-md"
+  >
+    <svg
+      height={21}
+      stroke="currentColor"
+      viewBox="0 0 21 21"
+      width={21}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g
+        fill="none"
+        fillRule="evenodd"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      >
+        <path
+          d="M10 19c4.438 0 8-3.526 8-7.964C18 6.598 14.438 3 10 3c-4.438 0-8 3.598-8 8.036S5.562 19 10 19zM6 11h8M10 15.056V7z"
+        />
+      </g>
+    </svg>
+  </span>
+  <span
+    className="icon color-primary size-md"
+  >
+    <svg
+      height={21}
+      stroke="currentColor"
+      viewBox="0 0 21 21"
+      width={21}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g
+        fill="none"
+        fillRule="evenodd"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      >
+        <path
+          d="M10 19c4.438 0 8-3.526 8-7.964C18 6.598 14.438 3 10 3c-4.438 0-8 3.598-8 8.036S5.562 19 10 19zM6 11h8M10 15.056V7z"
+        />
+      </g>
+    </svg>
+  </span>
+  <span
+    className="icon color-error size-md"
+  >
+    <svg
+      height={21}
+      stroke="currentColor"
+      viewBox="0 0 21 21"
+      width={21}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g
+        fill="none"
+        fillRule="evenodd"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      >
+        <path
+          d="M10 19c4.438 0 8-3.526 8-7.964C18 6.598 14.438 3 10 3c-4.438 0-8 3.598-8 8.036S5.562 19 10 19zM6 11h8M10 15.056V7z"
         />
       </g>
     </svg>
@@ -1010,7 +1067,6 @@ exports[`Storyshots Atoms/Icon Type Size 1`] = `
         fillRule="evenodd"
         strokeLinecap="round"
         strokeLinejoin="round"
-        strokeWidth="2"
       >
         <path
           d="M14.857 3.79a8 8 0 102.852 3.24M6.5 9.5l3 3 8-8"
@@ -1033,7 +1089,6 @@ exports[`Storyshots Atoms/Icon Type Size 1`] = `
         fillRule="evenodd"
         strokeLinecap="round"
         strokeLinejoin="round"
-        strokeWidth="2"
       >
         <path
           d="M14.857 3.79a8 8 0 102.852 3.24M6.5 9.5l3 3 8-8"
@@ -1056,7 +1111,6 @@ exports[`Storyshots Atoms/Icon Type Size 1`] = `
         fillRule="evenodd"
         strokeLinecap="round"
         strokeLinejoin="round"
-        strokeWidth="2"
       >
         <path
           d="M14.857 3.79a8 8 0 102.852 3.24M6.5 9.5l3 3 8-8"
@@ -1068,22 +1122,20 @@ exports[`Storyshots Atoms/Icon Type Size 1`] = `
     className="icon color-base size-sm"
   >
     <svg
-      height={22}
+      height={21}
       stroke="currentColor"
-      viewBox="0 0 22 22"
-      width={22}
+      viewBox="0 0 21 21"
+      width={21}
       xmlns="http://www.w3.org/2000/svg"
     >
       <g
         fill="none"
         fillRule="evenodd"
-        transform="translate(1 1)"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       >
-        <circle
-          cx="10"
-          cy="10"
-          r="10"
-          strokeWidth="2.5"
+        <path
+          d="M14.857 3.79a8 8 0 102.852 3.24M6.5 9.5l3"
         />
       </g>
     </svg>
@@ -1092,22 +1144,20 @@ exports[`Storyshots Atoms/Icon Type Size 1`] = `
     className="icon color-base size-md"
   >
     <svg
-      height={22}
+      height={21}
       stroke="currentColor"
-      viewBox="0 0 22 22"
-      width={22}
+      viewBox="0 0 21 21"
+      width={21}
       xmlns="http://www.w3.org/2000/svg"
     >
       <g
         fill="none"
         fillRule="evenodd"
-        transform="translate(1 1)"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       >
-        <circle
-          cx="10"
-          cy="10"
-          r="10"
-          strokeWidth="2.5"
+        <path
+          d="M14.857 3.79a8 8 0 102.852 3.24M6.5 9.5l3"
         />
       </g>
     </svg>
@@ -1116,22 +1166,20 @@ exports[`Storyshots Atoms/Icon Type Size 1`] = `
     className="icon color-base size-lg"
   >
     <svg
-      height={22}
+      height={21}
       stroke="currentColor"
-      viewBox="0 0 22 22"
-      width={22}
+      viewBox="0 0 21 21"
+      width={21}
       xmlns="http://www.w3.org/2000/svg"
     >
       <g
         fill="none"
         fillRule="evenodd"
-        transform="translate(1 1)"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       >
-        <circle
-          cx="10"
-          cy="10"
-          r="10"
-          strokeWidth="2.5"
+        <path
+          d="M14.857 3.79a8 8 0 102.852 3.24M6.5 9.5l3"
         />
       </g>
     </svg>
@@ -1429,6 +1477,72 @@ exports[`Storyshots Atoms/Icon Type Size 1`] = `
       >
         <path
           d="M8.5 9.5c.5 0 1-.5 1-1s-.5-1-1-1-.999.5-.999 1 .499 1 .999 1zm-4 0c.5 0 1-.5 1-1s-.5-1-1-1-.999.5-.999 1 .499 1 .999 1zm8 0c.5 0 1-.5 1-1s-.5-1-1-1-.999.5-.999 1 .499 1 .999 1z"
+        />
+      </g>
+    </svg>
+  </span>
+  <span
+    className="icon color-base size-sm"
+  >
+    <svg
+      height={21}
+      stroke="currentColor"
+      viewBox="0 0 21 21"
+      width={21}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g
+        fill="none"
+        fillRule="evenodd"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      >
+        <path
+          d="M10 19c4.438 0 8-3.526 8-7.964C18 6.598 14.438 3 10 3c-4.438 0-8 3.598-8 8.036S5.562 19 10 19zM6 11h8M10 15.056V7z"
+        />
+      </g>
+    </svg>
+  </span>
+  <span
+    className="icon color-base size-md"
+  >
+    <svg
+      height={21}
+      stroke="currentColor"
+      viewBox="0 0 21 21"
+      width={21}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g
+        fill="none"
+        fillRule="evenodd"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      >
+        <path
+          d="M10 19c4.438 0 8-3.526 8-7.964C18 6.598 14.438 3 10 3c-4.438 0-8 3.598-8 8.036S5.562 19 10 19zM6 11h8M10 15.056V7z"
+        />
+      </g>
+    </svg>
+  </span>
+  <span
+    className="icon color-base size-lg"
+  >
+    <svg
+      height={21}
+      stroke="currentColor"
+      viewBox="0 0 21 21"
+      width={21}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g
+        fill="none"
+        fillRule="evenodd"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      >
+        <path
+          d="M10 19c4.438 0 8-3.526 8-7.964C18 6.598 14.438 3 10 3c-4.438 0-8 3.598-8 8.036S5.562 19 10 19zM6 11h8M10 15.056V7z"
         />
       </g>
     </svg>

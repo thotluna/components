@@ -22,6 +22,28 @@ exports[`Storyshots Molecules/InputTask Default 1`] = `
     onFocus={[Function]}
     tabIndex="0"
   >
+    <span
+      className="icon color-base size-sm"
+    >
+      <svg
+        height={21}
+        stroke="currentColor"
+        viewBox="0 0 21 21"
+        width={21}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          fill="none"
+          fillRule="evenodd"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <path
+            d="M10 19c4.438 0 8-3.526 8-7.964C18 6.598 14.438 3 10 3c-4.438 0-8 3.598-8 8.036S5.562 19 10 19zM6 11h8M10 15.056V7z"
+          />
+        </g>
+      </svg>
+    </span>
     <h3
       className="title color-base"
     >
@@ -53,6 +75,28 @@ exports[`Storyshots Molecules/InputTask Status 1`] = `
     onFocus={[Function]}
     tabIndex="0"
   >
+    <span
+      className="icon color-base size-sm"
+    >
+      <svg
+        height={21}
+        stroke="currentColor"
+        viewBox="0 0 21 21"
+        width={21}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          fill="none"
+          fillRule="evenodd"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <path
+            d="M10 19c4.438 0 8-3.526 8-7.964C18 6.598 14.438 3 10 3c-4.438 0-8 3.598-8 8.036S5.562 19 10 19zM6 11h8M10 15.056V7z"
+          />
+        </g>
+      </svg>
+    </span>
     <h3
       className="title color-base"
     >
@@ -73,6 +117,7 @@ exports[`Storyshots Molecules/InputTask Status 1`] = `
           className="input"
           id="input"
           name="input"
+          onBlur={[Function]}
           onChange={[Function]}
           onKeyPress={[Function]}
           placeholder="is placeholder"
