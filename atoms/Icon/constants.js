@@ -11,6 +11,7 @@ export const options = {
     'drag',
     'left-chevron',
     'menu',
+    'plus',
     'save',
     'trash',
   ],
@@ -59,14 +60,19 @@ export const getIcon = (type) => {
     case 'circle':
       return (
         <svg
-          height={22}
-          viewBox="0 0 22 22"
-          width={22}
+          height={21}
+          viewBox="0 0 21 21"
+          width={21}
           xmlns="http://www.w3.org/2000/svg"
           stroke="currentColor"
         >
-          <g fill="none" fillRule="evenodd" transform="translate(1 1)">
-            <circle cx="10" cy="10" r="10" strokeWidth="2.5" />
+          <g
+            fill="none"
+            fillRule="evenodd"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <path d="M14.857 3.79a8 8 0 102.852 3.24M6.5 9.5l3" />
           </g>
         </svg>
       )
@@ -84,7 +90,6 @@ export const getIcon = (type) => {
             fillRule="evenodd"
             strokeLinecap="round"
             strokeLinejoin="round"
-            strokeWidth="2"
           >
             <path d="M14.857 3.79a8 8 0 102.852 3.24M6.5 9.5l3 3 8-8" />
           </g>
@@ -187,6 +192,25 @@ export const getIcon = (type) => {
         >
           <g fill="currentColor" fillRule="evenodd">
             <path d="M7 5h2v2H7zM12 5h2v2h-2zM7 9h2v2H7zM12 9h2v2h-2zM7 13h2v2H7zM12 13h2v2h-2z" />
+          </g>
+        </svg>
+      )
+    case 'plus':
+      return (
+        <svg
+          height={21}
+          viewBox="0 0 21 21"
+          width={21}
+          xmlns="http://www.w3.org/2000/svg"
+          stroke="currentColor"
+        >
+          <g
+            fill="none"
+            fillRule="evenodd"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            <path d="M10 19c4.438 0 8-3.526 8-7.964C18 6.598 14.438 3 10 3c-4.438 0-8 3.598-8 8.036S5.562 19 10 19zM6 11h8M10 15.056V7z" />
           </g>
         </svg>
       )

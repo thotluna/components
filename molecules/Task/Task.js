@@ -1,65 +1,69 @@
-import React from 'react'
+import React, { useState } from 'react'
 import PropTypes from 'prop-types'
-import { styles, options } from '.'
+import styles from './Task.module.css'
+import { options, states } from './constants'
 import { getClasses } from '../../helpers/styles'
 
-import Icon from '../../atoms/Icon'
-import Title from '../../atoms/Title'
 import Button from '../Button'
-import { statusTask } from './constants'
+import Title from '../../atoms/Title'
+import Icon from '../../atoms/Icon'
 
-export const Task = ({ children, status, handelOnDelete, handelOnCheck }) => {
-  const getStyles = getClasses(styles)({ status })
+export const Task = ({ description, newState }) => {
+  const [state, setState] = useState(newState)
+  const getStyles = getClasses(styles)({})
+
+  const getTypeIcon = () => {
+    switch (state) {
+      case states.ACTIVE:
+        return 'circle'
+
+      case states.CULMINATED:
+        return 'check'
+
+      case states.DELETE:
+        return 'close'
+
+      default:
+        return 'drag'
+    }
+  }
 
   return (
-    <div className={getStyles('task', ['status'])}>
-      <div
-        style={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'flex-start',
-          gap: '2rem',
-        }}
-      >
-        {(status === statusTask.FIRST ||
-          status === statusTask.SECOND ||
-          status === statusTask.PENDING) && <Icon type="drag" />}
-        {status === statusTask.ACTIVE && (
+    <div className={getStyles('task')}>
+      <div className={getStyles('wrapper')}>
+        {state === states.ACTIVE ? (
           <Button
-            id="Delete task"
-            ariaLabel="Delete task"
-            icon="circle"
-            onClick={handelOnCheck}
+            ariaLabel="culminated button"
+            icon={getTypeIcon()}
+            id="button-trash"
+            onClick={() => {
+              setState(states.CULMINATED)
+            }}
             value=""
           />
+        ) : (
+          <Icon size="md" type={getTypeIcon()} />
         )}
-        {status === statusTask.CULMINATED && <Icon type="check" />}
-        <Title size="md">{children + ' ' + status}</Title>
+        <Title>{description}</Title>
       </div>
-      {(status === statusTask.FIRST ||
-        status === statusTask.SECOND ||
-        status === statusTask.PENDING) && (
-        <Button
-          id="Delete task"
-          ariaLabel="Delete task"
-          icon="trash"
-          onClick={handelOnDelete}
-          value=""
-        />
-      )}
+      <Button
+        ariaLabel="delete button"
+        icon="trash"
+        id="button-trash"
+        onClick={() => {}}
+        value=""
+      />
     </div>
   )
 }
 
 Task.propTypes = {
-  children: PropTypes.node.isRequired,
-  handelOnDelete: PropTypes.func.isRequired,
-  handelOnCheck: PropTypes.func.isRequired,
-  status: PropTypes.oneOf(options.status),
+  description: PropTypes.string.isRequired,
+  newState: PropTypes.oneOf(options.states),
 }
 
 Task.defaultProps = {
-  status: statusTask.ACTIVE,
+  state: states.ACTIVE,
 }
 
 export default Task

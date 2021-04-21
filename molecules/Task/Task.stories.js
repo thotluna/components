@@ -1,26 +1,26 @@
 import React from 'react'
 import Task from './Task'
-import { options } from './constants'
-import { getVariusTemplate, getOptionsArgTypes } from '../../helpers/storybook'
+import { options, states } from './constants'
+import { getOptionsArgTypes } from '../../helpers/storybook'
 
 const Template = (args) => <Task {...args} />
-const ListTemplate = getVariusTemplate(Task)
+// const ListTemplate = getVariusTemplate(Task)
 
 export default {
   title: 'Molecules/Task',
-  task: Task,
+  component: Task,
   args: {
-    children: 'Consent doubt Tuckborough challenge destroying.',
-    handelOnDelete: () => console.log('delete'),
-    handelOnCheck: () => console.log('culminate'),
+    idTask: 1,
+    description: 'Consent doubt Tuckborough challenge destroying.',
+    newState: states.ACTIVE,
   },
   argTypes: {
-    children: { control: 'text' },
-    status: getOptionsArgTypes(options.status),
+    description: { control: 'text' },
+    newState: getOptionsArgTypes(options.states),
   },
 }
 
 export const Default = Template.bind({})
 
-export const Status = ListTemplate.bind({})
-Status.args = { items: options.status.map((status) => ({ status })) }
+// // export const Colors = ListTemplate.bind({})
+// // Colors.args = { items: options.colors.map((color) => ({ color })) }

@@ -41,7 +41,6 @@ exports[`Storyshots Molecules/Snackbar Colors 1`] = `
               fillRule="evenodd"
               strokeLinecap="round"
               strokeLinejoin="round"
-              strokeWidth="2"
             >
               <path
                 d="M14.857 3.79a8 8 0 102.852 3.24M6.5 9.5l3 3 8-8"
@@ -71,7 +70,7 @@ exports[`Storyshots Molecules/Snackbar Colors 1`] = `
         id="button-close"
       >
         <span
-          className="icon color-primary size-sm"
+          className="icon color-primary size-md"
         >
           <svg
             height={21}
@@ -119,7 +118,6 @@ exports[`Storyshots Molecules/Snackbar Colors 1`] = `
               fillRule="evenodd"
               strokeLinecap="round"
               strokeLinejoin="round"
-              strokeWidth="2"
             >
               <path
                 d="M14.857 3.79a8 8 0 102.852 3.24M6.5 9.5l3 3 8-8"
@@ -149,7 +147,7 @@ exports[`Storyshots Molecules/Snackbar Colors 1`] = `
         id="button-close"
       >
         <span
-          className="icon color-error size-sm"
+          className="icon color-error size-md"
         >
           <svg
             height={21}
@@ -217,7 +215,6 @@ exports[`Storyshots Molecules/Snackbar Default 1`] = `
               fillRule="evenodd"
               strokeLinecap="round"
               strokeLinejoin="round"
-              strokeWidth="2"
             >
               <path
                 d="M14.857 3.79a8 8 0 102.852 3.24M6.5 9.5l3 3 8-8"
@@ -247,7 +244,7 @@ exports[`Storyshots Molecules/Snackbar Default 1`] = `
         id="button-close"
       >
         <span
-          className="icon color-primary size-sm"
+          className="icon color-primary size-md"
         >
           <svg
             height={21}

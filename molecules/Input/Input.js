@@ -22,6 +22,7 @@ export const Input = forwardRef(
       errorMessage,
       isError,
       isCompact,
+      onBlur,
     },
     ref
   ) => {
@@ -64,6 +65,7 @@ export const Input = forwardRef(
               onChange={handelOnChange}
               onKeyPress={handelOnEnter}
               ref={ref}
+              onBlur={onBlur}
             />
             {isError && <Icon type="alert" color="error" size="sm" />}
             {!isError && !isCompact && keyEnterMessage && (
@@ -100,6 +102,7 @@ Input.propTypes = {
   handelOnKeyPress: PropTypes.func,
   errorMessage: PropTypes.string,
   isError: PropTypes.bool,
+  onBlur: PropTypes.func,
 }
 
 Input.defaultProps = {}

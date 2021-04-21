@@ -39,7 +39,7 @@ exports[`Storyshots Molecules/Toolbar Default 1`] = `
         onClick={[Function]}
       >
         <span
-          className="icon color-base size-sm"
+          className="icon color-base size-md"
         >
           <svg
             fill="currentColor"
@@ -95,7 +95,7 @@ exports[`Storyshots Molecules/Toolbar Default With On Back 1`] = `
         onClick={[Function]}
       >
         <span
-          className="icon color-base size-sm"
+          className="icon color-base size-md"
         >
           <svg
             height={21}
@@ -129,7 +129,7 @@ exports[`Storyshots Molecules/Toolbar Default With On Back 1`] = `
         onClick={[Function]}
       >
         <span
-          className="icon color-base size-sm"
+          className="icon color-base size-md"
         >
           <svg
             fill="currentColor"

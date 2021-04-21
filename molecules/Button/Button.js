@@ -33,6 +33,7 @@ export const Button = ({
           color={
             color === 'base' ? 'base' : color === 'error' ? 'error' : 'primary'
           }
+          size="md"
         />
       )}
       {icon && value && <Spacer.Vertical size="sm" />}
